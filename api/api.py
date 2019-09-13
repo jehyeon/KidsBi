@@ -1,8 +1,17 @@
 from flask import Flask
 from flask_restful import Resource, Api, reqparse
+from flaskext.mysql import MySQL
 
 app = Flask(__name__)
 api = Api(app)
+
+# MySQL 연결
+mysql = MySQL ()
+app.config['MYSQL_DATABASE_USER'] = 'root'
+app.config['MYSQL_DATABASE_PASSWORD'] = ''
+app.config['MYSQL_DATABASE_DB'] = 'KidsBi'
+app.config['MYSQL_DATABASE_HOST'] = 'localhost'
+mysql.init_app(app)
 
 class CreateVideoInfo (Resource):
   def post (self):
@@ -21,13 +30,47 @@ class CreateVideoInfo (Resource):
       _image = args['image']
       _link = args['link']
 
-      return {
-        'Subject': _subject, 
-        'Description': _description,
-        'Source': _source,
-        'Image': _image,
-        'Link': _link
-      }
+      conn = mysql.connect()
+      cursor = conn.cursor()
+
+      # 프로시저로 수정 예정      
+      sql = '''insert into video (subject, description, source, image, link) values ('{0}', '{1}', '{2}', '{3}', '{4}');'''.format(
+          _subject, 
+          _description, 
+          _source, 
+          _image, 
+          _link)
+
+      # cursor.callproc('sp_create_video', (
+      #   _subject, 
+      #   _description, 
+      #   _source,
+      #   _image,
+      #   _link
+      # ))
+      cursor.execute(sql)
+      data = cursor.fetchall()
+
+      # for test
+      # return {
+      #   'Subject': _subject, 
+      #   'Description': _description,
+      #   'Source': _source,
+      #   'Image': _image,
+      #   'Link': _link
+      # }
+
+      if len(data) is 0:
+        conn.commit()
+        return {
+          'StatusCode': '200',
+          'Message': 'Video creation success'
+        }
+      else:
+        return {
+          'StatusCode': '1000',
+          'Meesage': str(data[0])
+        }
     except Exception as e:
       return {
         'error': str(e)
