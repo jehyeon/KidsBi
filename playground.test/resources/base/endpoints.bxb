@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (GetVideo) {
+      accepted-inputs ()
+      local-endpoint (GetVideo.js)
+    }
+  }
+}

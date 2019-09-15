@@ -1,0 +1,6 @@
+action (GetVideo) {
+  type (Commit)
+  description (__DESCRIPTION__)
+  collect {}
+  output (viv.core.Text)
+}
