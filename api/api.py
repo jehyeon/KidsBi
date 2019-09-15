@@ -1,3 +1,5 @@
+#-*- coding: utf-8 -*-
+
 from flask import Flask
 from flask_restful import Resource, Api, reqparse
 from flaskext.mysql import MySQL
@@ -14,6 +16,20 @@ app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
 
 class CreateVideoInfo (Resource):
+  def get (self):
+    conn = mysql.connect()
+    cursor = conn.cursor()
+
+    sql = 'select * from video'
+    cursor.execute(sql)
+    datas = [x for x in cursor.fetchall()]
+
+    result = ''
+    for data in datas:
+      result = result + ' / '.join(map(str, data)) + '\n'
+
+    return result
+
   def post (self):
     try: 
       parser = reqparse.RequestParser()
