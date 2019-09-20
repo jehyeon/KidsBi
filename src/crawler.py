@@ -26,7 +26,8 @@ def main():
 
           datas[videoId] = {
             'like': like,
-            'dislike': dislike
+            'dislike': dislike,
+            'viewCount': viewCount
           }
 
         except:
