@@ -1,0 +1,3 @@
+text (SearchTerm) {
+  description (Search-keyword used in GetVideo action)
+}

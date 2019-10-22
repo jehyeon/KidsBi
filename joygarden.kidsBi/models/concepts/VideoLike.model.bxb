@@ -1,0 +1,3 @@
+decimal (VideoLike) {
+  description (Video's like ratio)
+}

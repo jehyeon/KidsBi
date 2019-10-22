@@ -1,0 +1,12 @@
+structure (VideoInfo) {
+  description (Folktale info as output of GetVideo action)
+  property (title) {
+    type (VideoTitle)
+    min (Required) max (One)
+  }
+
+  property (categories) {
+    type (VideoCategory)
+    min (Optional) max (Many)
+  }
+}

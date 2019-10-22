@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (GetVideo) {
+      accepted-inputs (searchTerm, category)
+      local-endpoint (GetVideo.js)
+    }
+  }
+}
