@@ -20,3 +20,7 @@
 | 과학 | Science |
 | 그림자 | Shadow |
 | 전래 | Traditional |
+
+
+### history
+- 0.1.0: 키즈비 시작

@@ -1,0 +1,3 @@
+integer (VideoViewCount) {
+  description (Video's view count)
+}

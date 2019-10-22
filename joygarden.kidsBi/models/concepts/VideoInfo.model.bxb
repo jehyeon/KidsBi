@@ -5,8 +5,33 @@ structure (VideoInfo) {
     min (Required) max (One)
   }
 
+  property (videoId) {
+    type (VideoId)
+    min (Required) max (One)
+  }
+
   property (categories) {
     type (VideoCategory)
     min (Optional) max (Many)
+  }
+
+  property (like) {
+    type (VideoLike)
+    min (Optional) max (One)
+  }
+
+  property (source) {
+    type (VideoSource)
+    min (Optional) max (One)
+  }
+
+  property (thumbnail) {
+    type (VideoThumbnail)
+    min (Optional) max (One)
+  }
+
+  property (viewCount) {
+    type (VideoViewCount)
+    min (Optional) max (One)
   }
 }
