@@ -1,0 +1,42 @@
+layout {
+  match: VideoInfo (videoInfo)
+  mode (Summary)
+
+  content {
+    section {
+      content {
+        compound-card {
+          content {
+            image-card {
+              aspect-ratio (1:1)
+              title-area {
+                slot1 {
+                  text {
+                    style (Title_S)
+                    value ("#{value(videoInfo.title)}")
+                  }
+                }
+                slot2 {
+                  single-line {
+                    text {
+                      style (Detail_M_Soft)
+                      value ("#{value(videoInfo.source)}")
+                    }
+                  }
+                }
+                slot3 {
+                  single-line {
+                    text {
+                      style (Detail_M_Soft)
+                      value ("#{value(videoInfo.like)}")
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

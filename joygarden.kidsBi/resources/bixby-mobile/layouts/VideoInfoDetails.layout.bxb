@@ -1,0 +1,15 @@
+layout {
+  match: VideoInfo (videoInfo)
+  mode (Details)
+
+  content {
+    section {
+      content {
+        video {
+          url ("http://techslides.com/demos/sample-videos/small.mp4")
+          // poster ()
+        }
+      }
+    }
+  }
+}

@@ -11,6 +11,7 @@ function isCategory(_category) {
   return false;
 }
 
+// from dummy
 function findVideoBy(argument) {
   // ! 우선 모든 vidoes를 return (정책 논의 필요)
   if (isCategory(argument)) {
@@ -24,6 +25,11 @@ function findVideoBy(argument) {
         return {
           title: searchResultByCategory.title,
           videoId: searchResultByCategory.videoId,
+          // thumbnail and videoUrl (lazy-source)
+          source: searchResultByCategory.source,
+          like: parseFloat(searchResultByCategory.like.split('%')[0]),
+          viewCount: searchResultByCategory.viewCount,
+          categories: searchResultByCategory.categories,
         };
       }
     }).filter(video => video !== undefined);
