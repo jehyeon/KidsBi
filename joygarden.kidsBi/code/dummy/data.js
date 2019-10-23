@@ -8,9 +8,9 @@ exports.all = {
     "dislike": "31.5153733529%",
     "viewCount": 675429,
     "categories": [
-      "\ubba4\uc9c0\uceec",
-      "\ubaa8\uc74c\uc9d1",
-      "\uacf5\uc8fc"
+      "Musical",
+      "Collection",
+      "Princess"
     ]
   },
   "_E5FHY3aUnA": {
@@ -22,8 +22,8 @@ exports.all = {
     "dislike": "30.5750350631%",
     "viewCount": 185754,
     "categories": [
-      "\ubba4\uc9c0\uceec",
-      "\uacf5\uc8fc"
+      "Musical",
+      "Princess"
     ]
   },
   "61dor5bh0Q0": {
@@ -35,8 +35,8 @@ exports.all = {
     "dislike": "31.0791366906%",
     "viewCount": 79414,
     "categories": [
-      "\ubba4\uc9c0\uceec",
-      "\uacf5\uc8fc"
+      "Musical",
+      "Princess"
     ]
   },
   "prveZzdUHXM": {
@@ -48,8 +48,8 @@ exports.all = {
     "dislike": "33.6351875809%",
     "viewCount": 125824,
     "categories": [
-      "\ubba4\uc9c0\uceec",
-      "\uacf5\uc8fc"
+      "Musical",
+      "Princess"
     ]
   },
   "hyLfLi4ucII": {
@@ -61,8 +61,8 @@ exports.all = {
     "dislike": "31.3308687616%",
     "viewCount": 104704,
     "categories": [
-      "\ubba4\uc9c0\uceec",
-      "\uacf5\uc8fc"
+      "Musical",
+      "Princess"
     ]
   },
   "J-uSxPwj0Gs": {
@@ -74,8 +74,8 @@ exports.all = {
     "dislike": "30.762987013%",
     "viewCount": 175064,
     "categories": [
-      "\ubba4\uc9c0\uceec",
-      "\uacf5\uc8fc"
+      "Musical",
+      "Princess"
     ]
   },
   "o9oO3qMWrSc": {
@@ -87,8 +87,8 @@ exports.all = {
     "dislike": "33.8301043219%",
     "viewCount": 348931,
     "categories": [
-      "\ubba4\uc9c0\uceec",
-      "\uacf5\uc8fc"
+      "Musical",
+      "Princess"
     ]
   },
   "40Sx4SbOfV0": {
@@ -100,7 +100,7 @@ exports.all = {
     "dislike": "33.134166214%",
     "viewCount": 496040,
     "categories": [
-      "\ud06c\ub9ac\uc2a4\ub9c8\uc2a4"
+      "Christmas"
     ]
   },
   "oFujTF8N-mc": {
@@ -112,7 +112,7 @@ exports.all = {
     "dislike": "30.1336573512%",
     "viewCount": 387562,
     "categories": [
-      "\ud06c\ub9ac\uc2a4\ub9c8\uc2a4"
+      "Christmas"
     ]
   },
   "UaY846jMfSc": {
@@ -124,7 +124,7 @@ exports.all = {
     "dislike": "34.5646437995%",
     "viewCount": 226820,
     "categories": [
-      "\ud06c\ub9ac\uc2a4\ub9c8\uc2a4"
+      "Christmas"
     ]
   },
   "9-iHZ2ce5g8": {
@@ -136,7 +136,7 @@ exports.all = {
     "dislike": "32.1917808219%",
     "viewCount": 41952,
     "categories": [
-      "\ud06c\ub9ac\uc2a4\ub9c8\uc2a4"
+      "Christmas"
     ]
   },
   "S7GXZFeEe3w": {
@@ -148,7 +148,7 @@ exports.all = {
     "dislike": "26.9565217391%",
     "viewCount": 175549,
     "categories": [
-      "\ud06c\ub9ac\uc2a4\ub9c8\uc2a4"
+      "Christmas"
     ]
   },
   "Bauy1toeWNI": {
@@ -160,7 +160,7 @@ exports.all = {
     "dislike": "22.0930232558%",
     "viewCount": 27854,
     "categories": [
-      "\ud06c\ub9ac\uc2a4\ub9c8\uc2a4"
+      "Christmas"
     ]
   },
   "tQgdwRgj2e8": {
@@ -172,7 +172,7 @@ exports.all = {
     "dislike": "25.4948535234%",
     "viewCount": 1161873,
     "categories": [
-      "\ud06c\ub9ac\uc2a4\ub9c8\uc2a4"
+      "Christmas"
     ]
   },
   "23eOwmZB3Yg": {
@@ -184,7 +184,7 @@ exports.all = {
     "dislike": "23.8789237668%",
     "viewCount": 401074,
     "categories": [
-      "\ud06c\ub9ac\uc2a4\ub9c8\uc2a4"
+      "Christmas"
     ]
   },
   "xUVXcrZAYTk": {
@@ -196,9 +196,9 @@ exports.all = {
     "dislike": "26.2824572514%",
     "viewCount": 1753915,
     "categories": [
-      "\ubcc4\uc790\ub9ac",
-      "\ubaa8\uc74c\uc9d1",
-      "\uacfc\ud559"
+      "Constellation",
+      "Collection",
+      "Science"
     ]
   },
   "fY-ZsoRt_zg": {
@@ -210,8 +210,8 @@ exports.all = {
     "dislike": "29.057187017%",
     "viewCount": 129247,
     "categories": [
-      "\ubcc4\uc790\ub9ac",
-      "\uacfc\ud559"
+      "Constellation",
+      "Science"
     ]
   },
   "g36EGTJZouk": {
@@ -223,8 +223,8 @@ exports.all = {
     "dislike": "20.725388601%",
     "viewCount": 91830,
     "categories": [
-      "\ubcc4\uc790\ub9ac",
-      "\uacfc\ud559"
+      "Constellation",
+      "Science"
     ]
   },
   "4WX2gJEQm24": {
@@ -236,8 +236,8 @@ exports.all = {
     "dislike": "25.6473489519%",
     "viewCount": 248395,
     "categories": [
-      "\ubcc4\uc790\ub9ac",
-      "\uacfc\ud559"
+      "Constellation",
+      "Science"
     ]
   },
   "5pVhEMoqZhQ": {
@@ -249,8 +249,8 @@ exports.all = {
     "dislike": "27.0921985816%",
     "viewCount": 206241,
     "categories": [
-      "\ubcc4\uc790\ub9ac",
-      "\uacfc\ud559"
+      "Constellation",
+      "Science"
     ]
   },
   "v948whHPgMU": {
@@ -262,8 +262,8 @@ exports.all = {
     "dislike": "33.1836734694%",
     "viewCount": 1341026,
     "categories": [
-      "\ubcc4\uc790\ub9ac",
-      "\uacfc\ud559"
+      "Constellation",
+      "Science"
     ]
   },
   "WfSI6GkjaCw": {
@@ -275,8 +275,8 @@ exports.all = {
     "dislike": "26.5987025023%",
     "viewCount": 338793,
     "categories": [
-      "\ubcc4\uc790\ub9ac",
-      "\uacfc\ud559"
+      "Constellation",
+      "Science"
     ]
   },
   "T8vUj_Ui5Xk": {
@@ -288,8 +288,8 @@ exports.all = {
     "dislike": "30.9037900875%",
     "viewCount": 210850,
     "categories": [
-      "\ubcc4\uc790\ub9ac",
-      "\uacfc\ud559"
+      "Constellation",
+      "Science"
     ]
   },
   "WxSHgOmgMjk": {
@@ -301,8 +301,8 @@ exports.all = {
     "dislike": "26.0514018692%",
     "viewCount": 302275,
     "categories": [
-      "\ubcc4\uc790\ub9ac",
-      "\uacfc\ud559"
+      "Constellation",
+      "Science"
     ]
   },
   "BIjEiY_iI6k": {
@@ -314,8 +314,8 @@ exports.all = {
     "dislike": "26.0431654676%",
     "viewCount": 200278,
     "categories": [
-      "\ubcc4\uc790\ub9ac",
-      "\uacfc\ud559"
+      "Constellation",
+      "Science"
     ]
   },
   "2M7qsk4CkAw": {
@@ -327,8 +327,8 @@ exports.all = {
     "dislike": "20.6191588785%",
     "viewCount": 550445,
     "categories": [
-      "\ubcc4\uc790\ub9ac",
-      "\uacfc\ud559"
+      "Constellation",
+      "Science"
     ]
   },
   "6_vueQ5cFO0": {
@@ -340,8 +340,8 @@ exports.all = {
     "dislike": "21.2027756361%",
     "viewCount": 459781,
     "categories": [
-      "\ubcc4\uc790\ub9ac",
-      "\uacfc\ud559"
+      "Constellation",
+      "Science"
     ]
   },
   "hc5kEdmAgeU": {
@@ -353,8 +353,8 @@ exports.all = {
     "dislike": "31.2785388128%",
     "viewCount": 329882,
     "categories": [
-      "\ubcc4\uc790\ub9ac",
-      "\uacfc\ud559"
+      "Constellation",
+      "Science"
     ]
   },
   "je1gmHjcCbM": {
@@ -366,8 +366,8 @@ exports.all = {
     "dislike": "32.538330494%",
     "viewCount": 120209,
     "categories": [
-      "\ubcc4\uc790\ub9ac",
-      "\uacfc\ud559"
+      "Constellation",
+      "Science"
     ]
   },
   "HqjKb5NrAuE": {
@@ -379,7 +379,7 @@ exports.all = {
     "dislike": "25.787965616%",
     "viewCount": 273223,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "FqReuPbhTjg": {
@@ -391,7 +391,7 @@ exports.all = {
     "dislike": "19.1445427729%",
     "viewCount": 1271428,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "o6hataggeE4": {
@@ -403,7 +403,7 @@ exports.all = {
     "dislike": "24.1839762611%",
     "viewCount": 284496,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "71oZ85Dhmes": {
@@ -415,7 +415,7 @@ exports.all = {
     "dislike": "28.3433133733%",
     "viewCount": 238431,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "gDF8N9oTt5Q": {
@@ -427,7 +427,7 @@ exports.all = {
     "dislike": "32.0224719101%",
     "viewCount": 1056771,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "Z-JikNrK08g": {
@@ -439,7 +439,7 @@ exports.all = {
     "dislike": "25.4007398274%",
     "viewCount": 397850,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "0Cx4af1D3mw": {
@@ -451,7 +451,7 @@ exports.all = {
     "dislike": "22.2868217054%",
     "viewCount": 206808,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "ncFR04vyYWA": {
@@ -463,7 +463,7 @@ exports.all = {
     "dislike": "25.4179460935%",
     "viewCount": 1290816,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "Bhb5DovdzvA": {
@@ -475,8 +475,8 @@ exports.all = {
     "dislike": "22.770398482%",
     "viewCount": 1276565,
     "categories": [
-      "\uc804\ub798",
-      "\ud55c\uad6d \uc804\ub798"
+      "Traditional",
+      "Korean tradition"
     ]
   },
   "yOyJtDGDkXU": {
@@ -488,8 +488,8 @@ exports.all = {
     "dislike": "20.4855842185%",
     "viewCount": 468200,
     "categories": [
-      "\uc804\ub798",
-      "\ud55c\uad6d \uc804\ub798"
+      "Traditional",
+      "Korean tradition"
     ]
   },
   "fXfRVCLR9Zg": {
@@ -501,8 +501,8 @@ exports.all = {
     "dislike": "21.8081010319%",
     "viewCount": 1765668,
     "categories": [
-      "\uc804\ub798",
-      "\ud55c\uad6d \uc804\ub798"
+      "Traditional",
+      "Korean tradition"
     ]
   },
   "AbnykQer1Po": {
@@ -514,8 +514,8 @@ exports.all = {
     "dislike": "17.0248630426%",
     "viewCount": 695367,
     "categories": [
-      "\uc804\ub798",
-      "\ud55c\uad6d \uc804\ub798"
+      "Traditional",
+      "Korean tradition"
     ]
   },
   "J9sSYM4EP94": {
@@ -527,8 +527,8 @@ exports.all = {
     "dislike": "17.9763996987%",
     "viewCount": 1309130,
     "categories": [
-      "\uc804\ub798",
-      "\ud55c\uad6d \uc804\ub798"
+      "Traditional",
+      "Korean tradition"
     ]
   },
   "9x8WYwaB7ug": {
@@ -540,8 +540,8 @@ exports.all = {
     "dislike": "18.1026979983%",
     "viewCount": 393303,
     "categories": [
-      "\uc804\ub798",
-      "\ud55c\uad6d \uc804\ub798"
+      "Traditional",
+      "Korean tradition"
     ]
   },
   "WhKajif49TQ": {
@@ -553,8 +553,8 @@ exports.all = {
     "dislike": "35.4571177676%",
     "viewCount": 5817405,
     "categories": [
-      "\uacf5\ub8e1",
-      "\ubaa8\uc74c\uc9d1"
+      "Dinosaur",
+      "Collection"
     ]
   },
   "yo-sInkKwS4": {
@@ -566,8 +566,8 @@ exports.all = {
     "dislike": "30.0531914894%",
     "viewCount": 165038,
     "categories": [
-      "\uc601\uc5b4",
-      "\ubba4\uc9c0\uceec"
+      "English",
+      "Musical"
     ]
   },
   "a2kKx2pdja8": {
@@ -579,7 +579,7 @@ exports.all = {
     "dislike": "37.8906828618%",
     "viewCount": 1995244,
     "categories": [
-      "\uadf8\ub9bc\uc790"
+      "Shadow"
     ]
   },
   "KycDB9fHZys": {
@@ -591,8 +591,8 @@ exports.all = {
     "dislike": "30.959752322%",
     "viewCount": 107456,
     "categories": [
-      "\uc601\uc5b4",
-      "\ubba4\uc9c0\uceec"
+      "English",
+      "Musical"
     ]
   },
   "ywlf8xau6ug": {
@@ -604,8 +604,8 @@ exports.all = {
     "dislike": "36.8644067797%",
     "viewCount": 94063,
     "categories": [
-      "\uc601\uc5b4",
-      "\ubba4\uc9c0\uceec"
+      "English",
+      "Musical"
     ]
   },
   "WoVSm6h_MW8": {
@@ -617,7 +617,7 @@ exports.all = {
     "dislike": "35.9244863964%",
     "viewCount": 2632399,
     "categories": [
-      "\uadf8\ub9bc\uc790"
+      "Shadow"
     ]
   },
   "gWqVvvWzmTY": {
@@ -629,8 +629,8 @@ exports.all = {
     "dislike": "31.4102564103%",
     "viewCount": 88989,
     "categories": [
-      "\uc601\uc5b4",
-      "\ubba4\uc9c0\uceec"
+      "English",
+      "Musical"
     ]
   },
   "Roa-vQ0qrE8": {
@@ -642,8 +642,8 @@ exports.all = {
     "dislike": "33.2923076923%",
     "viewCount": 1188574,
     "categories": [
-      "\uc601\uc5b4",
-      "\ubba4\uc9c0\uceec"
+      "English",
+      "Musical"
     ]
   },
   "iesxgDP0EBk": {
@@ -655,8 +655,8 @@ exports.all = {
     "dislike": "18.2098765432%",
     "viewCount": 142641,
     "categories": [
-      "\uc601\uc5b4",
-      "\ubba4\uc9c0\uceec"
+      "English",
+      "Musical"
     ]
   },
   "zqEYRUMtSRw": {
@@ -668,8 +668,8 @@ exports.all = {
     "dislike": "23.2558139535%",
     "viewCount": 83408,
     "categories": [
-      "\uc601\uc5b4",
-      "\ubba4\uc9c0\uceec"
+      "English",
+      "Musical"
     ]
   },
   "6K9TMN27_oI": {
@@ -681,8 +681,8 @@ exports.all = {
     "dislike": "25.6578947368%",
     "viewCount": 81481,
     "categories": [
-      "\uc601\uc5b4",
-      "\ubba4\uc9c0\uceec"
+      "English",
+      "Musical"
     ]
   },
   "ifETog-gcQg": {
@@ -694,8 +694,8 @@ exports.all = {
     "dislike": "33.59375%",
     "viewCount": 64949,
     "categories": [
-      "\uc601\uc5b4",
-      "\ubba4\uc9c0\uceec"
+      "English",
+      "Musical"
     ]
   },
   "FbOcEYX9xJ4": {
@@ -707,8 +707,8 @@ exports.all = {
     "dislike": "30.1282051282%",
     "viewCount": 160371,
     "categories": [
-      "\uc601\uc5b4",
-      "\ubba4\uc9c0\uceec"
+      "English",
+      "Musical"
     ]
   },
   "Mwm2p75vqbU": {
@@ -720,8 +720,8 @@ exports.all = {
     "dislike": "21.9465648855%",
     "viewCount": 235395,
     "categories": [
-      "\uc601\uc5b4",
-      "\ubba4\uc9c0\uceec"
+      "English",
+      "Musical"
     ]
   },
   "UWMQev-dGwk": {
@@ -733,7 +733,7 @@ exports.all = {
     "dislike": "26.9938650307%",
     "viewCount": 192438,
     "categories": [
-      "\uc7a0\uc790\ub9ac"
+      "Bed"
     ]
   },
   "7ih4_fz6vck": {
@@ -745,7 +745,7 @@ exports.all = {
     "dislike": "26.3584752636%",
     "viewCount": 715980,
     "categories": [
-      "\uadf8\ub9bc\uc790"
+      "Shadow"
     ]
   },
   "HwrEMKg24v4": {
@@ -757,7 +757,7 @@ exports.all = {
     "dislike": "23.5849056604%",
     "viewCount": 99958,
     "categories": [
-      "\uc7a0\uc790\ub9ac"
+      "Bed"
     ]
   },
   "LplqzOi4-vQ": {
@@ -769,7 +769,7 @@ exports.all = {
     "dislike": "21.6783216783%",
     "viewCount": 87372,
     "categories": [
-      "\uc7a0\uc790\ub9ac"
+      "Bed"
     ]
   },
   "cHvp07xyMK0": {
@@ -781,8 +781,8 @@ exports.all = {
     "dislike": "32.1413439539%",
     "viewCount": 5930895,
     "categories": [
-      "\uacf5\ub8e1",
-      "\ubba4\uc9c0\uceec"
+      "Dinosaur",
+      "Musical"
     ]
   },
   "UxGINkXk6l8": {
@@ -794,7 +794,7 @@ exports.all = {
     "dislike": "20.3389830508%",
     "viewCount": 78235,
     "categories": [
-      "\uc7a0\uc790\ub9ac"
+      "Bed"
     ]
   },
   "iNWQMYVqnao": {
@@ -806,8 +806,8 @@ exports.all = {
     "dislike": "27.9187817259%",
     "viewCount": 106208,
     "categories": [
-      "\uc601\uc5b4",
-      "\ubba4\uc9c0\uceec"
+      "English",
+      "Musical"
     ]
   },
   "zTvUGytg_WY": {
@@ -819,7 +819,7 @@ exports.all = {
     "dislike": "32.1100917431%",
     "viewCount": 155037,
     "categories": [
-      "\uc7a0\uc790\ub9ac"
+      "Bed"
     ]
   },
   "7N6BECT56kI": {
@@ -831,7 +831,7 @@ exports.all = {
     "dislike": "32.8767123288%",
     "viewCount": 274563,
     "categories": [
-      "\uadf8\ub9bc\uc790"
+      "Shadow"
     ]
   },
   "0J32rsbRw7I": {
@@ -843,8 +843,8 @@ exports.all = {
     "dislike": "33.0450895615%",
     "viewCount": 2144955,
     "categories": [
-      "\uacf5\ub8e1",
-      "\ubba4\uc9c0\uceec"
+      "Dinosaur",
+      "Musical"
     ]
   },
   "4UkbEaBwR50": {
@@ -856,8 +856,8 @@ exports.all = {
     "dislike": "19.1679049034%",
     "viewCount": 513567,
     "categories": [
-      "\uc601\uc5b4",
-      "\ubba4\uc9c0\uceec"
+      "English",
+      "Musical"
     ]
   },
   "-MmAj5sDC9M": {
@@ -869,7 +869,7 @@ exports.all = {
     "dislike": "31.9327731092%",
     "viewCount": 225979,
     "categories": [
-      "\uc7a0\uc790\ub9ac"
+      "Bed"
     ]
   },
   "dVQSrYHcn1I": {
@@ -881,7 +881,7 @@ exports.all = {
     "dislike": "31.4468503937%",
     "viewCount": 1551997,
     "categories": [
-      "\uacf5\ub8e1"
+      "Dinosaur"
     ]
   },
   "hIkrMfLR_ys": {
@@ -893,8 +893,8 @@ exports.all = {
     "dislike": "33.825136612%",
     "viewCount": 9273238,
     "categories": [
-      "\uadf8\ub9bc\uc790",
-      "\uc790\ub3d9\ucc28"
+      "Shadow",
+      "Car"
     ]
   },
   "Ye3wmzsmC8E": {
@@ -906,8 +906,8 @@ exports.all = {
     "dislike": "21.0576015109%",
     "viewCount": 449895,
     "categories": [
-      "\uc601\uc5b4",
-      "\ubba4\uc9c0\uceec"
+      "English",
+      "Musical"
     ]
   },
   "1xbdb_xYSSA": {
@@ -919,8 +919,8 @@ exports.all = {
     "dislike": "34.2549923195%",
     "viewCount": 4098635,
     "categories": [
-      "\uacf5\ub8e1",
-      "\uadf8\ub9bc\uc790"
+      "Dinosaur",
+      "Shadow"
     ]
   },
   "DgqBf2PH4N4": {
@@ -932,7 +932,7 @@ exports.all = {
     "dislike": "25.974025974%",
     "viewCount": 146771,
     "categories": [
-      "\uc7a0\uc790\ub9ac"
+      "Bed"
     ]
   },
   "gVUYOAdRtsY": {
@@ -944,7 +944,7 @@ exports.all = {
     "dislike": "29.4146581407%",
     "viewCount": 1603138,
     "categories": [
-      "\uacf5\ub8e1"
+      "Dinosaur"
     ]
   },
   "jrRu4MYok6s": {
@@ -956,8 +956,8 @@ exports.all = {
     "dislike": "23.7623762376%",
     "viewCount": 115691,
     "categories": [
-      "\uc601\uc5b4",
-      "\ubba4\uc9c0\uceec"
+      "English",
+      "Musical"
     ]
   },
   "I99Z4JQZMgc": {
@@ -969,7 +969,7 @@ exports.all = {
     "dislike": "27.2222222222%",
     "viewCount": 127832,
     "categories": [
-      "\uc7a0\uc790\ub9ac"
+      "Bed"
     ]
   },
   "TMxzBdyafS4": {
@@ -981,7 +981,7 @@ exports.all = {
     "dislike": "33.6748501836%",
     "viewCount": 3477523,
     "categories": [
-      "\uacf5\ub8e1"
+      "Dinosaur"
     ]
   },
   "eAces_JiGVE": {
@@ -993,8 +993,8 @@ exports.all = {
     "dislike": "27.2727272727%",
     "viewCount": 367019,
     "categories": [
-      "\uc601\uc5b4",
-      "\ubba4\uc9c0\uceec"
+      "English",
+      "Musical"
     ]
   },
   "U_gA-nbwZus": {
@@ -1006,7 +1006,7 @@ exports.all = {
     "dislike": "24.8520710059%",
     "viewCount": 317181,
     "categories": [
-      "\uc7a0\uc790\ub9ac"
+      "Bed"
     ]
   },
   "ujWF2VPk0iI": {
@@ -1018,7 +1018,7 @@ exports.all = {
     "dislike": "31.5710872162%",
     "viewCount": 2417415,
     "categories": [
-      "\uacf5\ub8e1"
+      "Dinosaur"
     ]
   },
   "RudE-drWT8M": {
@@ -1030,8 +1030,8 @@ exports.all = {
     "dislike": "23.2558139535%",
     "viewCount": 359993,
     "categories": [
-      "\uc601\uc5b4",
-      "\ubba4\uc9c0\uceec"
+      "English",
+      "Musical"
     ]
   },
   "8V5MToUTqeA": {
@@ -1043,7 +1043,7 @@ exports.all = {
     "dislike": "23.0125523013%",
     "viewCount": 184263,
     "categories": [
-      "\uc7a0\uc790\ub9ac"
+      "Bed"
     ]
   },
   "PLqGuPF_nFI": {
@@ -1055,7 +1055,7 @@ exports.all = {
     "dislike": "33.7689222409%",
     "viewCount": 5001629,
     "categories": [
-      "\uacf5\ub8e1"
+      "Dinosaur"
     ]
   },
   "tyifx1ZseXc": {
@@ -1067,7 +1067,7 @@ exports.all = {
     "dislike": "25.7462686567%",
     "viewCount": 237499,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "3twrOTvx35I": {
@@ -1079,7 +1079,7 @@ exports.all = {
     "dislike": "35.5805243446%",
     "viewCount": 1800558,
     "categories": [
-      "\uc790\ub3d9\ucc28"
+      "Car"
     ]
   },
   "8i34OG8sRRs": {
@@ -1091,7 +1091,7 @@ exports.all = {
     "dislike": "28.0193236715%",
     "viewCount": 179444,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "ZtHRq-GH93M": {
@@ -1103,7 +1103,7 @@ exports.all = {
     "dislike": "34.0340231878%",
     "viewCount": 3898858,
     "categories": [
-      "\uc790\ub3d9\ucc28"
+      "Car"
     ]
   },
   "k2h2rCYw1FU": {
@@ -1115,7 +1115,7 @@ exports.all = {
     "dislike": "22.9126213592%",
     "viewCount": 419007,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "JBhKilxOFF0": {
@@ -1127,7 +1127,7 @@ exports.all = {
     "dislike": "36.5748381363%",
     "viewCount": 8556930,
     "categories": [
-      "\uc790\ub3d9\ucc28"
+      "Car"
     ]
   },
   "QPR7uoWGRU4": {
@@ -1139,7 +1139,7 @@ exports.all = {
     "dislike": "25.3571428571%",
     "viewCount": 259671,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "AEdwylatqAo": {
@@ -1151,7 +1151,7 @@ exports.all = {
     "dislike": "33.0297219559%",
     "viewCount": 1537930,
     "categories": [
-      "\uc790\ub3d9\ucc28"
+      "Car"
     ]
   },
   "3wJKMZrnd9w": {
@@ -1163,7 +1163,7 @@ exports.all = {
     "dislike": "24.6478873239%",
     "viewCount": 341099,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "VrLLVCltEr0": {
@@ -1175,7 +1175,7 @@ exports.all = {
     "dislike": "27.6094276094%",
     "viewCount": 323443,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "OY8ZmyNLCz4": {
@@ -1187,7 +1187,7 @@ exports.all = {
     "dislike": "21.8696397942%",
     "viewCount": 974942,
     "categories": [
-      "\uc804\ub798"
+      "Traditional"
     ]
   },
   "TasHcdtrAmc": {
@@ -1199,7 +1199,7 @@ exports.all = {
     "dislike": "24.3414120126%",
     "viewCount": 4386576,
     "categories": [
-      "\uc804\ub798"
+      "Traditional"
     ]
   },
   "j5_0BaMNpqw": {
@@ -1211,7 +1211,7 @@ exports.all = {
     "dislike": "22.4901185771%",
     "viewCount": 1700167,
     "categories": [
-      "\uc804\ub798"
+      "Traditional"
     ]
   },
   "T4cENiatmKs": {
@@ -1223,7 +1223,7 @@ exports.all = {
     "dislike": "25.3456221198%",
     "viewCount": 984671,
     "categories": [
-      "\uc804\ub798"
+      "Traditional"
     ]
   },
   "a1xrd0lSnQA": {
@@ -1235,7 +1235,7 @@ exports.all = {
     "dislike": "21.1869814933%",
     "viewCount": 1820604,
     "categories": [
-      "\uc804\ub798"
+      "Traditional"
     ]
   },
   "gU4LSatA0is": {
@@ -1247,7 +1247,7 @@ exports.all = {
     "dislike": "22.9299363057%",
     "viewCount": 724691,
     "categories": [
-      "\uc804\ub798"
+      "Traditional"
     ]
   },
   "NKPxjKOfwyM": {
@@ -1259,7 +1259,7 @@ exports.all = {
     "dislike": "21.5189873418%",
     "viewCount": 510000,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "vEbja_KLUYU": {
@@ -1271,7 +1271,7 @@ exports.all = {
     "dislike": "21.8512486428%",
     "viewCount": 2548353,
     "categories": [
-      "\uc804\ub798"
+      "Traditional"
     ]
   },
   "XUbbdLIbj-4": {
@@ -1283,7 +1283,7 @@ exports.all = {
     "dislike": "18.4350918791%",
     "viewCount": 2243242,
     "categories": [
-      "\uc804\ub798"
+      "Traditional"
     ]
   },
   "pbz-gzo0vf4": {
@@ -1295,7 +1295,7 @@ exports.all = {
     "dislike": "24.6998284734%",
     "viewCount": 1171999,
     "categories": [
-      "\uc804\ub798"
+      "Traditional"
     ]
   },
   "PDv9EESA-RY": {
@@ -1307,7 +1307,7 @@ exports.all = {
     "dislike": "24.0659340659%",
     "viewCount": 702198,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "DU4w2PuqaOY": {
@@ -1319,7 +1319,7 @@ exports.all = {
     "dislike": "29.0560142825%",
     "viewCount": 3713848,
     "categories": [
-      "\uc804\ub798"
+      "Traditional"
     ]
   },
   "B-PDlfO_g34": {
@@ -1331,7 +1331,7 @@ exports.all = {
     "dislike": "33.3333333333%",
     "viewCount": 290362,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "hkDAnEVXdNc": {
@@ -1343,7 +1343,7 @@ exports.all = {
     "dislike": "26.4573991031%",
     "viewCount": 269792,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "tshtK2skjFw": {
@@ -1355,7 +1355,7 @@ exports.all = {
     "dislike": "21.0950080515%",
     "viewCount": 547921,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "De81c6CJfIk": {
@@ -1367,7 +1367,7 @@ exports.all = {
     "dislike": "23.9436619718%",
     "viewCount": 693812,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "NemYElQaTSo": {
@@ -1379,7 +1379,7 @@ exports.all = {
     "dislike": "25.3044654939%",
     "viewCount": 597438,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "bLzFnELQeFQ": {
@@ -1391,7 +1391,7 @@ exports.all = {
     "dislike": "28.2287822878%",
     "viewCount": 957969,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "LzM9tmEo1Og": {
@@ -1403,7 +1403,7 @@ exports.all = {
     "dislike": "22.9990509332%",
     "viewCount": 1839213,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "xrXQVlizm1k": {
@@ -1415,7 +1415,7 @@ exports.all = {
     "dislike": "26.4394829612%",
     "viewCount": 1252095,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "YKLBqXUxmTQ": {
@@ -1427,7 +1427,7 @@ exports.all = {
     "dislike": "22.9807692308%",
     "viewCount": 1023955,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "n7PECnLkABc": {
@@ -1439,7 +1439,7 @@ exports.all = {
     "dislike": "29.9733739064%",
     "viewCount": 2683943,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "4RB3AMLy1l8": {
@@ -1451,7 +1451,7 @@ exports.all = {
     "dislike": "33.5079015068%",
     "viewCount": 5007652,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "mPIe5ifhXKs": {
@@ -1463,7 +1463,7 @@ exports.all = {
     "dislike": "25.1676352257%",
     "viewCount": 2334201,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "CzmrMTem-IU": {
@@ -1475,7 +1475,7 @@ exports.all = {
     "dislike": "23.6134453782%",
     "viewCount": 1115471,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "YxV3bpzxV3g": {
@@ -1487,7 +1487,7 @@ exports.all = {
     "dislike": "24.1758241758%",
     "viewCount": 199752,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "mr_cEgaJmxw": {
@@ -1499,7 +1499,7 @@ exports.all = {
     "dislike": "30.0338218715%",
     "viewCount": 9589500,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "9JSPmjHTEcg": {
@@ -1511,7 +1511,7 @@ exports.all = {
     "dislike": "20.9523809524%",
     "viewCount": 614757,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "10DD8zCV4tA": {
@@ -1523,7 +1523,7 @@ exports.all = {
     "dislike": "23.5294117647%",
     "viewCount": 302830,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "On0nD9H2anY": {
@@ -1535,7 +1535,7 @@ exports.all = {
     "dislike": "28.9305301645%",
     "viewCount": 2214865,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "BBbWMF4kK_U": {
@@ -1547,7 +1547,7 @@ exports.all = {
     "dislike": "34.1426403642%",
     "viewCount": 480478,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "E6OUVuAL69c": {
@@ -1559,7 +1559,7 @@ exports.all = {
     "dislike": "29.3023255814%",
     "viewCount": 343877,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "ZsUDHCvlBK0": {
@@ -1571,7 +1571,7 @@ exports.all = {
     "dislike": "19.9549041714%",
     "viewCount": 691332,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "ZLIgMXmK1Qk": {
@@ -1583,7 +1583,7 @@ exports.all = {
     "dislike": "29.1836734694%",
     "viewCount": 475001,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "39oVQu8gjtk": {
@@ -1595,7 +1595,7 @@ exports.all = {
     "dislike": "32.1184510251%",
     "viewCount": 2573051,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "FgILK3HPt4A": {
@@ -1607,7 +1607,7 @@ exports.all = {
     "dislike": "22.9711141678%",
     "viewCount": 1781383,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "5EqIpybvtjc": {
@@ -1619,7 +1619,7 @@ exports.all = {
     "dislike": "32.4771287825%",
     "viewCount": 2384037,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "qJy9j7eLWvs": {
@@ -1631,7 +1631,7 @@ exports.all = {
     "dislike": "26.5979381443%",
     "viewCount": 529012,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "gHEmfARbY_I": {
@@ -1643,7 +1643,7 @@ exports.all = {
     "dislike": "28.4621270084%",
     "viewCount": 2359624,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "RqZV70hwozQ": {
@@ -1655,7 +1655,7 @@ exports.all = {
     "dislike": "21.2209302326%",
     "viewCount": 282536,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "Rtu3kTAE06Y": {
@@ -1667,7 +1667,7 @@ exports.all = {
     "dislike": "27.7420692515%",
     "viewCount": 4619385,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "aXTUrgI3TQY": {
@@ -1679,7 +1679,7 @@ exports.all = {
     "dislike": "33.6188782932%",
     "viewCount": 4255337,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "0KybTTk1rQY": {
@@ -1691,7 +1691,7 @@ exports.all = {
     "dislike": "28.3367556468%",
     "viewCount": 599790,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "RFrnQmCP0o4": {
@@ -1703,7 +1703,7 @@ exports.all = {
     "dislike": "26.4755480607%",
     "viewCount": 379810,
     "categories": [
-      "\ubba4\uc9c0\uceec"
+      "Musical"
     ]
   },
   "6Dj-kvUT_rw": {
@@ -1715,7 +1715,7 @@ exports.all = {
     "dislike": "29.6803652968%",
     "viewCount": 530949,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "u4G1AbvAxCM": {
@@ -1727,7 +1727,7 @@ exports.all = {
     "dislike": "31.9489981785%",
     "viewCount": 1159972,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "U6sWzWdArT0": {
@@ -1739,7 +1739,7 @@ exports.all = {
     "dislike": "30.7692307692%",
     "viewCount": 524855,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "PwKi1CF8D58": {
@@ -1751,7 +1751,7 @@ exports.all = {
     "dislike": "22.9206049149%",
     "viewCount": 2475510,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "o60apGctKKQ": {
@@ -1763,7 +1763,7 @@ exports.all = {
     "dislike": "28.8172992056%",
     "viewCount": 3010025,
     "categories": [
-      "\uc804\ub798"
+      "Traditional"
     ]
   },
   "QSbRCNGpw80": {
@@ -1775,7 +1775,7 @@ exports.all = {
     "dislike": "31.7113538563%",
     "viewCount": 2363560,
     "categories": [
-      "\uc804\ub798"
+      "Traditional"
     ]
   },
   "joaffXD6L7Y": {
@@ -1787,7 +1787,7 @@ exports.all = {
     "dislike": "19.7860962567%",
     "viewCount": 633151,
     "categories": [
-      "\uc804\ub798"
+      "Traditional"
     ]
   },
   "KJ9jurCUOIE": {
@@ -1799,7 +1799,7 @@ exports.all = {
     "dislike": "24.7422680412%",
     "viewCount": 489786,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "CKGIMjcaR_k": {
@@ -1811,7 +1811,7 @@ exports.all = {
     "dislike": "25.621007807%",
     "viewCount": 1259911,
     "categories": [
-      "\uc804\ub798"
+      "Traditional"
     ]
   },
   "JyqquUYtvN0": {
@@ -1823,7 +1823,7 @@ exports.all = {
     "dislike": "22.5877192982%",
     "viewCount": 447926,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "rVwefWX58lQ": {
@@ -1835,7 +1835,7 @@ exports.all = {
     "dislike": "29.6273483215%",
     "viewCount": 2423066,
     "categories": [
-      "\uc804\ub798"
+      "Traditional"
     ]
   },
   "c3jm29CKEV8": {
@@ -1847,7 +1847,7 @@ exports.all = {
     "dislike": "27.5964391691%",
     "viewCount": 674632,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "c1n0G1qnBfk": {
@@ -1859,7 +1859,7 @@ exports.all = {
     "dislike": "16.638465877%",
     "viewCount": 1425917,
     "categories": [
-      "\uc804\ub798"
+      "Traditional"
     ]
   },
   "VRx1VOj9_Co": {
@@ -1871,7 +1871,7 @@ exports.all = {
     "dislike": "22.2772277228%",
     "viewCount": 596089,
     "categories": [
-      "\uc804\ub798"
+      "Traditional"
     ]
   },
   "A8BDErXy5DM": {
@@ -1883,7 +1883,7 @@ exports.all = {
     "dislike": "22.1848739496%",
     "viewCount": 497657,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "8yaGjqDJz1Q": {
@@ -1895,7 +1895,7 @@ exports.all = {
     "dislike": "26.369168357%",
     "viewCount": 501279,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "WW0YTG0Fiow": {
@@ -1907,7 +1907,7 @@ exports.all = {
     "dislike": "20.7677165354%",
     "viewCount": 995120,
     "categories": [
-      "\uc804\ub798"
+      "Traditional"
     ]
   },
   "MHfmMePXXb0": {
@@ -1919,7 +1919,7 @@ exports.all = {
     "dislike": "21.9758064516%",
     "viewCount": 573838,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "0fxVIRxNIK4": {
@@ -1931,7 +1931,7 @@ exports.all = {
     "dislike": "19.9209486166%",
     "viewCount": 1103628,
     "categories": [
-      "\uc804\ub798"
+      "Traditional"
     ]
   },
   "Zk3gvMGES-o": {
@@ -1943,7 +1943,7 @@ exports.all = {
     "dislike": "30.5378831695%",
     "viewCount": 1292551,
     "categories": [
-      "\uc804\ub798"
+      "Traditional"
     ]
   },
   "TBkWRzqmKwA": {
@@ -1955,7 +1955,7 @@ exports.all = {
     "dislike": "27.4566473988%",
     "viewCount": 437462,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "XEcSLEpckCQ": {
@@ -1967,7 +1967,7 @@ exports.all = {
     "dislike": "27.2040302267%",
     "viewCount": 433567,
     "categories": [
-      "\uc774\uc19d"
+      "Aesop"
     ]
   },
   "fPh4EyAKI4w": {
@@ -1979,7 +1979,7 @@ exports.all = {
     "dislike": "25.4403131115%",
     "viewCount": 2007415,
     "categories": [
-      "\uc804\ub798"
+      "Traditional"
     ]
   },
   "wzvYueaBHBU": {
@@ -1991,7 +1991,7 @@ exports.all = {
     "dislike": "21.1340206186%",
     "viewCount": 1110862,
     "categories": [
-      "\uc804\ub798"
+      "Traditional"
     ]
   },
   "k7cF71Z8zB4": {
@@ -2003,9 +2003,9 @@ exports.all = {
     "dislike": "30.5867794163%",
     "viewCount": 5378565,
     "categories": [
-      "\uc774\uc19d",
-      "\ubaa8\uc74c\uc9d1",
-      "\uc804\ub798"
+      "Aesop",
+      "Collection",
+      "Traditional"
     ]
   },
   "6QqAbaBJzKk": {
@@ -2017,8 +2017,8 @@ exports.all = {
     "dislike": "29.115913556%",
     "viewCount": 1834154,
     "categories": [
-      "\ubaa8\uc74c\uc9d1",
-      "\ubba4\uc9c0\uceec"
+      "Collection",
+      "Musical"
     ]
   },
   "F6r49xczBFU": {
@@ -2030,8 +2030,8 @@ exports.all = {
     "dislike": "32.81157358%",
     "viewCount": 6403678,
     "categories": [
-      "\ubaa8\uc74c\uc9d1",
-      "\ubba4\uc9c0\uceec"
+      "Collection",
+      "Musical"
     ]
   },
   "CvtKzRWeXdM": {
@@ -2043,8 +2043,8 @@ exports.all = {
     "dislike": "31.3490158425%",
     "viewCount": 1991298,
     "categories": [
-      "\ubaa8\uc74c\uc9d1",
-      "\ubba4\uc9c0\uceec"
+      "Collection",
+      "Musical"
     ]
   },
   "0qhjJYvE-AU": {
@@ -2056,8 +2056,8 @@ exports.all = {
     "dislike": "32.4298889516%",
     "viewCount": 4729904,
     "categories": [
-      "\ubaa8\uc74c\uc9d1",
-      "\ubba4\uc9c0\uceec"
+      "Collection",
+      "Musical"
     ]
   },
   "31T-c7E1Fqo": {
@@ -2069,8 +2069,8 @@ exports.all = {
     "dislike": "33.4306956984%",
     "viewCount": 4181031,
     "categories": [
-      "\uacf5\ub8e1",
-      "\ubba4\uc9c0\uceec"
+      "Dinosaur",
+      "Musical"
     ]
   },
   "pDxO8CP3X6U": {
@@ -2082,7 +2082,7 @@ exports.all = {
     "dislike": "36.301369863%",
     "viewCount": 808900,
     "categories": [
-      "\uc790\ub3d9\ucc28"
+      "Car"
     ]
   },
   "EqTWmDqJu-w": {
@@ -2094,7 +2094,7 @@ exports.all = {
     "dislike": "36.7019831568%",
     "viewCount": 1959741,
     "categories": [
-      "\uc790\ub3d9\ucc28"
+      "Car"
     ]
   },
   "O5CrUC7-NvY": {
@@ -2106,7 +2106,7 @@ exports.all = {
     "dislike": "37.4314442413%",
     "viewCount": 1533804,
     "categories": [
-      "\uc790\ub3d9\ucc28"
+      "Car"
     ]
   },
   "lowxmG42lHU": {
@@ -2118,7 +2118,7 @@ exports.all = {
     "dislike": "34.8462320995%",
     "viewCount": 4435912,
     "categories": [
-      "\uc790\ub3d9\ucc28"
+      "Car"
     ]
   },
   "Y-6exAuTZsk": {
@@ -2130,7 +2130,7 @@ exports.all = {
     "dislike": "31.9274567693%",
     "viewCount": 1257498,
     "categories": [
-      "\uc790\ub3d9\ucc28"
+      "Car"
     ]
   },
   "OpzlV2n2DfU": {
@@ -2142,7 +2142,7 @@ exports.all = {
     "dislike": "33.0117160579%",
     "viewCount": 3582210,
     "categories": [
-      "\uc790\ub3d9\ucc28"
+      "Car"
     ]
   },
   "z4K0p8DBdU4": {
@@ -2154,7 +2154,7 @@ exports.all = {
     "dislike": "33.5012594458%",
     "viewCount": 736829,
     "categories": [
-      "\uc790\ub3d9\ucc28"
+      "Car"
     ]
   },
   "DaliSsrhwTU": {
@@ -2166,7 +2166,7 @@ exports.all = {
     "dislike": "34.8701298701%",
     "viewCount": 1389704,
     "categories": [
-      "\uc790\ub3d9\ucc28"
+      "Car"
     ]
   }
-}
+};
