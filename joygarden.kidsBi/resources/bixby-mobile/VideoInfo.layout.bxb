@@ -1,0 +1,24 @@
+layout {
+  match: VideoInfo (videoInfo)
+  mode (Summary)
+
+  content {
+    section {
+      content {
+        cell-card {
+          slot2 {
+            content {
+              order (SecondaryPrimary)
+              primary {
+                template ("#{value(videoInfo.title)}")
+              }
+              secondary {
+                template ("제목")
+              }
+            } 
+          }
+        }
+      }
+    }
+  }
+}

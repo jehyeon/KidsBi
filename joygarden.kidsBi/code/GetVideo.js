@@ -19,11 +19,11 @@ function findVideoBy(argument) {
     return Object.keys(dummy.all).map(videoId => {
       if (dummy.all[videoId].categories.indexOf(category.valueOf()) > -1) {
         const searchResultByCategory = dummy.all[videoId];
-        searchResultByCategory.videoId = videoId;
-        
+        searchResultByCategory['videoId'] = videoId;
+        console.log(searchResultByCategory);
         return {
           title: searchResultByCategory.title,
-          
+          videoId: searchResultByCategory.videoId,
         };
       }
     }).filter(video => video !== undefined);
