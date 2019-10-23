@@ -1,7 +1,10 @@
 hints {
   uncategorized {
-    hint (인기있는 전래 동화 보여줘)
-    hint (숫자 놀이 할래)
-    
+    hint ("키즈비에서 인기있는 전래 동화 보여줘") {
+      preferred-hint ("인기있는 전래 동화 보여줘")
+    }
+    hint ("키즈비에서 숫자 놀이 할래") {
+      preferred-hint ("숫자 놀이 할래")
+    }
   }
 }
