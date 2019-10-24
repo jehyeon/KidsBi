@@ -27,7 +27,7 @@ function findVideoBy(argument) {
           videoId: searchResultByCategory.videoId,
           // thumbnail and videoUrl (lazy-source)
           source: searchResultByCategory.source,
-          like: parseFloat(searchResultByCategory.like.split('%')[0]),
+          like: parseInt(searchResultByCategory.like.split('%')[0]),
           viewCount: searchResultByCategory.viewCount,
           categories: searchResultByCategory.categories,
         };

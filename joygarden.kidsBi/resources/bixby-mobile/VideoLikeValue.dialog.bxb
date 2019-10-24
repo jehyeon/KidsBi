@@ -1,0 +1,4 @@
+dialog (Value) {
+  match: VideoLike (videoLike)
+  template ("#{value(videoLike)}%가 좋아해요")
+}

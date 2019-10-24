@@ -8,7 +8,7 @@ layout {
         compound-card {
           content {
             image-card {
-              aspect-ratio (1:1)
+              aspect-ratio (16:9)
               title-area {
                 slot1 {
                   text {
@@ -27,12 +27,19 @@ layout {
                 slot3 {
                   single-line {
                     text {
-                      style (Detail_M_Soft)
+                      style (Detail_L)
+                      color (Blue)
                       value ("#{value(videoInfo.like)}")
                     }
                   }
                 }
               }
+              image-url {
+                template ("https://i.ytimg.com/vi/fpL9Q7etroc/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD7qvGnBUrB_GCOrRte-niYMlDhPQ")
+              }
+              image-object-position (Center)
+              image-object-fit (Cover)
+              image-background-color (Transparent)
             }
           }
         }
