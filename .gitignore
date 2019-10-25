@@ -3,6 +3,7 @@
 
 ignore
 tcl
+__pycache__
 
 ### VirtualEnv ###
 # Virtualenv
