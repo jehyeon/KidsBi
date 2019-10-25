@@ -1,0 +1,17 @@
+result-view {
+  match: CategoryInfo (categoryInfos) {
+    from-output: GetCategory
+  }
+
+  message ()
+
+  render {
+    if (size(categoryInfos) > 1) {
+      layout-macro (categoryInfosMacro) {
+        param (categoryInfos) {
+          expression (categoryInfos)
+        }
+      }
+    }
+  }
+}
