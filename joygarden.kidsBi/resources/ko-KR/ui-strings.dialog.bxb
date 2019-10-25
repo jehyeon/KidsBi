@@ -1,4 +1,0 @@
-
-template-macro-def (ID_Search_Princess) {
-  content: template ("공주 나오는 동화 볼래")
-}

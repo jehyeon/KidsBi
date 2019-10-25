@@ -1,7 +1,0 @@
-template-macro-def (kidsbi_1_0_Search_Result) {  
-  content {
-    choose (Random) {
-      template ("카테고리를 확인해보세요!") 
-    }
-  }
-}

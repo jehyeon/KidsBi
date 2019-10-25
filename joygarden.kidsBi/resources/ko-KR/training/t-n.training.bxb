@@ -1,5 +1,0 @@
-train (t-n4m3j1ewelteq93pz1xqsznot) {
-  utterance ([g:GetCategory] 카테고리 보여줘)
-  plan (Y2BikCvISaxML8ovzUvRy85MKXbK1HNOLElNzy+q9MxLy2eQxZR3Ty2BKWFgBEIGKAaSAA==)
-  last-modified (1571985878224)
-}

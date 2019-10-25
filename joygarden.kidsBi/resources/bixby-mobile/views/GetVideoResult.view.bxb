@@ -3,9 +3,7 @@ result-view {
     from-output: GetCategory
   }
 
-  message {
-    template-macro (kidsbi_1_0_Search_Result)
-  }
+  message ()
 
   render {
     if (size(categoryInfos) > 1) {
@@ -15,11 +13,5 @@ result-view {
         }
       }
     }
-  }
-  conversation-drivers {
-
-        conversation-driver {
-          template-macro(ID_Search_Princess)
-        }
   }
 }
