@@ -1,3 +1,5 @@
 from django.db import models
 
-# Create your models here.
+class Video(models.Model):
+  videoId = models.CharField(max_length=20)
+  title = models.CharField(max_length=200)
