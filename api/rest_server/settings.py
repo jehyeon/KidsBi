@@ -26,7 +26,7 @@ SECRET_KEY = 's@u!@afe21#x1v&e_o=(a(wh6x7b4$2!=f@x$tlu3l3(u*9&il'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'kidsbi.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
 
 
 # Application definition
