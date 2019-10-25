@@ -28,7 +28,7 @@ layout {
                   single-line {
                     text {
                       style (Detail_L)
-                      color (Blue)
+                      color (Green)
                       value ("#{value(videoInfo.like)}")
                     }
                   }
