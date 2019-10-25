@@ -1,0 +1,5 @@
+action (GetCategory) {
+  description (Action to show category folktale)
+  type (Search)
+  output (CategoryInfo)
+}

@@ -4,5 +4,9 @@ endpoints {
       accepted-inputs (searchTerm, category)
       local-endpoint (GetVideo.js)
     }
+    action-endpoint (GetCategory) {
+      accepted-inputs ()
+      local-endpoint (GetCategory.js)
+    }
   }
 }

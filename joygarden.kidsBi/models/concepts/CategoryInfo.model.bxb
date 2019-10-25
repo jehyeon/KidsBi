@@ -1,0 +1,11 @@
+structure  (CategoryInfo) {
+	description (Category Information)
+	property (imageURL) {
+		type (ImageURL)
+		min (Required) max (Many)
+	}
+	property (videoCategory) {
+		type (VideoCategory)
+		min (Required) max (One)
+	}
+}
