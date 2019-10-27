@@ -16,10 +16,4 @@ result-view {
 			}
 		}
 	}
-	conversation-drivers {
-		
-		conversation-driver {
-			template-macro(ID_Search_Princess)
-		}
-	}
 }
