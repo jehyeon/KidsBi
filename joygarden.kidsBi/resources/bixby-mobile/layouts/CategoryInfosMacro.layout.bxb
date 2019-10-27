@@ -13,7 +13,7 @@ layout-macro-def (categoryInfosMacro) {
           as (categoryInfo) {
             image-card {
               image-url ("#{value(categoryInfo.imageURL)}")
-              aspect-ratio (3:4)
+              aspect-ratio (4:3)
               column-size (2)
               image-object-fit (Cover)
               image-object-position (Center)
@@ -22,7 +22,7 @@ layout-macro-def (categoryInfosMacro) {
                 slot2 {
                   single-line {
                     text {
-                      style (Title_L)
+                      style (Title_S)
                       value ("#{value(categoryInfo.videoCategory)}")
                     }
                   }
