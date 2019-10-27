@@ -6,7 +6,7 @@ layout {
     section {
       content {
         video {
-          url ("http://techslides.com/demos/sample-videos/small.mp4")
+          url ("#{value(videoInfo.videoFile)}")
           // poster ()
         }
       }
