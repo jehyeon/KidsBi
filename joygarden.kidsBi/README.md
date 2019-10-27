@@ -25,3 +25,4 @@
 
 ### history
 - 0.1.0: 키즈비 시작
+- 0.1.2: GetVideo action 추가
