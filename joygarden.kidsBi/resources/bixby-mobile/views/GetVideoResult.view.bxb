@@ -4,11 +4,12 @@ result-view {
 	}
 	
 	message {
-		template-macro (kidsbi_1_0_Search_Result)
+		// template-macro (kidsbi_1_0_Search_Result)
+		template ("카테고리를 선택해주세요")	// 임시
 	}
 	
 	render {
-		if (size(categoryInfos) > 1) {
+		if (size(categoryInfos) > 0) {
 			layout-macro (categoryInfosMacro) {
 				param (categoryInfos) {
 					expression (categoryInfos)

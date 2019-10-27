@@ -13,7 +13,8 @@ layout-macro-def (categoryInfosMacro) {
           as (categoryInfo) {
             image-card {
               image-url ("#{value(categoryInfo.imageURL)}")
-              aspect-ratio (16:9)
+              aspect-ratio (3:4)
+              column-size (2)
               image-object-fit (Cover)
               image-object-position (Center)
               image-background-color (Transparent)
