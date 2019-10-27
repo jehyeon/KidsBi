@@ -1,0 +1,22 @@
+dialog(Value) {
+  match : VideoCategory (this)
+
+  switch(this) {
+    case (Aesop) { template("이솝우화") }
+    case (Bed) { template("잠자리") }
+    case (Car) { template("자동차") }
+    case (Collection) { template("모음집") }
+    case (Christmas) { template("크리스마스") }
+    case (Constellation) { template("별자리") }
+    case (Dinosaur) { template("공룡") }
+    case (English) { template("영어") }
+    case (Korean tradition) { template("한국 전래") }
+    case (Musical) { template("뮤지컬") }
+    case (Princess) { template("공주") }
+    case (Science) { template("과학") }
+    case (Shadow) { template("그림자 동화") }
+    case (Traditional) { template("전래") }
+    case (Popular) { template("인기있는")}
+
+  }
+}
