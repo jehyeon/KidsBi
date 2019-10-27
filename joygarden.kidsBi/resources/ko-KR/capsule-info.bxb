@@ -7,4 +7,9 @@ capsule-info {
   terms-url (https://example.com/terms-of-use/) // ??
 
   dispatch-name (키즈비)
+  search-keywords {
+    keyword (학습)
+    keyword (동화)
+    keyword (전래동화)
+  }
 }
