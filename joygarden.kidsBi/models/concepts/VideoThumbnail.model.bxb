@@ -1,4 +1,3 @@
-structure (VideoThumbnail) {
+text (VideoThumbnail) {
   description (Thumbnail of video)
-  extends (viv.image.Image)
 }
