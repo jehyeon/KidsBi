@@ -4,7 +4,7 @@ input-view {
   }
 
   message {
-    template ("어느 동화가 보고 싶어요?") // 임시
+    template-macro (GetVideo_SelectCategory)
   }
 
   render {

@@ -1,0 +1,23 @@
+result-view {
+	match: CategoryInfo (categoryInfos) {
+		from-output: GetCategory
+	}
+	
+	message {
+		template-macro (GetCategory_Result) {
+			param (size) {
+				expression (size(categoryInfos))
+			}
+		}
+	}
+	
+	render {
+		if (size(categoryInfos) > 0) {
+			layout-macro (categoryInfosMacro) {
+				param (categoryInfos) {
+					expression (categoryInfos)
+				}
+			}
+		}
+	}
+}

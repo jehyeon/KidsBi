@@ -2,9 +2,10 @@ var console = require('console');
 
 const categories = require('./lib/category');
 module.exports.function = function selectCategory (categoryInfos, filterTerm, $vivContext) {
-  if (categories && categories.length === 1) {
-    return categories.videoCategory;
-  }
+  // if (categoryInfos && categoryInfos.length === 1) {
+  //   return categoryInfos.videoCategory;
+  // }
+  return categoryInfos.videoCategory;
 
   // temporary
   // const locale = $vivContext && $vivContext.locale

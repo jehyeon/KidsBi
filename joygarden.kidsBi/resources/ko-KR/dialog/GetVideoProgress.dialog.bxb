@@ -1,0 +1,4 @@
+dialog (Progress) {
+  match: GetVideo
+  template-macro (GetVideo_Progress)
+}
