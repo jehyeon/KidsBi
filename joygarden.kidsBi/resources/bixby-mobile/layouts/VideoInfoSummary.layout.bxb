@@ -24,18 +24,9 @@ layout {
                     }
                   }
                 }
-                slot3 {
-                  single-line {
-                    text {
-                      style (Detail_L)
-                      color (Blue)
-                      value ("#{value(videoInfo.like)}")
-                    }
-                  }
-                }
               }
               image-url {
-                template ("https://i.ytimg.com/vi/fpL9Q7etroc/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD7qvGnBUrB_GCOrRte-niYMlDhPQ")
+                template ("#{value(videoInfo.videoThumbnail)}")
               }
               image-object-position (Center)
               image-object-fit (Cover)
