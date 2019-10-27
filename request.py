@@ -7,7 +7,7 @@ def main():
     'Content-Type': 'application/json'
   }
 
-  with open('datas.json', 'r', encoding='utf8') as f:
+  with open('data.json', 'r', encoding='utf8') as f:
     datas = json.load(f)
 
     for videoId in datas.keys():
@@ -30,8 +30,8 @@ def main():
       # print()
       # print(json.dumps(data))
       res = requests.post(url=url, headers=headers, data=json.dumps(data))
+      print(videoId, end=': ')
       print(res)
-      break
       # requests.post(url=url, headers=headers, data=data)
 
 if __name__ == '__main__':
