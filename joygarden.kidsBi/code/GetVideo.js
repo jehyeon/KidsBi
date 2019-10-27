@@ -1,6 +1,6 @@
 var console = require('console');
 var category = require('lib/category.js');
-var dummy = require('dummy/data.js');
+//var dummy = require('dummy/data.js');
 
 // Functions
 function isCategory(_category) {
