@@ -6,8 +6,8 @@ hints {
     hint ("키즈비에서 숫자 놀이 할래") {
       preferred-hint ("숫자 놀이 할래")
     }
-    hint ("키즈비에서 퀴즈 시작 할래") {
-      preferred-hint ("퀴즈 시작 할래")
+    hint ("키즈비에서 한글 단어 퀴즈 풀어볼래") {
+      preferred-hint ("한글 단어 퀴즈 풀어볼래")
     }
   }
 }
