@@ -22,6 +22,15 @@ action (GetVideo) {
               select-first
             }
           }
+          validate {
+            if (!exists(searchTerm) && !exists(category)) {
+              replan {
+                intent {
+                  goal: SelectVideoCategory
+                }
+              }
+            }
+          }
         }
       }
     }
