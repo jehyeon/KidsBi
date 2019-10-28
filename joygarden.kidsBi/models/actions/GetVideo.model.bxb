@@ -27,6 +27,9 @@ action (GetVideo) {
               replan {
                 intent {
                   goal: SelectVideoCategory
+                  subplan {
+                    goal: GetCategory
+                  }
                 }
               }
             }

@@ -5,20 +5,6 @@ action (SelectVideoCategory) {
     input (categoryInfos) {
       type (CategoryInfo)
       min (Required) max (One)
-      default-init {
-        intent {
-          goal: GetCategory
-        }
-      }
-    }
-    input (filterTerm) {
-      type (FilterTerm)
-      min (Optional) max (One)
-      // validate {
-      //   if (!exists(filterTerm)) {
-      //     prompt
-      //   }
-      // }
     }
   }
   output (VideoCategory)

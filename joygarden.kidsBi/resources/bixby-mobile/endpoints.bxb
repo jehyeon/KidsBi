@@ -12,8 +12,12 @@ endpoints {
       local-endpoint (GetCategory.js)
     }
     action-endpoint (SelectVideoCategory) {
+      accepted-inputs (categoryInfos)
+      local-endpoint (SelectVideoCategory.js)
+    }
+    action-endpoint (SelectCategoryInfo) {
       accepted-inputs (categoryInfos, filterTerm, $vivContext)
-      local-endpoint (SelectCategory.js)
+      local-endpoint (SelectCategoryInfo.js)
     }
 
     // StartQuiz

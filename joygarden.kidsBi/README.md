@@ -24,7 +24,7 @@
 [g:GetQuiz] 키즈비에는 어떤 퀴즈가 있어
 ```
 
-### Category
+### Video Category
 사용가능한 Category 목록입니다.
 > `models/concepts/VideoCategory.model.bxb`, `code/lib/category.js`와 동일하게 업데이트 되어야 합니다.
 
@@ -59,3 +59,4 @@
 - 0.1.9: GetQuiz 추가
 - 0.1.10: StartQuiz 추가
 - 0.1.11: ReTryQuiz 수정 완료
+- 0.1.12: SelectVideoCategory 수정 및 SelectCategoryInfo 추가
