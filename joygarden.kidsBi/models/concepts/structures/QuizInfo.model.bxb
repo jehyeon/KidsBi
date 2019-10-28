@@ -1,11 +1,16 @@
 structure (QuizInfo) {
   description (Quiz's infos)
+	property (id) {
+		type (ID)
+		min (Optional) max (One)
+	}  
   property (question) {
     type (QuizQuestion)
     min (Required) max (One)
   }
-  property (image) {
-    type (viv.image.Image)
+  property (url) {
+    // type (viv.image.Image)
+    type (ImageURL)
     min (Required) max (One)
   }
   property (options) {

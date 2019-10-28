@@ -15,6 +15,10 @@
 
 3. StartQuiz
 ```
+:: temporary
+[g:SolveQuiz] (한글)[v:QuizCategory:Korean]
+[g:SolveQuiz:continue:QuizProgress,r:UpdateProgress] (D)[v:UserAnswer]
+[g:SolveQuiz:continue:QuizProgress,r:ReTryQuiz] 이 문제 다시 풀래
 ```
 
 ### Category
@@ -47,3 +51,5 @@
 - 0.1.4: QuizInfo structure 추가
 - 0.1.5: StartQuiz, GetQuiz action (temporary) / QuizResult structure 추가
 - 0.1.6: model folder 분리
+- 0.1.7: SolveQuiz action 추가 (temporary)
+- 0.1.8: GetQuiz input-mapper 수정

@@ -1,12 +1,11 @@
-action (StartQuiz) {
-  type (Calculation)
-  description (Quiz action)
+action (ReTryQuiz) {
+  type (UpdateTransaction)
+  description (__DESCRIPTION__)
   collect {
     input (quizProgress) {
       type (QuizProgress)
       min (Required) max (One)
     }
-
   }
   output (QuizProgress)
 }

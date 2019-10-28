@@ -1,10 +1,27 @@
 action (SolveQuiz) {
-  description (__DESCRIPTION__)
+  type (Commit)
+  description (Solve quizzes)
+  confirm {
+    by (SolveQuizAnswer)
+  }
   collect {
-    input (__INPUT_NAME__) {
-      type (__INPUT_TYPE__)
-      min (Optional) max (One)
+    input (quizProgress) {
+      type (QuizProgress)
+      min (Required) max (One)
+
+      default-init {
+        intent {
+          goal: InitQuizProgress
+          value: QuizCategory(Korean) // teomporary
+        }
+      }
+
+      validate {
+        if (quizProgress.done == true) {
+          halt
+        }
+      }
     }
   }
-  output (__OUTPUT__)
+  output (QuizResult)
 }

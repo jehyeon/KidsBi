@@ -1,4 +1,6 @@
 enum (QuizCategory) {
   description (Quiz category)
   symbol (Korean)
+  symbol (Math)
+  symbol (English)
 }
