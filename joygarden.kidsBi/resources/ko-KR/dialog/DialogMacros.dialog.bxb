@@ -11,7 +11,15 @@ template-macro-def (GetVideo_SelectCategory) {
 template-macro-def (GetVideo_Progress) {
 	content {
 		choose (Random) {
-			template ("동화를 찾는 중이예요")
+			template ("동화를 찾고 있어요.")
+		}
+	}
+}
+
+template-macro-def (GetCategory_Progress) {
+	content {
+		choose (Random) {
+			template ("동화 카테고리를 찾고 있어요.")
 		}
 	}
 }
@@ -80,13 +88,8 @@ template-macro-def (GetCategory_Result) {
 	}
 	content {
 		choose (Random) {
-			// &nbsp; <br /> \n
-			template ("카테고리는 총 #{size}개가 있어요. 이 중에 어떤 동화를 보여드릴까요?") {
-				speech ("카테고리는 총 #{size}개가 있어요. 이 중에 어떤 동화를 보여드릴까요?")
-			}
-			template ("준비된 카테고리는 총 #{size}개가 있어요. 보고 싶은 동화를 선택 해주세요!") {
-				speech ("준비된 카테고리는 총 #{size}개가 있어요. 보고 싶은 동화를 선택 해주세요!")
-			}
+			template ("카테고리는 총 #{size}개가 있어요. 이 중에 어떤 동화를 보여드릴까요?")
+			template ("준비된 카테고리는 총 #{size}개가 있어요. 보고 싶은 동화를 선택 해주세요!")
 		}
 	}
 }
@@ -95,7 +98,8 @@ template-macro-def (GetCategory_Result) {
 template-macro-def (GetQuiz_SelectQuizCategory) {
 	content {
 		choose (Random) {
-			template ("어느 퀴즈를 풀어 볼까요?")
+			// template ("어떤 문제 목록을 보고 싶어요?")
+			template ("퀴즈 카테고리를 선택해주세요.")
 		}
 	}
 }
