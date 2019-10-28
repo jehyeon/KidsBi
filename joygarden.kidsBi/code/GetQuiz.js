@@ -36,5 +36,5 @@ module.exports.function = function getQuiz (category) {
     return updated;
   });
 
-  return shuffle(result).slice(0,10);
+  return shuffle(result).slice(0,4);
 }

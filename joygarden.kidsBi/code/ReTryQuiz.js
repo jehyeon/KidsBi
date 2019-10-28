@@ -22,10 +22,9 @@ module.exports.function = function reTryQuiz (quizProgress) {
 
     // Remove result == 'true' acse
     for (index in remainQuizProgress.result) {
-      if (remainQuizProgress.result[index].valueOf() === 'true') {
-        delete remainQuizProgress.result[index]
-        console.log(remainQuizProgress.result)
-        delete remainQuizProgress.quizInfos[index]
+      if (remainQuizProgress.result[index] == 'true') {
+        remainQuizProgress.result.splice(index, 1)
+        remainQuizProgress.quizInfos.splice(index, 1)
       }
     }
 
