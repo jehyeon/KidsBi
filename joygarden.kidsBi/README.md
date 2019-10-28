@@ -26,9 +26,13 @@
 [g:GetQuiz] 키즈비에는 어떤 퀴즈가 있어
 ```
 
-### Category
-사용가능한 Category 목록입니다.
+### VideoCategory
+사용가능한 Video Category 목록입니다.
 > `models/concepts/VideoCategory.model.bxb`, `code/lib/category.js`와 동일하게 업데이트 되어야 합니다.
+
+### QuizCategory
+사용가능한Quiz Category 목록입니다.
+> `QuizCategorySummary.layout.bxb`, `QuizCategory_Value.dialog.bxb`에 동일하게 업데이트 되어야 합니다.
 
 | ko-KR | en-US |
 |-------|-------|
