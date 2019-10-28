@@ -1,40 +1,49 @@
 layout {
-  match: VideoInfo (videoInfo)
-  mode (Summary)
-
-  content {
-    section {
-      content {
-        compound-card {
-          content {
-            image-card {
-              aspect-ratio (16:9)
-              title-area {
-                slot1 {
-                  text {
-                    style (Title_S)
-                    value ("#{value(videoInfo.title)}")
-                  }
-                }
-                slot2 {
-                  single-line {
-                    text {
-                      style (Detail_M_Soft)
-                      value ("#{value(videoInfo.source)}")
-                    }
-                  }
-                }
-              }
-              image-url {
-                template ("#{value(videoInfo.videoThumbnail)}")
-              }
-              image-object-position (Center)
-              image-object-fit (Cover)
-              image-background-color (Transparent)
-            }
-          }
-        }
-      }
-    }
-  }
+	match: VideoInfo (videoInfo)
+	mode (Summary)
+	
+	content {
+		section {
+			content {
+				compound-card {
+					content {
+						image-card {
+							aspect-ratio (16:9)
+							title-area {
+								slot1 {
+									text {
+										style (Title_S)
+										value ("#{value(videoInfo.title)}")
+									}
+								}
+								slot2 {
+									single-line {
+										if(videoInfo.source=='핑크퐁 유튜브') {
+											image{
+												shape (Square)
+												url("images/pinkpong.png")
+												background-color (Transparent)
+											}
+										}
+										text {
+											style (Detail_M_Soft)
+											value ("#{value(videoInfo.source)}")
+											color (Blue)
+										}
+									}
+									
+								}
+							}
+							image-url {
+								template ("#{value(videoInfo.videoThumbnail)}")
+							}
+							image-object-position (Center)
+							image-object-fit (Cover)
+							image-background-color (Transparent)
+						}
+					}
+				}
+			}
+		}
+	}
 }
