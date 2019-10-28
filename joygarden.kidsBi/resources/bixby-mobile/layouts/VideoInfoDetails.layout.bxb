@@ -5,15 +5,16 @@ layout {
   content {
     section {
       content {
+        
+        video {
+          url ("#{value(videoInfo.videoFile)}")
+          poster ("#{value(videoInfo.videoThumbnail)}")
+        }
         attribution-link {
           label {
             template-macro (GoToYoutube)
           }
           url ("https://youtube.com/watch?v=#{value(videoInfo.videoId)}")
-        }
-        video {
-          url ("#{value(videoInfo.videoFile)}")
-          poster ("#{value(videoInfo.videoThumbnail)}")
         }
       }
     }
