@@ -1,5 +1,22 @@
 # joygarden.kidsBi
 
+### How to training
+1. GetVideo
+```
+[g:GetVideo] 동화 보여줘
+[g:GetVideo] (인기 있는)[v:VideoCategory:Popular] 동화 보고 싶어
+[g:GetVideo] (신데렐라)[v:SearchTerm] 동화 보여줘
+```
+
+2. GetCategory
+```
+[g:GetCategory] 동화 카테고리가 뭐가 있어
+```
+
+3. StartQuiz
+```
+```
+
 ### Category
 사용가능한 Category 목록입니다.
 > `models/concepts/VideoCategory.model.bxb`, `code/lib/category.js`와 동일하게 업데이트 되어야 합니다.
@@ -26,3 +43,4 @@
 ### history
 - 0.1.0: 키즈비 시작
 - 0.1.2: GetVideo action 추가
+- 0.1.3: GetCategory action 추가 및 view 업데이트
