@@ -1,0 +1,19 @@
+input-view {
+  match: CategoryInfo (categoryInfos) {
+    to-input: SelectVideoCategory
+  }
+
+  message {
+    template-macro (GetVideo_SelectCategory)
+  }
+
+  render {
+    selection-of (categoryInfos) {
+      where-each (categoryInfo) {
+        layout-match (categoryInfo) {
+          mode (Summary)
+        }
+      }
+    }
+  }
+}

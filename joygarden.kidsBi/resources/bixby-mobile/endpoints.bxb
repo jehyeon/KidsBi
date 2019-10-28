@@ -8,5 +8,9 @@ endpoints {
       accepted-inputs ()
       local-endpoint (GetCategory.js)
     }
+    action-endpoint (SelectVideoCategory) {
+      accepted-inputs (categoryInfos, filterTerm, $vivContext)
+      local-endpoint (SelectCategory.js)
+    }
   }
 }

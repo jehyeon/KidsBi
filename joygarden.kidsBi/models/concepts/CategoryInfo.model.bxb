@@ -1,5 +1,9 @@
 structure  (CategoryInfo) {
 	description (Category Information)
+	property (id) {
+		type (ID)
+		min (Optional) max (One)
+	}
 	property (imageURL) {
 		type (ImageURL)
 		min (Required) max (Many)

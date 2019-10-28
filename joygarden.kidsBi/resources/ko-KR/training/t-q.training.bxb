@@ -1,0 +1,5 @@
+train (t-q4c5vvem8f9bupz29vzhwpctg) {
+  utterance ([g:GetVideo] 동화 보고 싶어)
+  plan (Y2BmkC7ISaxML8ovzUvRy85MKXbK1AvLTEnN98xLy2eQwpR0Ty0ByzMo4Zary06tLM8vSmFgYmAEYgYgycjAAKMB)
+  last-modified (1572194015622)
+}

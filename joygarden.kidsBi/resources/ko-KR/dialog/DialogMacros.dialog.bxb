@@ -1,0 +1,99 @@
+// GetVideo
+template-macro-def (GetVideo_SelectCategory) {
+  content {
+    choose (Random) {
+      template ("어느 동화가 보고 싶어요?")
+      template ("보고 싶은 동화를 선택 해주세요!")
+    }
+  }
+}
+
+template-macro-def (GetVideo_Progress) {
+  content {
+    choose (Random) {
+      template ("동화를 찾고 있어요")
+    }
+  }
+}
+
+template-macro-def (GetVideo_Result_SearchTerm) {
+  params {
+    param (searchTerm) {
+      type (SearchTerm)
+      min (Required) max (One)
+    }
+    param (size) {
+      type (viv.core.Integer)
+      min (Required) max (One)
+    }
+  }
+  content {
+    choose (Random) {
+      template ("#{value(searchTerm)}(으)로 검색한 동화 #{size}개가 있어요")
+    }
+  }
+}
+template-macro-def (GetVideo_Result_Category) {
+  params {
+    param (category) {
+      type (VideoCategory)
+      min (Required) max (One)
+    }
+    param (size) {
+      type (viv.core.Integer)
+      min (Required) max (One)
+    }
+  }
+  content {
+    choose (Random) {
+      template ("#{value(category)}로 검색한 동화 #{size}개가 있어요")
+      template ("#{value(category)} 동화를 #{size}개 찾았어요!")
+    }
+  }
+}
+
+template-macro-def (GetVideo_Result_One) {
+  content {
+    choose (Random) {
+      template ("여기 있어요!")
+    }
+  }
+}
+
+template-macro-def (GetVideo_Result_Zero) {
+  content {
+    choose (Random) {
+      template ("키즈비에는 없는 동화에요.")
+      template ("키즈비가 동화를 못 찾았어요.")
+    }
+  }
+}
+
+// GetCategory
+template-macro-def (GetCategory_Result) {
+  params {
+    param (size) {
+      type (viv.core.Integer)
+      min (Required) max (One)
+    }
+  }
+  content {
+    choose (Random) {
+      // &nbsp; <br /> \n
+      template ("카테고리는 총 #{size}개가 있어요. 어느 동화가 보고 싶어요?") {
+        speech ("카테고리는 총 #{size}개가 있어요. 어느 동화가 보고 싶어요?")
+      }
+      template ("카테고리는 총 #{size}개가 있어요. 보고 싶은 동화를 선택 해주세요!") {
+        speech ("카테고리는 총 #{size}개가 있어요. 보고 싶은 동화를 선택 해주세요!")
+      }
+    }
+  }
+}
+
+
+// etc
+template-macro-def (GoToYoutube) {
+  content {
+    template ("유튜브에서 보기")
+  }
+}

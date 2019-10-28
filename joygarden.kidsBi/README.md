@@ -18,9 +18,11 @@
 | 뮤지컬 | Musical |
 | 공주 | Princess |
 | 과학 | Science |
-| 그림자 | Shadow |
+| 그림자 | 그림자 동화 |
 | 전래 | Traditional |
+| 인기있는 | Popular |
 
 
 ### history
 - 0.1.0: 키즈비 시작
+- 0.1.2: GetVideo action 추가
