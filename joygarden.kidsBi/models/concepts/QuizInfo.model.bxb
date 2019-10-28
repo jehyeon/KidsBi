@@ -1,0 +1,23 @@
+structure (QuizInfo) {
+  description (Quiz's infos)
+  property (question) {
+    type (QuizQuestion)
+    min (Required) max (One)
+  }
+  property (image) {
+    type (viv.image.Image)
+    min (Required) max (One)
+  }
+  property (options) {
+    type (QuizOption)
+    min (Required) max (Many)
+  }
+  property (answer) {
+    type (QuizAnswer)
+    min (Required) max (One)
+  }
+  property (quizCategory) {
+    type (QuizCategory)
+    min (Required) max (One)
+  }
+}
