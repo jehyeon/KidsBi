@@ -1,23 +1,19 @@
 import requests, json
 
-url = 'https://kidsbii.herokuapp.com/api/v1/videos/'
+url = 'http://127.0.0.1:5000/api/quizzes/'
+# url = 'https://kidsbii.herokuapp.com/api/quizzes/'
 headers = {'content-type': 'application/json'}
-param = {
-  "title": "hello",
-  "source": "for test",
-  "categories": "Car, Princess",
-  "videoId": "313DASD",
-  "videoThumbnail": "Testurl",
-  "videoFile": "Testurl",
-  "likeRatio": 80,
-  "viewCount": 15125,
-  "callCount": 0,
-  "funSticker": 0,
-  "notFunSticker": 0,
-  "updateDate": "2019-10-29T09:43:00Z"
-}
 
-res = requests.post(url=url, data=json.dumps(param), headers=headers)
-print(res)
-print(res.json())
+with open('quizzes.json', 'r', encoding='utf8') as datas:
+  datas = json.load(datas)
+  for data in datas:
+    param = {
+      'question': data['question'],
+      'url': data['image']['url'],
+      'options': data['options'],
+      'answer': 0,
+      'category': data['category']
+    }
+    res = requests.post(url=url, data=json.dumps(param), headers=headers)
+    print(res)
 
