@@ -5,6 +5,7 @@ action (StartQuiz) {
     input (category) {
       type (QuizCategory)
       min (Required) max (One)
+      hidden
     }
     input (quizInfos) {
       type (QuizInfo)
