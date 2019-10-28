@@ -1,0 +1,13 @@
+dialog (Value) {
+  match: QuizCategory (quizCategory)
+
+  if(quizCategory == 'Korean'){
+    template ("한글")
+  }
+  else-if(quizCategory == 'English'){
+    template ("영어")
+  }
+  else-if(quizCategory == 'Math'){
+    template ("수학")
+  }
+}

@@ -8,13 +8,22 @@ confirmation-view {
   }
   message {
     template ("#{value(action.quizProgress.quizInfos[action.quizProgress.index].question)}")
-    // else {
-    //   template ("맞춰보세요") // 임시
-    // }
   }
   render {
     layout {
-      section {
+      section { 
+        title {
+          if (action.quizProgress.index==0){ template ("문제 : 1 / #{(size(action.quizProgress.quizInfos))}")}
+          else-if (action.quizProgress.index==1) { template ("문제 : 2 / #{(size(action.quizProgress.quizInfos))}")}
+          else-if (action.quizProgress.index==2) { template ("문제 : 3 / #{(size(action.quizProgress.quizInfos))}")}
+          else-if (action.quizProgress.index==3) { template ("문제 : 4 / #{(size(action.quizProgress.quizInfos))}")}
+          else-if (action.quizProgress.index==4) { template ("문제 : 5 / #{(size(action.quizProgress.quizInfos))}")}
+          else-if (action.quizProgress.index==5) { template ("문제 : 6 / #{(size(action.quizProgress.quizInfos))}")}
+          else-if (action.quizProgress.index==6) { template ("문제 : 7 / #{(size(action.quizProgress.quizInfos))}")}
+          else-if (action.quizProgress.index==7) { template ("문제 : 8 / #{(size(action.quizProgress.quizInfos))}")}
+          else-if (action.quizProgress.index==8) { template ("문제 : 9 / #{(size(action.quizProgress.quizInfos))}")}
+          else-if (action.quizProgress.index==9) { template ("문제 : 10 / #{(size(action.quizProgress.quizInfos))}")}
+        }
         content {
           // Question image
           image {

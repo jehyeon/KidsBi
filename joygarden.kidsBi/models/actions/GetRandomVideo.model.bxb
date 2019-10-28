@@ -1,0 +1,5 @@
+action (GetRandomVideo) {
+  description (Action to search folktale by searchTerm or category)
+  type (Search)
+  output (VideoInfo)
+}

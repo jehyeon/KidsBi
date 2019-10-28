@@ -6,6 +6,8 @@
 [g:GetVideo] 동화 보여줘
 [g:GetVideo] (인기 있는)[v:VideoCategory:Popular] 동화 보고 싶어
 [g:GetVideo] (신데렐라)[v:SearchTerm] 동화 보여줘
+
+[g:GetRandomVideo] 아무거나 보여줘
 ```
 
 2. GetCategory
@@ -25,7 +27,7 @@
 ```
 
 ### Video Category
-사용가능한 Category 목록입니다.
+사용가능한 Video Category 목록입니다.
 > `models/concepts/VideoCategory.model.bxb`, `code/lib/category.js`와 동일하게 업데이트 되어야 합니다.
 
 | ko-KR | en-US |
@@ -47,6 +49,10 @@
 | 인기있는 | Popular |
 
 
+### QuizCategory
+사용가능한Quiz Category 목록입니다.
+> `QuizCategorySummary.layout.bxb`, `QuizCategory_Value.dialog.bxb`에 동일하게 업데이트 되어야 합니다.
+
 ### history
 - 0.1.0: 키즈비 시작
 - 0.1.2: GetVideo action 추가
@@ -59,4 +65,5 @@
 - 0.1.9: GetQuiz 추가
 - 0.1.10: StartQuiz 추가
 - 0.1.11: ReTryQuiz 수정 완료
-- 0.1.12: SelectVideoCategory 수정 및 SelectCategoryInfo 추가
+- 0.1.12: GetRandomVideo 추가
+- 0.1.13: SelectVideoCategory 수정 및 SelectCategoryInfo 추가

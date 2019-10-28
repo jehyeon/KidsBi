@@ -5,6 +5,10 @@ endpoints {
       accepted-inputs (searchTerm, category)
       local-endpoint (GetVideo.js)
     }
+    action-endpoint (GetRandomVideo) {
+      accepted-inputs ()
+      local-endpoint (GetRandomVideo.js)
+    }
 
     // GetCategory
     action-endpoint (GetCategory) {
