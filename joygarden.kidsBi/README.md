@@ -52,3 +52,4 @@
 - 0.1.5: StartQuiz, GetQuiz action (temporary) / QuizResult structure 추가
 - 0.1.6: model folder 분리
 - 0.1.7: SolveQuiz action 추가 (temporary)
+- 0.1.8: GetQuiz input-mapper 수정

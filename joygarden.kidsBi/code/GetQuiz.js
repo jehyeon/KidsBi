@@ -1,19 +1,13 @@
 var http = require('http');
-const dummy = require('./datas/dummy.js')
 
 module.exports.function = function getQuiz (category) {
-  // quizInfos = http.postUrl(url, options)
-  // 후처리
-  // return {
+  const url = 'https://kidsbii.herokuapp.com/api/quizzes/';
+  const options = { 
+    format: 'json',
+    headers:{
+     Accept: 'application/json'
+    },
+  };
 
-  // }
-
-  // temporary
-  const datas = dummy.quizInfos.map(quizInfo => {
-    const updated = quizInfo;
-    updated.options = quizInfo.options.split(',')
-    return updated;
-  });
-
-  return datas;
+  return http.getUrl(url, options);
 }

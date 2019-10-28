@@ -1,6 +1,3 @@
-var console = require('console');
-
-module.exports.function = function solveQuiz (quizProgress, userAnswer) {
-  
+module.exports.function = function solveQuiz (quizProgress) {
   return quizProgress;
 }
