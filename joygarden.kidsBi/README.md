@@ -19,6 +19,9 @@
 [g:SolveQuiz] (한글)[v:QuizCategory:Korean]
 [g:SolveQuiz:continue:QuizProgress,r:UpdateProgress] (D)[v:UserAnswer]
 [g:SolveQuiz:continue:QuizProgress,r:ReTryQuiz] 이 문제 다시 풀래
+
+
+[g:GetQuiz] 키즈비에는 어떤 퀴즈가 있어
 ```
 
 ### Category
@@ -53,3 +56,4 @@
 - 0.1.6: model folder 분리
 - 0.1.7: SolveQuiz action 추가 (temporary)
 - 0.1.8: GetQuiz input-mapper 수정
+- 0.1.9: GetQuiz 추가
