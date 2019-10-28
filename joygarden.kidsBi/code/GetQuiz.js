@@ -1,5 +1,5 @@
 var http = require('http');
-const dummy = require('./lib/dummy.js')
+const dummy = require('./datas/dummy.js')
 
 module.exports.function = function getQuiz (category) {
   // quizInfos = http.postUrl(url, options)

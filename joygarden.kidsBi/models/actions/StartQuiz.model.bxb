@@ -18,6 +18,19 @@ action (StartQuiz) {
       }
     }
 
+    computed-input (quizProgress) {
+      type (QuizProgress)
+      min (Required) max (One)
+      compute {
+        intent {
+          goal: SolveQuiz
+          value: QuizProgress {
+            value: QuizInfo$expr(quizInfos)
+          }
+        }
+      }
+    }
+
   }
   output (QuizResult)
 }

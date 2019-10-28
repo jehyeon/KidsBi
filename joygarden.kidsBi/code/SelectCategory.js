@@ -1,6 +1,6 @@
 var console = require('console');
+const categories = require('./datas/category');
 
-const categories = require('./lib/category');
 module.exports.function = function selectCategory (categoryInfos, filterTerm, $vivContext) {
   // if (categoryInfos && categoryInfos.length === 1) {
   //   return categoryInfos.videoCategory;

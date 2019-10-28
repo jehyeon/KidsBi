@@ -22,8 +22,14 @@ endpoints {
       local-endpoint (GetQuiz.js)
     }
     action-endpoint (StartQuiz) {
-      accepted-inputs (quizInfos)
+      accepted-inputs (quizInfos quizProgress)
       local-endpoint (StartQuiz.js)
+    }
+
+    // etc
+    action-endpoint (EmptyResult) {
+      accepted-inputs (quizProgress)
+      local-endpoint (EmptyResult.js)
     }
   }
 }

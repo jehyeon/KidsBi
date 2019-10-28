@@ -1,0 +1,12 @@
+structure (QuizProgress) {
+  description (Quiz progress status)
+  property (quizInfos) {
+    type (QuizInfo)
+    min (Required) max (Many)
+  }
+  property (result) {
+    type (viv.core.Boolean)
+    min (Required) max (Many)
+    lazy-source (EmptyResult)
+  }
+}
