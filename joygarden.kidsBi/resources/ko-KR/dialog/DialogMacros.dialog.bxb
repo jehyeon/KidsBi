@@ -29,7 +29,7 @@ template-macro-def (GetVideo_Result_SearchTerm) {
   }
   content {
     choose (Random) {
-      template ("#{value(searchTerm)}(으)로 검색한 동화 #{size}개가 있어요")
+      template ("#{value(searchTerm)}(으)로 검색한 동화 #{size}개가 있어요.")
     }
   }
 }
@@ -46,7 +46,7 @@ template-macro-def (GetVideo_Result_Category) {
   }
   content {
     choose (Random) {
-      template ("#{value(category)}로 검색한 동화 #{size}개가 있어요")
+      template ("#{value(category)}(으)로 검색한 동화 #{size}개가 있어요.")
       template ("#{value(category)} 동화를 #{size}개 찾았어요!")
     }
   }
@@ -80,11 +80,11 @@ template-macro-def (GetCategory_Result) {
   content {
     choose (Random) {
       // &nbsp; <br /> \n
-      template ("카테고리는 총 #{size}개가 있어요. 어느 동화가 보고 싶어요?") {
-        speech ("카테고리는 총 #{size}개가 있어요. 어느 동화가 보고 싶어요?")
+      template ("카테고리가 총 #{size}개 있어요. 어느 동화가 보고 싶어요?") {
+        speech ("카테고리가 총 #{size}개 있어요. 어느 동화가 보고 싶어요?")
       }
-      template ("카테고리는 총 #{size}개가 있어요. 보고 싶은 동화를 선택 해주세요!") {
-        speech ("카테고리는 총 #{size}개가 있어요. 보고 싶은 동화를 선택 해주세요!")
+      template ("카테고리가 총 #{size}개 있어요. 보고 싶은 동화를 선택 해주세요!") {
+        speech ("카테고리가 총 #{size}개 있어요. 보고 싶은 동화를 선택 해주세요!")
       }
     }
   }
