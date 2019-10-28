@@ -22,7 +22,7 @@ layout {
 									text {
 										style (Title_S)
 										value ("#{value(quizCategory)}")
-									}g
+									}
 								}
 							}
 						}
