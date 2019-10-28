@@ -1,102 +1,162 @@
 // GetVideo
 template-macro-def (GetVideo_SelectCategory) {
-  content {
-    choose (Random) {
-      template ("어느 동화가 보고 싶어요?")
-      template ("보고 싶은 동화를 선택 해주세요!")
-    }
-  }
+	content {
+		choose (Random) {
+			template ("어떤 동화를 찾아드릴까요? 보고 싶은 동화를 선택해주세요.")
+			template ("보고 싶은 동화를 선택해주세요!")
+		}
+	}
 }
 
 template-macro-def (GetVideo_Progress) {
-  content {
-    choose (Random) {
-      template ("동화를 찾고 있어요")
-    }
-  }
+	content {
+		choose (Random) {
+			template ("동화를 찾는 중이예요")
+		}
+	}
 }
 
 template-macro-def (GetVideo_Result_SearchTerm) {
-  params {
-    param (searchTerm) {
-      type (SearchTerm)
-      min (Required) max (One)
-    }
-    param (size) {
-      type (viv.core.Integer)
-      min (Required) max (One)
-    }
-  }
-  content {
-    choose (Random) {
-      template ("#{value(searchTerm)}(으)로 검색한 동화 #{size}개가 있어요.")
-    }
-  }
+	params {
+		param (searchTerm) {
+			type (SearchTerm)
+			min (Required) max (One)
+		}
+		param (size) {
+			type (viv.core.Integer)
+			min (Required) max (One)
+		}
+	}
+	content {
+		choose (Random) {
+			template ("#{value(searchTerm)}(으)로 검색한 동화 #{size}개가 있어요")
+		}
+	}
 }
+
 template-macro-def (GetVideo_Result_Category) {
-  params {
-    param (category) {
-      type (VideoCategory)
-      min (Required) max (One)
-    }
-    param (size) {
-      type (viv.core.Integer)
-      min (Required) max (One)
-    }
-  }
-  content {
-    choose (Random) {
-      template ("#{value(category)}(으)로 검색한 동화 #{size}개가 있어요.")
-      template ("#{value(category)} 동화를 #{size}개 찾았어요!")
-    }
-  }
+	params {
+		param (category) {
+			type (VideoCategory)
+			min (Required) max (One)
+		}
+		param (size) {
+			type (viv.core.Integer)
+			min (Required) max (One)
+		}
+	}
+	content {
+		choose (Random) {
+			template ("#{value(category)}(으)로 검색한 동화 #{size}개를 찾았어요.")
+			template ("#{value(category)}와 관련된 동화 #{size}개를 찾았어요!")
+		}
+	}
 }
 
 template-macro-def (GetVideo_Result_One) {
-  content {
-    choose (Random) {
-      template ("여기 있어요!")
-    }
-  }
+	content {
+		choose (Random) {
+			template ("여기 있어요!")
+		}
+	}
 }
 
 template-macro-def (GetVideo_Result_Zero) {
-  content {
-    choose (Random) {
-      template ("키즈비에는 없는 동화에요.")
-      template ("키즈비가 동화를 못 찾았어요.")
-    }
-  }
+	content {
+		choose (Random) {
+			template ("키즈비에 아직 준비되지 않은 동화예요. 더 많은 동화를 준비할 수 있도록 노력할게요.")
+			template ("해당 동화를 찾지 못했어요. 더 많은 동화를 준비할 수 있도록 노력할게요.")
+		}
+	}
 }
 
 // GetCategory
 template-macro-def (GetCategory_Result) {
-  params {
-    param (size) {
-      type (viv.core.Integer)
-      min (Required) max (One)
-    }
-  }
-  content {
-    choose (Random) {
-      template ("카테고리가 총 #{size}개 있어요. 어느 동화가 보고 싶어요?")
-      template ("카테고리가 총 #{size}개 있어요. 보고 싶은 동화를 선택 해주세요!")
-    }
-  }
+	params {
+		param (size) {
+			type (viv.core.Integer)
+			min (Required) max (One)
+		}
+	}
+	content {
+		choose (Random) {
+			// &nbsp; <br /> \n
+			template ("카테고리는 총 #{size}개가 있어요. 이 중에 어떤 동화를 보여드릴까요?") {
+				speech ("카테고리는 총 #{size}개가 있어요. 이 중에 어떤 동화를 보여드릴까요?")
+			}
+			template ("준비된 카테고리는 총 #{size}개가 있어요. 보고 싶은 동화를 선택 해주세요!") {
+				speech ("준비된 카테고리는 총 #{size}개가 있어요. 보고 싶은 동화를 선택 해주세요!")
+			}
+		}
+	}
 }
 
 // GetQuiz
 template-macro-def (GetQuiz_SelectQuizCategory) {
-  content {
-    choose (Random) {
-      template ("퀴즈 카테고리를 선택해주세요")
-    }
-  }
+	content {
+		choose (Random) {
+			template ("어느 퀴즈를 풀어 볼까요?")
+		}
+	}
+}
+
+template-macro-def (GetQuiz_Category_Result) {
+	params {
+		param (size) {
+			type (viv.core.Integer)
+			min (Required) max (One)
+		}
+	}
+	content {
+		choose (Random) {
+			// &nbsp; <br /> \n
+			template ("카테고리로 검색한 문제 #{size}개를 찾았어요.") {
+				speech ("카테고리로 검색한 문제 #{size}개를 찾았어요.")
+			}
+			template ("카테고리 문제가  #{size}개 있네요.") {
+				speech ("카테고리 문제가  #{size}개 있네요.")
+			}
+		}
+	}
+}
+
+template-macro-def (GetQuiz_Result_Zero) {
+	content {
+		choose (Random) {
+			template ("키즈비에는 문제가 없어요.")
+		}
+	}
+}
+
+template-macro-def (GetQuiz_Result_One) {
+	content {
+		choose (Random) {
+			template ("여기 있어요!")
+		}
+	}
+}
+
+template-macro-def (GetQuiz_Result_Multi) {
+	params {
+		param (size) {
+			type (viv.core.Integer)
+			min (Required) max (One)
+		}
+		param (category) {
+			type (viv.core.Text)
+			min (Optional) max (One)
+		}
+	}
+	content {
+		choose (Random) {
+			template ("[#{category}(으)로 검색한 ]문제 #{size}개를 찾았어요.")
+		}
+	}
 }
 
 // etc
 template-macro-def (GoToYoutube) {
-  content {
-    template ("유튜브에서 보기")
-  }
+	content {
+		template ("YouTube에서 보기")
+	}
 }

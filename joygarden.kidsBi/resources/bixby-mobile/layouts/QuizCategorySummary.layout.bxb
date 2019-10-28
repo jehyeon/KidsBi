@@ -1,29 +1,71 @@
 layout {
-  match: QuizCategory (quizCategory)
-  mode (Summary)
-
-  content {
-    section {
-      content {
-        image-card {
-          image-url ()
-          aspect-ratio (3:4)
-          column-size (3)
-          image-object-fit (Cover)
-          image-object-position (Center)
-          image-background-color (Transparent)
-          title-area {
-            slot2 {
-              single-line {
-                text {
-                  style (Title_S)
-                  value ("#{value(quizCategory)}")
-                }
-              }
-            }                
-          }
-        }
-      }
-    }
-  }
+	match: QuizCategory (quizCategory)
+	mode (Summary)
+	
+	content {
+		section {
+			content {
+				if (quizCategory=='Korean'){
+					image-card {
+						image-url (images/Korean.jpg)
+						aspect-ratio (3:4)
+						column-size (3)
+						image-object-fit (Cover)
+						image-object-position (Center)
+						image-background-color (Transparent)
+						title-area {
+							slot2 {
+								single-line {
+									text {
+										style (Title_S)
+										value ("#{value(quizCategory)}")
+									}
+								}
+							}
+						}
+					}
+				}
+				else-if (quizCategory=='English'){
+					image-card {
+						image-url (images/English.jpg)
+						aspect-ratio (3:4)
+						column-size (3)
+						image-object-fit (Cover)
+						image-object-position (Center)
+						image-background-color (Transparent)
+						title-area {
+							slot2 {
+								single-line {
+									text {
+										style (Title_S)
+										value ("#{value(quizCategory)}")
+									}
+								}
+							}
+						}
+					}
+				}
+				else-if (quizCategory=='Math'){
+					image-card {
+						image-url (images/Math.jpg)
+						aspect-ratio (3:4)
+						column-size (3)
+						image-object-fit (Cover)
+						image-object-position (Center)
+						image-background-color (Transparent)
+						title-area {
+							slot2 {
+								single-line {
+									text {
+										style (Title_S)
+										value ("#{value(quizCategory)}")
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }
