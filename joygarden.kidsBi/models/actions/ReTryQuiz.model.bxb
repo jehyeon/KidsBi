@@ -1,6 +1,6 @@
 action (ReTryQuiz) {
   type (UpdateTransaction)
-  description (__DESCRIPTION__)
+  description (Solve wrong problems again)
   collect {
     input (quizProgress) {
       type (QuizProgress)

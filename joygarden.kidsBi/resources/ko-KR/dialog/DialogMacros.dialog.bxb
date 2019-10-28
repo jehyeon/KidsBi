@@ -89,7 +89,7 @@ template-macro-def (GetCategory_Result) {
 template-macro-def (GetQuiz_SelectQuizCategory) {
   content {
     choose (Random) {
-      template ("어떤 문제 목록을 보고 싶어요?")
+      template ("퀴즈 카테고리를 선택해주세요")
     }
   }
 }

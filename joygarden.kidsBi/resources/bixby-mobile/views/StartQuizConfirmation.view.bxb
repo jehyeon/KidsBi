@@ -1,6 +1,6 @@
 confirmation-view {
   match: SolveQuizAnswer {
-    confirming: SolveQuiz (action)
+    confirming: StartQuiz (action)
   }
   mode (Transactional)
   confirm-options {

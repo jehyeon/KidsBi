@@ -25,10 +25,6 @@ endpoints {
       accepted-inputs (quizProgress)
       local-endpoint (StartQuiz.js)
     }
-    action-endpoint (SolveQuiz) {
-      accepted-inputs (quizProgress)
-      local-endpoint (SolveQuiz.js)
-    }
     action-endpoint (UpdateProgress) {
       accepted-inputs (quizProgress, answer)
       local-endpoint (UpdateProgress.js)

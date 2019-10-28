@@ -8,7 +8,7 @@ action (InitQuizProgress) {
       default-init {
         intent {
           goal: GetQuiz
-          value: QuizCategory(Korean)
+          // value: Category (in GetQuiz.model)
         }
       }
     }
