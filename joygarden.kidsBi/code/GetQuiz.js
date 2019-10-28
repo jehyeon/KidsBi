@@ -9,5 +9,11 @@ module.exports.function = function getQuiz (category) {
   // }
 
   // temporary
-  return dummy.quizInfos;
+  const datas = dummy.quizInfos.map(quizInfo => {
+    const updated = quizInfo;
+    updated.options = quizInfo.options.split(',')
+    return updated;
+  });
+
+  return datas;
 }
