@@ -21,5 +21,9 @@ endpoints {
       accepted-inputs (category)
       local-endpoint (GetQuiz.js)
     }
+    action-endpoint (StartQuiz) {
+      accepted-inputs (quizInfos)
+      local-endpoint (StartQuiz.js)
+    }
   }
 }

@@ -16,7 +16,7 @@ structure (QuizInfo) {
     type (QuizAnswer)
     min (Required) max (One)
   }
-  property (quizCategory) {
+  property (category) {
     type (QuizCategory)
     min (Required) max (One)
   }
