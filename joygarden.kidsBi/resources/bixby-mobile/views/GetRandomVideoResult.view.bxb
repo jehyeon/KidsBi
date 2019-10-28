@@ -1,0 +1,18 @@
+result-view {
+	match: VideoInfo (videoInfos) {
+		from-output: GetRandomVideo (action)
+	}
+	
+	message {
+		template-macro (GetRandomVideo_Result)
+	}
+	render {
+		list-of (videoInfos) {
+			where-each (videoInfo) {
+				layout-match (videoInfo) {
+					mode (Summary)
+				}
+			}
+		}
+	}
+}
