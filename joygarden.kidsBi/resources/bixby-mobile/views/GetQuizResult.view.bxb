@@ -1,0 +1,36 @@
+result-view {
+	match: QuizInfo (quizInfos) {
+		from-output: GetQuiz (action)
+	}
+	
+	message {
+		if (size(quizInfos) == 0) {
+			template-macro (GetQuiz_Result_Zero)
+		} else-if (size(quizInfos) == 1) {
+			template-macro (GetQuiz_Result_One)
+		} else {
+			template-macro (GetQuiz_Result_Multi){
+				param (size) {
+					expression (size(quizInfos))
+				}
+        param (category) {
+          expression (quizInfos.category)
+        }
+			}
+		}
+	}
+	
+	render {
+		if (size(quizInfos) > 0) {
+			list-of (quizInfos) {
+				where-each (quizInfo) {
+					layout-match (quizInfo) {
+						mode (Summary)
+					}
+				}
+			}
+		}else {
+			nothing
+		}
+	}
+}

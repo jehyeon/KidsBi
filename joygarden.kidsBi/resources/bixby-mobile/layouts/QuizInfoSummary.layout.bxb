@@ -1,0 +1,26 @@
+layout {
+  match: QuizInfo (quizInfo)
+  mode (Summary)
+
+  content {
+    section {
+      content {
+        cell-card{
+          slot1{
+            image{
+              url("#{value(quizInfo.url)}")
+              shape (Square)
+            }
+          }
+          slot2{
+            content{
+              order (PrimarySecondary)
+              primary("#{value(quizInfo.question)}")
+              secondary("#{value(quizInfo.answer)}")
+            }
+          }
+        }
+      }
+    }
+  }
+}
