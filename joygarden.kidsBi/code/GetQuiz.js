@@ -9,5 +9,9 @@ module.exports.function = function getQuiz (category) {
     },
   };
 
-  return http.getUrl(url, options);
+  const parameter = category
+    ? '?category=' + category
+    : '';
+
+  return http.getUrl(url + parameter, options);
 }
