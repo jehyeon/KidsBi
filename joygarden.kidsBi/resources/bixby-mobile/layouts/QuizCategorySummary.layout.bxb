@@ -1,0 +1,29 @@
+layout {
+  match: QuizCategory (quizCategory)
+  mode (Summary)
+
+  content {
+    section {
+      content {
+        image-card {
+          image-url ()
+          aspect-ratio (3:4)
+          column-size (3)
+          image-object-fit (Cover)
+          image-object-position (Center)
+          image-background-color (Transparent)
+          title-area {
+            slot2 {
+              single-line {
+                text {
+                  style (Title_S)
+                  value ("#{value(quizCategory)}")
+                }
+              }
+            }                
+          }
+        }
+      }
+    }
+  }
+}

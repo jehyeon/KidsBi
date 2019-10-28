@@ -37,6 +37,10 @@ endpoints {
       accepted-inputs (quizProgress)
       local-endpoint (ReTryQuiz.js)
     }
+    action-endpoint (GetQuizCategory) {
+      accepted-inputs ()
+      local-endpoint (GetQuizCategory.js)
+    }
 
     // etc
     action-endpoint (EmptyResult) {

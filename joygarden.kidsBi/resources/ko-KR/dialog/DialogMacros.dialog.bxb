@@ -90,6 +90,14 @@ template-macro-def (GetCategory_Result) {
   }
 }
 
+// GetQuiz
+template-macro-def (GetQuiz_SelectQuizCategory) {
+  content {
+    choose (Random) {
+      template ("어느 퀴즈를 풀어 볼까요?")
+    }
+  }
+}
 
 // etc
 template-macro-def (GoToYoutube) {

@@ -1,0 +1,6 @@
+action (GetQuizCategory) {
+  type (Calculation)
+  description (Select quiz category)
+  collect {}
+  output (QuizCategory)
+}

@@ -5,6 +5,12 @@ action (GetQuiz) {
     input (category) {
       type (QuizCategory)
       min (Required) max (One)
+      
+      default-init {
+        intent {
+          goal: GetQuizCategory
+        }
+      }
     }
   }
   output (QuizInfo)
