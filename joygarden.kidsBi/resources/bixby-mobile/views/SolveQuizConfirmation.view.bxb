@@ -1,0 +1,47 @@
+confirmation-view {
+  match: SolveQuizAnswer {
+    confirming: SolveQuiz (action)
+  }
+  mode (Transactional)
+  confirm-options {
+    label ("그만 하기") // 임시
+  }
+  message {
+    template ("#{value(action.quizProgress.quizInfos[action.quizProgress.index].question)}")
+    // else {
+    //   template ("맞춰보세요") // 임시
+    // }
+  }
+  render {
+    layout {
+      section {
+        content {
+          // Question image
+          image {
+            url ("#{value(action.quizProgress.quizInfos[action.quizProgress.index].image.url)}")
+            aspect-ratio (1:1)
+            lightbox-enabled (false)
+          }
+
+          // User selection
+          for-each (action.quizProgress.quizInfos[action.quizProgress.index].options) {
+            as (option) {
+              cell-card {
+                slot2 {
+                  content {
+                    primary {
+                      template ("#{value(option)}")
+                    }
+                  }
+                }
+                on-click {
+
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
