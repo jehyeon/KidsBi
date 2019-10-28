@@ -15,6 +15,10 @@
 
 3. StartQuiz
 ```
+:: temporary
+[g:SolveQuiz] (한글)[v:QuizCategory:Korean]
+[g:SolveQuiz:continue:QuizProgress,r:UpdateProgress] (D)[v:UserAnswer]
+[g:SolveQuiz:continue:QuizProgress,r:ReTryQuiz] 이 문제 다시 풀래
 ```
 
 ### Category
