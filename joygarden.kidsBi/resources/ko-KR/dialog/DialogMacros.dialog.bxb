@@ -97,11 +97,64 @@ template-macro-def (GetQuiz_SelectQuizCategory) {
       template ("어느 퀴즈를 풀어 볼까요?")
     }
   }
+
+template-macro-def (GetQuiz_Category_Result) {
+	params {
+		param (size) {
+			type (viv.core.Integer)
+			min (Required) max (One)
+		}
+	}
+	content {
+		choose (Random) {
+			// &nbsp; <br /> \n
+			template ("카테고리로 검색한 문제 #{size}개를 찾았어요.") {
+				speech ("카테고리로 검색한 문제 #{size}개를 찾았어요.")
+			}
+			template ("카테고리 문제가  #{size}개 있네요.") {
+				speech ("카테고리 문제가  #{size}개 있네요.")
+			}
+		}
+	}
+}
+
+template-macro-def (GetQuiz_Result_Zero) {
+	content {
+		choose (Random) {
+			template ("키즈비에는 문제가 없어요.")
+		}
+	}
+}
+
+template-macro-def (GetQuiz_Result_One) {
+	content {
+		choose (Random) {
+			template ("여기 있어요!")
+		}
+	}
+}
+
+template-macro-def (GetQuiz_Result_Multi) {
+	params {
+		param (size) {
+			type (viv.core.Integer)
+			min (Required) max (One)
+		}
+		param (category) {
+			type (viv.core.Text)
+			min (Optional) max (One)
+		}
+	}
+	content {
+		choose (Random) {
+			template ("[#{category}(으)로 검색한 ]문제 #{size}개를 찾았어요.")
+		}
+	}
 }
 
 // etc
 template-macro-def (GoToYoutube) {
-  content {
-    template ("유튜브에서 보기")
-  }
+	content {
+		template ("유튜브에서 보기")
+	}
 }
