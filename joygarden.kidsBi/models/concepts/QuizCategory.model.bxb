@@ -1,4 +1,4 @@
 enum (QuizCategory) {
-  description (__DESCRIPTION__)
-  symbol (__SYMBOL__)
+  description (Quiz category)
+  symbol (Korean)
 }

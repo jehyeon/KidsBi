@@ -1,0 +1,11 @@
+action (GetQuiz) {
+  type (Search)
+  description (Get quiz list from server)
+  collect {
+    input (category) {
+      type (QuizCategory)
+      min (Required) max (One)
+    }
+  }
+  output (QuizInfo)
+}

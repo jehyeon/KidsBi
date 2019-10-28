@@ -45,3 +45,4 @@
 - 0.1.2: GetVideo action 추가
 - 0.1.3: GetCategory action 추가 및 view 업데이트
 - 0.1.4: QuizInfo structure 추가
+- 0.1.5: StartQuiz, GetQuiz action (temporary) / QuizResult structure 추가

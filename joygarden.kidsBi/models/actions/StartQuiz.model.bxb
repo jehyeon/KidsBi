@@ -1,0 +1,22 @@
+action (StartQuiz) {
+  type (Calculation)
+  description (Quiz action)
+  collect {
+    input (category) {
+      type (QuizCategory)
+      min (Required) max (One)
+    }
+    input (quizInfos) {
+      type (QuizInfo)
+      min (Required) max (Many)
+      default-init {
+        intent {
+          goal: GetQuiz
+          value: QuizCategory$expr(category)
+        }
+      }
+    }
+
+  }
+  output (QuizResult)
+}

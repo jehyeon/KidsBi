@@ -1,0 +1,3 @@
+integer (QuizCount) {
+  description (Quiz count)
+}
