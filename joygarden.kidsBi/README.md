@@ -6,6 +6,8 @@
 [g:GetVideo] 동화 보여줘
 [g:GetVideo] (인기 있는)[v:VideoCategory:Popular] 동화 보고 싶어
 [g:GetVideo] (신데렐라)[v:SearchTerm] 동화 보여줘
+
+[g:GetRandomVideo] 아무거나 보여줘
 ```
 
 2. GetCategory
@@ -58,3 +60,5 @@
 - 0.1.8: GetQuiz input-mapper 수정
 - 0.1.9: GetQuiz 추가
 - 0.1.10: StartQuiz 추가
+- 0.1.11: ReTryQuiz 수정 완료
+- 0.1.12: GetRandomVideo 추가
