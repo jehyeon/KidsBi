@@ -125,8 +125,8 @@ template-macro-def (GetQuiz_Category_Result) {
 			template ("카테고리로 검색한 문제 #{size}개를 찾았어요.") {
 				speech ("카테고리로 검색한 문제 #{size}개를 찾았어요.")
 			}
-			template ("카테고리 문제가  #{size}개 있네요.") {
-				speech ("카테고리 문제가  #{size}개 있네요.")
+			template ("해당 카테고리 문제가  #{size}개 있네요.") {
+				speech ("해당 카테고리 문제가  #{size}개 있네요.")
 			}
 		}
 	}
