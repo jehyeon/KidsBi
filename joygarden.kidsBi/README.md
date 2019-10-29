@@ -98,3 +98,4 @@ exports.list = {
 - 0.1.14: SelectCategoryInfo 추가
 - 0.1.15: SelectVideoInfo 추가
 - 0.1.16: api 호출 수정 (to config.get())
+- 0.1.17: VideoInfo summary layout 수정
