@@ -10,7 +10,7 @@
 [g:GetRandomVideo] 아무거나 보여줘
 
 select prompt
-[g:SelectVideoInfo:continue:VideoInfo] (라푼젤)[v:FilterTerm]을 보고 싶어
+[g:SelectVideoInfo:continue:VideoInfo] (라푼젤)[v:FilterTerm]을 골라줘
 ```
 
 2. GetCategory
@@ -72,7 +72,7 @@ exports.list = {
 | 뮤지컬 | Musical |
 | 공주 | Princess |
 | 과학 | Science |
-| 그림자 | 그림자 동화 |
+| 그림자 | Shadow |
 | 전래 | Traditional |
 | 인기있는 | Popular |
 
