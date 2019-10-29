@@ -19,7 +19,8 @@ template-macro-def (GetVideo_Progress) {
 template-macro-def (GetCategory_Progress) {
 	content {
 		choose (Random) {
-			template ("동화 카테고리를 찾고 있어요.")
+			template ("동화 목록을 불러오고 있어요.")
+			template ("동화 목록을 찾고 있어요.")
 		}
 	}
 }
