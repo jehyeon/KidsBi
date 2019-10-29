@@ -1,3 +1,3 @@
 module.exports.function = function getQuizCategory () {
-  return ['Korean', 'English', 'Math'];
+  return ['Animal', 'Flower', 'Fruit', 'Math'];
 };

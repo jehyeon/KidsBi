@@ -79,7 +79,10 @@ exports.list = {
 
 ### QuizCategory
 사용가능한 Quiz Category 목록입니다.
-> `layout/QuizCategorySummary.layout.bxb`, `dialog/QuizCategoryValue.dialog.bxb`에 동일하게 업데이트 되어야 합니다.
+> `dialog/QuizCategoryValue.dialog.bxb`, `code/GetQuizCategory.js`, `models/QuizCategory.model.bxb`에 동일하게 업데이트 되어야 합니다.
+
+| ko-KR | en-US |
+| ----- | ----- |
 
 ### history
 - 0.1.0: 키즈비 시작
@@ -99,3 +102,4 @@ exports.list = {
 - 0.1.15: SelectVideoInfo 추가
 - 0.1.16: api 호출 수정 (to config.get())
 - 0.1.17: VideoInfo summary layout 수정
+- 0.1.18: QuizCategory 업데이트
