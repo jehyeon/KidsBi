@@ -3,13 +3,13 @@ confirmation-view {
 		confirming: StartQuiz (action)
 	}
 	mode (Transactional)
-
-  confirm-options {
-    label {
-      template ("퀴즈 그만하기")
-    }
-  }
-
+	
+	confirm-options {
+		label {
+			template-macro (StartQuiz_Stop)
+		}
+	}
+	
 	message {
 		template ("#{value(action.quizProgress.quizInfos[action.quizProgress.index].question)}")
 	}
@@ -43,18 +43,16 @@ confirmation-view {
 									}
 								}
 								on-click {
-                  intent {
-                    goal {
-                      UpdateProgress
-                      @context (Continuation) {
-                        QuizProgress
-                      }
-
-                    }
-                    value-set : UserAnswer { $expr(option) }
-                     value-set : QuizProgress {$expr(action.quizProgress)}
-                    
-                  }
+									intent {
+										goal {
+											StartQuiz
+											@context (Continuation) {
+												QuizProgress
+											}
+										}
+										value-set : UserAnswer { $expr(option) }
+										route : UpdateProgress
+									}
 								}
 							}
 						}
@@ -63,4 +61,3 @@ confirmation-view {
 			}
 		}
 	}
-}

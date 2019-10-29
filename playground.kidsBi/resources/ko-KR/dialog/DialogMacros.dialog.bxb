@@ -156,8 +156,8 @@ template-macro-def (GetQuiz_Category_Result) {
 			template ("카테고리로 검색한 문제 #{size}개를 찾았어요.") {
 				speech ("카테고리로 검색한 문제 #{size}개를 찾았어요.")
 			}
-			template ("해당 카테고리 문제가  #{size}개 있네요.") {
-				speech ("해당 카테고리 문제가  #{size}개 있네요.")
+			template ("해당 카테고리 문제가 #{size}개 있네요.") {
+				speech ("해당 카테고리 문제가 #{size}개 있네요.")
 			}
 		}
 	}
@@ -202,6 +202,22 @@ template-macro-def (StartQuiz_PrgressResut_Message) {
 	content {
 		choose (Random) {
 			template ("모든 문제를 다 풀었어요. 결과를 확인하세요.")
+		}
+	}
+}
+
+template-macro-def (StartQuiz_Cancel) {
+	content {
+		choose (Random) {
+			template ("네, 퀴즈를 취소했어요.")
+		}
+	}
+}
+
+template-macro-def (StartQuiz_Stop){
+	content {
+		choose (Random) {
+			template("퀴즈 그만하기")
 		}
 	}
 }
