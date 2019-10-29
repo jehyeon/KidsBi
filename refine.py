@@ -24,10 +24,10 @@ def main():
       if (len(thumbnail) > 254):
         print('url: ' + str(len(thumbnail)))
 
-      modified[videoId]['like'] = float(modified[videoId]['like'].split('%')[0])
-      if modified[videoId]['like'] > 80:
-        modified[videoId]['categories'].append('Popular')
-      del modified[videoId]['dislike']
+      # modified[videoId]['like'] = float(modified[videoId]['like'].split('%')[0])
+      # if modified[videoId]['like'] > 80:
+      #   modified[videoId]['categories'].append('Popular')
+      # del modified[videoId]['dislike']
 
   # save
   with open('datas.json', 'w', encoding='utf8') as datas:

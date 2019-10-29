@@ -6,7 +6,12 @@ def main():
   headers = {
     'Content-Type': 'application/json'
   }
-
+  # reset
+  # cnt = 0
+  # while (True):
+  #   requests.delete(url + str(cnt))
+  #   cnt += 1
+  
   with open('data.json', 'r', encoding='utf8') as f:
     datas = json.load(f)
 
@@ -15,16 +20,16 @@ def main():
       data = {
         'title': datas[videoId]['title'],
         'videoId': videoId,
-        'source': datas[videoId]['source'],
+        'source': 'pinkpong',
         'videoThumbnail': datas[videoId]['thumbnail'],
         'callCount': 0,
         'likeRatio': int(datas[videoId]['like']),
         'viewCount': datas[videoId]['viewCount'],
-        'categories': ','.join(datas[videoId]['categories']), # temp
+        'categories': ','.join(datas[videoId]['categories']),
         'videoFile': datas[videoId]['url'],
         'funSticker': 0,
         'notFunSticker': 0,
-        'updateDate': '2019-10-28T00:50'
+        'updateDate': '2019-10-30T00:59'
       }
 
       # print()
@@ -33,7 +38,7 @@ def main():
       print(videoId, end=': ')
       print(res)
       # requests.post(url=url, headers=headers, data=data)
-
+    
 if __name__ == '__main__':
   main()
 
