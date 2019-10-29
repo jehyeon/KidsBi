@@ -1,0 +1,15 @@
+action (SelectVideoInfo) {
+  type (Calculation)
+  description (Select videoInfo prompt / [g:VideoInfo:prompt] (Princess)[v:FilterTerm])
+  collect {
+    input (videoInfos) {
+      type (VideoInfo)
+      min (Required) max (Many)
+    }
+    input (filterTerm) {
+      type (FilterTerm)
+      min (Required) max (One)
+    }
+  }
+  output (VideoInfo)
+}
