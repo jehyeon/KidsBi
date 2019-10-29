@@ -25,4 +25,8 @@ structure (QuizInfo) {
     type (QuizCategory)
     min (Required) max (One)
   }
+  property (answerResult){
+    type (AnswerResult)
+    min (Optional) max (One)
+  }
 }
