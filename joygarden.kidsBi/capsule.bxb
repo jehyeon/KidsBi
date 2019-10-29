@@ -1,6 +1,5 @@
 capsule {
-  // id (joygarden.kidsBi)
-  id (playground.kidsBi)
+  id (joygarden.kidsBi)
   version (0.1.15)
   format (3)
   targets {
