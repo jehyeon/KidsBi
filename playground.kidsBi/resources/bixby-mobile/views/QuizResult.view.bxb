@@ -1,0 +1,12 @@
+result-view {
+  match: QuizResult
+
+  // QuizReult result-view는 StartQuiz confirm true인 경우에 매칭
+  message {
+    template ("네 취소할게요")
+  }
+
+  render {
+    nothing
+  }
+}
