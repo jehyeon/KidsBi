@@ -26,9 +26,10 @@ confirmation-view {
         }
         content {
           // Question image
+
           image {
             url ("#{value(action.quizProgress.quizInfos[action.quizProgress.index].url)}")
-            aspect-ratio (1:1)
+            aspect-ratio (16:9)
             lightbox-enabled (false)
           }
 
