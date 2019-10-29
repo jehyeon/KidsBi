@@ -28,7 +28,30 @@
 
 ### Video Category
 사용가능한 Video Category 목록입니다.
-> `models/concepts/VideoCategory.model.bxb`, `code/lib/category.js`와 동일하게 업데이트 되어야 합니다.
+`models/concepts/VideoCategory.model.bxb`, `code/datas/category.js`와 동일하게 업데이트 되어야 합니다.
+
+CategoryInfo prompt에서 사용된 variation은 `code/datas/category.js`에 추가해주세요.
+```
+ex.
+[g:CategoryInfo:prompt] (자기 전)[v:FilterTerm]에 보기 좋은 동화 선택해
+
+in code/datas/category.js
+exports.list = {
+  Aesop: {
+    'ko-KR': [
+      '이솝',
+      '우화',
+      '이솝우화'
+    ],
+  },
+  Bed: {
+    'ko-KR': [
+      '침대',
+      '잠자리',
+      '자기전'    // <- 이렇게 추가 (공백 무관)
+    ],
+  },
+```
 
 | ko-KR | en-US |
 |-------|-------|
@@ -50,7 +73,7 @@
 
 
 ### QuizCategory
-사용가능한Quiz Category 목록입니다.
+사용가능한 Quiz Category 목록입니다.
 > `QuizCategorySummary.layout.bxb`, `QuizCategory_Value.dialog.bxb`에 동일하게 업데이트 되어야 합니다.
 
 ### history
@@ -67,3 +90,4 @@
 - 0.1.11: ReTryQuiz 수정 완료
 - 0.1.12: GetRandomVideo 추가
 - 0.1.13: SelectVideoCategory 수정 및 SelectCategoryInfo 추가
+- 0.1.14: SelectCategoryInfo 추가

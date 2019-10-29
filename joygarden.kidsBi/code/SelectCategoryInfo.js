@@ -1,4 +1,3 @@
-var console = require('console');
 const category = require('./datas/category.js');
 
 module.exports.function = function selectCategoryInfo (categoryInfos, filterTerm, $vivContext) {
@@ -13,11 +12,11 @@ module.exports.function = function selectCategoryInfo (categoryInfos, filterTerm
     if (typeof(item) != null) {
       return item;
     }
-  });
+  })[0];
 
+  // Yes matching
   if (filteredCategory) {
-    console.log(categoryInfos.find(category => category.videoCategory === filteredCategory[0]))
-    return categoryInfos.find(category => category.videoCategory === filteredCategory[0]);
+    return categoryInfos.find(category => category.videoCategory.valueOf() === filteredCategory);
   }
 
   // No matching
