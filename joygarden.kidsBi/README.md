@@ -28,7 +28,7 @@
 
 ### Video Category
 사용가능한 Video Category 목록입니다.
-`models/concepts/VideoCategory.model.bxb`, `code/datas/category.js`와 동일하게 업데이트 되어야 합니다.
+> `models/concepts/VideoCategory.model.bxb`, `code/datas/category.js`와 동일하게 업데이트 되어야 합니다.
 
 CategoryInfo prompt에서 사용된 variation은 `code/datas/category.js`에 추가해주세요.
 ```
