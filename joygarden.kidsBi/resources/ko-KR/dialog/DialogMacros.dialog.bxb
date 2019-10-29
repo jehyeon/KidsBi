@@ -19,7 +19,8 @@ template-macro-def (GetVideo_Progress) {
 template-macro-def (GetCategory_Progress) {
 	content {
 		choose (Random) {
-			template ("동화 카테고리를 찾고 있어요.")
+			template ("동화 목록을 불러오고 있어요.")
+			template ("동화 목록을 찾고 있어요.")
 		}
 	}
 }
@@ -86,6 +87,36 @@ template-macro-def (GetRandomVideo_Result) {
 		}
 	}
 }
+
+template-macro-def (SelectVideoInfo_Result) {
+	params {
+		param (filterTerm) {
+			type (FilterTerm)
+			min (Required) max (One)
+		}
+	}
+	content {
+		choose (Random) {
+			template ("#{value(filterTerm)}로 검색한 동화에요.")
+		}
+	}	
+}
+
+template-macro-def (SelectVideoInfo_No_Result) {
+	params {
+		param (filterTerm) {
+			type (FilterTerm)
+			min (Required) max (One)
+		}
+	}
+
+	content {
+		choose (Random) {
+			template ("#{value(filterTerm)}로 검색한 동화가 없네요. 다시 말해주세요.")
+		}
+	}
+}
+
 // GetCategory
 template-macro-def (GetCategory_Result) {
 	params {

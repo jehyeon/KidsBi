@@ -9,6 +9,10 @@ endpoints {
       accepted-inputs ()
       local-endpoint (GetRandomVideo.js)
     }
+    action-endpoint (SelectVideoInfo) {
+      accepted-inputs (videoInfos, filterTerm)
+      local-endpoint (SelectVideoInfo.js)
+    }
 
     // GetCategory
     action-endpoint (GetCategory) {

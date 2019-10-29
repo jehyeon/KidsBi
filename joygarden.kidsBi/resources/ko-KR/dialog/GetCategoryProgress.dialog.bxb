@@ -1,0 +1,4 @@
+dialog (Progress) {
+  match: GetCategory
+  template-macro (GetCategory_Progress)
+}

@@ -8,11 +8,17 @@
 [g:GetVideo] (신데렐라)[v:SearchTerm] 동화 보여줘
 
 [g:GetRandomVideo] 아무거나 보여줘
+
+select prompt
+[g:SelectVideoInfo:continue:VideoInfo] (라푼젤)[v:FilterTerm]을 골라줘
 ```
 
 2. GetCategory
 ```
 [g:GetCategory] 동화 카테고리가 뭐가 있어
+
+select prompt
+[g:CategoryInfo:prompt] (침대)[v:FilterTerm]    // variation은 `code/datas/category.js`에 정의
 ```
 
 3. StartQuiz
@@ -28,7 +34,29 @@
 
 ### Video Category
 사용가능한 Video Category 목록입니다.
-> `models/concepts/VideoCategory.model.bxb`, `code/lib/category.js`와 동일하게 업데이트 되어야 합니다.
+> `models/concepts/VideoCategory.model.bxb`, `code/datas/category.js`, `dialog/QuizCategoryValue.dialog.bxb`와 동일하게 업데이트 되어야 합니다.
+
+```
+ex.
+[g:CategoryInfo:prompt] (자기 전)[v:FilterTerm]에 보기 좋은 동화 선택해
+
+in code/datas/category.js
+exports.list = {
+  Aesop: {
+    'ko-KR': [
+      '이솝',
+      '우화',
+      '이솝우화'
+    ],
+  },
+  Bed: {
+    'ko-KR': [
+      '침대',
+      '잠자리',
+      '자기전'    // <- 이렇게 추가 (공백 무관)
+    ],
+  },
+```
 
 | ko-KR | en-US |
 |-------|-------|
@@ -44,14 +72,14 @@
 | 뮤지컬 | Musical |
 | 공주 | Princess |
 | 과학 | Science |
-| 그림자 | 그림자 동화 |
+| 그림자 | Shadow |
 | 전래 | Traditional |
 | 인기있는 | Popular |
 
 
 ### QuizCategory
-사용가능한Quiz Category 목록입니다.
-> `QuizCategorySummary.layout.bxb`, `QuizCategory_Value.dialog.bxb`에 동일하게 업데이트 되어야 합니다.
+사용가능한 Quiz Category 목록입니다.
+> `layout/QuizCategorySummary.layout.bxb`, `dialog/QuizCategoryValue.dialog.bxb`에 동일하게 업데이트 되어야 합니다.
 
 ### history
 - 0.1.0: 키즈비 시작
@@ -67,3 +95,5 @@
 - 0.1.11: ReTryQuiz 수정 완료
 - 0.1.12: GetRandomVideo 추가
 - 0.1.13: SelectVideoCategory 수정 및 SelectCategoryInfo 추가
+- 0.1.14: SelectCategoryInfo 추가
+- 0.1.15: SelectVideoInfo 추가
