@@ -1,15 +1,19 @@
 var console = require('console');
 var fail = require('fail');
 
-module.exports.function = function updateProgress (quizProgress, answer) {
-  const answers = ['A', 'B', 'C', 'D'];
+module.exports.function = function updateProgress(quizProgress, answer) {
 
-  if (quizProgress.quizInfos[quizProgress.index].answer === answers.indexOf(answer.valueOf())) {
+  const answers = ['A', 'B', 'C', 'D'];
+  // var new_answer = answer.replaceAll("(^\\p{Z}+|\\p{Z}+$)", "");
+  var answer = String(answer).slice(0, 1);
+  console.log(answer);
+ 
+ 
+  if (quizProgress.quizInfos[quizProgress.index].answer === answers.indexOf(answer.valueOf().toUpperCase())) {
     quizProgress.result[quizProgress.index] = 'true';
     quizProgress.quizInfos[quizProgress.index].answerResult = 'true';
 
   }
-
   for (var i = 0; i < answers.length; i++) {
     //console.log(String(quizProgress.quizInfos[quizProgress.index].options[i]).slice(3));
     if (String(quizProgress.quizInfos[quizProgress.index].options[i]).slice(3) == answer) {
@@ -24,12 +28,14 @@ module.exports.function = function updateProgress (quizProgress, answer) {
     //console.log(quizProgress.result[quizProgress.index])
   }
 
+
+
   if (quizProgress.quizInfos.length === quizProgress.index + 1) {
     // throw fail.checkedError('Done quiz', 'Done');
     quizProgress.done = true;
     return quizProgress;
   }
-  
+
   quizProgress.index += 1;
   return quizProgress;
 }

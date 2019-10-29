@@ -1,0 +1,17 @@
+input-view {
+  match: QuizCategory (quizCategories)
+
+  message {
+    template-macro (GetQuiz_SelectQuizCategory)
+  }
+
+  render {
+    selection-of (quizCategories) {
+      where-each (quizCategory) {
+        layout-match (quizCategory) {
+          mode (Summary)
+        }
+      }
+    }
+  }
+}

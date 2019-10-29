@@ -1,0 +1,65 @@
+confirmation-view {
+	match: SolveQuizAnswer {
+		confirming: StartQuiz (action)
+	}
+	mode (NegativeEmphasis)
+  abort-options{
+    label {
+      template ("ㅅㄷㅅ")
+    }
+  }
+
+	message {
+		template ("#{value(action.quizProgress.quizInfos[action.quizProgress.index].question)}")
+	}
+	render {
+		layout {
+			layout-macro (quizCountInformation){
+				param(quizProgress){
+					expression (action.quizProgress)
+				}
+			}
+			section {
+				content {
+					// Question image
+					image {
+						url ("#{value(action.quizProgress.quizInfos[action.quizProgress.index].url)}")
+						aspect-ratio (16:9)
+						lightbox-enabled (false)
+						object-position (Center)
+						object-fit (Contain)
+					}
+					
+					// User selection
+					for-each (action.quizProgress.quizInfos[action.quizProgress.index].options) {
+						as (option) {
+							cell-card {
+								slot2 {
+									content {
+										primary {
+											template ("#{value(option)}")
+										}
+									}
+								}
+								on-click {
+                  intent {
+                    goal {
+                      UpdateProgress
+                      @context (Continuation) {
+                        QuizProgress
+                      }
+
+                    }
+                    value-set : UserAnswer { $expr(option) }
+                     value-set : QuizProgress {$expr(action.quizProgress)}
+                    
+                  }
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
