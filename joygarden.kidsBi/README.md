@@ -67,7 +67,7 @@ exports.list = {
 | 뮤지컬 | Musical |
 | 공주 | Princess |
 | 과학 | Science |
-| 그림자 | 그림자 동화 |
+| 그림자 | Shadow |
 | 전래 | Traditional |
 | 인기있는 | Popular |
 
