@@ -205,6 +205,14 @@ template-macro-def (StartQuiz_PrgressResut_Message) {
 		}
 	}
 }
+
+template-macro-def (StartQuiz_Stop){
+	content {
+		choose (Random) {
+			template("퀴즈 그만하기")
+		}
+	}
+}
 // etc
 template-macro-def (GoToYoutube) {
 	content {

@@ -5,7 +5,7 @@ confirmation-view {
   mode (Transactional)
   confirm-options {
     label{
-			template-macro (startQuiz_Stop)
+			template-macro (StartQuiz_Stop)
 		}
   }
   message {
