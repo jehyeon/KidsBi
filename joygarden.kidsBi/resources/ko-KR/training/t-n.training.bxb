@@ -1,0 +1,10 @@
+train (t-nad2toajm8ehjfqb7pbc78lyk) {
+  utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (세번째) [v:Ordinal:Third]")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)
+  last-modified (1572452476848)
+}
+train (t-nqp00zspd5kjljfm0q8s32dn7) {
+  utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (튤립)[v:UserAnswer]")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)
+  last-modified (1572452125609)
+}

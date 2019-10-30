@@ -1,0 +1,10 @@
+train (t-0hvbicnqto87xj7499qc7wpu6) {
+  utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (라벤더)[v:UserAnswer]")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)
+  last-modified (1572452167327)
+}
+train (t-0iybu7ou9mb2zmbtiun9rilsp) {
+  utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (두번째) [v:Ordinal:Second]")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)
+  last-modified (1572452479650)
+}
