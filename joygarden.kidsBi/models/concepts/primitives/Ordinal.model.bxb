@@ -1,0 +1,8 @@
+enum (Ordinal) {
+  description (Ordinal number concept to support ordinal selection with SelectMessage action)
+  symbol (First)
+  symbol (Second)
+  symbol (Third)  
+  symbol (Fourth)  
+  symbol (Fifth)  
+}
