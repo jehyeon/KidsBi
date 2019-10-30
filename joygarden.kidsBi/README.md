@@ -7,7 +7,7 @@
 [g:GetVideo] (인기 있는)[v:VideoCategory:Popular] 동화 보고 싶어
 [g:GetVideo] (신데렐라)[v:SearchTerm] 동화 보여줘
 
-[g:GetRandomVideo] 아무거나 보여줘
+[g:GetRandomVideo] 키즈비가 추천해줘
 
 select prompt
 [g:SelectVideoInfo:continue:VideoInfo] (라푼젤)[v:FilterTerm]을 골라줘
@@ -107,5 +107,8 @@ exports.list = {
 - 0.1.20: VideoDetail view (source) 수정
 - 0.1.21: VodeoCategory.ImageUrl 교체
 - 0.1.22: UpdateProgress Logic 및 intent 활성화
+- 0.1.23: StartQuiz Stop the Quiz CD 추가 
 - 0.1.23: StartQuiz Stop the Quiz CD 추가
 - 0.1.24: UpdatedProgress Ordinal 추가 
+- 0.1.25: Category summary view 수정 (title 삭제)
+- 0.1.26: OpenVideoInYoutube action 추가
