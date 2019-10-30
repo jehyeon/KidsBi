@@ -1,5 +1,5 @@
 template-macro-def (GetVideo_Random) {
-  content: template ("아무거나 보여줘")
+  content: template ("키즈비가 추천해줘")
 }
 
 template-macro-def (GetVideo_Random_PlayError) {
