@@ -1,11 +1,17 @@
 var console = require('console');
 var fail = require('fail');
 
-module.exports.function = function updateProgress(quizProgress, answer) {
+module.exports.function = function updateProgress(quizProgress, answer, ordinal) {
 
-  // if(ordinal){
-  //   console.log("teeeeest")
-  // }
+  if(ordinal){
+    switch (ordinal.toString()) {
+      case 'First':   answer = quizProgress.quizInfos[quizProgress.index].options[0];  break;
+      case 'Second':  answer = quizProgress.quizInfos[quizProgress.index].options[1];  break;
+      case 'Third':   answer = quizProgress.quizInfos[quizProgress.index].options[2];  break;
+      case 'Fourth':  answer = quizProgress.quizInfos[quizProgress.index].options[3];  break;
+      default: answer = quizProgress.quizInfos[quizProgress.index].options[0]; break;
+    }
+  }
   const answers = ['A', 'B', 'C', 'D'];
   var answer= answer.replace(/ /gi, '');
   //A,B,C,D or a,b,c,d 일 경우

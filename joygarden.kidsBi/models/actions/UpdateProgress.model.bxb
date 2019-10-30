@@ -6,9 +6,18 @@ action (UpdateProgress) {
       type (QuizProgress)
       min (Required) max (One)
     }
-    input (answer) {
-      type (UserAnswer)
-      min (Required) max (One)
+    input-group (inputKeyword){
+      requires (OneOrMoreOf)
+      collect{
+        input (ordinal) {
+          type (Ordinal)
+          min (Optional) max (One)
+        }
+        input (answer) {
+          type (UserAnswer)
+          min (Optional) max (One)
+        }
+      }
     }
   }
   output (QuizProgress) {
