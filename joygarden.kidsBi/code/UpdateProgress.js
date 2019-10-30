@@ -2,33 +2,39 @@ var console = require('console');
 var fail = require('fail');
 
 module.exports.function = function updateProgress(quizProgress, answer, ordinal) {
-
   if(ordinal){
     switch (ordinal.toString()) {
-      case 'First':   answer = quizProgress.quizInfos[quizProgress.index].options[0];  break;
-      case 'Second':  answer = quizProgress.quizInfos[quizProgress.index].options[1];  break;
-      case 'Third':   answer = quizProgress.quizInfos[quizProgress.index].options[2];  break;
-      case 'Fourth':  answer = quizProgress.quizInfos[quizProgress.index].options[3];  break;
-      default: answer = quizProgress.quizInfos[quizProgress.index].options[0]; break;
+      case 'First':   ordinal_answer = 0;  break;
+      case 'Second':  ordinal_answer = 1;  break;
+      case 'Third':   ordinal_answer = 2;  break;
+      case 'Fourth':  ordinal_answer = 3;  break;
+      default: ordinal_answer = -1; break;
+    }
+    //console.log(quizProgress.quizInfos[quizProgress.index].answer);
+    //console.log(ordinal_answer)
+    if (quizProgress.quizInfos[quizProgress.index].answer === ordinal_answer) {
+      quizProgress.result[quizProgress.index] = 'true';
+      quizProgress.quizInfos[quizProgress.index].answerResult = 'true';
     }
   }
-  const answers = ['A', 'B', 'C', 'D'];
-  var answer= answer.replace(/ /gi, '');
-  for (var i = 0; i < answers.length; i++) {
-    //console.log(String(quizProgress.quizInfos[quizProgress.index].options[i]).slice(2));
-    if (String(quizProgress.quizInfos[quizProgress.index].options[i]) == answer) {
-      //입력받은 답과 옵션에서의 답이 같으면 그 옵션의 첫번째 값(A,B,C,D)을 answer_name에 저장
-        quizProgress.result[quizProgress.index] = 'true';
-        quizProgress.quizInfos[quizProgress.index].answerResult = 'true';
-        console.log(quizProgress.quizInfos[quizProgress.index].options[i]);
-        console.log(answer);
-      }
-    else if (String(quizProgress.quizInfos[quizProgress.index].options[i]).indexOf(answer) !=-1) {
-        quizProgress.result[quizProgress.index] = 'true';
-        quizProgress.quizInfos[quizProgress.index].answerResult = 'true';
-        console.log(quizProgress.quizInfos[quizProgress.index].options[i]);
-        console.log(answer);
+  else{
+    var input_answer = answer.replace(/ /gi, '');
+    // if (quizProgress.quizInfos[quizProgress.index].answer === answers.indexOf(answer.valueOf().toUpperCase())) {
+    // quizProgress.result[quizProgress.index] = 'true';
+    // quizProgress.quizInfos[quizProgress.index].answerResult = 'true';
+    if (String(quizProgress.quizInfos[quizProgress.index].options[quizProgress.quizInfos[quizProgress.index].answer]) == input_answer) {
+      //exact Matching
+      quizProgress.result[quizProgress.index] = 'true';
+      quizProgress.quizInfos[quizProgress.index].answerResult = 'true';
     }
+    else if (String(quizProgress.quizInfos[quizProgress.index].options[quizProgress.quizInfos[quizProgress.index].answer]).indexOf(input_answer) !=-1) {
+      //partial Matching
+      quizProgress.result[quizProgress.index] = 'true';
+      quizProgress.quizInfos[quizProgress.index].answerResult = 'true';
+      //console.log(quizProgress.quizInfos[quizProgress.index].options[i]);
+      //console.log(answer);
+      }
+
   }
   if (quizProgress.quizInfos.length === quizProgress.index + 1) {
     // throw fail.checkedError('Done quiz', 'Done');
