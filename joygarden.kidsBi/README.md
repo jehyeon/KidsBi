@@ -107,5 +107,7 @@ exports.list = {
 - 0.1.20: VideoDetail view (source) 수정
 - 0.1.21: VodeoCategory.ImageUrl 교체
 - 0.1.22: UpdateProgress Logic 및 intent 활성화
+- 0.1.23: StartQuiz Stop the Quiz CD 추가 
 - 0.1.23: StartQuiz Stop the Quiz CD 추가
 - 0.1.24: UpdatedProgress Ordinal 추가 
+- 0.1.25: Category summary view 수정 (title 삭제)
