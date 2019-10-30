@@ -1,58 +1,87 @@
 result-view {
-	match: VideoInfo (videoInfos) {
-		from-output: GetVideo (action)
-	}
-	
-	message {
-		if (size(videoInfos) == 0) {
-			template-macro (GetVideo_Result_Zero)
-		} else-if (size(videoInfos) == 1) {
-			template-macro (GetVideo_Result_One)
-		} else {
-			if (exists(action.searchTerm)) {
-				template-macro (GetVideo_Result_SearchTerm) {
-					param (searchTerm) {
-						expression (action.searchTerm)
-					}
-					param (size) {
-						expression (size(videoInfos))
-					}
-				}
-			} else-if (exists(action.category)) {
-				template-macro (GetVideo_Result_Category) {
-					param (category) {
-						expression (action.category)
-					}
-					param (size) {
-						expression (size(videoInfos))
-					}
-				}
-			}
-		}
-	}
-	
-	render {
-		if (size(videoInfos) > 1) {
-			list-of (videoInfos) {
-				where-each (videoInfo) {
-					layout-match (videoInfo) {
-						mode (Summary)
-					}
-				}
-			}
-		} else-if (size(videoInfos) == 1) {
-			layout-match (videoInfos) {
-				mode (Details)
-			}
-		} else {
-			nothing
-		}
-	}
-	conversation-drivers {
-		if (size(videoInfos) == 1){
-			conversation-driver {
-				template-macro (OpenVideo_Youtube)
-			}
-		}
-	}
+  match: VideoInfo (videoInfos) {
+    from-output: GetVideo (action)
+  }
+
+  message {
+    if (size(videoInfos) == 0) {
+      template-macro (GetVideo_Result_Zero)
+    } else-if (size(videoInfos) == 1) {
+      template-macro (GetVideo_Result_One)
+    } else {
+      if (exists(action.searchTerm)) {
+        template-macro (GetVideo_Result_SearchTerm) {
+          param (searchTerm) {
+            expression (action.searchTerm)
+          }
+          param (size) {
+            expression (size(videoInfos))
+          }
+        }
+      } else-if (exists(action.category)) {
+        template-macro (GetVideo_Result_Category) {
+          param (category) {
+            expression (action.category)
+          }
+          param (size) {
+            expression (size(videoInfos))
+          }
+        }
+      }
+    }
+  }
+
+  render {
+    if (size(videoInfos) > 1) {
+      list-of (videoInfos) {
+        navigation-mode {
+          if ($handsFree) {
+            read-many-and-next {
+              page-size (5)
+              list-summary {
+                if (exists(action.searchTerm)) {
+                  template-macro (GetVideo_Result_SearchTerm) {
+                    param (searchTerm) {
+                      expression (action.searchTerm)
+                    }
+                    param (size) {
+                      expression (size(videoInfos))
+                    }
+                  }
+                } else-if (exists(action.category)) {
+                  template-macro (GetVideo_Result_Category) {
+                    param (category) {
+                      expression (action.category)
+                    }
+                    param (size) {
+                      expression (size(videoInfos))
+                    }
+                  }
+                }
+              }
+              page-content (page) {
+                underflow-statement {template-macro (List_Navigate_Underflow)}
+                overflow-statement { template-macro (List_Navigate_Overflow)}
+                next-page-question { template-macro (List_Navigate_question)}
+              }
+            }
+          }
+        }
+        where-each (videoInfo) {
+          spoken-summary {
+            template ("#{value(videoInfo)}")
+          }
+          layout-match (videoInfo) {
+            mode (Summary)
+          }
+        }
+      }
+    } else-if (size(videoInfos) == 1) {
+      layout-match (videoInfos) {
+        mode (Details)
+      }
+    } else {
+      nothing
+    }
+  }
 }

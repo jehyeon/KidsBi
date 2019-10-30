@@ -7,27 +7,36 @@ result-view {
 		template-macro (GetRandomVideo_Result)
 	}
 	render {
-		if (size(videoInfos) > 1) {
-			list-of (videoInfos) {
-				where-each (videoInfo) {
-					layout-match (videoInfo) {
-						mode (Summary)
-					}
-				}
-			}
-		} else-if (size(videoInfos) == 1) {
-			layout-match (videoInfos) {
-				mode (Details)
-			}
-		} else {
-			nothing
-		}
-	}
-	conversation-drivers {
-		if (size(videoInfos) == 1){
-			conversation-driver {
-				template-macro (OpenVideo_Youtube)
-			}
-		}
-	}
+    if (size(videoInfos) > 1) {
+      list-of (videoInfos) {
+        navigation-mode {
+          if ($handsFree) {
+            read-many-and-next {
+              page-size (5)
+              list-summary {template-macro (GetRandomVideo_Result)}
+              page-content (page) {
+                underflow-statement {template-macro (List_Navigate_Underflow)}
+                overflow-statement {template-macro (List_Navigate_Overflow)}
+                next-page-question {template-macro (List_Navigate_question)}
+              }
+            }
+          }
+        }
+        where-each (videoInfo) {
+          spoken-summary {
+            template ("#{value(videoInfo)}")
+          }
+          layout-match (videoInfo) {
+            mode (Summary)
+          }
+        }
+      }
+    } else-if (size(videoInfos) == 1) {
+      layout-match (videoInfos) {
+        mode (Details)
+      }
+    } else {
+      nothing
+    }
+  }
 }

@@ -23,7 +23,7 @@ result-view {
 									content{
 										order (PrimarySecondary)
 										primary("문제 : #{value(quizInfo.question)}")
-                    secondary("답 : #{value(quizInfo.answer)}")
+                    secondary("답 : #{value(quizInfo.options[quizInfo.answer])}")
 									}
 								}
 								slot3 {

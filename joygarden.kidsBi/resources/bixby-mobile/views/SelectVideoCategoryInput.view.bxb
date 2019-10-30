@@ -8,10 +8,39 @@ input-view {
 	}
 	
 	render {
-		selection-of (categoryInfos) {
-			where-each (categoryInfo) {
-				layout-match (categoryInfo) {
-					mode (Summary)
+		if ($handsFree) {
+			selection-of (categoryInfos) {
+				navigation-mode {
+					read-many {
+						page-size (4) 
+						page-content (page) {
+							item-selection-question {template-macro (List_Navigate_item_Question)}
+							underflow-statement {template-macro (List_Navigate_Underflow)}
+							overflow-statement {template-macro (List_Navigate_Overflow)}
+							overflow-question {template-macro (List_Navigate_overflow_Question)}
+						}
+						list-summary {
+							template-macro (GetVideo_SelectCategory)
+						}
+					}
+				}
+				where-each (categoryInfo) {
+					spoken-summary {
+						template ("#{value(categoryInfo.videoCategory)}")
+					}
+					layout-match (categoryInfo) {
+						mode (Summary)
+					}
+				}
+			}			
+
+		}
+		else {
+			selection-of (categoryInfos) {
+				where-each (categoryInfo) {
+					layout-match (categoryInfo) {
+						mode (Summary)
+					}
 				}
 			}
 		}
