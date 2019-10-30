@@ -1,0 +1,11 @@
+result-view {
+	match: viv.core.Text (uri) {
+		to-input: OpenVideoInYoutube
+	}
+	
+	message("Youtube로 연결해드릴게요.")
+	
+	app-launch {
+		payload-uri("#{value(uri)}")
+	}
+}

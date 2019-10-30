@@ -1,0 +1,11 @@
+action (OpenVideoInYoutube) {
+  type (Search)
+  description (Get quiz list from server)
+  collect {
+    input (videoInfo) {
+      type (VideoInfo)
+      min (Required) max (Many)
+    }
+  }
+  output (viv.core.Text)
+}

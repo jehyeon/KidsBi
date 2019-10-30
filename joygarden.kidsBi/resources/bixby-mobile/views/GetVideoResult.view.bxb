@@ -1,51 +1,58 @@
 result-view {
-  match: VideoInfo (videoInfos) {
-    from-output: GetVideo (action)
-  }
-
-  message {
-    if (size(videoInfos) == 0) {
-      template-macro (GetVideo_Result_Zero)
-    } else-if (size(videoInfos) == 1) {
-      template-macro (GetVideo_Result_One)
-    } else {
-      if (exists(action.searchTerm)) {
-        template-macro (GetVideo_Result_SearchTerm) {
-          param (searchTerm) {
-            expression (action.searchTerm)
-          }
-          param (size) {
-            expression (size(videoInfos))
-          }
-        }
-      } else-if (exists(action.category)) {
-        template-macro (GetVideo_Result_Category) {
-          param (category) {
-            expression (action.category)
-          }
-          param (size) {
-            expression (size(videoInfos))
-          }
-        }
-      }
-    }
-  }
-
-  render {
-    if (size(videoInfos) > 1) {
-      list-of (videoInfos) {
-        where-each (videoInfo) {
-          layout-match (videoInfo) {
-            mode (Summary)
-          }
-        }
-      }
-    } else-if (size(videoInfos) == 1) {
-      layout-match (videoInfos) {
-        mode (Details)
-      }
-    } else {
-      nothing
-    }
-  }
+	match: VideoInfo (videoInfos) {
+		from-output: GetVideo (action)
+	}
+	
+	message {
+		if (size(videoInfos) == 0) {
+			template-macro (GetVideo_Result_Zero)
+		} else-if (size(videoInfos) == 1) {
+			template-macro (GetVideo_Result_One)
+		} else {
+			if (exists(action.searchTerm)) {
+				template-macro (GetVideo_Result_SearchTerm) {
+					param (searchTerm) {
+						expression (action.searchTerm)
+					}
+					param (size) {
+						expression (size(videoInfos))
+					}
+				}
+			} else-if (exists(action.category)) {
+				template-macro (GetVideo_Result_Category) {
+					param (category) {
+						expression (action.category)
+					}
+					param (size) {
+						expression (size(videoInfos))
+					}
+				}
+			}
+		}
+	}
+	
+	render {
+		if (size(videoInfos) > 1) {
+			list-of (videoInfos) {
+				where-each (videoInfo) {
+					layout-match (videoInfo) {
+						mode (Summary)
+					}
+				}
+			}
+		} else-if (size(videoInfos) == 1) {
+			layout-match (videoInfos) {
+				mode (Details)
+			}
+		} else {
+			nothing
+		}
+	}
+	conversation-drivers {
+		if (size(videoInfos) == 1){
+			conversation-driver {
+				template ("동영상 재생이 안 돼요")
+			}
+		}
+	}
 }
