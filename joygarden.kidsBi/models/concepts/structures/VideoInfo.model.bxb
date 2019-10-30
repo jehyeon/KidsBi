@@ -65,4 +65,10 @@ structure (VideoInfo) {
     type (VideoUpdateDate)
     min (Optional) max (One)
   }
+
+  property (videoUrl) {
+    type (VideoUrl)
+    min (Optional) max (One)
+    lazy-source (GetVideoUrl)
+  }
 }

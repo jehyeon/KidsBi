@@ -1,0 +1,6 @@
+structure (VideoUrl) {
+  description (video's url)
+  property (url) {
+    type (viv.core.Url)
+  }
+}

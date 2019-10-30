@@ -5,9 +5,14 @@ layout {
 	content {
 		section {
 			content {
-				
 				video {
-					url ("#{value(videoInfo.videoFile)}")
+					url {
+						if (exists(videoInfo.videoUrl) && exists(videoInfo.videoUrl.url)) {
+							template ("#{value(videoInfo.videoUrl.url)}")
+						} else {
+							template ("#{value(videoInfo.videoFile)}")
+						}
+					}
 					poster ("#{value(videoInfo.videoThumbnail)}")
 				}
 				cell-card {

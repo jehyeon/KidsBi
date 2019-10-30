@@ -112,3 +112,4 @@ exports.list = {
 - 0.1.24: UpdatedProgress Ordinal 추가 
 - 0.1.25: Category summary view 수정 (title 삭제)
 - 0.1.26: OpenVideoInYoutube action 추가
+- 0.1.27: GetVideoUrl 추가
