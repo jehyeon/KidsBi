@@ -10,8 +10,8 @@ module.exports.function = function updateProgress(quizProgress, answer) {
   var answer= answer.replace(/ /gi, '');
   //A,B,C,D or a,b,c,d 일 경우
   if (answer.length <= 1) {
-    console.log(quizProgress.quizInfos[quizProgress.index].answer);
-    console.log(answers.indexOf(answer.valueOf().toUpperCase()));
+    //console.log(quizProgress.quizInfos[quizProgress.index].answer);
+    //console.log(answers.indexOf(answer.valueOf().toUpperCase()));
     if (quizProgress.quizInfos[quizProgress.index].answer === answers.indexOf(answer.valueOf().toUpperCase())) {
       quizProgress.result[quizProgress.index] = 'true';
       quizProgress.quizInfos[quizProgress.index].answerResult = 'true';
@@ -24,7 +24,7 @@ module.exports.function = function updateProgress(quizProgress, answer) {
       if (String(quizProgress.quizInfos[quizProgress.index].options[i]).slice(2) == answer) {
         //입력받은 답과 옵션에서의 답이 같으면 그 옵션의 첫번째 값(A,B,C,D)을 answer_name에 저장
         var answer_name = String(quizProgress.quizInfos[quizProgress.index].options[i]).slice(0, 1);
-        console.log(answer_name);
+        //console.log(answer_name);
       }
     }
     //answer)name의 값과 quizInfos[quizProgress.index]의 값이 같은지 확인 
@@ -42,7 +42,7 @@ module.exports.function = function updateProgress(quizProgress, answer) {
       if (String(quizProgress.quizInfos[quizProgress.index].options[i]).slice(0,1) == answer) {
         //입력받은 답과 옵션에서의 답이 같으면 그 옵션의 첫번째 값(A,B,C,D)을 answer_name에 저장
         var answer_name = String(quizProgress.quizInfos[quizProgress.index].options[i]).slice(0, 1);
-        console.log(answer_name);
+        //console.log(answer_name);
       }
     }
     if (answers[quizProgress.quizInfos[quizProgress.index].answer] === answer_name) {
