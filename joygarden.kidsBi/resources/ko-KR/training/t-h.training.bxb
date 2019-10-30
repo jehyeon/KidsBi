@@ -1,3 +1,8 @@
+train (t-hh6thy1evfsk4hxwkd4hs791s) {
+  utterance ("[g:StartQuiz] (수학)[v:QuizCategory:Math] 맞추기 할래")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1572453243560)
+}
 train (t-hu2g1otzyfivoa6jtoke2mv23) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (네번째) [v:Ordinal:Fourth]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)

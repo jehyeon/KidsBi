@@ -3,6 +3,16 @@ train (t-j4y4nd7sen5rqous43hhi6vwz) {
   plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
   last-modified (1572397569106)
 }
+train (t-ji6ibn0k6winhiug717484qj2) {
+  utterance ("[g:SolveQuizAnswer:prompt] (퀴즈 정답)[v:SolveQuizAnswer:false]")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572454286659)
+}
+train (t-jm4pa7cxnxyjn4u2pr24ogmkj) {
+  utterance ("[g:StartQuiz] (과일)[v:QuizCategory:Fruit] 맞추기 할래")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1572453245576)
+}
 train (t-jsvq9zje419djo6wcifjxxfi6) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (첫번째) [v:Ordinal:First]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)

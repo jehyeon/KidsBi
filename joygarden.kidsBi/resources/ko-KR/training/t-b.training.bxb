@@ -1,0 +1,5 @@
+train (t-blp4tzjgka7cpwq5vqckke522) {
+  utterance ("[g:StartQuiz] (동물)[v:QuizCategory:Animal] 퀴즈 보여줘")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1572453266679)
+}
