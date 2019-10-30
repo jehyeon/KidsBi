@@ -9,12 +9,18 @@ confirmation-view {
 		}
   }
   message {
-    //template ("#{value(action.quizProgress.quizInfos[action.quizProgress.index].question)}")
+    if($handsFree){
      template-macro(QuizInfo_Handsfree){
        param (quizInfo){
           expression (action.quizProgress.quizInfos[action.quizProgress.index])
        }
+      }
     }
+    else{
+      template ("#{value(action.quizProgress.quizInfos[action.quizProgress.index].question)}")
+    }
+    
+
   }
   render {
     layout {

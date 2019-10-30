@@ -1,11 +1,21 @@
 // GetVideo
 template-macro-def (GetVideo_SelectCategory) {
-	content {
-		choose (Random) {
-			template ("보고 싶은 동화를 선택해주세요.")
-			template ("보고 싶은 동화를 선택해주세요!")
-		}
-	}
+    params {
+        param (size) {
+            type (viv.core.Integer)
+            min (Required) max (One)
+        }
+    }
+    content {
+        choose (Random) {
+            template ("보고 싶은 동화를 선택해주세요.") {
+                speech (" 카테고리는 총 #{size}개가 있어요. 보고 싶은 동화를 선택해주세요.")
+            }
+            template ("보고 싶은 동화를 선택해주세요!"){
+                speech (" 카테고리는 모두 #{size}개가 있어요. 보고 싶은 동화를 선택해주세요.")
+            }
+        }
+    }
 }
 
 template-macro-def (GetVideo_Progress) {
@@ -271,8 +281,10 @@ template-macro-def (QuizInfo_Handsfree) {
 	}
 	content {
 		choose (Random){
-			template ("#{value(quizInfo.question)}") {
+			if(exists(quizInfo.question)){
+				template ("#{value(quizInfo.question)}") {
 				speech ("#{value(quizInfo.question)} 1번 #{value(quizInfo.options[0])} 2번 #{value(quizInfo.options[1])} 3번 #{value(quizInfo.options[2])} 4번 #{value(quizInfo.options[3])}")
+				}	
 			}
 		}
 	}

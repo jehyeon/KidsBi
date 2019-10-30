@@ -1,3 +1,8 @@
+train (t-4nolwhiqkcm1qbetj4i3byiwl) {
+  utterance ("[g:StartQuiz] (꽃)[v:QuizCategory:Flower] 퀴즈 풀래")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1572457335717)
+}
 train (t-4xc9cmr9lhljgai4ov5tqaeb2) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (1번) [v:Ordinal:First]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)

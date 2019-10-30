@@ -3,3 +3,13 @@ train (t-97emjqmpio7vwd3irgbuniunf) {
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)
   last-modified (1572452132307)
 }
+train (t-9dlyainqt055xyxszjywz3esf) {
+  utterance ("[g:StartQuiz] (동물)[v:QuizCategory:Animal] 퀴즈 할래")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1572457355955)
+}
+train (t-9mzj4h7951wp25kmmwhdijnyv) {
+  utterance ("[g:QuizCategory] (꽃)[v:QuizCategory:Flower] 퀴즈")
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
+  last-modified (1572460813510)
+}
