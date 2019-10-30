@@ -1,7 +1,8 @@
 var http = require('http');
+var config = require('config');
 
 module.exports.function = function getVideo(searchTerm, category) {
-  const url = 'https://kidsbii.herokuapp.com/api/videos/'; // It will be moved to propertise
+  const url = 'https://' + config.get('url') + config.get('video');
   const options = {
     format: 'json',
     headers: {

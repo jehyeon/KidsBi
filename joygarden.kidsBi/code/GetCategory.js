@@ -1,8 +1,9 @@
 var console = require('console');
 var http = require('http');
+var config = require('config');
 
 module.exports.function = function getCategory() {
-  const url = 'https://kidsbii.herokuapp.com/api/categories/';
+  const url = 'https://' + config.get('url') + config.get('category');
   const options = { 
     format: 'json',
     headers:{
@@ -13,4 +14,4 @@ module.exports.function = function getCategory() {
   const categoryInfos = http.getUrl(url, options);
 
   return categoryInfos;
-}
+};

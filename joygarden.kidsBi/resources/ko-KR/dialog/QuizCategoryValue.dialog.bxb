@@ -1,13 +1,13 @@
 dialog (Value) {
   match: QuizCategory (quizCategory)
 
-  if(quizCategory == 'Korean'){
-    template ("한글")
-  }
-  else-if(quizCategory == 'English'){
-    template ("영어")
-  }
-  else-if(quizCategory == 'Math'){
-    template ("수학")
+  if (quizCategory == 'Animal') {
+    template ("동물 퀴즈")
+  } else-if (quizCategory == 'Flower') {
+      template ("꽃 퀴즈")
+  } else-if (quizCategory == 'Fruit') {
+      template ("과일 퀴즈")
+  } else-if (quizCategory == 'Math') {
+      template ("수학 퀴즈")
   }
 }

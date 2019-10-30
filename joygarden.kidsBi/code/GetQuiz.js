@@ -1,5 +1,5 @@
 var http = require('http');
-
+var config = require('config');
 function shuffle(arr) {
     var i,
         j,
@@ -15,7 +15,7 @@ function shuffle(arr) {
 
 module.exports.function = function getQuiz (category) {
   const ap = ['A', 'B', 'C', 'D'];
-  const url = 'https://kidsbii.herokuapp.com/api/quizzes/';
+  const url = 'https://' + config.get('url') + config.get('quiz');
   const options = { 
     format: 'json',
     headers:{

@@ -10,6 +10,31 @@ layout {
           url ("#{value(videoInfo.videoFile)}")
           poster ("#{value(videoInfo.videoThumbnail)}")
         }
+        cell-card {
+          slot1 {
+            image {
+              url {
+                if (videoInfo.source == '핑크퐁 유튜브') {
+                  template (images/pinkpong.jpg)
+                }
+                else {
+                  template (images/icon.png)
+                }
+              }
+              shape (Circle)
+            }
+          }
+          slot2 {
+            content {
+              primary {
+                template ("#{value(videoInfo.title)}")
+              }
+              secondary {
+                template ("#{value(videoInfo.categories)}")
+              }
+            }
+          }
+        }
         attribution-link {
           label {
             template-macro (GoToYoutube)

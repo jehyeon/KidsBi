@@ -1,0 +1,7 @@
+template-macro-def (GetVideo_Random) {
+  content: template ("아무거나 보여줘")
+}
+
+template-macro-def (GetVideo_Random_PlayError) {
+  content: template ("동영상 재생이 안 돼요")
+}

@@ -7,12 +7,20 @@ result-view {
 		template-macro (GetRandomVideo_Result)
 	}
 	render {
-		list-of (videoInfos) {
-			where-each (videoInfo) {
-				layout-match (videoInfo) {
-					mode (Summary)
-				}
-			}
-		}
-	}
+    if (size(videoInfos) > 1) {
+      list-of (videoInfos) {
+        where-each (videoInfo) {
+          layout-match (videoInfo) {
+            mode (Summary)
+          }
+        }
+      }
+    } else-if (size(videoInfos) == 1) {
+      layout-match (videoInfos) {
+        mode (Details)
+      }
+    } else {
+      nothing
+    }
+  }
 }

@@ -7,9 +7,7 @@ layout {
 			content {
 					image-card {
 						image-url {
-							if(quizCategory=='Korean') { template ("images/Korean.jpg") }
-							else-if(quizCategory=='English') {template ("images/English.jpg")}
-							else-if(quizCategory=='Math') {template ("images/Math.jpg")}
+							template ("images/#{value(quizCategory)}.jpg")
 						}
 						aspect-ratio (3:4)
 						column-size (3)
