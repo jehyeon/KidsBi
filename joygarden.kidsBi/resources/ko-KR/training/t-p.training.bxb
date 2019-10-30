@@ -1,0 +1,5 @@
+train (t-pcvxygzs0uanuu7avctil7x31) {
+  utterance ([g:GetVideo] 동화 보여주세요)
+  plan (Y2BmkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYWBiYARiBiDJyMAAowE=)
+  last-modified (1572425238138)
+}
