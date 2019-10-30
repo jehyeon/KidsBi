@@ -1,0 +1,4 @@
+dialog (Value) {
+  match: VideoInfo (videoInfo)
+  template ("#{value(videoInfo.source)}의 #{value(videoInfo.title)}")
+}
