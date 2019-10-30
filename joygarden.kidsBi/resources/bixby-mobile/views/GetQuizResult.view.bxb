@@ -14,7 +14,7 @@ result-view {
 					expression (size(quizInfos))
 				}
         param (category) {
-          expression (quizInfos.category)
+          expression (action.category)
         }
 			}
 		}
@@ -23,7 +23,38 @@ result-view {
 	render {
 		if (size(quizInfos) > 0) {
 			list-of (quizInfos) {
+				navigation-mode {
+					if($handsFree) {
+						read-many-and-next {
+							page-size (5) 
+							list-summary {
+								if (size(quizInfos) == 0) {
+									template-macro (GetQuiz_Result_Zero)
+								} else-if (size(quizInfos) == 1) {
+									template-macro (GetQuiz_Result_One)
+								} else {
+									template-macro (GetQuiz_Result_Multi){
+										param (size) {
+											expression (size(quizInfos))
+										}
+										param (category) {
+											expression (action.category)
+										}
+									}
+								}								
+							}
+							page-content (page) {
+                underflow-statement {template-macro (List_Navigate_Underflow)}
+                overflow-statement { template-macro (List_Navigate_Overflow)}
+                next-page-question { template-macro (List_Navigate_question)}								
+							}						
+						}
+					}
+				}
 				where-each (quizInfo) {
+					spoken-summary {
+						template ("#{value(quizInfo)}")
+					}
 					layout-match (quizInfo) {
 						mode (Summary)
 					}

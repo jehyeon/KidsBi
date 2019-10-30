@@ -136,7 +136,7 @@ template-macro-def (List_Navigate_Overflow) {
 template-macro-def (List_Navigate_question) {
 	content {
 		choose (Random) {
-			template ("더 보여줄까요?")
+			template ("더 알려줄까요?")
 		}
 	}
 }
@@ -232,7 +232,7 @@ template-macro-def (GetQuiz_Result_Multi) {
 	}
 	content {
 		choose (Random) {
-			template ("[#{category}(으)로 ]문제 #{size}개를 찾았어요.")
+			template ("[#{category} ]문제 #{size}개를 찾았어요.")
 		}
 	}
 }
@@ -259,6 +259,21 @@ template-macro-def (StartQuiz_Cancel){
 		choose (Random) {
 			template("네, 퀴즈를 그만 할게요.")
 			template("네, 퀴즈를 그만 풀게요.")
+		}
+	}
+}
+
+template-macro-def (QuizInfo_Handsfree) {
+	params{
+		param (quizInfo) {
+			type (QuizInfo)
+		}
+	}
+	content {
+		choose (Random){
+			template ("#{value(quizInfo.question)}") {
+				speech ("#{value(quizInfo.question)} 1번 #{value(quizInfo.options[0])} 2번 #{value(quizInfo.options[1])} 3번 #{value(quizInfo.options[2])} 4번 #{value(quizInfo.options[3])}")
+			}
 		}
 	}
 }
