@@ -3,3 +3,13 @@ train (t-8aq3m09x6bg0qh615mo1kswn0) {
   plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
   last-modified (1572453039222)
 }
+train (t-8tiqvmt5m6v1ku6ohe0u5nsfp) {
+  utterance ("[g:StartQuiz] (꽃)[v:QuizCategory:Flower] 퀴즈 가즈아")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1572457303004)
+}
+train (t-8ucmy5ica47j0tp2wtkmuswsv) {
+  utterance ([g:StartQuiz:continue:QuizProgress,r:ReTryQuiz] 틀린 문제 다시 풀래)
+  plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4GIvWoNSQokpitLIwMDIwMTADaQYoixHMAgEmIM3MwAAA)
+  last-modified (1572456874060)
+}

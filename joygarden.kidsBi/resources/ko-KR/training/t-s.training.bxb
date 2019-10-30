@@ -1,0 +1,5 @@
+train (t-su0510wqighv747hwc65chixg) {
+  utterance ("[g:StartQuiz] (애니멀)[v:QuizCategory:Animal] 퀴즈 시작")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1572456977388)
+}
