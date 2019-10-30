@@ -213,6 +213,15 @@ template-macro-def (StartQuiz_Stop){
 		}
 	}
 }
+
+template-macro-def (StartQuiz_Cancel){
+	content {
+		choose (Random) {
+			template("네, 퀴즈를 그만 할게요.")
+			template("네, 퀴즈를 그만 풀게요.")
+		}
+	}
+}
 // etc
 template-macro-def (GoToYoutube) {
 	content {
