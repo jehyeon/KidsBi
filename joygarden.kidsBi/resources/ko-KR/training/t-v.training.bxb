@@ -1,0 +1,5 @@
+train (t-vpfd208hq8ihy2hgp82314wkv) {
+  utterance ([g:GetCategory] 동화 카테고리 보여줘)
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ5DBkHZPLYGpYGAEQgYoBpIA)
+  last-modified (1572429916990)
+}

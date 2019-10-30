@@ -2,6 +2,6 @@ template-macro-def (GetVideo_Random) {
   content: template ("키즈비가 추천해줘")
 }
 
-template-macro-def (GetVideo_Random_PlayError) {
+template-macro-def (OpenVideo_Youtube) {
   content: template ("동영상 재생이 안 돼요")
 }

@@ -228,3 +228,9 @@ template-macro-def (GoToYoutube) {
 		template ("YouTube에서 보기")
 	}
 }
+
+template-macro-def (OpenVideo_Youtube_Progress) {
+	content {
+		template ("Youtube로 연결해드릴게요.")
+	}
+}

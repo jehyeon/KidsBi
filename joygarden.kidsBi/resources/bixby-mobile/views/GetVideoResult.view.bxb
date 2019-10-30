@@ -51,7 +51,7 @@ result-view {
 	conversation-drivers {
 		if (size(videoInfos) == 1){
 			conversation-driver {
-				template ("동영상 재생이 안 돼요")
+				template-macro (OpenVideo_Youtube)
 			}
 		}
 	}
