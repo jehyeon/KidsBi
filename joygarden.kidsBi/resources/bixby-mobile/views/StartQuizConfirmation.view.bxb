@@ -8,6 +8,11 @@ confirmation-view {
 			template-macro (StartQuiz_Stop)
 		}
   }
+  conversation-drivers{
+    conversation-driver{
+      template-macro (ShowQuizAnswer)
+    }
+  }
   message {
     if($handsFree){
      template-macro(QuizInfo_Handsfree){
