@@ -157,6 +157,13 @@ template-macro-def (List_Navigate_overflow_Question) {
 	}
 }
 
+template-macro-def (ShowQuizAnswer) {
+	content {
+		choose (Random) {
+			template ("정답 알려줘")
+		}
+	}
+}
 // GetCategory
 template-macro-def (GetCategory_Result) {
 	params {
