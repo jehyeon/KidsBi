@@ -10,7 +10,7 @@ layout {
 							template ("images/#{value(quizCategory)}.jpg")
 						}
 						aspect-ratio (3:4)
-						column-size (3)
+						column-size (2)
 						image-object-fit (Cover)
 						image-object-position (Center)
 						image-background-color (Transparent)
