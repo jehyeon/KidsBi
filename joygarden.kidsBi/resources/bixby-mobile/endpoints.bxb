@@ -38,7 +38,7 @@ endpoints {
       local-endpoint (StartQuiz.js)
     }
     action-endpoint (UpdateProgress) {
-      accepted-inputs (quizProgress, answer)
+      accepted-inputs (quizProgress, answer, ordinal)
       local-endpoint (UpdateProgress.js)
     }
     action-endpoint (ReTryQuiz) {

@@ -1,7 +1,7 @@
 var console = require('console');
 var fail = require('fail');
 
-module.exports.function = function updateProgress(quizProgress, answer) {
+module.exports.function = function updateProgress(quizProgress, answer, ordinal) {
 
   // if(ordinal){
   //   console.log("teeeeest")

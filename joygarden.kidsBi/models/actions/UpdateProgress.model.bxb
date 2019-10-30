@@ -16,12 +16,11 @@ action (UpdateProgress) {
 			collect{
 				input (ordinal) {
 					type (Ordinal)
-					 max (One)
-					hidden
+					 min (Optional) max (One)
 				}
 				input (answer) {
 					type (UserAnswer)
-					 max (One)
+					 min (Optional) max (One)
 				}
 			}
 		}
