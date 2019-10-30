@@ -106,3 +106,4 @@ exports.list = {
 - 0.1.19: VideoSummary view 수정 및 VideoSource value dialog 추가
 - 0.1.20: VideoDetail view (source) 수정
 - 0.1.21: VodeoCategory.ImageUrl 교체
+- 0.1.22: UpdateProgress Logic 및 intent 활성화

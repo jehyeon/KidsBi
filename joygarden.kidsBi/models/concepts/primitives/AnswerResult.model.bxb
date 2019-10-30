@@ -1,0 +1,3 @@
+text (AnswerResult) {
+  description (QuizInfo question's answer Result )
+}

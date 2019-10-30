@@ -26,21 +26,20 @@ result-view {
                     secondary("답 : #{value(quizInfo.answer)}")
 									}
 								}
-                // OX 어떻게 할껀지 ~~~~~~~~~
-								// slot3 {
-								// 	if (quizPrgoress.result == true){
-								// 		image {
-								// 			shape (Circle)
-								// 			url(images/English.jpg)
-								// 		}
-								// 	}
-								// 	else{
-								// 		image{
-								// 			shape (Circle)
-								// 			url(images/Math.jpg)
-								// 		}
-								// 	}
-								// }
+								slot3 {
+									if (quizInfo.answerResult == true){
+										image {
+											shape (Circle)
+											url(images/English.jpg)
+										}
+									}
+									else{
+										image{
+											shape (Circle)
+											url(images/Math.jpg)
+										}
+									}
+								}
 							}
 						}
 					}
