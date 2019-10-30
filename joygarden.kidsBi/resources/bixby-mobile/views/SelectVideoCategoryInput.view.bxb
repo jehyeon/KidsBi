@@ -8,10 +8,39 @@ input-view {
 	}
 	
 	render {
-		selection-of (categoryInfos) {
-			where-each (categoryInfo) {
-				layout-match (categoryInfo) {
-					mode (Summary)
+		if ($handsFree) {
+			selection-of (categoryInfos) {
+				navigation-mode {
+					read-many {
+						page-size (4) 
+						page-content (page) {
+							item-selection-question {template ("다른 목록을 더 알려줄까요?")}
+							underflow-statement {template ("이전 목록이 없네요.")}
+							overflow-statement {template ("모두 확인했어요.")}
+							overflow-question {template ("어느 것을 선택할까요?")}
+						}
+						list-summary {
+							template-macro (GetVideo_SelectCategory)
+						}
+					}
+				}
+				where-each (categoryInfo) {
+					spoken-summary {
+						template ("#{value(categoryInfo.videoCategory)}")
+					}
+					layout-match (categoryInfo) {
+						mode (Summary)
+					}
+				}
+			}			
+
+		}
+		else {
+			selection-of (categoryInfos) {
+				where-each (categoryInfo) {
+					layout-match (categoryInfo) {
+						mode (Summary)
+					}
 				}
 			}
 		}

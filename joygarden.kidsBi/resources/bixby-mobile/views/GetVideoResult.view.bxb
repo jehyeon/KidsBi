@@ -67,7 +67,7 @@ result-view {
                   template ("모두 확인했어요.")
                 }
                 next-page-question {
-                  template ("다음 페이지로 넘어갈까요?")
+                  template ("다른 동화를 더 보여줄까요?")
                 }
               }
             }

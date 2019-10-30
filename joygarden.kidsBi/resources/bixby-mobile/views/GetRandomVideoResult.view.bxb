@@ -9,7 +9,32 @@ result-view {
 	render {
     if (size(videoInfos) > 1) {
       list-of (videoInfos) {
+        navigation-mode {
+          if ($handsFree) {
+            read-many-and-next {
+              page-size (5)
+              list-summary {
+                template-macro (GetRandomVideo_Result)
+              }
+              page-content (page) {
+                underflow-statement {
+                  template ("이전 목록이 없네요")
+                }
+                overflow-statement {
+                  template ("모두 확인했어요.")
+                }
+                next-page-question {
+                  template ("다른 동화를 더 보여줄까요?")
+                }
+              }
+
+            }
+          }
+        }
         where-each (videoInfo) {
+          spoken-summary {
+            template ("#{value(videoInfo)}")
+          }
           layout-match (videoInfo) {
             mode (Summary)
           }
