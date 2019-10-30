@@ -1,3 +1,8 @@
+train (t-x0sfgyqx46jo9lq6c3q7chlka) {
+  utterance ([g:OpenVideoInYoutube:continue:VideoInfo] 유튜브에서 볼래)
+  plan (Y2Bm4C3LLNNLzi9K1QtJrShhUM7Kr0xPLEpJzdPLzkwpdsrU8y9IzQvLTEnN98yLzC8tKU1KZZDCUARVkJbPwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572458494235)
+}
 train (t-xrm0wpl6xvjxbr5nbdjlwyx7g) {
   utterance ("[g:StartQuiz] (꽃)[v:QuizCategory:Flower] 맞추기 할래")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)

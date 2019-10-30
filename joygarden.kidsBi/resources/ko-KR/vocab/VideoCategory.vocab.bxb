@@ -11,7 +11,6 @@ vocab(VideoCategory) {
 	}
 	"Car" {
 		"자동차"
-		"이솝우화"
 	}
 	"Christmas" {
 		"크리스마스"
@@ -57,5 +56,9 @@ vocab(VideoCategory) {
 	"Traditional" {
 		"전래"
 		"옛날"
+	}
+	"Popular" {
+		"인기있는"
+		"인기 있는"
 	}
 }

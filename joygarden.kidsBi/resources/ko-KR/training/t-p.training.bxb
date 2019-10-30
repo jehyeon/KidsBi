@@ -1,3 +1,13 @@
+train (t-p1yanyn5aoil4ot6fdhm3y8nl) {
+  utterance ([g:GetRandomVideo] 동화 추천해줘)
+  plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
+  last-modified (1572459941979)
+}
+train (t-p45t9t54lyt3pz5q6rx3edsj6) {
+  utterance ([g:OpenVideoInYoutube:continue:VideoInfo] 동영상 재생이 안돼요)
+  plan (Y2Bm4C3LLNNLzi9K1QtJrShhUM7Kr0xPLEpJzdPLzkwpdsrU8y9IzQvLTEnN98yLzC8tKU1KZZDCUARVkJbPwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572458421906)
+}
 train (t-pcvxygzs0uanuu7avctil7x31) {
   utterance ([g:GetVideo] 동화 보여주세요)
   plan (Y2BmkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYWBiYARiBiDJyMAAowE=)

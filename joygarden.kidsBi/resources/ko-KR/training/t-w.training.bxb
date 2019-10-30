@@ -1,0 +1,5 @@
+train (t-wipx227kj0tiwhg1f8f89rqsb) {
+  utterance ([g:GetRandomVideo] 아무거나 보여줘)
+  plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
+  last-modified (1572457750863)
+}

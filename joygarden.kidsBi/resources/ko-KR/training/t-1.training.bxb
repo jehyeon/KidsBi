@@ -1,3 +1,8 @@
+train (t-1figozck6enc7gcl7lbula5q5) {
+  utterance ("[g:GetVideo] (공주)[v:VideoCategory:Princess] 동화 보고 싶어")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
+  last-modified (1572456644747)
+}
 train (t-1wen3isjc322izu0lon6vzzq0) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (사자)[v:UserAnswer]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)
