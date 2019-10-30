@@ -4,32 +4,29 @@ confirmation-view {
   }
   mode (Transactional)
   confirm-options {
-    label ("그만 하기") // 임시
+    label{
+			template-macro (startQuiz_Stop)
+		}
   }
   message {
     template ("#{value(action.quizProgress.quizInfos[action.quizProgress.index].question)}")
   }
   render {
     layout {
-      section { 
-        title {
-          if (action.quizProgress.index==0){ template ("문제 : 1 / #{(size(action.quizProgress.quizInfos))}")}
-          else-if (action.quizProgress.index==1) { template ("문제 : 2 / #{(size(action.quizProgress.quizInfos))}")}
-          else-if (action.quizProgress.index==2) { template ("문제 : 3 / #{(size(action.quizProgress.quizInfos))}")}
-          else-if (action.quizProgress.index==3) { template ("문제 : 4 / #{(size(action.quizProgress.quizInfos))}")}
-          else-if (action.quizProgress.index==4) { template ("문제 : 5 / #{(size(action.quizProgress.quizInfos))}")}
-          else-if (action.quizProgress.index==5) { template ("문제 : 6 / #{(size(action.quizProgress.quizInfos))}")}
-          else-if (action.quizProgress.index==6) { template ("문제 : 7 / #{(size(action.quizProgress.quizInfos))}")}
-          else-if (action.quizProgress.index==7) { template ("문제 : 8 / #{(size(action.quizProgress.quizInfos))}")}
-          else-if (action.quizProgress.index==8) { template ("문제 : 9 / #{(size(action.quizProgress.quizInfos))}")}
-          else-if (action.quizProgress.index==9) { template ("문제 : 10 / #{(size(action.quizProgress.quizInfos))}")}
-        }
+			layout-macro (quizCountInformation) {
+				param (quizProgress) {
+					expression (action.quizProgress)
+				}
+			}
+      section {
         content {
           // Question image
           image {
             url ("#{value(action.quizProgress.quizInfos[action.quizProgress.index].url)}")
-            aspect-ratio (1:1)
+            aspect-ratio (16:9)
             lightbox-enabled (false)
+						object-position (Center)
+						object-fit (Contain)
           }
 
           // User selection
@@ -44,6 +41,16 @@ confirmation-view {
                   }
                 }
                 on-click {
+									intent {
+										goal {
+											StartQuiz
+											@context (Continuation) {
+												QuizProgress
+											}
+										}
+										value-set : UserAnswer { $expr(option)}
+										route : UpdateProgress
+									}
 
                 }
               }
