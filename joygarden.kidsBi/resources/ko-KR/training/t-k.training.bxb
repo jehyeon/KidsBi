@@ -1,3 +1,8 @@
+train (t-k7yiyysjagqti5lrr1v33doj1) {
+  utterance ("[g:VideoCategory:prompt] (이솝우화)[v:VideoCategory:Aesop]")
+  plan (Y2BikMvKr0xPLEpJzdPLzkwpdsrUC8tMSc13TixJTc8vqiQozwiEDAw8QMwExEA2AA==)
+  last-modified (1572462372334)
+}
 train (t-ki5imhe2fhvginnwajtc9aqpr) {
   utterance ("[g:StartQuiz] (수학)[v:QuizCategory:Math] 퀴즈 할래")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)

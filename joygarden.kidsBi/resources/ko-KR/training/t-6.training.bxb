@@ -13,11 +13,6 @@ train (t-6dzt6dejxznpuajjjguzln1l3) {
   plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
   last-modified (1572453098857)
 }
-train (t-6xoubhtp9fe038cxa18uysf7b) {
-  utterance ([g:GetRandomVideo] 랜덤 재생)
-  plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
-  last-modified (1572457773075)
-}
 train (t-6zy2n9ma5gz7n8qoeh3z608rl) {
   utterance ([g:StartQuiz] 퀴즈 할래)
   plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)

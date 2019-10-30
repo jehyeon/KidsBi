@@ -66,7 +66,7 @@ template-macro-def (GetVideo_Result_Category) {
 	}
 	content {
 		choose (Random) {
-			template ("#{value(category)}(으)로 검색한 동화 #{size}개를 찾았어요.")
+			template ("#{value(category)} 동화 #{size}개를 확인해보세요.")
 			template ("#{value(category)} 동화 #{size}개를 찾았어요!")
 		}
 	}

@@ -8,3 +8,8 @@ train (t-xrm0wpl6xvjxbr5nbdjlwyx7g) {
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
   last-modified (1572453247714)
 }
+train (t-xrze8rtyf04bq3f7eif21jc4j) {
+  utterance ("[g:VideoCategory:prompt] (공룡)[v:VideoCategory:Dinosaur]")
+  plan (Y2BikMvKr0xPLEpJzdPLzkwpdsrUC8tMSc13TixJTc8vqiQozwiEDAw8QMwExEA2AA==)
+  last-modified (1572462553143)
+}

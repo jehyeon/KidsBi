@@ -14,7 +14,7 @@ dialog(Value) {
     case (Musical) { template("뮤지컬") }
     case (Princess) { template("공주") }
     case (Science) { template("과학") }
-    case (Shadow) { template("그림자 동화") }
+    case (Shadow) { template("그림자") }
     case (Traditional) { template("전래") }
     case (Popular) { template("인기있는")}
 

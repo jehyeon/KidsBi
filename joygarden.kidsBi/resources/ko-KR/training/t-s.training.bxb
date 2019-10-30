@@ -1,3 +1,8 @@
+train (t-siqraiguhu7xxpxga28m9j011) {
+  utterance ([g:GetVideo] 동화 재생해줘)
+  plan (Y2BmkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYWBiYARiBiDJyMAAowE=)
+  last-modified (1572462215617)
+}
 train (t-su0510wqighv747hwc65chixg) {
   utterance ("[g:StartQuiz] (애니멀)[v:QuizCategory:Animal] 퀴즈 시작")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)

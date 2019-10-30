@@ -13,3 +13,8 @@ train (t-fvicboi2o9z07xl3hhz779gjj) {
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)
   last-modified (1572452161984)
 }
+train (t-fwsqsy58o1dfhe2f9k6wqx46b) {
+  utterance ([g:GetCategory] 만화 카테고리 보여줘)
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ5DBkHZPLYGpYGAEQgYoBpIA)
+  last-modified (1572462285120)
+}

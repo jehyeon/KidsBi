@@ -3,6 +3,11 @@ train (t-8aq3m09x6bg0qh615mo1kswn0) {
   plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
   last-modified (1572453039222)
 }
+train (t-8dn2znrgyq9h3sf2im5n66i3y) {
+  utterance ([g:GetCategory] 동화 카테고리 다 보여줄래)
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ5DBkHZPLYGpYGAEQgYoBpIA)
+  last-modified (1572462326771)
+}
 train (t-8tiqvmt5m6v1ku6ohe0u5nsfp) {
   utterance ("[g:StartQuiz] (꽃)[v:QuizCategory:Flower] 퀴즈 가즈아")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
