@@ -117,3 +117,4 @@
 - 0.1.26: OpenVideoInYoutube action 추가
 - 0.1.27: GetVideoUrl 추가
 - 0.1.28: Add Quiz Category Image
+- 0.1.29: Add QuizCategory,VideoCategory Vocab

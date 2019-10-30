@@ -1,12 +1,18 @@
 result-view {
-  match: QuizResult
-
-  // QuizReult result-view는 StartQuiz confirm true인 경우에 매칭
-  message {
-    template-macro (StartQuiz_Cancel)
-  }
-
-  render {
-    nothing
-  }
+	match: QuizResult
+	
+	// QuizReult result-view는 StartQuiz confirm true인 경우에 매칭
+	message {
+		template-macro (StartQuiz_Cancel)
+	}
+	
+	render {
+		nothing
+	}
+	
+	conversation-drivers {
+		conversation-driver {
+			template-macro (GetQuiz_Another)
+		}
+	}
 }
