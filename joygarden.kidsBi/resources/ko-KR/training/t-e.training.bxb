@@ -1,0 +1,5 @@
+train (t-e184pfnv9x51x9z0mqf2vetrk) {
+  utterance ("[g:QuizCategory:prompt] (과일)[v:QuizCategory:Fruit]")
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
+  last-modified (1572460812852)
+}

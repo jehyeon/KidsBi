@@ -1,3 +1,8 @@
+train (t-d2405is1hgz4fuipdl97l7hlw) {
+  utterance ("[g:QuizCategory:prompt] (동물)[v:QuizCategory:Animal]")
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
+  last-modified (1572460814127)
+}
 train (t-d8sn8xthcoaia43lyfd860iiv) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (세 번째) [v:Ordinal:Third]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)
