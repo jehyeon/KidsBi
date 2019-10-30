@@ -1,3 +1,8 @@
+train (t-t5flw7td2apjzrcpvlynm7ly1) {
+  utterance ([g:OpenVideoInYoutube:continue:VideoInfo] 동영상 안 나와)
+  plan (Y2Bm4C3LLNNLzi9K1QtJrShhUM7Kr0xPLEpJzdPLzkwpdsrU8y9IzQvLTEnN98yLzC8tKU1KZZDCUARVkJbPwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572458522725)
+}
 train (t-tc4nkits4rs7jtei7repn0lh2) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (3번) [v:Ordinal:Third]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)

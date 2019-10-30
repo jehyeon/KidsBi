@@ -4,7 +4,11 @@ input-view {
 	}
 	
 	message {
-		template-macro (GetVideo_SelectCategory)
+		template-macro (GetVideo_SelectCategory) {
+			param (size) {
+				expression (size(categoryInfos))
+			}
+		}
 	}
 	
 	render {
@@ -12,7 +16,7 @@ input-view {
 			selection-of (categoryInfos) {
 				navigation-mode {
 					read-many {
-						page-size (4) 
+						page-size (4)
 						page-content (page) {
 							item-selection-question {template-macro (List_Navigate_item_Question)}
 							underflow-statement {template-macro (List_Navigate_Underflow)}
@@ -20,7 +24,11 @@ input-view {
 							overflow-question {template-macro (List_Navigate_overflow_Question)}
 						}
 						list-summary {
-							template-macro (GetVideo_SelectCategory)
+							template-macro (GetVideo_SelectCategory) {
+								param (size) {
+									expression (size(categoryInfos))
+								}
+							}
 						}
 					}
 				}
@@ -32,8 +40,8 @@ input-view {
 						mode (Summary)
 					}
 				}
-			}			
-
+			}
+			
 		}
 		else {
 			selection-of (categoryInfos) {

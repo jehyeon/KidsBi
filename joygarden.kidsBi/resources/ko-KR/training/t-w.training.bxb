@@ -1,5 +1,5 @@
-train (t-w2gp1f18vkyqcmuyxjxnu6k1o) {
-  utterance ([g:StartQuiz:continue:QuizProgress,r:ReTryQuiz] 틀린 문제 알려줄래)
-  plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4GIvWoNSQokpitLIwMDIwMTADaQYoixHMAgEmIM3MwAAA)
-  last-modified (1572456921291)
+train (t-wipx227kj0tiwhg1f8f89rqsb) {
+  utterance ([g:GetRandomVideo] 아무거나 보여줘)
+  plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
+  last-modified (1572457750863)
 }

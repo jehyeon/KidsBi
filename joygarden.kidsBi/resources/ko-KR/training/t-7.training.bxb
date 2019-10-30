@@ -8,3 +8,8 @@ train (t-76nmmihrpgwpl5r0berrfvm2r) {
   plan (Y2BmkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYWBiYARiBiDJyMAAowE=)
   last-modified (1572425225049)
 }
+train (t-7lxoipeuvig44jp5urghpqbmg) {
+  utterance ([g:GetRandomVideo] 키즈비가 추천해줘)
+  plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
+  last-modified (1572459935997)
+}
