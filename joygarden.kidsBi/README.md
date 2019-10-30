@@ -104,5 +104,5 @@ exports.list = {
 - 0.1.17: VideoInfo summary layout 수정
 - 0.1.18: QuizCategory 업데이트
 - 0.1.19: VideoSummary view 수정 및 VideoSource value dialog 추가
-- 0.1.20: UpdateProgress Logic 및 intent 활성화
-
+- 0.1.20: VideoDetail view (source) 수정
+- 0.1.21: UpdateProgress Logic 및 intent 활성화

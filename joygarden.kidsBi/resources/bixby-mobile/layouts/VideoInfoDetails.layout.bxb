@@ -14,7 +14,7 @@ layout {
           slot1 {
             image {
               url {
-                if (videoInfo.source == '핑크퐁 유튜브') {
+                if (videoInfo.source == 'pinkpong') {
                   template (images/pinkpong.jpg)
                 }
                 else {
