@@ -7,20 +7,27 @@ result-view {
 		template-macro (GetRandomVideo_Result)
 	}
 	render {
-    if (size(videoInfos) > 1) {
-      list-of (videoInfos) {
-        where-each (videoInfo) {
-          layout-match (videoInfo) {
-            mode (Summary)
-          }
-        }
-      }
-    } else-if (size(videoInfos) == 1) {
-      layout-match (videoInfos) {
-        mode (Details)
-      }
-    } else {
-      nothing
-    }
-  }
+		if (size(videoInfos) > 1) {
+			list-of (videoInfos) {
+				where-each (videoInfo) {
+					layout-match (videoInfo) {
+						mode (Summary)
+					}
+				}
+			}
+		} else-if (size(videoInfos) == 1) {
+			layout-match (videoInfos) {
+				mode (Details)
+			}
+		} else {
+			nothing
+		}
+	}
+	conversation-drivers {
+		if (size(videoInfos) == 1){
+			conversation-driver {
+				template-macro (OpenVideo_Youtube)
+			}
+		}
+	}
 }
