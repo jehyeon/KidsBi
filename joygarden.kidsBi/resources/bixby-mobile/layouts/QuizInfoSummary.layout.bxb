@@ -16,7 +16,7 @@ layout {
             content{
               order (PrimarySecondary)
               primary("#{value(quizInfo.question)}")
-              secondary("#{value(quizInfo.answer)}")
+              secondary("#{value(quizInfo.options[quizInfo.answer])}")
             }
           }
         }

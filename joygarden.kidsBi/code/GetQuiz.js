@@ -31,10 +31,10 @@ module.exports.function = function getQuiz (category) {
   const result = quizInfos.map(quizInfo => {
     const updated = quizInfo;
     updated.options = quizInfo.options.split(',').map((option, index) => {
-      return ap[index] + ': ' + option
+      return option
     });
     return updated;
   });
 
-  return shuffle(result).slice(0,4);
+  return shuffle(result).slice(0,10);
 }
