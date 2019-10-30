@@ -2,7 +2,7 @@
 template-macro-def (GetVideo_SelectCategory) {
 	content {
 		choose (Random) {
-			template ("어떤 동화를 찾아드릴까요? 보고 싶은 동화를 선택해주세요.")
+			template ("보고 싶은 동화를 선택해주세요.")
 			template ("보고 싶은 동화를 선택해주세요!")
 		}
 	}
@@ -266,5 +266,11 @@ template-macro-def (StartQuiz_Cancel){
 template-macro-def (GoToYoutube) {
 	content {
 		template ("YouTube에서 보기")
+	}
+}
+
+template-macro-def (OpenVideo_Youtube_Progress) {
+	content {
+		template ("Youtube로 연결해드릴게요.")
 	}
 }

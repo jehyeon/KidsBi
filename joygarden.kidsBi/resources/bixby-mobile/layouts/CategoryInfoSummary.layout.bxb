@@ -17,7 +17,7 @@ layout {
               single-line {
                 text {
                   style (Title_S)
-                  value ("#{value(categoryInfo.videoCategory)}")
+                  value ()
                 }
               }
             }                

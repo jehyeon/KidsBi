@@ -1,47 +1,47 @@
 layout {
-  match: VideoInfo (videoInfo)
-  mode (Details)
-
-  content {
-    section {
-      content {
-        
-        video {
-          url ("#{value(videoInfo.videoFile)}")
-          poster ("#{value(videoInfo.videoThumbnail)}")
-        }
-        cell-card {
-          slot1 {
-            image {
-              url {
-                if (videoInfo.source == 'pinkpong') {
-                  template (images/pinkpong.jpg)
-                }
-                else {
-                  template (images/icon.png)
-                }
-              }
-              shape (Circle)
-            }
-          }
-          slot2 {
-            content {
-              primary {
-                template ("#{value(videoInfo.title)}")
-              }
-              secondary {
-                template ("#{value(videoInfo.categories)}")
-              }
-            }
-          }
-        }
-        attribution-link {
-          label {
-            template-macro (GoToYoutube)
-          }
-          url ("https://youtube.com/watch?v=#{value(videoInfo.videoId)}")
-        }
-      }
-    }
-  }
+	match: VideoInfo (videoInfo)
+	mode (Details)
+	
+	content {
+		section {
+			content {
+				
+				video {
+					url ("#{value(videoInfo.videoFile)}")
+					poster ("#{value(videoInfo.videoThumbnail)}")
+				}
+				cell-card {
+					slot1 {
+						image {
+							url {
+								if (videoInfo.source == 'pinkpong') {
+									template (images/pinkpong.jpg)
+								}
+								else {
+									template (images/icon.png)
+								}
+							}
+							shape (Circle)
+						}
+					}
+					slot2 {
+						content {
+							primary {
+								template ("#{value(videoInfo.title)}")
+							}
+							secondary {
+								template ("#{value(videoInfo.categories)}")
+							}
+						}
+					}
+				}
+				attribution-link {
+					label {
+						template-macro (GoToYoutube)
+					}
+					url ("https://youtube.com/watch?v=#{value(videoInfo.videoId)}")
+				}
+			}
+		}
+	}
 }

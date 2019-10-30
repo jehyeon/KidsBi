@@ -50,6 +50,12 @@ endpoints {
       local-endpoint (GetQuizCategory.js)
     }
 
+    // StartQuiz
+    action-endpoint (OpenVideoInYoutube) {
+      accepted-inputs (videoInfo)
+      local-endpoint (OpenVideoInYoutube.js)
+    }
+
     // etc
     action-endpoint (EmptyResult) {
       accepted-inputs (quizProgress)
