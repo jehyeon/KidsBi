@@ -3,3 +3,8 @@ train (t-pcvxygzs0uanuu7avctil7x31) {
   plan (Y2BmkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYWBiYARiBiDJyMAAowE=)
   last-modified (1572425238138)
 }
+train (t-pimg6a9ylyalcpr5fimqr3ng6) {
+  utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (네 번째) [v:Ordinal:Fourth]")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)
+  last-modified (1572452473495)
+}
