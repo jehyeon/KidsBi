@@ -3,6 +3,11 @@ train (t-tc4nkits4rs7jtei7repn0lh2) {
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)
   last-modified (1572452474723)
 }
+train (t-tnofcy7tsnouorihj437mhx61) {
+  utterance ([g:StartQuiz:continue:QuizProgress,r:ReTryQuiz] 틀린 문제 보여줘)
+  plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4GIvWoNSQokpitLIwMDIwMTADaQYoixHMAgEmIM3MwAAA)
+  last-modified (1572456885621)
+}
 train (t-to3jz7kezvex1wrd5ix8icx14) {
   utterance ("[g:SolveQuizAnswer:prompt]  (정답 알려줘)[v:SolveQuizAnswer:false]")
   plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
