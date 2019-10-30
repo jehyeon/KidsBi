@@ -117,6 +117,46 @@ template-macro-def (SelectVideoInfo_No_Result) {
 	}
 }
 
+template-macro-def (List_Navigate_Underflow) {
+	content {
+		choose (Random) {
+			template ("이전 목록이 없네요.")
+		}
+	}
+}
+
+template-macro-def (List_Navigate_Overflow) {
+	content {
+		choose (Random) {
+			template ("모두 확인했어요.")
+		}
+	}
+}
+
+template-macro-def (List_Navigate_question) {
+	content {
+		choose (Random) {
+			template ("더 보여줄까요?")
+		}
+	}
+}
+
+template-macro-def (List_Navigate_item_Question) {
+	content {
+		choose (Random) {
+			template ("어느 것을 선택할까요?")
+		}
+	}
+}
+
+template-macro-def (List_Navigate_overflow_Question) {
+	content {
+		choose (Random) {
+			template ("어느 것을 선택할까요?")
+		}
+	}
+}
+
 // GetCategory
 template-macro-def (GetCategory_Result) {
 	params {

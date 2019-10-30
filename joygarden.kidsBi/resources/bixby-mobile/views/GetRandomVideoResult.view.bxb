@@ -13,21 +13,12 @@ result-view {
           if ($handsFree) {
             read-many-and-next {
               page-size (5)
-              list-summary {
-                template-macro (GetRandomVideo_Result)
-              }
+              list-summary {template-macro (GetRandomVideo_Result)}
               page-content (page) {
-                underflow-statement {
-                  template ("이전 목록이 없네요")
-                }
-                overflow-statement {
-                  template ("모두 확인했어요.")
-                }
-                next-page-question {
-                  template ("다른 동화를 더 보여줄까요?")
-                }
+                underflow-statement {template-macro (List_Navigate_Underflow)}
+                overflow-statement {template-macro (List_Navigate_Overflow)}
+                next-page-question {template-macro (List_Navigate_question)}
               }
-
             }
           }
         }

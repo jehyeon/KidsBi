@@ -14,10 +14,10 @@ input-view {
 					read-many {
 						page-size (4) 
 						page-content (page) {
-							item-selection-question {template ("다른 목록을 더 알려줄까요?")}
-							underflow-statement {template ("이전 목록이 없네요.")}
-							overflow-statement {template ("모두 확인했어요.")}
-							overflow-question {template ("어느 것을 선택할까요?")}
+							item-selection-question {template-macro (List_Navigate_item_Question)}
+							underflow-statement {template-macro (List_Navigate_Underflow)}
+							overflow-statement {template-macro (List_Navigate_Overflow)}
+							overflow-question {template-macro (List_Navigate_overflow_Question)}
 						}
 						list-summary {
 							template-macro (GetVideo_SelectCategory)
