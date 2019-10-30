@@ -103,3 +103,4 @@ exports.list = {
 - 0.1.16: api 호출 수정 (to config.get())
 - 0.1.17: VideoInfo summary layout 수정
 - 0.1.18: QuizCategory 업데이트
+- 0.1.19: UpdateProgress Logic 및 intent 활성화
