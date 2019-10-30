@@ -1,0 +1,14 @@
+dialog (Value) {
+  match: VideoSource (videoSource)
+  switch (videoSource) {
+    case (pinkpong) {
+      template ("핑크퐁 유튜브")
+    }
+    case (kebikids) {
+      template ("깨비키즈 유튜브")
+    }
+    case (genikids) {
+      template ("지니키즈 유튜브")
+    }
+  }
+}

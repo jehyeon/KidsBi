@@ -10,13 +10,13 @@ layout {
 					title-area {
 						slot1 {
 							text {
-								style (Title_S)
+								style (Title_M)
 								value ("#{value(videoInfo.title)}")
 							}
 						}
 						slot2 {
 							single-line {
-								if(videoInfo.source == '핑크퐁 유튜브') {
+								if(videoInfo.source == 'pinkpong') {
 									image{
 										shape (Circle)
 										url("images/pinkpong.jpg")
@@ -25,12 +25,10 @@ layout {
 								}
 								spacer
 								text {
-									style (Detail_M_Soft)
+									style (Detail_L)
 									value ("#{value(videoInfo.source)}")
-									color (Blue)
 								}
 							}
-							
 						}
 					}
 					image-url {
