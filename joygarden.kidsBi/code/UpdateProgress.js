@@ -12,7 +12,7 @@ module.exports.function = function updateProgress(quizProgress, answer, ordinal)
   if (answer.length <= 1) {
     console.log(quizProgress.quizInfos[quizProgress.index].answer);
     console.log(answers.indexOf(answer.valueOf().toUpperCase()));
-    if (quizProgress.quizInfos[quizProgress.index].answer-1 === answers.indexOf(answer.valueOf().toUpperCase())) {
+    if (quizProgress.quizInfos[quizProgress.index].answer === answers.indexOf(answer.valueOf().toUpperCase())) {
       quizProgress.result[quizProgress.index] = 'true';
       quizProgress.quizInfos[quizProgress.index].answerResult = 'true';
     }
@@ -27,8 +27,8 @@ module.exports.function = function updateProgress(quizProgress, answer, ordinal)
         console.log(answer_name);
       }
     }
-    //answer)name의 값과 quizInfos[quizProgress.index-1]의 값이 같은지 확인 
-    if (answers[quizProgress.quizInfos[quizProgress.index].answer - 1] === answer_name) {
+    //answer)name의 값과 quizInfos[quizProgress.index]의 값이 같은지 확인 
+    if (answers[quizProgress.quizInfos[quizProgress.index].answer] === answer_name) {
       quizProgress.result[quizProgress.index] = 'true';
       quizProgress.quizInfos[quizProgress.index].answerResult = 'true';
       //console.log(quizProgress.result[quizProgress.index])
@@ -46,7 +46,7 @@ module.exports.function = function updateProgress(quizProgress, answer, ordinal)
       }
 
     }
-    if (answers[quizProgress.quizInfos[quizProgress.index].answer - 1] === answer_name) {
+    if (answers[quizProgress.quizInfos[quizProgress.index].answer] === answer_name) {
       quizProgress.result[quizProgress.index] = 'true';
       quizProgress.quizInfos[quizProgress.index].answerResult = 'true';
       //console.log(quizProgress.result[quizProgress.index])
