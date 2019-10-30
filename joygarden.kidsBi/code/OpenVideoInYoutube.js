@@ -1,3 +1,3 @@
 module.exports.function = function openVideoInYoutube (videoInfo) {
-  return videoInfo.videoFile;
+  return "https://www.youtube.com/watch?v=" + videoInfo.videoId;
 }
