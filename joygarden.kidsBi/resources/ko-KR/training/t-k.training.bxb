@@ -8,6 +8,10 @@ train (t-kr4jj1hlaln6y8s9rlys5gp3c) {
   plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
   last-modified (1572454298182)
 }
+train (t-ks4np46c9xb9bnvpjgz14u3uf) {
+  utterance ("[g:QuizCategory:prompt] (꽃)[v:QuizCategory:Flower]")
+  last-modified (1572460685579)
+}
 train (t-kx862d0k34od7avqotw3wldw4) {
   utterance ("[g:StartQuiz] (꽃)[v:QuizCategory:Flower] 퀴즈 시작할래")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
