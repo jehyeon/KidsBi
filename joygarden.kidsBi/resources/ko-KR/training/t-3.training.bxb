@@ -4,7 +4,7 @@ train (t-37bf4arc06zz4kjbkqk8hdex9) {
   last-modified (1572453074708)
 }
 train (t-3f7u81fl3t4bsd2ftawn1le2b) {
-  utterance ("[g:SolveQuizAnswer:prompt] 퀴즈 (그만)[v:SolveQuizAnswer:true] 풀고 싶어")
+  utterance ("[g:SolveQuizAnswer:prompt] 퀴즈 (그만)[v:SolveQuizAnswer:false] 풀고 싶어")
   plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
-  last-modified (1572453448321)
+  last-modified (1572459837818)
 }

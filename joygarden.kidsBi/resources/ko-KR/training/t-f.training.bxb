@@ -1,7 +1,7 @@
 train (t-fbajifmq0brgjo7ue43u7y6jm) {
-  utterance ("[g:SolveQuizAnswer:prompt] 퀴즈 (정답 알려줘)[v:SolveQuizAnswer:false]")
+  utterance ("[g:SolveQuizAnswer:prompt] 퀴즈 (정답)[v:SolveQuizAnswer:true] 알려줘")
   plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
-  last-modified (1572454236224)
+  last-modified (1572459778543)
 }
 train (t-fvicboi2o9z07xl3hhz779gjj) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (네잎클로버)[v:UserAnswer]")

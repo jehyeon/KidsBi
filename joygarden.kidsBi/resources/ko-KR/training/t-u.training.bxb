@@ -4,9 +4,9 @@ train (t-u7863lazcr56er8r93be6x2v0) {
   last-modified (1572453083718)
 }
 train (t-uq18kdjcb3rbqrh0mynfcd9s9) {
-  utterance ("[g:SolveQuizAnswer:prompt] 퀴즈 (그만)[v:SolveQuizAnswer:true] ")
+  utterance ("[g:SolveQuizAnswer:prompt] 퀴즈 (그만)[v:SolveQuizAnswer:false] ")
   plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
-  last-modified (1572453457031)
+  last-modified (1572459851220)
 }
 train (t-uskkt7b375891nue0ldgf7j3g) {
   utterance ("[g:StartQuiz] (꽃)[v:QuizCategory:Flower] 퀴즈 시작")

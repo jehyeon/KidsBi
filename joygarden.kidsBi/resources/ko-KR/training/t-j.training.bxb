@@ -4,9 +4,9 @@ train (t-j4y4nd7sen5rqous43hhi6vwz) {
   last-modified (1572397569106)
 }
 train (t-ji6ibn0k6winhiug717484qj2) {
-  utterance ("[g:SolveQuizAnswer:prompt] (퀴즈 정답)[v:SolveQuizAnswer:false]")
+  utterance ("[g:SolveQuizAnswer:prompt] 퀴즈 (정답)[v:SolveQuizAnswer:true]")
   plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
-  last-modified (1572454286659)
+  last-modified (1572459787096)
 }
 train (t-jm4pa7cxnxyjn4u2pr24ogmkj) {
   utterance ("[g:StartQuiz] (과일)[v:QuizCategory:Fruit] 맞추기 할래")
