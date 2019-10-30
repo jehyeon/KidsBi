@@ -28,9 +28,7 @@ result-view {
 						read-many-and-next {
 							page-size (5) 
 							list-summary {
-								if (size(quizInfos) == 0) {
-									template-macro (GetQuiz_Result_Zero)
-								} else-if (size(quizInfos) == 1) {
+							  if (size(quizInfos) == 1) {
 									template-macro (GetQuiz_Result_One)
 								} else {
 									template-macro (GetQuiz_Result_Multi){
