@@ -4,4 +4,6 @@ enum (QuizCategory) {
   symbol (Flower)
   symbol (Fruit)
   symbol (Math)
+  symbol (Country)
+  symbol (Person)
 }

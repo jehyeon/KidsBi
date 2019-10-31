@@ -13,8 +13,12 @@ layout {
 							template ("images/Flower.png")
 						} else-if (quizCategory == 'Fruit') {
 							template ("images/Fruit.png")
-						} else {
+						} else-if (quizCategory == 'Math') {
 							template ("images/Math.png")
+						} else-if (quizCategory == 'Country') {
+							template ("images/Country.png")
+						} else {
+							template ("images/Person.png")
 						}
 					}
 					aspect-ratio (3:4)

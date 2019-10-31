@@ -9,5 +9,9 @@ dialog (Value) {
       template ("과일 퀴즈")
   } else-if (quizCategory == 'Math') {
       template ("수학 퀴즈")
+  } else-if (quizCategory == 'Country') {
+      template ("나라 퀴즈")
+  } else-if (quizCategory == 'Person') {
+      template ("인물 퀴즈")
   }
 }
