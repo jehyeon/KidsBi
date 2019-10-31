@@ -16,9 +16,9 @@ result-view {
 							template-macro (StartQuiz_PrgressResut_Message)
 						}
 						page-content (page) {
-							  underflow-statement {template-macro (List_Navigate_Underflow)}
-                overflow-statement { template-macro (List_Navigate_Overflow)}
-                next-page-question { template-macro (List_Navigate_question)}
+							underflow-statement {template-macro (List_Navigate_Underflow)}
+							overflow-statement { template-macro (List_Navigate_Overflow)}
+							next-page-question { template-macro (List_Navigate_question)}
 						}
 					}
 				}
@@ -31,6 +31,11 @@ result-view {
 					mode (Summary)
 				}
 			}
+		}
+	}
+	conversation-drivers {
+		conversation-driver {
+			template-macro (GetQuiz_Incorrect_Again)
 		}
 	}
 }
