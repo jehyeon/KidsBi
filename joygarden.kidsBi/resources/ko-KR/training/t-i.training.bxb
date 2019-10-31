@@ -13,6 +13,11 @@ train (t-ijubm6eqpoatzecgqs6rda83r) {
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
   last-modified (1572453136481)
 }
+train (t-ilp7ogmpjx2ewzdih9ser5an1) {
+  utterance ([g:GetQuiz] 퀴즈 뭐 있어)
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572521915402)
+}
 train (t-itbaiprxyurcote9ucb4l0x7j) {
   utterance ("[g:SolveQuizAnswer:prompt] 이거 (정답)[v:SolveQuizAnswer:false] 보여줘")
   plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)

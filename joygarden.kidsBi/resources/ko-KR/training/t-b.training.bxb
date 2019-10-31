@@ -18,6 +18,11 @@ train (t-bh44ifnpw6k0vkj29bdul1vf5) {
   plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
   last-modified (1572518985269)
 }
+train (t-booc1if7b68yo421xcpzvj7wd) {
+  utterance ("[g:GetQuiz] (수학)[v:QuizCategory:Math] 공부하고 싶어")
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRAQSgfAA=)
+  last-modified (1572521916990)
+}
 train (t-bp8j69mod1b9san34m3oxyyun) {
   utterance ([g:StartQuiz] 다른 퀴즈 풀고 싶어)
   plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)

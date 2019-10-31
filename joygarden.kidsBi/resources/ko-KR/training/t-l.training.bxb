@@ -53,3 +53,8 @@ train (t-lxr61hsl8gld5lplt0aslc7bs) {
   plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4GIvWoNSQokpitLIwMDIwMTADaQYoixHMAgEmIM3MwAAA)
   last-modified (1572510296795)
 }
+train (t-lz3cvsg8ynoovvncq5kq6ewu3) {
+  utterance ([g:OpenVideoInYoutube] Youtube에서 보고 싶어)
+  plan (Y2Bm4C3LLNNLzi9K1QtJrShhUM7Kr0xPLEpJzdPLzkwpdsrU8y9IzQvLTEnN98yLzC8tKU1KZZDCUARVkJbPwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572521924903)
+}

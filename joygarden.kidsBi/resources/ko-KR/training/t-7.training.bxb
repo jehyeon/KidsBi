@@ -33,6 +33,16 @@ train (t-7lxoipeuvig44jp5urghpqbmg) {
   plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
   last-modified (1572459935997)
 }
+train (t-7mjmig5snj7224ionh0c11ta4) {
+  utterance ("[g:GetQuiz] (인물)[v:QuizCategory:Person] 공부하고 싶어")
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRAQSgfAA=)
+  last-modified (1572521916486)
+}
+train (t-7ufok4atiigw55akhk2tbfnh9) {
+  utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (두더지)[v:UserAnswer]")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)
+  last-modified (1572521903936)
+}
 train (t-7wfo2qdlxiuud4i2p3h55hduv) {
   utterance ("[g:GetVideo] (아기공룡둘리)[v:SearchTerm] 만화 보여줘")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)

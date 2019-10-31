@@ -1,3 +1,8 @@
+train (t-64zu7ttvf4l2hh8skxaslrgmc) {
+  utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (네잎클로버)[v:UserAnswer]")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)
+  last-modified (1572521900318)
+}
 train (t-6b7jxu0gd2cedaqgwi4n12wc4) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (감)[v:UserAnswer]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)

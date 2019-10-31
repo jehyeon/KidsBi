@@ -13,6 +13,11 @@ train (t-z2uh2z9rdwjzxml0r9r5ai6fi) {
   plan (Y2Bm4C3LLNNLzi9K1QtJrShhUM7Kr0xPLEpJzdPLzkwpdsrU8y9IzQvLTEnN98yLzC8tKU1KZZDCUARVkJbPwMTACMQMQJKRgQFGAwA=)
   last-modified (1572518774669)
 }
+train (t-z3h992hhjn7zglgoeafkplg70) {
+  utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (초롱꽃)[v:UserAnswer]")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)
+  last-modified (1572521899552)
+}
 train (t-z4ymb7nqesc6sdj26sbb7kcok) {
   utterance ("[g:GetVideo] (파이리 꼬부기 리자몽)[v:SearchTerm] 동화 보고 싶어")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)

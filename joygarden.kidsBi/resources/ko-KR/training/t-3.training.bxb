@@ -8,6 +8,11 @@ train (t-37bf4arc06zz4kjbkqk8hdex9) {
   plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
   last-modified (1572453074708)
 }
+train (t-3j5nv7rqmhudtfn2bgc11cxrp) {
+  utterance ([g:GetQuiz] 퀴즈 뭐가 있는지 알려줘)
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572521914030)
+}
 train (t-3tq6y5tro436rnle1ssl9vysf) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (오렌지)[v:UserAnswer]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)

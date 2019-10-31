@@ -13,10 +13,20 @@ train (t-r2vfm6gbwmrfwxgzqrlwl9da7) {
   plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGVgYGBmYGJiBNAOUxQhmgQATkGZmYAAA)
   last-modified (1572519649966)
 }
+train (t-r5y07y25a5ywyskvqu2ocit9b) {
+  utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (판다)[v:UserAnswer]")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)
+  last-modified (1572521902241)
+}
 train (t-r9bktswiesfyul224lc949ael) {
   utterance ([g:GetQuiz] 키즈비에는 어떤 퀴즈가 있어)
   plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
   last-modified (1572511101028)
+}
+train (t-rmm1uo4pulav7z5k2tjr3gknr) {
+  utterance ([g:GetRandomVideo] 키즈비가 추천하는 동화 보여줘)
+  plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
+  last-modified (1572521924374)
 }
 train (t-rtehsv6basp272lpk5pm1e5bz) {
   utterance ("[g:SelectVideoInfo:continue:VideoInfo] (헨젤과 그레텔)[v:FilterTerm]")

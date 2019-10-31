@@ -3,6 +3,11 @@ train (t-h6demvkpug9fjzy5idc59rfw5) {
   plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
   last-modified (1572518495564)
 }
+train (t-hg31k0cb5bu87fs1ec4d3vf0c) {
+  utterance ([g:GetRandomVideo] 키즈 비가 추천해줘)
+  plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
+  last-modified (1572521923614)
+}
 train (t-hh6thy1evfsk4hxwkd4hs791s) {
   utterance ("[g:StartQuiz] (수학)[v:QuizCategory:Math] 맞추기 할래")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)

@@ -48,6 +48,16 @@ train (t-dlw9ao2jyz6stx29e8jj8px03) {
   plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGVgYGBmYGJiBNAOUxQhmgQATkGZmYAAA)
   last-modified (1572519654533)
 }
+train (t-dm2btk9nnyzk1ky1axacsepkn) {
+  utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (하마)[v:UserAnswer]")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)
+  last-modified (1572521913325)
+}
+train (t-dmbu8cbd9gbbbczeqmyfy9ksx) {
+  utterance ([g:GetRandomVideo] 동화 추천해줘)
+  plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
+  last-modified (1572521921974)
+}
 train (t-dqbg34ussoxzl5vlmm97nsi5y) {
   utterance ("[g:QuizCategory:prompt] (수학)[v:QuizCategory:Math] 퀴즈 해볼게")
   plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)

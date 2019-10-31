@@ -1,3 +1,8 @@
+train (t-14k02jbltewhyko674o2fugk9) {
+  utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (곰)[v:UserAnswer]")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)
+  last-modified (1572521905408)
+}
 train (t-19mctyqfzh8t3yipz6h7x6zhy) {
   utterance ("[g:CategoryInfo:prompt] (자동차)[v:FilterTerm]")
   plan (Y2BhkM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ1DGkA5OzUlNLkFRRMAMaQxpt8ycktSikNSiXAZmBkYGJiDJAKRBEAKYgBgoBgA=)

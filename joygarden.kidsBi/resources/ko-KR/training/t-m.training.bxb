@@ -3,6 +3,11 @@ train (t-m35bqcwu4mf3iqn8iiya72idx) {
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
   last-modified (1572506679254)
 }
+train (t-m38p6l3mprb4zgabhkm26vzeh) {
+  utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (돌고래)[v:UserAnswer]")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)
+  last-modified (1572521900935)
+}
 train (t-m7waomo49z5ph19v2ekhcmt4e) {
   utterance ([g:StartQuiz:continue:QuizInfo,r:InitQuizProgress]  이거 풀어볼래)
   plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGVgYGBmYGJiBNAOUxQhmgQATkGZmYAAA)

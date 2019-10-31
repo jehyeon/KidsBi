@@ -3,6 +3,11 @@ train (t-v3sn9xs9q57p81bz0mcel94at) {
   plan (Y2BhkM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ1DGkA5OzUlNLkFRRMAMaQxpt8ycktSikNSiXAZmBkYGJiDJAKRBEAKYgBgoBgA=)
   last-modified (1572507871281)
 }
+train (t-vnpj2gbyepmimrfd8p1lv19ma) {
+  utterance ([g:OpenVideoInYoutube] 이 동화 Youtube에서 틀어)
+  plan (Y2Bm4C3LLNNLzi9K1QtJrShhUM7Kr0xPLEpJzdPLzkwpdsrU8y9IzQvLTEnN98yLzC8tKU1KZZDCUARVkJbPwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572521925962)
+}
 train (t-vpfd208hq8ihy2hgp82314wkv) {
   utterance ([g:GetCategory] 동화 카테고리 보여줘)
   plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ5DBkHZPLYGpYGAEQgYoBpIA)
