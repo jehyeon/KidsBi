@@ -1,0 +1,5 @@
+train (t-aleo6xxfnxrwj3sk96ed0xhka) {
+  utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (두 번째) [v:Ordinal:Second]")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)
+  last-modified (1572452478714)
+}

@@ -1,0 +1,39 @@
+layout {
+	match: QuizCategory (quizCategory)
+	mode (Summary)
+	
+	content {
+		section {
+			content {
+				image-card {
+					image-url {
+						if(quizCategory == 'Animal') {
+							template ("images/Animal.png")
+						} else-if (quizCategory == 'Flower') {
+							template ("images/Flower.png")
+						} else-if (quizCategory == 'Fruit') {
+							template ("images/Fruit.png")
+						} else {
+							template ("images/Math.png")
+						}
+					}
+					aspect-ratio (3:4)
+					column-size (2)
+					image-object-fit (Contain)
+					image-object-position (Center)
+					image-background-color (Transparent)
+					title-area {
+						slot2 {
+							single-line {
+								text {
+									style (Title_S)
+									value ("#{value(quizCategory)}")
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

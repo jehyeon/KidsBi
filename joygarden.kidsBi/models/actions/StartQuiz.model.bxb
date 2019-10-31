@@ -1,0 +1,26 @@
+action (StartQuiz) {
+  type (Commit)
+  description (Solve quizzes)
+  confirm {
+    by (SolveQuizAnswer)
+  }
+  collect {
+    input (quizProgress) {
+      type (QuizProgress)
+      min (Required) max (One)
+
+      default-init {
+        intent {
+          goal: InitQuizProgress
+        }
+      }
+
+      validate {
+        if (quizProgress.done == true) {
+          halt
+        }
+      }
+    }
+  }
+  output (QuizResult)
+}

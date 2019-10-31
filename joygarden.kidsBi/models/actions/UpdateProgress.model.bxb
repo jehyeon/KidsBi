@@ -1,0 +1,37 @@
+action (UpdateProgress) {
+  type (UpdateTransaction)
+  description (__DESCRIPTION__)
+  collect {
+    input (quizProgress) {
+      type (QuizProgress)
+      min (Required) max (One)
+    }
+    input-group (inputKeyword){
+      requires (OneOrMoreOf)
+      collect{
+        input (ordinal) {
+          type (Ordinal)
+          min (Optional) max (One)
+        }
+        input (answer) {
+          type (UserAnswer)
+          min (Optional) max (One)
+        }
+      }
+    }
+  }
+  output (QuizProgress) {
+    throws {
+      error (Done) {
+        on-catch {
+          replan {
+            intent {
+              goal: QuizProgress
+              route: StartQuiz
+            }
+          }
+        }
+      }
+    }
+  }
+}

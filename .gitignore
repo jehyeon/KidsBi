@@ -3,6 +3,8 @@
 
 ignore
 tcl
+__pycache__
+.DS_Store
 
 ### VirtualEnv ###
 # Virtualenv

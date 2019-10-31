@@ -1,0 +1,3 @@
+boolean (SolveQuizAnswer) {
+  extends (viv.core.Confirmation)
+}

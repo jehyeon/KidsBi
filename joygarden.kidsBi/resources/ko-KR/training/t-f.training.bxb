@@ -1,0 +1,20 @@
+train (t-fa942qe40ocrf0l339ek067vp) {
+  utterance ([g:OpenVideoInYoutube:continue:VideoInfo] 이거 유튜브에서 보고 싶어)
+  plan (Y2Bm4C3LLNNLzi9K1QtJrShhUM7Kr0xPLEpJzdPLzkwpdsrU8y9IzQvLTEnN98yLzC8tKU1KZZDCUARVkJbPwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572458435585)
+}
+train (t-fbajifmq0brgjo7ue43u7y6jm) {
+  utterance ("[g:SolveQuizAnswer:prompt] 퀴즈 (정답)[v:SolveQuizAnswer:true] 알려줘")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572459778543)
+}
+train (t-fvicboi2o9z07xl3hhz779gjj) {
+  utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (네잎클로버)[v:UserAnswer]")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)
+  last-modified (1572452161984)
+}
+train (t-fwsqsy58o1dfhe2f9k6wqx46b) {
+  utterance ([g:GetCategory] 만화 카테고리 보여줘)
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ5DBkHZPLYGpYGAEQgYoBpIA)
+  last-modified (1572462285120)
+}

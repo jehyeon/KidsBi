@@ -1,0 +1,18 @@
+enum (VideoCategory) {
+  description (Video category)
+  symbol (Aesop)
+  symbol (Bed)
+  symbol (Car)
+  symbol (Christmas)
+  symbol (Collection)
+  symbol (Constellation)
+  symbol (Dinosaur)
+  symbol (English)
+  symbol (Korean tradition)
+  symbol (Musical)
+  symbol (Princess)
+  symbol (Science)
+  symbol (Shadow)
+  symbol (Traditional)
+  symbol (Popular)
+}

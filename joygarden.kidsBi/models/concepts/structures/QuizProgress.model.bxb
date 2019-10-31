@@ -1,0 +1,24 @@
+structure (QuizProgress) {
+  description (Quiz progress status)
+  features {
+    transaction
+  }
+  property (quizInfos) {
+    type (QuizInfo)
+    min (Optional) max (Many)
+  }
+  property (result) {
+    type (QuizResult)
+    min (Optional) max (Many)
+    lazy-source (EmptyResult)
+  }
+  property (index) {
+    type (viv.core.Integer)
+    min (Required) max (One)
+  }
+
+  property (done) {
+    type (viv.core.Boolean)
+    min (Required) max (One)
+  }
+}

@@ -1,0 +1,15 @@
+action (SelectCategoryInfo) {
+  type (Calculation)
+  description (Select categoryInfo prompt / [g:CategoryInfo:prompt] (Princess)[v:FilterTerm])
+  collect {
+    input (categoryInfos) {
+      type (CategoryInfo)
+      min (Required) max (Many)
+    }
+    input (filterTerm) {
+      type (FilterTerm)
+      min (Required) max (One)
+    }
+  }
+  output (CategoryInfo)
+}

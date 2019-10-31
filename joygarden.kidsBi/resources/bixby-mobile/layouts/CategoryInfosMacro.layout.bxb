@@ -5,38 +5,25 @@ layout-macro-def (categoryInfosMacro) {
       min (Required) max (Many)
     }
   }
-
+  
   content {
     section {
       content {
         for-each (categoryInfos) {
           as (categoryInfo) {
             image-card {
-              image-url ()
-              aspect-ratio (3:4)
+              image-url ("#{value(categoryInfo.imageURL)}")
+              aspect-ratio (4:3)
+              column-size (2)
               image-object-fit (Cover)
               image-object-position (Center)
               image-background-color (Transparent)
               title-area {
-                slot1 {
-                  text {
-                    style (Title_S)
-                    value (asdasd)
-                  }
-                }
                 slot2 {
                   single-line {
                     text {
-                      style (Detail_M_Soft)
-                      value ("#{value(categoryInfo.videoCategory)}")
-                    }
-                  }
-                }
-                slot3 {
-                  single-line {
-                    text {
-                      style (Detail_M_Soft)
-                      value (asdasd)
+                      style (Title_S)
+                      value ()
                     }
                   }
                 }                

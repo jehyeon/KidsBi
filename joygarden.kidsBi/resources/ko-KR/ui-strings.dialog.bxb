@@ -1,0 +1,11 @@
+template-macro-def (GetVideo_Random) {
+  content: template ("키즈비가 추천해줘")
+}
+
+template-macro-def (OpenVideo_Youtube) {
+  content: template ("동영상 재생이 안 돼요")
+}
+
+template-macro-def (GetQuiz_Another) {
+  content: template ("다른 퀴즈 풀고 싶어")
+}

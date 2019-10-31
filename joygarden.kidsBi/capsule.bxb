@@ -1,7 +1,6 @@
 capsule {
-  // id (joygarden.kidsBi)
-  id (playground.kidsBi)
-  version (0.1.0)
+  id (joygarden.kidsBi)
+  version (0.1.30)
   format (3)
   targets {
     target (bixby-mobile-ko-KR)
@@ -11,15 +10,11 @@ capsule {
     modern-prompt-rejection
     support-halt-effect-in-computed-inputs
     no-filtering-with-validation
+    modern-default-view-behavior
+    use-input-views-for-selection-list-detail
   }
 
   store-sections {
     section (EducationAndReference)
   }
-
-  capsule-imports {
-    import (viv.image) {
-      version (2.12.10) // last update 19.10.22
-    }
-  }  
 }

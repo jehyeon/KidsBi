@@ -1,0 +1,35 @@
+layout {
+  match: CategoryInfo (categoryInfo)
+  mode (Summary)
+
+  content {
+    section {
+      content {
+        image-card {
+          image-url ("#{value(categoryInfo.imageURL)}")
+          aspect-ratio (4:3)
+          column-size (2)
+          image-object-fit (Cover)
+          image-object-position (Center)
+          image-background-color (Transparent)
+          title-area {
+            slot2 {
+              single-line {
+                text {
+                  style (Title_S)
+                  value ()
+                }
+              }
+            }                
+          }
+          on-click {
+            intent {
+              goal: VideoInfo
+              value: VideoCategory$expr(categoryInfo.videoCategory)
+            }
+          }
+        }
+      }
+    }
+  }
+}

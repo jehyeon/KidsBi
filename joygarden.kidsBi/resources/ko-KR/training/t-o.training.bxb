@@ -1,0 +1,10 @@
+train (t-o5wprtjr5m911ny1hpqkl0mgz) {
+  utterance ([g:StartQuiz:continue:QuizProgress,r:ReTryQuiz] 틀린 문제만 알려줘)
+  plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4GIvWoNSQokpitLIwMDIwMTADaQYoixHMAgEmIM3MwAAA)
+  last-modified (1572456891531)
+}
+train (t-oingukzzdczbaypv41ny6bj1l) {
+  utterance ("[g:StartQuiz] (동물)[v:QuizCategory:Animal] 퀴즈 시작")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1572455791094)
+}

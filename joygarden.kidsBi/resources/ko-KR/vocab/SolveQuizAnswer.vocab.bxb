@@ -1,0 +1,8 @@
+vocab (SolveQuizAnswer) {
+  "true" {
+      "그만"
+   }
+   "false" {
+      "정답"
+    }
+}

@@ -2,13 +2,40 @@ action (GetVideo) {
   description (Action to search folktale by searchTerm or category)
   type (Search)
   collect {
-    input (searchTerm) {
-      type (SearchTerm)
-      min (Optional) max (One)
-    }
-    input (category) {
-      type (VideoCategory)
-      min (Optional) max (One)
+    input-group (keyword) {
+      requires (OneOf)
+      collect {
+        input (searchTerm) {
+          type (SearchTerm)
+          min (Optional) max (One)
+          default-select {
+            with-rule {
+              select-first
+            }
+          }      
+        }
+        input (category) {
+          type (VideoCategory)
+          min (Optional) max (One)
+          default-select {
+            with-rule {
+              select-first
+            }
+          }
+          validate {
+            if (!exists(searchTerm) && !exists(category)) {
+              replan {
+                intent {
+                  goal: SelectVideoCategory
+                  subplan {
+                    goal: GetCategory
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
   output (VideoInfo)

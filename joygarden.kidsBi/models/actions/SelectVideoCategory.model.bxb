@@ -1,0 +1,11 @@
+action (SelectVideoCategory) {
+  type (Calculation)
+  description (for video category selection)
+  collect {
+    input (categoryInfos) {
+      type (CategoryInfo)
+      min (Required) max (One)
+    }
+  }
+  output (VideoCategory)
+}

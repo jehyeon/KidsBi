@@ -1,0 +1,36 @@
+result-view {
+	match: QuizProgress (quizPrgoress) {
+	}
+	
+	message {
+		template-macro (StartQuiz_PrgressResut_Message)
+	}
+	
+	render {
+		list-of (quizPrgoress.quizInfos) {
+			navigation-mode {
+				if ($handsFree) {
+					read-many-and-next {
+						page-size (3)
+						list-summary {
+							template-macro (StartQuiz_PrgressResut_Message)
+						}
+						page-content (page) {
+							  underflow-statement {template-macro (List_Navigate_Underflow)}
+                overflow-statement { template-macro (List_Navigate_Overflow)}
+                next-page-question { template-macro (List_Navigate_question)}
+						}
+					}
+				}
+			}
+			where-each (quizInfo) {
+				spoken-summary {
+					template ("#{value(quizInfo)}")
+				}
+				layout-match (quizInfo){
+					mode (Summary)
+				}
+			}
+		}
+	}
+}

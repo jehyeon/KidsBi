@@ -1,0 +1,15 @@
+train (t-71795k6wszbr19ti0wbdhl2rz) {
+  utterance ([g:StartQuiz:continue:QuizProgress,r:ReTryQuiz] 틀린 문제만 보여줘)
+  plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4GIvWoNSQokpitLIwMDIwMTADaQYoixHMAgEmIM3MwAAA)
+  last-modified (1572456901649)
+}
+train (t-76nmmihrpgwpl5r0berrfvm2r) {
+  utterance ([g:GetVideo] 동화 보여줘)
+  plan (Y2BmkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYWBiYARiBiDJyMAAowE=)
+  last-modified (1572425225049)
+}
+train (t-7lxoipeuvig44jp5urghpqbmg) {
+  utterance ([g:GetRandomVideo] 키즈비가 추천해줘)
+  plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
+  last-modified (1572459935997)
+}

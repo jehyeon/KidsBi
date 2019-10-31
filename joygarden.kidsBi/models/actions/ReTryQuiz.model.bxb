@@ -1,0 +1,11 @@
+action (ReTryQuiz) {
+  type (UpdateTransaction)
+  description (Solve wrong problems again)
+  collect {
+    input (quizProgress) {
+      type (QuizProgress)
+      min (Required) max (One)
+    }
+  }
+  output (QuizProgress)
+}

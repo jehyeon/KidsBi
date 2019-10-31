@@ -1,49 +1,44 @@
 layout {
-  match: VideoInfo (videoInfo)
-  mode (Summary)
-
-  content {
-    section {
-      content {
-        compound-card {
-          content {
-            image-card {
-              aspect-ratio (16:9)
-              title-area {
-                slot1 {
-                  text {
-                    style (Title_S)
-                    value ("#{value(videoInfo.title)}")
-                  }
-                }
-                slot2 {
-                  single-line {
-                    text {
-                      style (Detail_M_Soft)
-                      value ("#{value(videoInfo.source)}")
-                    }
-                  }
-                }
-                slot3 {
-                  single-line {
-                    text {
-                      style (Detail_L)
-                      color (Blue)
-                      value ("#{value(videoInfo.like)}")
-                    }
-                  }
-                }
-              }
-              image-url {
-                template ("https://i.ytimg.com/vi/fpL9Q7etroc/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD7qvGnBUrB_GCOrRte-niYMlDhPQ")
-              }
-              image-object-position (Center)
-              image-object-fit (Cover)
-              image-background-color (Transparent)
-            }
-          }
-        }
-      }
-    }
-  }
+	match: VideoInfo (videoInfo)
+	mode (Summary)
+	
+	content {
+		section {
+			content {
+				image-card {
+					aspect-ratio (16:9)
+					title-area {
+						slot1 {
+							text {
+								style (Title_M)
+								value ("#{value(videoInfo.title)}")
+							}
+						}
+						slot2 {
+							single-line {
+								if(videoInfo.source == 'pinkpong') {
+									image{
+										shape (Circle)
+										url("images/pinkpong.jpg")
+										background-color (Transparent)
+									}
+								}
+								spacer
+								text {
+									style (Detail_L)
+									value ("#{value(videoInfo.source)}")
+								}
+							}
+						}
+					}
+					image-url {
+						template ("#{value(videoInfo.videoThumbnail)}")
+					}
+					image-object-position (Center)
+					image-object-fit (Cover)
+					image-background-color (Transparent)
+				}
+			}
+		}
+	}
 }

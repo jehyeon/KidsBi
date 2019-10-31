@@ -1,0 +1,20 @@
+dialog (Result) {
+  match: VideoInfo (videoInfos) {
+    from-output: SelectVideoInfo (action)
+  }
+
+  // Re prompt
+  if (size(action.videoInfos) == size(videoInfos)) {
+    template-macro (SelectVideoInfo_No_Result) {
+      param (filterTerm) {
+        expression (action.filterTerm)
+      }
+    }
+  } else {
+    template-macro (SelectVideoInfo_Result) {
+      param (filterTerm) {
+        expression (action.filterTerm)
+      }
+    }
+  }
+}

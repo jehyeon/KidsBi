@@ -1,0 +1,64 @@
+vocab(VideoCategory) {
+	"Aesop" {
+		"이솝"
+		"우화"
+		"이솝우화"
+	}
+	"Bed" {
+		"잠자리"
+		"자기전"
+		"침대"
+	}
+	"Car" {
+		"자동차"
+	}
+	"Christmas" {
+		"크리스마스"
+		"성탄절"
+	}
+	"Collection" {
+		"모음"
+		"모음집"
+	}
+	"Constellation" {
+		"별자리"
+		"별"
+	}
+	"Dinosaur" {
+		"공룡"
+	}
+	"English" {
+		"영어"
+		"외국어"
+	}
+	"Korean tradition" {
+		"한국전래"
+		"한국 전래"
+		"국내전래"
+		"국내 전래"
+		"우리나라"
+		"우리 나라"
+	}
+	"Musical" {
+		"뮤지컬"
+		"음악"
+	}
+	"Princess" {
+		"공주"
+	}
+	"Science" {
+		"과학"
+		"사이언스"
+	}
+	"Shadow" {
+		"그림자"
+	}
+	"Traditional" {
+		"전래"
+		"옛날"
+	}
+	"Popular" {
+		"인기있는"
+		"인기 있는"
+	}
+}

@@ -1,0 +1,4 @@
+dialog (Value) {
+  match: QuizInfo (quizInfo)
+  template ("#{value(quizInfo.question)} #{value(quizInfo.options[quizInfo.answer])}")
+}

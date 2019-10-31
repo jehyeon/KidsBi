@@ -1,12 +1,73 @@
 endpoints {
   action-endpoints {
+    // GetVideo
     action-endpoint (GetVideo) {
       accepted-inputs (searchTerm, category)
       local-endpoint (GetVideo.js)
     }
+    action-endpoint (GetRandomVideo) {
+      accepted-inputs ()
+      local-endpoint (GetRandomVideo.js)
+    }
+    action-endpoint (SelectVideoInfo) {
+      accepted-inputs (videoInfos, filterTerm)
+      local-endpoint (SelectVideoInfo.js)
+    }
+    action-endpoint (GetVideoUrl) {
+      accepted-inputs (videoInfo)
+      local-endpoint (GetVideoUrl.js)
+    }
+
+    // GetCategory
     action-endpoint (GetCategory) {
       accepted-inputs ()
       local-endpoint (GetCategory.js)
+    }
+    action-endpoint (SelectVideoCategory) {
+      accepted-inputs (categoryInfos)
+      local-endpoint (SelectVideoCategory.js)
+    }
+    action-endpoint (SelectCategoryInfo) {
+      accepted-inputs (categoryInfos, filterTerm, $vivContext)
+      local-endpoint (SelectCategoryInfo.js)
+    }
+
+    // StartQuiz
+    action-endpoint (GetQuiz) {
+      accepted-inputs (category)
+      local-endpoint (GetQuiz.js)
+    }
+    action-endpoint (StartQuiz) {
+      accepted-inputs (quizProgress)
+      local-endpoint (StartQuiz.js)
+    }
+    action-endpoint (UpdateProgress) {
+      accepted-inputs (quizProgress, answer, ordinal)
+      local-endpoint (UpdateProgress.js)
+    }
+    action-endpoint (ReTryQuiz) {
+      accepted-inputs (quizProgress)
+      local-endpoint (ReTryQuiz.js)
+    }
+    action-endpoint (GetQuizCategory) {
+      accepted-inputs ()
+      local-endpoint (GetQuizCategory.js)
+    }
+
+    // StartQuiz
+    action-endpoint (OpenVideoInYoutube) {
+      accepted-inputs (videoInfo)
+      local-endpoint (OpenVideoInYoutube.js)
+    }
+
+    // etc
+    action-endpoint (EmptyResult) {
+      accepted-inputs (quizProgress)
+      local-endpoint (EmptyResult.js)
+    }
+    action-endpoint (InitQuizProgress) {
+      accepted-inputs (quizInfos)
+      local-endpoint (InitQuizProgress.js)
     }
   }
 }

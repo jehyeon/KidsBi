@@ -1,0 +1,74 @@
+structure (VideoInfo) {
+  description (Folktale info as output of GetVideo action)
+  property (id) {
+    type (ID)
+    min (Optional) max (One)
+  }
+
+  property (title) {
+    type (VideoTitle)
+    min (Required) max (One)
+  }
+
+  property (source) {
+    type (VideoSource)
+    min (Required) max (One)
+  }
+
+  property (categories) {
+    type (VideoCategory)
+    min (Required) max (Many)
+  }
+
+  property (videoId) {
+    type (VideoId)
+    min (Required) max (One)
+  }
+
+  property (videoThumbnail) {
+    type (VideoThumbnail)
+    min (Required) max (One)
+  }
+
+  property (videoFile) {
+    type (VideoFile)
+    min (Required) max (One)
+  }
+
+  property (likeRatio) {
+    type (VideoLike)
+    min (Required) max (One)
+  }
+
+  property (viewCount) {
+    type (VideoViewCount)
+    min (Optional) max (One)
+  }
+
+  property (callCount) {
+    type (VideoCallCount)
+    min (Required) max (One)
+  }
+
+  // to be update
+  property (funSticker) {
+    type (FunSticker)
+    min (Optional) max (One)
+  }
+  property (notFunSticker) {
+    type (NotFunSticker)
+    min (Optional) max (One)
+  }
+  // ------------
+
+  property (updateDate) {
+    type (VideoUpdateDate)
+    min (Optional) max (One)
+  }
+
+  property (videoUrl) {
+    type (VideoUrl)
+    min (Optional) max (One)
+    lazy-source (GetVideoUrl)
+  }
+}

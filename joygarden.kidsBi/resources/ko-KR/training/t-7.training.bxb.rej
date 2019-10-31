@@ -1,0 +1,12 @@
+diff a/joygarden.kidsBi/resources/ko-KR/training/t-7.training.bxb b/joygarden.kidsBi/resources/ko-KR/training/t-7.training.bxb	(rejected hunks)
+@@ -2,4 +2,9 @@
+   utterance ([g:GetVideo] 동화 보여줘)
+   plan (Y2BmkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYWBiYARiBiDJyMAAowE=)
+   last-modified (1572425225049)
++}
++train (t-7lxoipeuvig44jp5urghpqbmg) {
++  utterance ([g:GetRandomVideo] 키즈비가 추천해줘)
++  plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
++  last-modified (1572457679295)
+ }
+\ No newline at end of file

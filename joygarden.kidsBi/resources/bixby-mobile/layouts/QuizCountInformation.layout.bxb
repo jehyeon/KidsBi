@@ -1,0 +1,40 @@
+layout-macro-def (quizCountInformation) {
+	params{
+		param (quizProgress) {
+			type (QuizProgress)
+			min (Required)max (One)
+		}
+	}
+	content {
+		section {
+			
+			content {
+				title-area{
+					halign (Center)
+					slot1{
+						single-line{					
+							text{
+								color (Amber)
+								value{
+									if (quizProgress.index==0){ template ("1 / #{(size(quizProgress.quizInfos))}")}
+									else-if (quizProgress.index==1) { template ("2 / #{(size(quizProgress.quizInfos))}")}
+									else-if (quizProgress.index==2) { template ("3 / #{(size(quizProgress.quizInfos))}")}
+									else-if (quizProgress.index==3) { template ("4 / #{(size(quizProgress.quizInfos))}")}
+									else-if (quizProgress.index==4) { template ("5 / #{(size(quizProgress.quizInfos))}")}
+									else-if (quizProgress.index==5) { template ("6 / #{(size(quizProgress.quizInfos))}")}
+									else-if (quizProgress.index==6) { template ("7 / #{(size(quizProgress.quizInfos))}")}
+									else-if (quizProgress.index==7) { template ("8 / #{(size(quizProgress.quizInfos))}")}
+									else-if (quizProgress.index==8) { template ("9 / #{(size(quizProgress.quizInfos))}")}
+									else-if (quizProgress.index==9) { template ("10 / #{(size(quizProgress.quizInfos))}")}
+								}
+							}
+						}
+					}
+				}
+				
+			}
+		}
+	}
+}
+
+

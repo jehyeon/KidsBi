@@ -3,8 +3,12 @@ capsule-info {
   developer-name (조이가든)
   icon-asset (images/icon.png)
   description (키즈비를 통해 즐겁고 유익한 유아 교육을 체험해보세요.)
-  website-url (https://github.com/jehyeon/KidsBi)
-  terms-url (https://example.com/terms-of-use/) // ??
+  website-url (https://github.com/jehyeon/KidsBi/tree/master/joygarden.kidsBi)
 
   dispatch-name (키즈비)
+  search-keywords {
+    keyword (학습)
+    keyword (동화)
+    keyword (전래동화)
+  }
 }

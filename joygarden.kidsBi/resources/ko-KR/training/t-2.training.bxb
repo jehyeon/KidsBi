@@ -1,0 +1,10 @@
+train (t-2is9u1nnjw1d3hhevrjlt2qvq) {
+  utterance ("[g:StartQuiz] (꽃)[v:QuizCategory:Flower] 퀴즈 보여줘")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1572457350638)
+}
+train (t-2jflt14zd5pnfzltlg555aaku) {
+  utterance ("[g:StartQuiz] (동물)[v:QuizCategory:Animal] 퀴즈 풀래")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1572457355193)
+}

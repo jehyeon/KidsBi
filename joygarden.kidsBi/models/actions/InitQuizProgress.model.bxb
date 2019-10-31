@@ -1,0 +1,17 @@
+action (InitQuizProgress) {
+  type (BeginTransaction)
+  description (Create quiz progress)
+  collect {
+    input (quizInfos) {
+      type (QuizInfo)
+      min (Required) max (Many)
+      default-init {
+        intent {
+          goal: GetQuiz
+          // value: Category (in GetQuiz.model)
+        }
+      }
+    }
+  }
+  output (QuizProgress)
+}

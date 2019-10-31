@@ -1,0 +1,42 @@
+layout {
+	match: QuizInfo (quizInfo)
+	mode (Summary)
+	
+	content {
+		section {
+			content {
+				cell-card{
+					slot1{
+						image{
+							url("#{value(quizInfo.url)}")
+							shape (Square)
+						}
+					}
+					slot2{
+						content{
+							order (PrimarySecondary)
+							primary("#{value(quizInfo.question)}")
+							secondary("#{value(quizInfo.options[quizInfo.answer])}")
+						}
+					}
+					slot3 {
+						if (exists(quizInfo.answerResult)) {
+							if (quizInfo.answerResult == true){
+								image {
+									shape (Circle)
+									url(images/correct.svg)
+								}
+							}
+						}
+						else{
+							image{
+								shape (Circle)
+								url(images/incorrect.svg)
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

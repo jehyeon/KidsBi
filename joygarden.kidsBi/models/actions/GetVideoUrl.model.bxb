@@ -1,0 +1,11 @@
+action (GetVideoUrl) {
+  type (Fetch)
+  description (Get video url from api server)
+  collect {
+    input (videoInfo) {
+      type (VideoInfo)
+      min (Required) max (One)
+    }
+  }
+  output (VideoUrl)
+}

@@ -1,0 +1,14 @@
+train (t-y3genltvsxtvhz8sdmtr2abbc) {
+  utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (4번) [v:Ordinal:Fourth]")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)
+  last-modified (1572452472280)
+}
+train (t-ymrzobis0apjin5799mt7j5jk) {
+  utterance ([g:OpenVideoInYoutube:continue:VideoInfo] 유튜브로 연결)
+  last-modified (1572458675478)
+}
+train (t-yvev2443fbiwmo8cv8ri2lw6o) {
+  utterance ("[g:StartQuiz] (동물)[v:QuizCategory:Animal] 퀴즈 할래")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1572453239812)
+}

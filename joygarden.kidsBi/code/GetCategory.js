@@ -1,10 +1,17 @@
 var console = require('console');
-var category = require('lib/categoryImageURL.js');
+var http = require('http');
+var config = require('config');
 
 module.exports.function = function getCategory() {
+  const url = 'https://' + config.get('url') + config.get('category');
+  const options = { 
+    format: 'json',
+    headers:{
+     Accept: 'application/json'
+    },
+  };
 
-  var output = category.showCategories();
+  const categoryInfos = http.getUrl(url, options);
 
-  console.log(output);
-  return output;
-}
+  return categoryInfos;
+};
