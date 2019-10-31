@@ -26,14 +26,15 @@ module.exports.function = function updateProgress(quizProgress, answer, ordinal)
       //exact Matching
       quizProgress.result[quizProgress.index] = 'true';
       quizProgress.quizInfos[quizProgress.index].answerResult = 'true';
-    }
-    else if (String(quizProgress.quizInfos[quizProgress.index].options[quizProgress.quizInfos[quizProgress.index].answer]).indexOf(input_answer) !=-1) {
+    } else if (String(quizProgress.quizInfos[quizProgress.index].options[quizProgress.quizInfos[quizProgress.index].answer]).indexOf(input_answer) !=-1) {
       //partial Matching
       quizProgress.result[quizProgress.index] = 'true';
       quizProgress.quizInfos[quizProgress.index].answerResult = 'true';
       //console.log(quizProgress.quizInfos[quizProgress.index].options[i]);
       //console.log(answer);
-      }
+    } else {
+      quizProgress.quizInfos[quizProgress.index].answerResult = 'false';
+    }
 
   }
   if (quizProgress.quizInfos.length === quizProgress.index + 1) {

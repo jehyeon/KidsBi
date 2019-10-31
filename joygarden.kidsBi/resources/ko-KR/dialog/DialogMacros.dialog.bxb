@@ -308,3 +308,9 @@ template-macro-def (OpenVideo_Youtube_Progress) {
 		template ("Youtube로 연결해드릴게요.")
 	}
 }
+
+template-macro-def (Answer_Is) {
+	content {
+		template ("정답은")
+	}
+}

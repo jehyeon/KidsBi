@@ -21,7 +21,7 @@ result-view {
 	}
 	
 	render {
-		if (size(quizInfos) > 0) {
+		if (size(quizInfos) > 1) {
 			list-of (quizInfos) {
 				navigation-mode {
 					if($handsFree) {
@@ -58,7 +58,11 @@ result-view {
 					}
 				}
 			}
-		}else {
+		} else-if (size(quizInfos) == 1) {
+			layout-match (quizInfos) {
+				mode (Details)
+			}
+		} else {
 			nothing
 		}
 	}

@@ -1,0 +1,89 @@
+layout {
+  match: QuizInfo (quizInfo)
+  mode (Details)
+
+  content {
+    section {
+      content {
+        if (exists(quizInfo.answerResult)) {
+          paragraph {
+            style (Title_S)
+            value ("Q. #{value(quizInfo.question)}")
+          }
+          spacer
+          image {
+            url ("#{value(quizInfo.url)}")
+            aspect-ratio (1:1)
+            lightbox-enabled (false)
+            object-position (Center)
+            object-fit (Cover)
+          }
+          spacer
+          for-each (quizInfo.options) {
+            as (option) {
+              if (quizInfo.options[quizInfo.answer] == option) {
+                cell-card {
+                  slot2 {
+                    content {
+                      primary {
+                        template ("#{value(option)}")
+                      }
+                    }
+                  }
+                }
+              } else {
+                cell-area {
+                  slot2 {
+                    content {
+                      primary {
+                        template ("#{value(option)}")
+                      }
+                    }
+                  }
+                  
+                }
+              }
+            }
+          }
+        } else {
+          paragraph {
+            style (Title_S)
+            value ("Q. #{value(quizInfo.question)}")
+          }
+          spacer
+          image {
+            url ("#{value(quizInfo.url)}")
+            aspect-ratio (1:1)
+            lightbox-enabled (false)
+            object-position (Center)
+            object-fit (Cover)
+          }
+          spacer
+          title-card {
+            title-area {
+              halign (Center)
+              slot1 {
+                single-line {
+                  text {
+                    style (Title_S)
+                    value {
+                      template-macro (Answer_Is)
+                    }
+                  }
+                }
+              }
+              slot2 {
+                single-line {
+                  text {
+                    style (Title_L)
+                    value ("#{value(quizInfo.options[quizInfo.answer])}")
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
