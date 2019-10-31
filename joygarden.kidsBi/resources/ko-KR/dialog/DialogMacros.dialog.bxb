@@ -322,3 +322,27 @@ template-macro-def (Answer_Is) {
 		template ("정답은")
 	}
 }
+
+template-macro-def (GetQuiz_Progress) {
+	content {
+		template ("퀴즈를 찾고 있어요.")
+	}
+}
+
+template-macro-def (UpdateProgress_Progress) {
+	content {
+		template ("정답 확인 중..")
+	}
+}
+
+template-macro-def (InitQuizProgress_Progress) {
+	content {
+		template ("퀴즈 가져오는 중..")
+	}
+}
+
+template-macro-def (ReTryQuiz_No_QuizInfos) {
+	content {
+		template ("틀린 퀴즈가 없어요.")
+	}
+}
