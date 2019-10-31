@@ -1,7 +1,7 @@
 train (t-j38gmqvdlpg99j1685s0lpt1k) {
-  utterance ("[g:VideoCategory:prompt] (잠자리)[v:VideoCategory:Bed] 동화")
-  plan (Y2BikMvKr0xPLEpJzdPLzkwpdsrUC8tMSc13TixJTc8vqiQozwiEDAw8QMwExEA2AA==)
-  last-modified (1572462608940)
+  utterance ("[g:GetVideo] (잠자리)[v:VideoCategory:Bed] 동화")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
+  last-modified (1572499302435)
 }
 train (t-j4y4nd7sen5rqous43hhi6vwz) {
   utterance ([g:GetRandomVideo] 키즈비가 추천해줘)

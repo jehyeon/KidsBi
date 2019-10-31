@@ -8,3 +8,8 @@ train (t-2jflt14zd5pnfzltlg555aaku) {
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
   last-modified (1572457355193)
 }
+train (t-2swqqaljiabgl0qvy2sg6zur5) {
+  utterance ("[g:CategoryInfo:prompt] (자동차)[v:FilterTerm]가 나오는 만화 보여줘")
+  plan (Y2BhkM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ1DGkA5OzUlNLkFRRMAMaQxpt8ycktSikNSiXAZmBkYGJiDJAKRBEAKYgBgoBgA=)
+  last-modified (1572500279627)
+}

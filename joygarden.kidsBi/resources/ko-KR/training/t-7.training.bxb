@@ -18,3 +18,8 @@ train (t-7lxoipeuvig44jp5urghpqbmg) {
   plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
   last-modified (1572459935997)
 }
+train (t-7p3zk5sgwbas1sjoaoxsspf7k) {
+  utterance ("[g:SolveQuizAnswer:prompt] 문제 (그만)[v:SolveQuizAnswer:false] 풀고 싶어")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572498461783)
+}

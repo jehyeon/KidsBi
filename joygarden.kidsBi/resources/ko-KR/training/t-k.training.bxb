@@ -1,7 +1,17 @@
+train (t-k6abvkt5sk6cl5iu5xsbk34yx) {
+  utterance ("[g:SolveQuizAnswer:prompt] 퀴즈 (그만)[v:SolveQuizAnswer:false] 풀래")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572498480557)
+}
+train (t-k7rntnat8lad6zmgtawvrnbz8) {
+  utterance ("[g:GetVideo] (공룡)[v:VideoCategory:Dinosaur]")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
+  last-modified (1572498919901)
+}
 train (t-k7yiyysjagqti5lrr1v33doj1) {
-  utterance ("[g:VideoCategory:prompt] (이솝우화)[v:VideoCategory:Aesop]")
-  plan (Y2BikMvKr0xPLEpJzdPLzkwpdsrUC8tMSc13TixJTc8vqiQozwiEDAw8QMwExEA2AA==)
-  last-modified (1572462372334)
+  utterance ("[g:GetVideo] (이솝우화)[v:VideoCategory:Aesop]")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
+  last-modified (1572499336283)
 }
 train (t-ki5imhe2fhvginnwajtc9aqpr) {
   utterance ("[g:StartQuiz] (수학)[v:QuizCategory:Math] 퀴즈 할래")
@@ -12,6 +22,11 @@ train (t-kqc5oekyhdz1y5uofxivdoxjt) {
   utterance ("[g:SelectVideoInfo:continue:VideoInfo] (커다란 순무)[v:FilterTerm] 선택할래")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
   last-modified (1572509364466)
+  }
+train (t-kqtwkhpopochd7wkrn2y4d3r5) {
+  utterance ("[g:GetVideo] (이솝우화)[v:VideoCategory:Aesop]")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
+  last-modified (1572499095012)
 }
 train (t-kr4jj1hlaln6y8s9rlys5gp3c) {
   utterance ("[g:SolveQuizAnswer:prompt] 문제 (정답)[v:SolveQuizAnswer:true] 알려줘")

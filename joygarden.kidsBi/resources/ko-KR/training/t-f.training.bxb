@@ -8,6 +8,11 @@ train (t-fbajifmq0brgjo7ue43u7y6jm) {
   plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
   last-modified (1572459778543)
 }
+train (t-fr6pswsz3imhna3g7s3b36kqo) {
+  utterance ("[g:QuizCategory] (과일)[v:QuizCategory:Fruit] 퀴즈 보여줘")
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
+  last-modified (1572504692042)
+}
 train (t-fvicboi2o9z07xl3hhz779gjj) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (네잎클로버)[v:UserAnswer]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)

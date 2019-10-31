@@ -1,7 +1,7 @@
 train (t-w0ba7cavcpsb3le5klvjffuvz) {
-  utterance ("[g:VideoCategory:prompt] (자동차)[v:VideoCategory:Car]")
-  plan (Y2BikMvKr0xPLEpJzdPLzkwpdsrUC8tMSc13TixJTc8vqiQozwiEDAw8QMwExEA2AA==)
-  last-modified (1572462508254)
+  utterance ("[g:GetVideo] (자동차)[v:VideoCategory:Car]")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
+  last-modified (1572499321259)
 }
 train (t-wc116nerb09rvw6b3hx4l9n5c) {
   utterance ([g:GetRandomVideo] 동화 아무거나 틀어줘)
