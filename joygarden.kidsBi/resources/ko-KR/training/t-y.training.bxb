@@ -5,7 +5,8 @@ train (t-y3genltvsxtvhz8sdmtr2abbc) {
 }
 train (t-ymrzobis0apjin5799mt7j5jk) {
   utterance ([g:OpenVideoInYoutube:continue:VideoInfo] 유튜브로 연결)
-  last-modified (1572458675478)
+  plan (Y2Bm4C3LLNNLzi9K1QtJrShhUM7Kr0xPLEpJzdPLzkwpdsrU8y9IzQvLTEnN98yLzC8tKU1KZZDCUARVkJbPwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572518108878)
 }
 train (t-ysycdql1fodhy2kiiui5mx9y5) {
   utterance ([g:StartQuiz:continue:QuizProgress,r:ReTryQuiz] 오답문제 다시 풀기)

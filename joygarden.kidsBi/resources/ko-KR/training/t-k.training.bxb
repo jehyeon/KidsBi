@@ -10,7 +10,8 @@ train (t-kqc5oekyhdz1y5uofxivdoxjt) {
 }
 train (t-ks4np46c9xb9bnvpjgz14u3uf) {
   utterance ("[g:QuizCategory:prompt] (꽃)[v:QuizCategory:Flower]")
-  last-modified (1572460685579)
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
+  last-modified (1572518107803)
 }
 train (t-kvt7c8nbi6gd1ym584r56j29k) {
   utterance ([g:GetQuiz] 학습 모드 켜봐)
