@@ -7,5 +7,17 @@ action (OpenVideoInYoutube) {
       min (Required) max (One)
     }
   }
-  output (viv.core.Text)
+  output (viv.core.Text) {
+    throws {
+      error (NoVideoInfo) {
+        on-catch {
+          halt {
+            dialog {
+              template-macro (NoVideoInfo)
+            }
+          }
+        }
+      }
+    }
+  }
 }
