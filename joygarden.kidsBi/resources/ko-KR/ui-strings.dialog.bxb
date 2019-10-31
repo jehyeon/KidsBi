@@ -13,3 +13,8 @@ template-macro-def (GetQuiz_Another) {
 template-macro-def (GetQuiz_Incorrect_Again) {
   content: template ("틀린 문제 다시 풀래")
 }
+
+template-macro-def (StartQuiz_This_Card) {
+  content: template ("이거 풀어볼래")
+}
+//OpenVideo_Youtube

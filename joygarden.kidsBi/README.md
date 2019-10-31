@@ -33,9 +33,6 @@
 [g:StartQuiz] 다시 풀래 / 다른 퀴즈 풀고 싶어 // 퀴즈 그만하기(QuizResult view)의 Conversation driver
 
 2-2. Follow-up
-// Quiz category select
-[g:QuizCategory:prompt] (수학)[v:QuizCategoey:Math] 퀴즈 선택해  // variation은 [region]/vocab/QuizCategory.vocab.bxb에 추가
-
 // Answer select
 // 빅스비 기본 Ordinal selection이 적용 안됨
 [g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (첫번째)[v:Ordinal]  // variation은 [region]/vocab/Ordinal.vocab.bxb에 추가
@@ -54,9 +51,12 @@
 [g:GetQuiz] (과일)[v:QuizCategory:Animal] 공부하고 싶어 / (수학)[v:QuizCategory:Math] 문제는 뭐가 있어
 
 3-2. Follow-up
-[g:QuizCategory:prompt] (인물)[v:QuizCategory:Person] 선택해 / (나라)[v:QuizCategory:Country] 문제 보여줘
+[g:GetQuiz] 키즈비에는 어떤 퀴즈가 있어 / 문제 카드들 보여줘 / 학습 모드 시작
+[g:GetQuiz] (과일)[v:QuizCategory:Animal] 공부하고 싶어 / (수학)[v:QuizCategory:Math] 문제는 뭐가 있어
+[g:StartQuiz:continue:QuizInfo,r:InitQuizProgress]  이거 풀어볼래
 ```
 
+3. 
 ### Video Category
 사용가능한 Video Category 목록입니다.
 > Video 카테고리 수정 시,

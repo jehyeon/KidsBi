@@ -257,7 +257,7 @@ template-macro-def (GetQuiz_Result_Multi) {
 	}
 	content {
 		choose (Random) {
-			template ("#{value(category)} #{size}개를 찾았어요.")
+			template ("#{value(category)} #{size}개를 찾았어요. 이미지를 눌러 학습 카드를 확인해보세요.")
 		}
 	}
 }

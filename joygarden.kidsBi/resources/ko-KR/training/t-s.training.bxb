@@ -1,3 +1,8 @@
+train (t-s6cl9zn4vn9swjw7b68zvoafn) {
+  utterance ([g:GetQuiz] 학습모드 켜줘)
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572512104658)
+}
 train (t-siqraiguhu7xxpxga28m9j011) {
   utterance ([g:GetVideo] 동화 재생해줘)
   plan (Y2BmkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYWBiYARiBiDJyMAAowE=)
