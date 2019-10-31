@@ -7,6 +7,11 @@ train (t-ymrzobis0apjin5799mt7j5jk) {
   utterance ([g:OpenVideoInYoutube:continue:VideoInfo] 유튜브로 연결)
   last-modified (1572458675478)
 }
+train (t-ysycdql1fodhy2kiiui5mx9y5) {
+  utterance ([g:StartQuiz:continue:QuizProgress,r:ReTryQuiz] 오답문제 다시 풀기)
+  plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4GIvWoNSQokpitLIwMDIwMTADaQYoixHMAgEmIM3MwAAA)
+  last-modified (1572511294746)
+}
 train (t-yvev2443fbiwmo8cv8ri2lw6o) {
   utterance ("[g:StartQuiz] (동물)[v:QuizCategory:Animal] 퀴즈 할래")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
