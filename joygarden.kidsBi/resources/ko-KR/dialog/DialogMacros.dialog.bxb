@@ -251,13 +251,13 @@ template-macro-def (GetQuiz_Result_Multi) {
 			min (Required) max (One)
 		}
 		param (category) {
-			type (viv.core.Text)
-			min (Optional) max (One)
+			type (QuizCategory)
+			min (Required) max (One)
 		}
 	}
 	content {
 		choose (Random) {
-			template ("[#{category} ]문제 #{size}개를 찾았어요.")
+			template ("#{value(category)} #{size}개를 찾았어요.")
 		}
 	}
 }
