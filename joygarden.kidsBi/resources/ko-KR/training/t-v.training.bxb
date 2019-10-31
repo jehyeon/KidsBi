@@ -8,3 +8,8 @@ train (t-vpfd208hq8ihy2hgp82314wkv) {
   plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ5DBkHZPLYGpYGAEQgYoBpIA)
   last-modified (1572429916990)
 }
+train (t-vukj8kb1ylr3aet9fgzwvv37f) {
+  utterance ([g:GetQuiz] 카드 공부할래)
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572511174308)
+}

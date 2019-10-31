@@ -18,6 +18,16 @@ train (t-4nolwhiqkcm1qbetj4i3byiwl) {
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
   last-modified (1572457335717)
 }
+train (t-4vpgsxxn6vkrg4qe6y0039gxa) {
+  utterance ([g:GetQuiz] 키즈비 학습 모드 시작해)
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572511157068)
+}
+train (t-4x3b1k6rsw932s0uns3s1ohkz) {
+  utterance ([g:GetQuiz] 키즈비에서 공부 모드 해보고 싶어)
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572511200465)
+}
 train (t-4xc9cmr9lhljgai4ov5tqaeb2) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (1번) [v:Ordinal:First]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)

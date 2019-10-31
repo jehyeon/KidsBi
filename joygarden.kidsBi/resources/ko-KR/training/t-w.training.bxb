@@ -18,3 +18,8 @@ train (t-wipx227kj0tiwhg1f8f89rqsb) {
   plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
   last-modified (1572457750863)
 }
+train (t-wow69zn4l3ym403sp2sr60z0y) {
+  utterance ("[g:QuizCategory] (과일)[v:QuizCategory:Fruit] 문제 시작")
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
+  last-modified (1572511026529)
+}

@@ -3,6 +3,11 @@ train (t-x0sfgyqx46jo9lq6c3q7chlka) {
   plan (Y2Bm4C3LLNNLzi9K1QtJrShhUM7Kr0xPLEpJzdPLzkwpdsrU8y9IzQvLTEnN98yLzC8tKU1KZZDCUARVkJbPwMTACMQMQJKRgQFGAwA=)
   last-modified (1572458494235)
 }
+train (t-xagn9558146cj3jtu5pbe76lp) {
+  utterance ("[g:QuizCategory] (과일)[v:QuizCategory:Fruit] 문제 시작해봐")
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
+  last-modified (1572511037015)
+}
 train (t-xc7394ah9kqpe1u0sb0vwp9mx) {
   utterance ("[g:GetVideo] (그림자)[v:VideoCategory:Shadow] 동화 재생해줘")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)

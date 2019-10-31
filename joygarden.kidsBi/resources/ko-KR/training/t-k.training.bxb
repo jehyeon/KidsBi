@@ -22,7 +22,7 @@ train (t-kqc5oekyhdz1y5uofxivdoxjt) {
   utterance ("[g:SelectVideoInfo:continue:VideoInfo] (커다란 순무)[v:FilterTerm] 선택할래")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
   last-modified (1572509364466)
-  }
+}
 train (t-kqtwkhpopochd7wkrn2y4d3r5) {
   utterance ("[g:GetVideo] (이솝우화)[v:VideoCategory:Aesop]")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
@@ -36,6 +36,11 @@ train (t-kr4jj1hlaln6y8s9rlys5gp3c) {
 train (t-ks4np46c9xb9bnvpjgz14u3uf) {
   utterance ("[g:QuizCategory:prompt] (꽃)[v:QuizCategory:Flower]")
   last-modified (1572460685579)
+}
+train (t-kvt7c8nbi6gd1ym584r56j29k) {
+  utterance ([g:GetQuiz] 학습 모드 켜봐)
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572511166009)
 }
 train (t-kx862d0k34od7avqotw3wldw4) {
   utterance ("[g:StartQuiz] (꽃)[v:QuizCategory:Flower] 퀴즈 시작할래")

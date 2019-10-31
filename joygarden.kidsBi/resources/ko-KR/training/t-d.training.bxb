@@ -13,3 +13,13 @@ train (t-daxl3mm33yykjo1nb9h2s0xxo) {
   plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
   last-modified (1572453060056)
 }
+train (t-dfshpn9naw3jc8274y8mogimy) {
+  utterance ("[g:QuizCategory] (동물)[v:QuizCategory:Fruit] 퀴즈 풀어볼래")
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
+  last-modified (1572510976332)
+}
+train (t-dvjt91x18qledzczuo8vs7hf5) {
+  utterance ("[g:QuizCategory] (인물)[v:QuizCategory:Fruit] 퀴즈 보여줘")
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
+  last-modified (1572510921794)
+}

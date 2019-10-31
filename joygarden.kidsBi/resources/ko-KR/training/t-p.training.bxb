@@ -13,6 +13,11 @@ train (t-p45t9t54lyt3pz5q6rx3edsj6) {
   plan (Y2Bm4C3LLNNLzi9K1QtJrShhUM7Kr0xPLEpJzdPLzkwpdsrU8y9IzQvLTEnN98yLzC8tKU1KZZDCUARVkJbPwMTACMQMQJKRgQFGAwA=)
   last-modified (1572458421906)
 }
+train (t-p622ev5dr36wcqud35q4tpd09) {
+  utterance ("[g:QuizCategory] (과일)[v:QuizCategory:Fruit] 문제 보여줘")
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
+  last-modified (1572511017818)
+}
 train (t-pcvxygzs0uanuu7avctil7x31) {
   utterance ([g:GetVideo] 동화 보여주세요)
   plan (Y2BmkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYWBiYARiBiDJyMAAowE=)

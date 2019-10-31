@@ -3,6 +3,11 @@ train (t-e184pfnv9x51x9z0mqf2vetrk) {
   plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
   last-modified (1572460812852)
 }
+train (t-ee9qoh3mmqxhhuuaooimk0kgy) {
+  utterance ([g:GetQuiz] 키즈비에서 어떤 공부할 수 있어)
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572511270740)
+}
 train (t-eyevsc9ttmyo6aexocsp5kamu) {
   utterance ("[g:GetVideo] (공룡)[v:SearchTerm] 나오는 만화 보여줘")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)

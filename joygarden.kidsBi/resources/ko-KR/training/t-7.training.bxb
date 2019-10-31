@@ -13,6 +13,11 @@ train (t-7ac50cquhb9r2dowjyg3kllw1) {
   plan (Y2BmkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYWBiYARiBiDJyMAAowE=)
   last-modified (1572489280190)
 }
+train (t-7brf8fp43pd5j9ijedk38zxkq) {
+  utterance ("[g:QuizCategory] (과일)[v:QuizCategory:Fruit] 퀴즈 시작")
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
+  last-modified (1572511006721)
+}
 train (t-7lxoipeuvig44jp5urghpqbmg) {
   utterance ([g:GetRandomVideo] 키즈비가 추천해줘)
   plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
