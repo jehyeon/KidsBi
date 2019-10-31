@@ -1,0 +1,38 @@
+navigation-support {
+  match : CategoryInfo
+
+  ordinal-selection-patterns {
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 카테고리")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 카테고리 재생")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 고를게")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector]")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 틀어줘")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 꺼 틀어줘")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 선택")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 선택해줘")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 꺼 선택해줘")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 거 선택해줘")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 것 선택해줘")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 보여줘")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 꺼 보여줘")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 거 보여줘")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 열어줘")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 열어")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 열어봐")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 거")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 꺼")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 거 읽어줘")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 거 선택할래")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 것 선택할래")
+    pattern ("응 (첫 번째)[v:viv.core.OrdinalSelector]")
+    pattern ("응 (첫 번째)[v:viv.core.OrdinalSelector] 거")
+    pattern ("아니 (첫 번째)[v:viv.core.OrdinalSelector]")
+    pattern ("아니 (첫 번째)[v:viv.core.OrdinalSelector] 거")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 불러 준거")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 읽어준 거")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 꺼 선택")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 골라줘")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 꺼 골라줘")
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 거 틀어")
+  }
+}

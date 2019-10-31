@@ -1,0 +1,7 @@
+navigation-support {
+  match : QuizInfo
+
+  ordinal-selection-patterns {
+    pattern ("(첫 번째)[v:viv.core.OrdinalSelector] 퀴즈")
+  }
+}
