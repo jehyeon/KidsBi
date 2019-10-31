@@ -133,3 +133,5 @@
 - 0.1.34: Quiz category 추가
 - 0.1.35: 학습 데이터 추가
 - 0.1.36: No VideoInfo Validation 추가
+- 0.1.37: Item navigation 추가
+- 1.0.0: KidsBi release

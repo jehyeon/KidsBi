@@ -1,6 +1,6 @@
 capsule {
   id (joygarden.kidsBi)
-  version (0.1.36)
+  version (1.0.0)
   format (3)
   targets {
     target (bixby-mobile-ko-KR)
