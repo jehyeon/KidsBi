@@ -1,3 +1,8 @@
+train (t-o32nsubfa2vvorlvgh4286nck) {
+  utterance ("[g:SelectVideoInfo:continue:VideoInfo] (게자리)[v:FilterTerm]")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
+  last-modified (1572509562504)
+}
 train (t-o5wprtjr5m911ny1hpqkl0mgz) {
   utterance ([g:StartQuiz:continue:QuizProgress,r:ReTryQuiz] 틀린 문제만 알려줘)
   plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4GIvWoNSQokpitLIwMDIwMTADaQYoixHMAgEmIM3MwAAA)
@@ -7,4 +12,9 @@ train (t-oingukzzdczbaypv41ny6bj1l) {
   utterance ("[g:StartQuiz] (동물)[v:QuizCategory:Animal] 퀴즈 시작")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
   last-modified (1572455791094)
+}
+train (t-ozrixxmpe5f46oa7d0gdhr40q) {
+  utterance ("[g:GetVideo] (크리스마스)[v:CategoryInfo] 틀어줘")
+  plan (Y2BlkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJYMshjxMCmw5CwMjAxMDM5BmgLIYGUCACYwZQeIA)
+  last-modified (1572509074834)
 }

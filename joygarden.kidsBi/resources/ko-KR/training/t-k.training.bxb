@@ -8,6 +8,11 @@ train (t-ki5imhe2fhvginnwajtc9aqpr) {
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
   last-modified (1572453240991)
 }
+train (t-kqc5oekyhdz1y5uofxivdoxjt) {
+  utterance ("[g:SelectVideoInfo:continue:VideoInfo] (커다란 순무)[v:FilterTerm] 선택할래")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
+  last-modified (1572509364466)
+}
 train (t-kr4jj1hlaln6y8s9rlys5gp3c) {
   utterance ("[g:SolveQuizAnswer:prompt] 문제 (정답)[v:SolveQuizAnswer:true] 알려줘")
   plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)

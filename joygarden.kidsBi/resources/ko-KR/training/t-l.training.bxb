@@ -8,6 +8,11 @@ train (t-l6m3bd03his4jsiu740adc4on) {
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
   last-modified (1572507334294)
 }
+train (t-lasquqcfadrq8lh5dh5wk3vi5) {
+  utterance ("[g:GetVideo] (자동차)[v:VideoCategory:Car] 틀어줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
+  last-modified (1572509041460)
+}
 train (t-lknnqmitk37ib1mr1ajue70qu) {
   utterance ("[g:SelectVideoInfo:continue:VideoInfo] (마이아사우라)[v:FilterTerm] 틀어줘")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)

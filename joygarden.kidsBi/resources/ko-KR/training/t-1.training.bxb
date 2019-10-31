@@ -3,10 +3,20 @@ train (t-1figozck6enc7gcl7lbula5q5) {
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
   last-modified (1572456644747)
 }
+train (t-1hfaq9xlqxr2uqjwgusj1r0pj) {
+  utterance ("[g:GetVideo] (한국)[v:VideoCategory:'Korean tradition'] 전래")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
+  last-modified (1572509189505)
+}
 train (t-1toxuwlgzozoy9ornwoo1xryt) {
   utterance ("[g:VideoInfo:prompt] (여우와 신 포도)[v:FilterTerm] 열어줘")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApggGAA=)
   last-modified (1572505893263)
+}
+train (t-1vc1j4gtt8psqem5zg2zzhwfc) {
+  utterance ("[g:SelectVideoInfo:continue:VideoInfo] (구급차)[v:FilterTerm] ")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
+  last-modified (1572509650785)
 }
 train (t-1wen3isjc322izu0lon6vzzq0) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (사자)[v:UserAnswer]")
