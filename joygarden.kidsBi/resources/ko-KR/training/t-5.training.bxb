@@ -3,3 +3,13 @@ train (t-5a97psevdgrlut6gl5bpxvh46) {
   plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
   last-modified (1572453049857)
 }
+train (t-5oot0ychbkctai8s0a05jgs32) {
+  utterance ([g:GetQuiz] 문제 공부하기)
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572517942692)
+}
+train (t-5ucn6fhlzd7js1ijoyj68es8j) {
+  utterance ([g:GetQuiz] 키즈 보고싶어)
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572517919867)
+}

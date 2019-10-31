@@ -8,11 +8,6 @@ train (t-ud5gtxigdbw49smuqikmvzsul) {
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)
   last-modified (1572507963844)
 }
-train (t-ugperfmbapr7mwunxs4cbpzx0) {
-  utterance ("[g:VideoCategory:prompt] (모음집)[v:VideoCategory:Collection] 동화")
-  plan (Y2BikMvKr0xPLEpJzdPLzkwpdsrUC8tMSc13TixJTc8vqiQozwiEDAw8QMwExEA2AA==)
-  last-modified (1572462639277)
-}
 train (t-uohgq16chupvclkclk0dg9t61) {
   utterance ("[g:SelectVideoInfo:continue:VideoInfo] (신데렐라)[v:FilterTerm] 열어줘")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
@@ -27,14 +22,4 @@ train (t-uq0qa8og5p37v9te1omk319vd) {
   utterance ([g:GetQuiz] 문제 카드들 보여줘)
   plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
   last-modified (1572511141120)
-}
-train (t-urr1ulq4yi01pz5hqpm520jx9) {
-  utterance ("[g:CategoryInfo:prompt] (공주님)[v:FilterTerm] 나오는 동화는 뭐 있어")
-  plan (Y2BhkM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ1DGkA5OzUlNLkFRRMAMaQxpt8ycktSikNSiXAZmBkYGJiDJAKRBEAKYgBgoBgA=)
-  last-modified (1572510438718)
-}
-train (t-uskkt7b375891nue0ldgf7j3g) {
-  utterance ("[g:StartQuiz] (꽃)[v:QuizCategory:Flower] 퀴즈 시작")
-  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
-  last-modified (1572455788285)
 }

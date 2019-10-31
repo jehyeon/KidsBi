@@ -3,11 +3,6 @@ train (t-j38gmqvdlpg99j1685s0lpt1k) {
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
   last-modified (1572499302435)
 }
-train (t-j4y4nd7sen5rqous43hhi6vwz) {
-  utterance ([g:GetRandomVideo] 키즈비가 추천해줘)
-  plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
-  last-modified (1572397569106)
-}
 train (t-jddhymiqvo44wouhhrdnlz3bx) {
   utterance ([g:GetCategory] 동화 카테고리에 뭐가 있지)
   plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ5DBkHZPLYGpYGAEQgYoBpIA)
@@ -27,4 +22,9 @@ train (t-jw3drb9oo416nu0nbr3uc97hq) {
   utterance ([g:GetVideo] 동화 재생)
   plan (Y2BmkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYWBiYARiBiDJyMAAowE=)
   last-modified (1572489202190)
+}
+train (t-jx5dyae26vakfdyzalirymizz) {
+  utterance ([g:GetQuiz] 문제 학습할래)
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572517941299)
 }

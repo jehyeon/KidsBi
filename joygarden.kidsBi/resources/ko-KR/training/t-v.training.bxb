@@ -13,3 +13,8 @@ train (t-vukj8kb1ylr3aet9fgzwvv37f) {
   plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
   last-modified (1572511174308)
 }
+train (t-vzpvxmtcnqz859k3nblalhj9p) {
+  utterance ([g:GetQuiz] 문제 보여줘)
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572517919196)
+}

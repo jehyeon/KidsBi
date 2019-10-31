@@ -6,7 +6,7 @@ vocab(VideoCategory) {
 	}
 	"Bed" {
 		"잠자리"
-		"자기전"
+		"자기 전"
 		"침대"
 	}
 	"Car" {

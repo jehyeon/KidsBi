@@ -8,8 +8,3 @@ train (t-gptcr7z98l315whixpavqpvwi) {
   plan (Y2BmkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYWBiYARiBiDJyMAAowE=)
   last-modified (1572462248770)
 }
-train (t-gsr6wtqsnm2nrs902ih9jeocn) {
-  utterance ("[g:GetVideo] (크리스마스)[v:VideoCategory:Christmas]")
-  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
-  last-modified (1572499299236)
-}

@@ -1,8 +1,3 @@
-train (t-93n493uv149wyd27wv9p6ztns) {
-  utterance ("[g:SolveQuizAnswer:prompt] 퀴즈 (그만)[v:SolveQuizAnswer:true]")
-  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
-  last-modified (1572514181070)
-}
 train (t-97emjqmpio7vwd3irgbuniunf) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (호랑이)[v:UserAnswer]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)

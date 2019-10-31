@@ -13,21 +13,6 @@ train (t-xc7394ah9kqpe1u0sb0vwp9mx) {
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
   last-modified (1572498789517)
 }
-train (t-xoziogcg14terve2zy6mxy12d) {
-  utterance ([g:GetQuiz] 다른 퀴즈 풀고 싶어)
-  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
-  last-modified (1572512180859)
-}
-train (t-xrm0wpl6xvjxbr5nbdjlwyx7g) {
-  utterance ("[g:StartQuiz] (꽃)[v:QuizCategory:Flower] 맞추기 할래")
-  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
-  last-modified (1572453247714)
-}
-train (t-xrze8rtyf04bq3f7eif21jc4j) {
-  utterance ("[g:GetVideo] (공룡)[v:VideoCategory:Dinosaur]")
-  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
-  last-modified (1572499330859)
-}
 train (t-xy2wspxmsic359pr5xt2o8aqu) {
   utterance ("[g:GetVideo] (공룡)[v:VideoCategory:Dinosaur] 틀어줘")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)

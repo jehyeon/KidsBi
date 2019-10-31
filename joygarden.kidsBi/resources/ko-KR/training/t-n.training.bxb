@@ -8,11 +8,6 @@ train (t-nkpyvqjubx5g5wl22c1tr6g7b) {
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)
   last-modified (1572457316496)
 }
-train (t-nkq8piudjucpdx6qzdu8h8zd7) {
-  utterance ("[g:GetVideo] (인기 있는)[v:VideoCategory:Popular]")
-  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
-  last-modified (1572499307804)
-}
 train (t-nqp00zspd5kjljfm0q8s32dn7) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (튤립)[v:UserAnswer]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)

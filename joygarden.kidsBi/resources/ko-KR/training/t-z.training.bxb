@@ -1,8 +1,3 @@
-train (t-zvkzqgtdcwv8i91l9xaks6pq7) {
-  utterance ("[g:GetVideo] (공주)[v:SearchTerm] 나오는 만화 틀어줘")
-  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)
-  last-modified (1572507719948)
-}
 train (t-zvq2l9vwnqrysylhxd99rsimj) {
   utterance ("[g:SelectVideoInfo:continue:VideoInfo] (라푼젤)[v:FilterTerm] 열어줘")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
@@ -12,9 +7,4 @@ train (t-zvqvnx13ulx77mpb2p5s047yh) {
   utterance ("[g:QuizCategory] (과일)[v:QuizCategory:Fruit] 문제 풀래")
   plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
   last-modified (1572511016807)
-}
-train (t-zwhwe9b3pkcw2twmxssw2f5pw) {
-  utterance ("[g:GetVideo] (잠자리)[v:VideoCategory:Bed]")
-  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
-  last-modified (1572498946245)
 }

@@ -3,10 +3,10 @@ train (t-q4c5vvem8f9bupz29vzhwpctg) {
   plan (Y2BmkC7ISaxML8ovzUvRy85MKXbK1AvLTEnN98xLy2eQwpR0Ty0ByzMo4Zary06tLM8vSmFgYmAEYgYgycjAAKMB)
   last-modified (1572194015622)
 }
-train (t-qpwarkle613kvfwrh0uihsjlm) {
-  utterance ("[g:SolveQuizAnswer:prompt] 퀴즈 (정답)[v:SolveQuizAnswer:false]")
-  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
-  last-modified (1572514164057)
+train (t-q8ji1y45brcg7hv0kq6yalfff) {
+  utterance ("[g:StartQuiz] 문제 풀래 ")
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572516994059)
 }
 train (t-qyhfc36drfqku4fnkib5trjld) {
   utterance ([g:StartQuiz:continue:QuizProgress,r:ReTryQuiz] 틀린거 풀래)

@@ -1,7 +1,17 @@
+train (t-s631xob68bfltvxi7kfxnra0y) {
+  utterance ([g:GetQuiz] 퀴즈 연습하기)
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572517944195)
+}
 train (t-s6cl9zn4vn9swjw7b68zvoafn) {
   utterance ([g:GetQuiz] 학습모드 켜줘)
   plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
   last-modified (1572512104658)
+}
+train (t-sgjm495dzkjddzbhkm9w0m1qm) {
+  utterance ([g:GetQuiz] 문제 학습 모드)
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572517941778)
 }
 train (t-siqraiguhu7xxpxga28m9j011) {
   utterance ([g:GetVideo] 동화 재생해줘)
@@ -12,9 +22,4 @@ train (t-su0510wqighv747hwc65chixg) {
   utterance ("[g:StartQuiz] (애니멀)[v:QuizCategory:Animal] 퀴즈 시작")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
   last-modified (1572456977388)
-}
-train (t-suig92zrj7wlyd0k0za396t16) {
-  utterance ("[g:SelectVideoInfo:continue:VideoInfo] (크리스마스 동화)[v:FilterTerm] 모음집 틀어줘")
-  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
-  last-modified (1572506863342)
 }

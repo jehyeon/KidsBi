@@ -1,25 +1,5 @@
-train (t-b2eec2g3rdtvbs9gstexxw62l) {
-  utterance ([g:GetQuiz] 키즈비 학습 보여줘)
-  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
-  last-modified (1572511287022)
-}
 train (t-b8jpht3usnetuzaaphjev6i42) {
   utterance ("[g:SelectVideoInfo:continue:VideoInfo] (라푼젤)[v:FilterTerm]을 골라줘")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
   last-modified (1572500326146)
-}
-train (t-ba0h3o5eemt9vkk4wolt9ssrj) {
-  utterance ("[g:SolveQuizAnswer:prompt] 이 문제 (정답 알려줘)[v:SolveQuizAnswer:false]")
-  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
-  last-modified (1572513204347)
-}
-train (t-bdmqqgtvncc6xev2cqw4v2x2f) {
-  utterance ("[g:SolveQuizAnswer:prompt] 문제 (정답 알려줘)[v:SolveQuizAnswer:false]")
-  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
-  last-modified (1572514225916)
-}
-train (t-blp4tzjgka7cpwq5vqckke522) {
-  utterance ("[g:StartQuiz] (동물)[v:QuizCategory:Animal] 퀴즈 보여줘")
-  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
-  last-modified (1572514303598)
 }

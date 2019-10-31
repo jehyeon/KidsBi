@@ -8,16 +8,6 @@ train (t-8dn2znrgyq9h3sf2im5n66i3y) {
   plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ5DBkHZPLYGpYGAEQgYoBpIA)
   last-modified (1572462326771)
 }
-train (t-8p5jb5fuz78fxcp4re6d8yfs9) {
-  utterance ("[g:SolveQuizAnswer:prompt] 퀴즈 (그만)[v:SolveQuizAnswer:true] 풀고 싶어")
-  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
-  last-modified (1572513227341)
-}
-train (t-8tiqvmt5m6v1ku6ohe0u5nsfp) {
-  utterance ("[g:StartQuiz] (꽃)[v:QuizCategory:Flower] 퀴즈 가즈아")
-  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
-  last-modified (1572457303004)
-}
 train (t-8ucmy5ica47j0tp2wtkmuswsv) {
   utterance ([g:StartQuiz:continue:QuizProgress,r:ReTryQuiz] 틀린 문제 다시 풀래)
   plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4GIvWoNSQokpitLIwMDIwMTADaQYoixHMAgEmIM3MwAAA)
