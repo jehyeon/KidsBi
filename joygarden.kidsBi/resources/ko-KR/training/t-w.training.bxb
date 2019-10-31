@@ -8,6 +8,11 @@ train (t-wc116nerb09rvw6b3hx4l9n5c) {
   plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
   last-modified (1572462266647)
 }
+train (t-wg8j1p6zyfuvi6x2jg4t2t57a) {
+  utterance ([g:StartQuiz] 문제 풀기 틀어줘)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572489714638)
+}
 train (t-wipx227kj0tiwhg1f8f89rqsb) {
   utterance ([g:GetRandomVideo] 아무거나 보여줘)
   plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
