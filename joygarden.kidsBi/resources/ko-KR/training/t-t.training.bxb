@@ -9,9 +9,9 @@ train (t-t5op3lj94b09la39au1i5l27x) {
   last-modified (1572517943325)
 }
 train (t-tapdec4m92fbmxm1azay7e3w7) {
-  utterance ("[g:GetQuiz] (동물)[v:QuizCategory:Animal] 맞추기 할래")
-  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRAQSgfAA=)
-  last-modified (1572521918648)
+  utterance ("[g:StartQuiz] (동물)[v:QuizCategory:Animal] 맞추기 할래")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1572522149616)
 }
 train (t-tc4nkits4rs7jtei7repn0lh2) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (3번) [v:Ordinal:Third]")

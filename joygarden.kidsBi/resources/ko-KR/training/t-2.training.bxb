@@ -29,7 +29,7 @@ train (t-2whqkvz1x9t23j34dwmh0pzqc) {
   last-modified (1572519829093)
 }
 train (t-2wpxozlwlwxz81zo32df33fgl) {
-  utterance ("[g:GetQuiz] (동물)[v:QuizCategory:Animal]과 관련된 퀴즈 시작해줘")
-  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRAQSgfAA=)
-  last-modified (1572521920309)
+  utterance ("[g:StartQuiz] (동물)[v:QuizCategory:Animal]과 관련된 퀴즈 시작해줘")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1572522160749)
 }

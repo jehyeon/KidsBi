@@ -9,9 +9,9 @@ train (t-8aq3m09x6bg0qh615mo1kswn0) {
   last-modified (1572453039222)
 }
 train (t-8c0t2soligzq4mz60quoif2xf) {
-  utterance ("[g:GetQuiz] (인물)[v:QuizCategory:Person]과 관련된 퀴즈 시작")
-  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRAQSgfAA=)
-  last-modified (1572521921006)
+  utterance ("[g:StartQuiz] (인물)[v:QuizCategory:Person]과 관련된 퀴즈 시작")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1572522166724)
 }
 train (t-8dn2znrgyq9h3sf2im5n66i3y) {
   utterance ([g:GetCategory] 동화 카테고리 다 보여줄래)

@@ -19,9 +19,9 @@ train (t-4nolwhiqkcm1qbetj4i3byiwl) {
   last-modified (1572457335717)
 }
 train (t-4nublks0r99364n3tj7m6e9ts) {
-  utterance ("[g:GetQuiz] (국기)[v:QuizCategory:Country] 맞추기 할래")
-  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRAQSgfAA=)
-  last-modified (1572521918086)
+  utterance ("[g:StartQuiz] (국기)[v:QuizCategory:Country] 맞추기 할래")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1572522136967)
 }
 train (t-4sxdyacftnqd4zn0vb942e1gx) {
   utterance ("[g:CategoryInfo:prompt] (우리나라)[v:FilterTerm] 만화 골라줘")

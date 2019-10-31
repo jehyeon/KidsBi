@@ -9,9 +9,9 @@ train (t-q4c5vvem8f9bupz29vzhwpctg) {
   last-modified (1572518108304)
 }
 train (t-q4hbu0gvfjci7dyms8z6ll4f2) {
-  utterance ("[g:GetQuiz] (꽃)[v:QuizCategory:Flower]과 관련된 퀴즈 풀기")
-  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRAQSgfAA=)
-  last-modified (1572521919758)
+  utterance ("[g:StartQuiz] (꽃)[v:QuizCategory:Flower]과 관련된 퀴즈 풀기")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1572522176574)
 }
 train (t-q8ji1y45brcg7hv0kq6yalfff) {
   utterance ("[g:StartQuiz] 문제 풀래 ")
