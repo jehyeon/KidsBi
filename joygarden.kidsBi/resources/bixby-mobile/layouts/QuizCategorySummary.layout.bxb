@@ -22,7 +22,7 @@ layout {
 						}
 					}
 					aspect-ratio (3:4)
-					column-size (2)
+					column-size (3)
 					image-object-fit (Contain)
 					image-object-position (Center)
 					image-background-color (Transparent)
