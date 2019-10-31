@@ -9,3 +9,7 @@ template-macro-def (OpenVideo_Youtube) {
 template-macro-def (GetQuiz_Another) {
   content: template ("다른 퀴즈 풀고 싶어")
 }
+
+template-macro-def (GetQuiz_Incorrect_Again) {
+  content: template ("틀린 문제 다시 풀래")
+}

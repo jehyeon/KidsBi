@@ -28,3 +28,8 @@ train (t-jsvq9zje419djo6wcifjxxfi6) {
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)
   last-modified (1572452424716)
 }
+train (t-jw3drb9oo416nu0nbr3uc97hq) {
+  utterance ([g:GetVideo] 동화 재생)
+  plan (Y2BmkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYWBiYARiBiDJyMAAowE=)
+  last-modified (1572489202190)
+}

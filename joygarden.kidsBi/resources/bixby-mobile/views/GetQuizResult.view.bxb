@@ -28,9 +28,7 @@ result-view {
 						read-many-and-next {
 							page-size (5) 
 							list-summary {
-							  if (size(quizInfos) == 1) {
-									template-macro (GetQuiz_Result_One)
-								} else {
+								if (size(quizInfos) > 1) {
 									template-macro (GetQuiz_Result_Multi){
 										param (size) {
 											expression (size(quizInfos))
@@ -42,10 +40,10 @@ result-view {
 								}								
 							}
 							page-content (page) {
-                underflow-statement {template-macro (List_Navigate_Underflow)}
-                overflow-statement { template-macro (List_Navigate_Overflow)}
-                next-page-question { template-macro (List_Navigate_question)}								
-							}						
+								underflow-statement {template-macro (List_Navigate_Underflow)}
+								overflow-statement { template-macro (List_Navigate_Overflow)}
+								next-page-question { template-macro (List_Navigate_question)}
+							}
 						}
 					}
 				}
