@@ -8,3 +8,8 @@ train (t-0iybu7ou9mb2zmbtiun9rilsp) {
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)
   last-modified (1572452479650)
 }
+train (t-0szyy6peda3o2beqxbneke5d0) {
+  utterance ("[g:SelectVideoInfo:continue:VideoInfo] (크리스마스 전날 밤)[v:FilterTerm] 선택해줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
+  last-modified (1572506903596)
+}

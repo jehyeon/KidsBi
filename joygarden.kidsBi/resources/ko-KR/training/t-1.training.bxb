@@ -3,8 +3,18 @@ train (t-1figozck6enc7gcl7lbula5q5) {
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
   last-modified (1572456644747)
 }
+train (t-1toxuwlgzozoy9ornwoo1xryt) {
+  utterance ("[g:VideoInfo:prompt] (여우와 신 포도)[v:FilterTerm] 열어줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApggGAA=)
+  last-modified (1572505893263)
+}
 train (t-1wen3isjc322izu0lon6vzzq0) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (사자)[v:UserAnswer]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)
   last-modified (1572452154143)
+}
+train (t-1xb7flr5ip9nduj6m3yqeuwv3) {
+  utterance ("[g:CategoryInfo:prompt] (공주)[v:FilterTerm] 골라줘")
+  plan (Y2BhkM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ1DGkA5OzUlNLkFRRMAMaQxpt8ycktSikNSiXAZmBkYGJiDJAKRBEAKYgBgoBgA=)
+  last-modified (1572507827348)
 }

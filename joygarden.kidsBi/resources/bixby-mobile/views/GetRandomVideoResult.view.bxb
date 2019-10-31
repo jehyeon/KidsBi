@@ -39,4 +39,11 @@ result-view {
       nothing
     }
   }
+  conversation-drivers {
+		if (size(videoInfos) == 1){
+			conversation-driver {
+				template-macro (OpenVideo_Youtube)
+			}
+		}
+	}
 }

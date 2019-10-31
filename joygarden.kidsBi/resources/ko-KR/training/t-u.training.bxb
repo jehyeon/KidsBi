@@ -3,10 +3,20 @@ train (t-u7863lazcr56er8r93be6x2v0) {
   plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
   last-modified (1572453083718)
 }
+train (t-ud5gtxigdbw49smuqikmvzsul) {
+  utterance ("[g:GetVideo] (티라노)[v:SearchTerm] 만화 보여줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)
+  last-modified (1572507963844)
+}
 train (t-ugperfmbapr7mwunxs4cbpzx0) {
   utterance ("[g:VideoCategory:prompt] (모음집)[v:VideoCategory:Collection] 동화")
   plan (Y2BikMvKr0xPLEpJzdPLzkwpdsrUC8tMSc13TixJTc8vqiQozwiEDAw8QMwExEA2AA==)
   last-modified (1572462639277)
+}
+train (t-uohgq16chupvclkclk0dg9t61) {
+  utterance ("[g:SelectVideoInfo:continue:VideoInfo] (신데렐라)[v:FilterTerm] 열어줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
+  last-modified (1572507292579)
 }
 train (t-uq18kdjcb3rbqrh0mynfcd9s9) {
   utterance ("[g:SolveQuizAnswer:prompt] 퀴즈 (그만)[v:SolveQuizAnswer:false] ")
