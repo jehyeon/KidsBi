@@ -48,7 +48,7 @@ template-macro-def (GetVideo_Result_SearchTerm) {
 	}
 	content {
 		choose (Random) {
-			template ("#{value(searchTerm)}(으)로 검색한 동화 #{size}개가 있어요")
+			template ("#{value(searchTerm)}(으)로 검색한 동화 #{size}개가 있어요.")
 		}
 	}
 }
@@ -107,7 +107,7 @@ template-macro-def (SelectVideoInfo_Result) {
 	}
 	content {
 		choose (Random) {
-			template ("#{value(filterTerm)}로 검색한 동화에요.")
+			template ("#{value(filterTerm)}로 검색한 동화예요.")
 		}
 	}
 }
@@ -154,7 +154,7 @@ template-macro-def (List_Navigate_question) {
 template-macro-def (List_Navigate_item_Question) {
 	content {
 		choose (Random) {
-			template ("어느 것을 선택할까요?")
+			template ("어떤 것을 선택할까요?")
 		}
 	}
 }
@@ -162,7 +162,7 @@ template-macro-def (List_Navigate_item_Question) {
 template-macro-def (List_Navigate_overflow_Question) {
 	content {
 		choose (Random) {
-			template ("어느 것을 선택할까요?")
+			template ("어떤 것을 선택할까요?")
 		}
 	}
 }
@@ -221,8 +221,8 @@ template-macro-def (GetQuiz_Category_Result) {
 			template ("카테고리로 검색한 문제 #{size}개를 찾았어요.") {
 				speech ("카테고리로 검색한 문제 #{size}개를 찾았어요.")
 			}
-			template ("카테고리 문제가  #{size}개 있네요.") {
-				speech ("카테고리 문제가  #{size}개 있네요.")
+			template ("해당 카테고리에 문제가  #{size}개 있네요.") {
+				speech ("해당 카테고리에 문제가 #{size}개 있네요.")
 			}
 		}
 	}
@@ -231,7 +231,7 @@ template-macro-def (GetQuiz_Category_Result) {
 template-macro-def (GetQuiz_Result_Zero) {
 	content {
 		choose (Random) {
-			template ("키즈비에는 문제가 없어요.")
+			template ("키즈비에 준비가 된 문제가 없어요.")
 		}
 	}
 }
@@ -266,7 +266,7 @@ template-macro-def (GetQuiz_Result_Multi) {
 template-macro-def (StartQuiz_PrgressResut_Message) {
 	content {
 		choose (Random) {
-			template ("모든 문제를 다 풀었어요. 결과를 확인하세요.")
+			template ("모든 문제를 다 풀었어요. 결과를 확인해보세요.")
 		}
 	}
 }
@@ -283,7 +283,7 @@ template-macro-def (StartQuiz_Cancel){
 	content {
 		choose (Random) {
 			template("네, 퀴즈를 그만 할게요.")
-			template("네, 퀴즈를 그만 풀게요.")
+			template("네, 퀴즈를 여기까지만 할게요.")
 		}
 	}
 }
