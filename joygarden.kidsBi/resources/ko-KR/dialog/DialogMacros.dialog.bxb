@@ -1,21 +1,21 @@
 // GetVideo
 template-macro-def (GetVideo_SelectCategory) {
-    params {
-        param (size) {
-            type (viv.core.Integer)
-            min (Required) max (One)
-        }
-    }
-    content {
-        choose (Random) {
-            template ("보고 싶은 동화를 선택해주세요.") {
-                speech (" 카테고리는 총 #{size}개가 있어요. 보고 싶은 동화를 선택해주세요.")
-            }
-            template ("보고 싶은 동화를 선택해주세요!"){
-                speech (" 카테고리는 모두 #{size}개가 있어요. 보고 싶은 동화를 선택해주세요.")
-            }
-        }
-    }
+	params {
+		param (size) {
+			type (viv.core.Integer)
+			min (Required) max (One)
+		}
+	}
+	content {
+		choose (Random) {
+			template ("보고 싶은 동화를 선택해주세요.") {
+				speech (" 카테고리는 총 #{size}개가 있어요. 보고 싶은 동화를 선택해주세요.")
+			}
+			template ("보고 싶은 동화를 선택해주세요!"){
+				speech (" 카테고리는 모두 #{size}개가 있어요. 보고 싶은 동화를 선택해주세요.")
+			}
+		}
+	}
 }
 
 template-macro-def (GetVideo_Progress) {
@@ -109,7 +109,7 @@ template-macro-def (SelectVideoInfo_Result) {
 		choose (Random) {
 			template ("#{value(filterTerm)}로 검색한 동화에요.")
 		}
-	}	
+	}
 }
 
 template-macro-def (SelectVideoInfo_No_Result) {
@@ -119,7 +119,7 @@ template-macro-def (SelectVideoInfo_No_Result) {
 			min (Required) max (One)
 		}
 	}
-
+	
 	content {
 		choose (Random) {
 			template ("#{value(filterTerm)}로 검색한 동화가 없네요. 다시 말해주세요.")
@@ -167,10 +167,18 @@ template-macro-def (List_Navigate_overflow_Question) {
 	}
 }
 
-template-macro-def (ShowQuizAnswer) {
+template-macro-def (ShowQuizAnswer_Button) {
 	content {
 		choose (Random) {
 			template ("정답 알려줘")
+		}
+	}
+}
+
+template-macro-def (ShowQuinzAnswer_MEssage) {
+	content {
+		choose (Random) {
+			template ("정답을 확인해보세요. 다른 문제의 정답도 같이 알려드릴게요.")
 		}
 	}
 }
@@ -243,13 +251,13 @@ template-macro-def (GetQuiz_Result_Multi) {
 			min (Required) max (One)
 		}
 		param (category) {
-			type (viv.core.Text)
-			min (Optional) max (One)
+			type (QuizCategory)
+			min (Required) max (One)
 		}
 	}
 	content {
 		choose (Random) {
-			template ("[#{category} ]문제 #{size}개를 찾았어요.")
+			template ("#{value(category)} #{size}개를 찾았어요.")
 		}
 	}
 }
@@ -290,8 +298,8 @@ template-macro-def (QuizInfo_Handsfree) {
 		choose (Random){
 			if(exists(quizInfo.question)){
 				template ("#{value(quizInfo.question)}") {
-				speech ("#{value(quizInfo.question)} 1번 #{value(quizInfo.options[0])} 2번 #{value(quizInfo.options[1])} 3번 #{value(quizInfo.options[2])} 4번 #{value(quizInfo.options[3])}")
-				}	
+					speech ("#{value(quizInfo.question)} 1번 #{value(quizInfo.options[0])} 2번 #{value(quizInfo.options[1])} 3번 #{value(quizInfo.options[2])} 4번 #{value(quizInfo.options[3])}")
+				}
 			}
 		}
 	}
@@ -306,5 +314,35 @@ template-macro-def (GoToYoutube) {
 template-macro-def (OpenVideo_Youtube_Progress) {
 	content {
 		template ("Youtube로 연결해드릴게요.")
+	}
+}
+
+template-macro-def (Answer_Is) {
+	content {
+		template ("정답은")
+	}
+}
+
+template-macro-def (GetQuiz_Progress) {
+	content {
+		template ("퀴즈를 찾고 있어요.")
+	}
+}
+
+template-macro-def (UpdateProgress_Progress) {
+	content {
+		template ("정답 확인 중..")
+	}
+}
+
+template-macro-def (InitQuizProgress_Progress) {
+	content {
+		template ("퀴즈 가져오는 중..")
+	}
+}
+
+template-macro-def (ReTryQuiz_No_QuizInfos) {
+	content {
+		template ("틀린 퀴즈가 없어요.")
 	}
 }

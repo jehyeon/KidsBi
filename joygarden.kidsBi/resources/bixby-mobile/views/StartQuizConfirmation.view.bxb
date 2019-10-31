@@ -2,17 +2,22 @@ confirmation-view {
   match: SolveQuizAnswer {
     confirming: StartQuiz (action)
   }
-  mode (Transactional)
+  mode (NegativeEmphasis)
   confirm-options {
     label{
 			template-macro (StartQuiz_Stop)
 		}
   }
-  conversation-drivers{
-    conversation-driver{
-      template-macro (ShowQuizAnswer)
+  abort-options {
+    label{
+      template-macro (ShowQuizAnswer_Button)
     }
   }
+  // conversation-drivers{
+  //   conversation-driver{
+  //     template-macro (ShowQuizAnswer)
+  //   }
+  // }
   message {
     if($handsFree){
      template-macro(QuizInfo_Handsfree){

@@ -12,9 +12,9 @@ module.exports.function = function getVideo(searchTerm, category) {
   let parameters = '';
   
   if (searchTerm) {
-    parameters += '?title=' + searchTerm;
+    parameters += '?title=' + encodeURIComponent(searchTerm.replace(/ /gi, ''));
   } else if (category) {
-    parameters += '?categories=' + category;
+    parameters += '?categories=' + encodeURIComponent(category);
   }
   // searchTerm + category: select to searchTerm (in GetVideo.model.bxb) 
 

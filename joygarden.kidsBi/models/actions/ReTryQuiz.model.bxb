@@ -7,5 +7,17 @@ action (ReTryQuiz) {
       min (Required) max (One)
     }
   }
-  output (QuizProgress)
+  output (QuizProgress) {
+    throws {
+      error (NoQuizinfos) {
+        on-catch {
+          halt {
+            dialog {
+              template-macro (ReTryQuiz_No_QuizInfos)
+            }
+          }
+        }
+      }
+    }
+  }
 }

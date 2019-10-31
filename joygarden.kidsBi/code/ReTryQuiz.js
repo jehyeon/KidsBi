@@ -1,4 +1,4 @@
-var console = require('console');
+var fail = require('fail');
 
 function shuffle(arr) {
     var i,
@@ -14,22 +14,47 @@ function shuffle(arr) {
 };
 
 module.exports.function = function reTryQuiz (quizProgress) {
+  if (quizProgress.result.filter(item => item == 'false').length == 0) {
+    throw fail.checkedError('No fail quiz', 'NoQuizinfos');
+  }
+
   if (quizProgress.done.valueOf() === true) {
     const remainQuizProgress = quizProgress;
     // Reset done, index
     remainQuizProgress.done = false;
     remainQuizProgress.index = 0;
 
-    // Remove result == 'true' acse
-    for (index in remainQuizProgress.result) {
-      if (remainQuizProgress.result[index] == 'true') {
-        remainQuizProgress.result.splice(index, 1)
-        remainQuizProgress.quizInfos.splice(index, 1)
+    const updatedResult = remainQuizProgress.result.map(result => {
+      if (result == 'false') {
+        return result;
+      } else {
+        return undefined;
       }
-    }
+    }).filter(item => {
+      if (item != undefined) {
+        return item;
+      }
+    });
+
+    const updatedQuizInfos = remainQuizProgress.quizInfos.map(quizInfo => {
+      if (quizInfo.answerResult == 'false') {
+        return quizInfo;
+      } else {
+        // answerResult == 'true
+        return undefined; 
+      }
+    }).filter(item => {
+      if (item != undefined) {
+        return item;
+      }
+    });
+
+    remainQuizProgress.quizInfos = updatedQuizInfos;
+    remainQuizProgress.result = updatedResult;
 
     // Shuffle quizInfos
     remainQuizProgress.quizInfos = shuffle(remainQuizProgress.quizInfos)
+
     return remainQuizProgress;
   }
 

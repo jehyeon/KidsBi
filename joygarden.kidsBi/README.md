@@ -119,3 +119,7 @@
 - 0.1.28: Add Quiz Category Image
 - 0.1.29: Add QuizCategory,VideoCategory Vocab
 - 0.1.30: GetRandomVideo 수정
+- 0.1.31: QuizInfo layout 수정
+- 0.1.32: ReTryQuiz 수정 및 Value dialog 추가
+- 0.1.33: GetVideo url 수정
+- 0.1.34: Quiz category 추가

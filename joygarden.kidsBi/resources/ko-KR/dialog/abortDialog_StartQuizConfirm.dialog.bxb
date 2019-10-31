@@ -1,0 +1,5 @@
+dialog (ActionAborted) {
+  match: StartQuiz
+  template-macro (ShowQuinzAnswer_MEssage)
+}
+

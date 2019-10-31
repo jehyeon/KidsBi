@@ -1,0 +1,4 @@
+dialog (Progress) {
+  match: GetQuiz
+  template-macro (GetQuiz_Progress)
+}

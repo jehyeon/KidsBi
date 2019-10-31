@@ -1,0 +1,4 @@
+dialog (Progress) {
+  match: ReTryQuiz
+  template-macro (InitQuizProgress_Progress)
+}

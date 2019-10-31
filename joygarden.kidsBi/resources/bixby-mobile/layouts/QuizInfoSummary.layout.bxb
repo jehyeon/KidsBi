@@ -5,35 +5,61 @@ layout {
 	content {
 		section {
 			content {
-				cell-card{
-					slot1{
-						image{
-							url("#{value(quizInfo.url)}")
-							shape (Square)
+				if (exists(quizInfo.answerResult)) {
+					// before
+					cell-card {
+						slot1{
+							image{
+								url("#{value(quizInfo.url)}")
+								shape (Square)
+							}
 						}
-					}
-					slot2{
-						content{
-							order (PrimarySecondary)
-							primary("#{value(quizInfo.question)}")
-							secondary("#{value(quizInfo.options[quizInfo.answer])}")
+						slot2{
+							content{
+								order (PrimarySecondary)
+								primary("Q. #{value(quizInfo.question)}")
+								secondary("#{value(quizInfo.options[quizInfo.answer])}")
+							}
 						}
-					}
-					slot3 {
-						if (exists(quizInfo.answerResult)) {
-							if (quizInfo.answerResult == true){
+						slot3 {
+							if (quizInfo.answerResult == true) {
 								image {
 									shape (Circle)
-									url(images/correct.svg)
+									url (images/correct.svg)
+								}
+							} else {
+								image{
+									shape (Circle)
+									url (images/incorrect.svg)
 								}
 							}
 						}
-						else{
-							image{
-								shape (Circle)
-								url(images/incorrect.svg)
+					}
+				} else {
+					thumbnail-card {
+						title-area {
+							halign (Start)
+							slot1 {
+								text {
+									style (Title_XS)
+									value ("Q. #{value(quizInfo.question)}")
+								}
+							}
+							slot2 {
+								single-line {
+									text {
+										style (Detail_L_Soft)
+										value ("#{value(quizInfo.options[quizInfo.answer])}")
+									}
+								}
 							}
 						}
+						image-url {
+							template ("#{value(quizInfo.url)}")
+						}
+						image-position (Start)
+						image-aspect-ratio (1:1)
+						image-object-position (Center)
 					}
 				}
 			}
