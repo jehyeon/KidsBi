@@ -3,6 +3,16 @@ train (t-wc116nerb09rvw6b3hx4l9n5c) {
   plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
   last-modified (1572462266647)
 }
+train (t-weaks01xybbqw2hoyigwhp5w0) {
+  utterance ("[g:SolveQuizAnswer:prompt] 퀴즈 (그만)[v:SolveQuizAnswer:true] 할래")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572519523325)
+}
+train (t-wfjku4rjgjus37hr6m6twu5ig) {
+  utterance ([g:OpenVideoInYoutube:continue:VideoInfo] 재생이 안돼)
+  plan (Y2Bm4C3LLNNLzi9K1QtJrShhUM7Kr0xPLEpJzdPLzkwpdsrU8y9IzQvLTEnN98yLzC8tKU1KZZDCUARVkJbPwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572518773268)
+}
 train (t-wipx227kj0tiwhg1f8f89rqsb) {
   utterance ([g:GetRandomVideo] 아무거나 보여줘)
   plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)

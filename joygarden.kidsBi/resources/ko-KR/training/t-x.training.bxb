@@ -13,6 +13,16 @@ train (t-xc7394ah9kqpe1u0sb0vwp9mx) {
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
   last-modified (1572498789517)
 }
+train (t-xje3ssithd0njkuewta4su7ng) {
+  utterance ([g:StartQuiz:continue:QuizInfo,r:InitQuizProgress]  이거 문제로 풀어볼래)
+  plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGVgYGBmYGJiBNAOUxQhmgQATkGZmYAAA)
+  last-modified (1572519650524)
+}
+train (t-xn1adswgc72azhvc3uoy9gxs3) {
+  utterance ([g:StartQuiz] 테스트 시작)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518910889)
+}
 train (t-xy2wspxmsic359pr5xt2o8aqu) {
   utterance ("[g:GetVideo] (공룡)[v:VideoCategory:Dinosaur] 틀어줘")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)

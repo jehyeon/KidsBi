@@ -131,3 +131,4 @@
 - 0.1.32: ReTryQuiz 수정 및 Value dialog 추가
 - 0.1.33: GetVideo url 수정
 - 0.1.34: Quiz category 추가
+- 0.1.35: 학습 데이터 추가

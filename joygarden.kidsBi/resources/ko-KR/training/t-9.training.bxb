@@ -1,3 +1,8 @@
+train (t-91yws8ckwpzii8d2ri590dike) {
+  utterance ("[g:GetVideo] (잠자리)[v:VideoCategory:Bed] 동화 틀어")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
+  last-modified (1572520429615)
+}
 train (t-97emjqmpio7vwd3irgbuniunf) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (호랑이)[v:UserAnswer]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)
@@ -12,6 +17,11 @@ train (t-9mzj4h7951wp25kmmwhdijnyv) {
   utterance ("[g:QuizCategory] (꽃)[v:QuizCategory:Flower] 퀴즈")
   plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
   last-modified (1572460813510)
+}
+train (t-9xasq5txpudy6ws2c29wutcdt) {
+  utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (7개)[v:UserAnswer]")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)
+  last-modified (1572519157627)
 }
 train (t-9xre5zqyzu0yxtuuo4ak82wjj) {
   utterance ([g:GetVideo] 동화 틀어줘)

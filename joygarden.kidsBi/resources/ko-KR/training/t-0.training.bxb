@@ -3,10 +3,25 @@ train (t-07uvczhenpl4yim2u2kjclkc6) {
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
   last-modified (1572498694461)
 }
+train (t-093lsl1jbntm3vt1qnh861npp) {
+  utterance ("[g:QuizCategory:prompt] (나라)[v:QuizCategory:Country]")
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
+  last-modified (1572519892628)
+}
+train (t-0a78q5rrbg06vf1lsfhy3trq9) {
+  utterance ("[g:CategoryInfo:prompt] (잠자리)[v:FilterTerm] 동화 선택해")
+  plan (Y2BhkM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ1DGkA5OzUlNLkFRRMAMaQxpt8ycktSikNSiXAZmBkYGJiDJAKRBEAKYgBgoBgA=)
+  last-modified (1572520260003)
+}
 train (t-0dycuov9fyt0adpfi5he30o29) {
   utterance ([g:StartQuiz] 문제 풀고싶어)
   plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
   last-modified (1572516993435)
+}
+train (t-0fqa23bhsmfeyp2g9lv5kkxco) {
+  utterance ("[g:SolveQuizAnswer:prompt] 문제 (그만)[v:SolveQuizAnswer:true] 하자")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572519525575)
 }
 train (t-0hvbicnqto87xj7499qc7wpu6) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (라벤더)[v:UserAnswer]")
@@ -23,8 +38,23 @@ train (t-0koqwo6y8sw5ka1wrjyeloygf) {
   plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
   last-modified (1572517918580)
 }
+train (t-0qxi0rkz87ytpiprcq120ta18) {
+  utterance ("[g:SolveQuizAnswer:prompt] 문제 (그만)[v:SolveQuizAnswer:true] 보내줘")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572519521029)
+}
 train (t-0szyy6peda3o2beqxbneke5d0) {
   utterance ("[g:SelectVideoInfo:continue:VideoInfo] (크리스마스 전날 밤)[v:FilterTerm] 선택해줘")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
   last-modified (1572506903596)
+}
+train (t-0tehhoxln715dozase6qtfqjy) {
+  utterance ("[g:SolveQuizAnswer:prompt] 이 퀴즈 (정답)[v:SolveQuizAnswer:false] 알려줘")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572519486244)
+}
+train (t-0zsw7ye9bz5bykcr8uc0k9fkm) {
+  utterance ("[g:GetVideo] (루돌프)[v:SearchTerm] 동화")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)
+  last-modified (1572518654589)
 }

@@ -3,10 +3,15 @@ train (t-u7863lazcr56er8r93be6x2v0) {
   plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
   last-modified (1572453083718)
 }
-train (t-ud5gtxigdbw49smuqikmvzsul) {
-  utterance ("[g:GetVideo] (티라노)[v:SearchTerm] 만화 보여줘")
-  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)
-  last-modified (1572507963844)
+train (t-ugt5pohlta1a6173u81svwhj6) {
+  utterance ([g:StartQuiz] 키즈 틀어줘)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518878917)
+}
+train (t-ukwsfjxb0ektkv2uh0g13vyti) {
+  utterance ([g:StartQuiz] 테스트 내줘)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518909773)
 }
 train (t-uohgq16chupvclkclk0dg9t61) {
   utterance ("[g:SelectVideoInfo:continue:VideoInfo] (신데렐라)[v:FilterTerm] 열어줘")

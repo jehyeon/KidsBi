@@ -3,6 +3,11 @@ train (t-ki5imhe2fhvginnwajtc9aqpr) {
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
   last-modified (1572453240991)
 }
+train (t-kky3hjgf7lxj0xfaz0w7txdbb) {
+  utterance ("[g:SolveQuizAnswer:prompt] (답)[v:SolveQuizAnswer:false]이 뭐야")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572519483071)
+}
 train (t-kqc5oekyhdz1y5uofxivdoxjt) {
   utterance ("[g:SelectVideoInfo:continue:VideoInfo] (커다란 순무)[v:FilterTerm] 선택할래")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
@@ -12,6 +17,11 @@ train (t-ks4np46c9xb9bnvpjgz14u3uf) {
   utterance ("[g:QuizCategory:prompt] (꽃)[v:QuizCategory:Flower]")
   plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
   last-modified (1572518107803)
+}
+train (t-ktmrtuut2mq2vv1zs4mk2mi0s) {
+  utterance ([g:StartQuiz] 다시 풀래)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518994383)
 }
 train (t-kvt7c8nbi6gd1ym584r56j29k) {
   utterance ([g:GetQuiz] 학습 모드 켜봐)

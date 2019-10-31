@@ -3,18 +3,43 @@ train (t-o32nsubfa2vvorlvgh4286nck) {
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
   last-modified (1572509562504)
 }
+train (t-o4qji9jk216aqdzibsokjtd9w) {
+  utterance ("[g:SolveQuizAnswer:prompt] (정답)[v:SolveQuizAnswer:false]이 뭐니")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572519469621)
+}
 train (t-o5wprtjr5m911ny1hpqkl0mgz) {
   utterance ([g:StartQuiz:continue:QuizProgress,r:ReTryQuiz] 틀린 문제만 알려줘)
   plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4GIvWoNSQokpitLIwMDIwMTADaQYoixHMAgEmIM3MwAAA)
   last-modified (1572456891531)
+}
+train (t-ob6oexnmososcd4d53x5aogag) {
+  utterance ("[g:GetVideo] (홍길동)[v:SearchTerm] 만화 보여줄래")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)
+  last-modified (1572518663030)
+}
+train (t-of0vl6bxxmasy24m5xv4xzjyc) {
+  utterance ([g:StartQuiz] 키즈 게임 틀어줘)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518891740)
 }
 train (t-oingukzzdczbaypv41ny6bj1l) {
   utterance ("[g:StartQuiz] (동물)[v:QuizCategory:Animal] 퀴즈 시작")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
   last-modified (1572455791094)
 }
+train (t-ok2lm8ue8l0b4v37k9axk2u70) {
+  utterance ([g:StartQuiz] 퀴즈 할래)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518907110)
+}
 train (t-oq48tzu6a6tctt8yi0ucwa1px) {
   utterance ([g:StartQuiz:continue:QuizProgress,r:ReTryQuiz] 빨간 동그라미 다시 풀래)
   plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4GIvWoNSQokpitLIwMDIwMTADaQYoixHMAgEmIM3MwAAA)
   last-modified (1572511634180)
+}
+train (t-ovf1yj22bv8yeu0fkxd7bi3h0) {
+  utterance ([g:StartQuiz] 문제 시작해줘)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518880406)
 }

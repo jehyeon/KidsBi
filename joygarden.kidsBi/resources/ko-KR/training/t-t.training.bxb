@@ -13,8 +13,28 @@ train (t-tc4nkits4rs7jtei7repn0lh2) {
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)
   last-modified (1572452474723)
 }
+train (t-tlrs8wfdy47s5z4iu3v7kyv76) {
+  utterance ([g:GetRandomVideo] 키즈비가 찾아줘)
+  plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
+  last-modified (1572518493291)
+}
 train (t-tnofcy7tsnouorihj437mhx61) {
   utterance ([g:StartQuiz:continue:QuizProgress,r:ReTryQuiz] 틀린 문제 보여줘)
   plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4GIvWoNSQokpitLIwMDIwMTADaQYoixHMAgEmIM3MwAAA)
   last-modified (1572456885621)
+}
+train (t-tp5i89mruxn7q2ahy82u5ejia) {
+  utterance ("[g:GetVideo] (싼타클로스는 진짜 있는가)[v:SearchTerm] 만화 보여줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)
+  last-modified (1572518655476)
+}
+train (t-tpp2tsznogp1fievrj2ubu7vg) {
+  utterance ([g:StartQuiz] 다른 문제도 보여줘)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518984134)
+}
+train (t-tsjglq3wfpj4z4d26jxdj1tab) {
+  utterance ([g:OpenVideoInYoutube:continue:VideoInfo] 동영상 재생이 안 돼요)
+  plan (Y2Bm4C3LLNNLzi9K1QtJrShhUM7Kr0xPLEpJzdPLzkwpdsrU8y9IzQvLTEnN98yLzC8tKU1KZZDCUARVkJbPwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572520425709)
 }

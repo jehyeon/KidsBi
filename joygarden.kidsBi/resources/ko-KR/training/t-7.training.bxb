@@ -3,6 +3,16 @@ train (t-71795k6wszbr19ti0wbdhl2rz) {
   plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4GIvWoNSQokpitLIwMDIwMTADaQYoixHMAgEmIM3MwAAA)
   last-modified (1572456901649)
 }
+train (t-728rghkxtvx9zqyek8dk2leq4) {
+  utterance ([g:StartQuiz:continue:QuizInfo,r:InitQuizProgress]  이거 퀴즈로 만들어봐)
+  plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGVgYGBmYGJiBNAOUxQhmgQATkGZmYAAA)
+  last-modified (1572519652077)
+}
+train (t-76dpi84v3y8e5qb6dwwpmiopl) {
+  utterance ("[g:CategoryInfo:prompt] (한국 전래)[v:FilterTerm]")
+  plan (Y2BhkM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ1DGkA5OzUlNLkFRRMAMaQxpt8ycktSikNSiXAZmBkYGJiDJAKRBEAKYgBgoBgA=)
+  last-modified (1572520260558)
+}
 train (t-76nmmihrpgwpl5r0berrfvm2r) {
   utterance ([g:GetVideo] 동화 보여줘)
   plan (Y2BmkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYWBiYARiBiDJyMAAowE=)
@@ -22,4 +32,14 @@ train (t-7lxoipeuvig44jp5urghpqbmg) {
   utterance ([g:GetRandomVideo] 키즈비가 추천해줘)
   plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
   last-modified (1572459935997)
+}
+train (t-7wfo2qdlxiuud4i2p3h55hduv) {
+  utterance ("[g:GetVideo] (아기공룡둘리)[v:SearchTerm] 만화 보여줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)
+  last-modified (1572518660613)
+}
+train (t-7zqzgdu8m7h6u5m9fz2a44884) {
+  utterance ([g:StartQuiz] 테스트 시작해줘)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518911438)
 }

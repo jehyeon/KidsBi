@@ -3,6 +3,11 @@ train (t-d2405is1hgz4fuipdl97l7hlw) {
   plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
   last-modified (1572460814127)
 }
+train (t-d6q2g2oto5y0n7slo0m2cvslz) {
+  utterance ("[g:QuizCategory:prompt] (나라)[v:QuizCategory:Country] 퀴즈 고를게")
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
+  last-modified (1572519856520)
+}
 train (t-d8sn8xthcoaia43lyfd860iiv) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (세 번째) [v:Ordinal:Third]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)
@@ -13,8 +18,43 @@ train (t-daxl3mm33yykjo1nb9h2s0xxo) {
   plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
   last-modified (1572453060056)
 }
+train (t-dd3h9p20lylxmallfu098a3kl) {
+  utterance ("[g:SolveQuizAnswer:prompt] 이 (정답)[v:SolveQuizAnswer:false] 보여줘")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572519477196)
+}
 train (t-dfshpn9naw3jc8274y8mogimy) {
   utterance ("[g:StartQuiz] (동물)[v:QuizCategory:Animal] 퀴즈 풀어볼래")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
   last-modified (1572514650765)
+}
+train (t-dhgevxvcpvzv1jqv7i5at4h27) {
+  utterance ("[g:CategoryInfo:prompt] (과학)[v:FilterTerm] 만화")
+  plan (Y2BhkM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ1DGkA5OzUlNLkFRRMAMaQxpt8ycktSikNSiXAZmBkYGJiDJAKRBEAKYgBgoBgA=)
+  last-modified (1572520253158)
+}
+train (t-dkmqegj40h33zpzh604s0hcou) {
+  utterance ([g:StartQuiz] 테스트 할래)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518908878)
+}
+train (t-dlaoea70845y6lbi1m8gmvkud) {
+  utterance ("[g:GetVideo] (인기 있는)[v:VideoCategory:Popular] 만화 보여줄래")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
+  last-modified (1572520430973)
+}
+train (t-dlw9ao2jyz6stx29e8jj8px03) {
+  utterance ([g:StartQuiz:continue:QuizInfo,r:InitQuizProgress]  이거 문제로 만들어줘)
+  plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGVgYGBmYGJiBNAOUxQhmgQATkGZmYAAA)
+  last-modified (1572519654533)
+}
+train (t-dqbg34ussoxzl5vlmm97nsi5y) {
+  utterance ("[g:QuizCategory:prompt] (수학)[v:QuizCategory:Math] 퀴즈 해볼게")
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
+  last-modified (1572519845837)
+}
+train (t-dqbym08p8l98klg0q5hhrs3gl) {
+  utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (아르헨티나)[v:UserAnswer]")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)
+  last-modified (1572519156556)
 }

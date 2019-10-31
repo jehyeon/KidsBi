@@ -1,3 +1,8 @@
+train (t-l08jxjia3wmt3w85tjd74aldf) {
+  utterance ("[g:GetVideo] (금도끼)[v:SearchTerm] 만화 보여줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)
+  last-modified (1572518664203)
+}
 train (t-l0sjgt2ntx62a0off7neulieb) {
   utterance ([g:GetVideo] 통화 보여줘)
   plan (Y2BmkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYWBiYARiBiDJyMAAowE=)
@@ -13,10 +18,30 @@ train (t-lasquqcfadrq8lh5dh5wk3vi5) {
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
   last-modified (1572509041460)
 }
+train (t-lexuk6m7krx2lwnsogqqnlu9v) {
+  utterance ("[g:CategoryInfo:prompt] (인기있는)[v:FilterTerm] 동화")
+  plan (Y2BhkM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ1DGkA5OzUlNLkFRRMAMaQxpt8ycktSikNSiXAZmBkYGJiDJAKRBEAKYgBgoBgA=)
+  last-modified (1572520255125)
+}
+train (t-ljhdexkz9t21k5lb9sut6igyu) {
+  utterance ([g:GetRandomVideo] 아무거나 틀어줘)
+  plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
+  last-modified (1572518495035)
+}
 train (t-lknnqmitk37ib1mr1ajue70qu) {
   utterance ("[g:SelectVideoInfo:continue:VideoInfo] (마이아사우라)[v:FilterTerm] 틀어줘")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
   last-modified (1572508215107)
+}
+train (t-lncwu1ofmug5ogqj9z0ddv3p0) {
+  utterance ([g:StartQuiz] 문제 다시 풀래)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518992254)
+}
+train (t-lnltihvuuthdjlgk800o277dk) {
+  utterance ("[g:QuizCategory:prompt] (수학)[v:QuizCategory:Math] 문제 선택해")
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
+  last-modified (1572519830788)
 }
 train (t-lskfoq524fhvi1mhxkd7bqgpn) {
   utterance ("[g:StartQuiz] (과일)[v:QuizCategory:Fruit] 퀴즈 플레이")

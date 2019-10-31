@@ -1,3 +1,8 @@
+train (t-83nnemkbzb3gineo5xivc2qhq) {
+  utterance ("[g:CategoryInfo:prompt] (국내)[v:FilterTerm] 만화")
+  plan (Y2BhkM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ1DGkA5OzUlNLkFRRMAMaQxpt8ycktSikNSiXAZmBkYGJiDJAKRBEAKYgBgoBgA=)
+  last-modified (1572520251135)
+}
 train (t-8aq3m09x6bg0qh615mo1kswn0) {
   utterance ([g:StartQuiz] 퀴즈 시작할래)
   plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)

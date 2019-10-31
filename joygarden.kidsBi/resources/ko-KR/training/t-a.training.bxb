@@ -1,7 +1,27 @@
+train (t-a39c60mnzot6vqjqjjtzn86wn) {
+  utterance ("[g:SolveQuizAnswer:prompt] 퀴즈 (그만)[v:SolveQuizAnswer:true] 멈춰")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572519524877)
+}
+train (t-ab0y8iumlgtm1io9gtx4lm314) {
+  utterance ("[g:StartQuiz] (숫자)[v:QuizCategory:Math] 놀이 할래")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1572520496093)
+}
 train (t-adtmtpcco9myc46axlxbuo988) {
   utterance ("[g:SelectVideoInfo:continue:VideoInfo] (빨간 모자)[v:FilterTerm] 선택할래")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
   last-modified (1572509488311)
+}
+train (t-afzszynr68rtvclfl4vj3amek) {
+  utterance ([g:StartQuiz] 퀴즈 한번 더 해볼래)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518989494)
+}
+train (t-ajfm5mqwq8ps4vuyeqrvz3550) {
+  utterance ([g:StartQuiz] 문제 틀어줘)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518891262)
 }
 train (t-aleo6xxfnxrwj3sk96ed0xhka) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (두 번째) [v:Ordinal:Second]")

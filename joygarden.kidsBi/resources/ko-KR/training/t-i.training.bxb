@@ -3,8 +3,23 @@ train (t-i28mf5oj8ett6ny7714ns7anv) {
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
   last-modified (1572457340042)
 }
+train (t-idpul82h14adr4cvn5d8hwoou) {
+  utterance ([g:StartQuiz] 이거 다시 풀어볼래)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518993669)
+}
 train (t-ijubm6eqpoatzecgqs6rda83r) {
   utterance ("[g:StartQuiz] (동물)[v:QuizCategory:Animal] 맞추기 할래")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
   last-modified (1572453136481)
+}
+train (t-itbaiprxyurcote9ucb4l0x7j) {
+  utterance ("[g:SolveQuizAnswer:prompt] 이거 (정답)[v:SolveQuizAnswer:false] 보여줘")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572519480528)
+}
+train (t-iwz0xgrt5xgmgzxy18r46m1j5) {
+  utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (유관순)[v:UserAnswer]")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)
+  last-modified (1572519158695)
 }

@@ -1,5 +1,15 @@
+train (t-c1ensii3srpqunu8jrvowc1lj) {
+  utterance ("[g:GetVideo] (둘리)[v:SearchTerm] 동화 보여줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)
+  last-modified (1572518666244)
+}
 train (t-c543mxb7jc2dl7juk9io3c5vv) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (첫 번째) [v:Ordinal:First]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)
   last-modified (1572452480673)
+}
+train (t-c7dum5ll7stn4d65vzz2640bz) {
+  utterance ("[g:CategoryInfo:prompt] (우리 나라)[v:FilterTerm]")
+  plan (Y2BhkM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ1DGkA5OzUlNLkFRRMAMaQxpt8ycktSikNSiXAZmBkYGJiDJAKRBEAKYgBgoBgA=)
+  last-modified (1572520251637)
 }

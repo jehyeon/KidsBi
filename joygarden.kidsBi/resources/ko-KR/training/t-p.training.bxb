@@ -28,13 +28,18 @@ train (t-pimg6a9ylyalcpr5fimqr3ng6) {
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)
   last-modified (1572452473495)
 }
-train (t-ptmjzq1jwb91zc0xxdmwabves) {
-  utterance ("[g:GetVideo] (크리스마스)[v:VideoCategory:Christmas] 선택해줘")
-  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
-  last-modified (1572498721654)
+train (t-ppstsgrgxkqccdb1ambwjiw5n) {
+  utterance ([g:StartQuiz] 퀴즈 풀래)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518907733)
 }
 train (t-puh7n32zv9x3hv43mm6zgtldh) {
   utterance ("[g:GetVideo] (뮤지컬)[v:VideoCategory:Musical]로 열어줘")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
   last-modified (1572498754494)
+}
+train (t-pz9ksfgsy2ygns8pzga17j43c) {
+  utterance ("[g:CategoryInfo:prompt] (공주)[v:FilterTerm] 동화 골라줘")
+  plan (Y2BhkM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ1DGkA5OzUlNLkFRRMAMaQxpt8ycktSikNSiXAZmBkYGJiDJAKRBEAKYgBgoBgA=)
+  last-modified (1572520258797)
 }

@@ -1,5 +1,25 @@
+train (t-b4s327sghdl3sqm46zjekvnkf) {
+  utterance ("[g:SolveQuizAnswer:prompt] (정답)[v:SolveQuizAnswer:false] 보여줘")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572519484172)
+}
 train (t-b8jpht3usnetuzaaphjev6i42) {
   utterance ("[g:SelectVideoInfo:continue:VideoInfo] (라푼젤)[v:FilterTerm]을 골라줘")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
   last-modified (1572500326146)
+}
+train (t-b8ucr75geh6ido84d85c5vnof) {
+  utterance ("[g:SolveQuizAnswer:prompt] 퀴즈 (그만)[v:SolveQuizAnswer:true]")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572519521549)
+}
+train (t-bh44ifnpw6k0vkj29bdul1vf5) {
+  utterance ([g:StartQuiz] 다른 문제도 해볼래)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518985269)
+}
+train (t-bp8j69mod1b9san34m3oxyyun) {
+  utterance ([g:StartQuiz] 다른 퀴즈 풀고 싶어)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518988190)
 }

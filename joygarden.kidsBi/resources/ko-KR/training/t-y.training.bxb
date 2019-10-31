@@ -3,6 +3,31 @@ train (t-y3genltvsxtvhz8sdmtr2abbc) {
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)
   last-modified (1572452472280)
 }
+train (t-yajr21v09uvvyujgltiiovypi) {
+  utterance ([g:OpenVideoInYoutube:continue:VideoInfo] 영상이 안나와)
+  plan (Y2Bm4C3LLNNLzi9K1QtJrShhUM7Kr0xPLEpJzdPLzkwpdsrU8y9IzQvLTEnN98yLzC8tKU1KZZDCUARVkJbPwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572518774012)
+}
+train (t-ybykjvu55e2z8htfi4pjitkd2) {
+  utterance ("[g:GetVideo] (타요)[v:SearchTerm] 동화 보여줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)
+  last-modified (1572518668797)
+}
+train (t-ycbtmzxu42pkcenkykfciwdhh) {
+  utterance ("[g:SolveQuizAnswer:prompt] 이 (정답)[v:SolveQuizAnswer:false]이 뭐야")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572519471013)
+}
+train (t-yf4bkxfebcsvxg7sv2dji23q9) {
+  utterance ("[g:CategoryInfo:prompt] (그림자)[v:FilterTerm] 선택")
+  plan (Y2BhkM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ1DGkA5OzUlNLkFRRMAMaQxpt8ycktSikNSiXAZmBkYGJiDJAKRBEAKYgBgoBgA=)
+  last-modified (1572520257606)
+}
+train (t-yhljwbohin5d7ygv2uyjhh7sk) {
+  utterance ([g:StartQuiz] 문제 내줘)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518892972)
+}
 train (t-ymrzobis0apjin5799mt7j5jk) {
   utterance ([g:OpenVideoInYoutube:continue:VideoInfo] 유튜브로 연결)
   plan (Y2Bm4C3LLNNLzi9K1QtJrShhUM7Kr0xPLEpJzdPLzkwpdsrU8y9IzQvLTEnN98yLzC8tKU1KZZDCUARVkJbPwMTACMQMQJKRgQFGAwA=)
@@ -17,4 +42,9 @@ train (t-yvev2443fbiwmo8cv8ri2lw6o) {
   utterance ("[g:StartQuiz] (동물)[v:QuizCategory:Animal] 퀴즈 할래")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
   last-modified (1572453239812)
+}
+train (t-yx3lk1dnc2525sutoaekel4r1) {
+  utterance ([g:StartQuiz:continue:QuizInfo,r:InitQuizProgress]  이거 문제로 만들어줘)
+  plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGVgYGBmYGJiBNAOUxQhmgQATkGZmYAAA)
+  last-modified (1572519649527)
 }

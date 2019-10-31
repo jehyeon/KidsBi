@@ -1,3 +1,8 @@
+train (t-q1t4ssv33d8cqx33kcak2t5i7) {
+  utterance ([g:StartQuiz] 문제 다시 보여줘)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518991638)
+}
 train (t-q4c5vvem8f9bupz29vzhwpctg) {
   utterance ([g:GetVideo] 동화 보고 싶어)
   plan (Y2BmkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYWBiYARiBiDJyMAAowE=)
@@ -7,6 +12,16 @@ train (t-q8ji1y45brcg7hv0kq6yalfff) {
   utterance ("[g:StartQuiz] 문제 풀래 ")
   plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
   last-modified (1572516994059)
+}
+train (t-q9jh7gwd2jqkixatvpprdd8k1) {
+  utterance ("[g:SolveQuizAnswer:prompt] (정답)[v:SolveQuizAnswer:false] 알려줘")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572519474563)
+}
+train (t-qyc5rbw6czgeo0ey81abnh5cs) {
+  utterance ("[g:GetVideo] (라푼젤)[v:SearchTerm] 동화 보여줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)
+  last-modified (1572518658676)
 }
 train (t-qyhfc36drfqku4fnkib5trjld) {
   utterance ([g:StartQuiz:continue:QuizProgress,r:ReTryQuiz] 틀린거 풀래)

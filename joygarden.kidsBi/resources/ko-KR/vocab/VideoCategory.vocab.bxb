@@ -32,6 +32,7 @@ vocab(VideoCategory) {
 		"외국어"
 	}
 	"Korean tradition" {
+		"국내"
 		"한국전래"
 		"한국 전래"
 		"국내전래"

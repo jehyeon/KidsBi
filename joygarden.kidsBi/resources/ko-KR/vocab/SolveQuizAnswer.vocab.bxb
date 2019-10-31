@@ -2,8 +2,11 @@ vocab (SolveQuizAnswer) {
   "true" {
       "그만"
       "취소"
+      "멈춰"
+      "멈춰줄래"
    }
    "false" {
+      "답"
       "정답"
       "정답 알려줘"
       "알려줘"

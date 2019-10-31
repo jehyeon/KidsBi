@@ -1,3 +1,18 @@
+train (t-19mctyqfzh8t3yipz6h7x6zhy) {
+  utterance ("[g:CategoryInfo:prompt] (자동차)[v:FilterTerm]")
+  plan (Y2BhkM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ1DGkA5OzUlNLkFRRMAMaQxpt8ycktSikNSiXAZmBkYGJiDJAKRBEAKYgBgoBgA=)
+  last-modified (1572520261685)
+}
+train (t-1c33v1dz0b69kow0yqsxoyk9i) {
+  utterance ("[g:SolveQuizAnswer:prompt] (정답)[v:SolveQuizAnswer:false] 알려줄래")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572519481141)
+}
+train (t-1fh6udb0fjjwp5adpi6lco6mq) {
+  utterance ("[g:QuizCategory:prompt] (숫자)[v:QuizCategory:Math] 문제 선택해봐")
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
+  last-modified (1572519857357)
+}
 train (t-1figozck6enc7gcl7lbula5q5) {
   utterance ("[g:GetVideo] (공주)[v:VideoCategory:Princess] 동화 보고 싶어")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)

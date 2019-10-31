@@ -18,8 +18,18 @@ train (t-4nolwhiqkcm1qbetj4i3byiwl) {
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
   last-modified (1572457335717)
 }
+train (t-4sxdyacftnqd4zn0vb942e1gx) {
+  utterance ("[g:CategoryInfo:prompt] (우리나라)[v:FilterTerm] 만화 골라줘")
+  plan (Y2BhkM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ1DGkA5OzUlNLkFRRMAMaQxpt8ycktSikNSiXAZmBkYGJiDJAKRBEAKYgBgoBgA=)
+  last-modified (1572520252102)
+}
 train (t-4xc9cmr9lhljgai4ov5tqaeb2) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (1번) [v:Ordinal:First]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)
   last-modified (1572452113400)
+}
+train (t-4zgbi8fsi7e4pp3im7hdnbs8o) {
+  utterance ("[g:CategoryInfo:prompt] (음악)[v:FilterTerm] 만화 골라")
+  plan (Y2BhkM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ1DGkA5OzUlNLkFRRMAMaQxpt8ycktSikNSiXAZmBkYGJiDJAKRBEAKYgBgoBgA=)
+  last-modified (1572520257112)
 }

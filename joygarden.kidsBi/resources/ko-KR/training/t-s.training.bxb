@@ -1,3 +1,8 @@
+train (t-s5y9up1ut2kq02ynoyyzbndg6) {
+  utterance ("[g:GetVideo] (청개구리)[v:SearchTerm] 만화 보여줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)
+  last-modified (1572518657716)
+}
 train (t-s631xob68bfltvxi7kfxnra0y) {
   utterance ([g:GetQuiz] 퀴즈 연습하기)
   plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
@@ -22,4 +27,9 @@ train (t-su0510wqighv747hwc65chixg) {
   utterance ("[g:StartQuiz] (애니멀)[v:QuizCategory:Animal] 퀴즈 시작")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
   last-modified (1572456977388)
+}
+train (t-sv85oowul0fic9mz9ek2d13h6) {
+  utterance ("[g:GetVideo] (피카츄)[v:SearchTerm] 만화 보여줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)
+  last-modified (1572518668164)
 }

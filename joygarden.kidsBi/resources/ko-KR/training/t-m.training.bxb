@@ -13,8 +13,43 @@ train (t-m9qw0egig5uuwp15ka8cg9h5m) {
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)
   last-modified (1572452478217)
 }
+train (t-mbcn1p0ntj6jxvhxgzwaskkog) {
+  utterance ("[g:QuizCategory:prompt] (과일)[v:QuizCategory:Fruit] 퀴즈")
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
+  last-modified (1572519865581)
+}
 train (t-mgv1vqxu5scjyqq3s5lo3pv8q) {
   utterance ([g:GetQuiz] 퀴즈 목록 보여줄래)
   plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
   last-modified (1572517921517)
+}
+train (t-mgw5q3lqq0skgo98ldj9cr6pe) {
+  utterance ([g:StartQuiz] 퀴즈 스타트)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518876330)
+}
+train (t-mkxpwimysqxiyzu8vl2y9x4i6) {
+  utterance ("[g:GetVideo] (피노키오)[v:SearchTerm] 만화 틀어")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)
+  last-modified (1572518656331)
+}
+train (t-mmefinh7rgkltc4036ul9sc94) {
+  utterance ([g:GetRandomVideo] 랜덤으로 틀어줘)
+  plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
+  last-modified (1572518493939)
+}
+train (t-mn2c6bh454g9bppnv6ql42qp7) {
+  utterance ([g:StartQuiz] 퀴즈 다시 해볼래)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518990387)
+}
+train (t-mre0eeo01efxq7hrto85i2ccy) {
+  utterance ("[g:SolveQuizAnswer:prompt] (답)[v:SolveQuizAnswer:false] 알려줘")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572519479353)
+}
+train (t-mt13rkmeszc1oiscozoaoh2mb) {
+  utterance ("[g:GetVideo] (공주)[v:VideoCategory:Princess] 나오는 동화가 보고 싶어")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
+  last-modified (1572520430517)
 }

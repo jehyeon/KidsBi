@@ -1,3 +1,18 @@
+train (t-g95hi34jxujwmzx7u60mkoec7) {
+  utterance ("[g:GetVideo] (양자리와 아이들)[v:SearchTerm] 동화 보여줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)
+  last-modified (1572518659571)
+}
+train (t-gbhhsqnlkg94qsoyf1396u1du) {
+  utterance ("[g:SolveQuizAnswer:prompt] 이 (정답)[v:SolveQuizAnswer:false] 알려줄래")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572519475535)
+}
+train (t-gndeilpg6tjek39tucix8motc) {
+  utterance ([g:OpenVideoInYoutube:continue:VideoInfo] 이 영상 유튜브로 보여줘)
+  plan (Y2Bm4C3LLNNLzi9K1QtJrShhUM7Kr0xPLEpJzdPLzkwpdsrU8y9IzQvLTEnN98yLzC8tKU1KZZDCUARVkJbPwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572518775445)
+}
 train (t-gohm1fwruykjkz8sezr8mh2xx) {
   utterance ([g:GetVideo] 만화 보여줘)
   plan (Y2BmkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYWBiYARiBiDJyMAAowE=)
@@ -7,4 +22,14 @@ train (t-gptcr7z98l315whixpavqpvwi) {
   utterance ([g:GetVideo] 만화 틀어줘)
   plan (Y2BmkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYWBiYARiBiDJyMAAowE=)
   last-modified (1572462248770)
+}
+train (t-grv0lrhnk34zvhjtcjjgs5ozd) {
+  utterance ([g:StartQuiz:continue:QuizInfo,r:InitQuizProgress]  이거 풀고 싶어)
+  plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGVgYGBmYGJiBNAOUxQhmgQATkGZmYAAA)
+  last-modified (1572519655069)
+}
+train (t-gyozsu29qsemvlqpzssa6x9vi) {
+  utterance ([g:StartQuiz] 다른 퀴즈 풀어볼래)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518986772)
 }

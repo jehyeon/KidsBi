@@ -1,5 +1,15 @@
+train (t-308e0mmcl4q9mgqxonbvzy7cr) {
+  utterance ([g:StartQuiz] 다른 퀴즈도 풀고 싶어)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518985950)
+}
 train (t-37bf4arc06zz4kjbkqk8hdex9) {
   utterance ([g:StartQuiz] 퀴즈 게임 시작)
   plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
   last-modified (1572453074708)
+}
+train (t-3tq6y5tro436rnle1ssl9vysf) {
+  utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (오렌지)[v:UserAnswer]")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)
+  last-modified (1572519155532)
 }

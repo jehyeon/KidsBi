@@ -3,6 +3,16 @@ train (t-r0kh8lyaffpu9d052su0wjboe) {
   plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
   last-modified (1572511216050)
 }
+train (t-r20mhqyzcl39iafckjwngln02) {
+  utterance ([g:StartQuiz:continue:QuizInfo,r:InitQuizProgress]  이거 한번 풀어볼래)
+  plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGVgYGBmYGJiBNAOUxQhmgQATkGZmYAAA)
+  last-modified (1572519651525)
+}
+train (t-r2vfm6gbwmrfwxgzqrlwl9da7) {
+  utterance ([g:StartQuiz:continue:QuizInfo,r:InitQuizProgress]  퀴즈로 만들어줘)
+  plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGVgYGBmYGJiBNAOUxQhmgQATkGZmYAAA)
+  last-modified (1572519649966)
+}
 train (t-r9bktswiesfyul224lc949ael) {
   utterance ([g:GetQuiz] 키즈비에는 어떤 퀴즈가 있어)
   plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)

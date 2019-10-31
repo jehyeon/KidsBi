@@ -3,6 +3,11 @@ train (t-5a97psevdgrlut6gl5bpxvh46) {
   plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
   last-modified (1572453049857)
 }
+train (t-5gz3a7hijr6lsnyf5ltbpumwd) {
+  utterance ("[g:GetVideo] (공룡)[v:VideoCategory:Dinosaur] 만화 재생해")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
+  last-modified (1572520427533)
+}
 train (t-5oot0ychbkctai8s0a05jgs32) {
   utterance ([g:GetQuiz] 문제 공부하기)
   plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)

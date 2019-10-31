@@ -1,3 +1,8 @@
+train (t-h6demvkpug9fjzy5idc59rfw5) {
+  utterance ([g:GetRandomVideo] 아무거나 찾아줘)
+  plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
+  last-modified (1572518495564)
+}
 train (t-hh6thy1evfsk4hxwkd4hs791s) {
   utterance ("[g:StartQuiz] (수학)[v:QuizCategory:Math] 맞추기 할래")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
@@ -7,6 +12,11 @@ train (t-hkdfi4fws8c88pnqlmv26r73s) {
   utterance ([g:GetQuiz] 문제 연습)
   plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
   last-modified (1572517945267)
+}
+train (t-hpp0oe82xxhqvxe0qz1z7aw75) {
+  utterance ("[g:SolveQuizAnswer:prompt] 문제 (멈춰줄래)[v:SolveQuizAnswer:true]")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572519523885)
 }
 train (t-hu2g1otzyfivoa6jtoke2mv23) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (네번째) [v:Ordinal:Fourth]")

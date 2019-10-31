@@ -3,20 +3,50 @@ train (t-j38gmqvdlpg99j1685s0lpt1k) {
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
   last-modified (1572499302435)
 }
+train (t-j7jz298nls9b3rrmp12ccqxwz) {
+  utterance ("[g:QuizCategory:prompt] (인물)[v:QuizCategory:Person] 퀴즈 골라줘")
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
+  last-modified (1572519845165)
+}
 train (t-jddhymiqvo44wouhhrdnlz3bx) {
   utterance ([g:GetCategory] 동화 카테고리에 뭐가 있지)
   plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ5DBkHZPLYGpYGAEQgYoBpIA)
   last-modified (1572462299247)
+}
+train (t-jehiot78ur3px05olvtbs6gpt) {
+  utterance ("[g:SolveQuizAnswer:prompt] 이거 (정답)[v:SolveQuizAnswer:false] 알려줄래")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572519478341)
+}
+train (t-jknlx03xrd54gv47nfo8njios) {
+  utterance ("[g:QuizCategory:prompt] (수학)[v:QuizCategory:Math] 퀴즈 선택")
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
+  last-modified (1572519829932)
 }
 train (t-jm4pa7cxnxyjn4u2pr24ogmkj) {
   utterance ("[g:StartQuiz] (과일)[v:QuizCategory:Fruit] 맞추기 할래")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
   last-modified (1572453245576)
 }
+train (t-jm7qkhg3cse6x28nxiopv46pv) {
+  utterance ([g:StartQuiz] 문제 스타트)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572518879829)
+}
+train (t-jo3fg9ilss0rcq6t8whulg3v9) {
+  utterance ([g:StartQuiz:continue:QuizInfo,r:InitQuizProgress]  이걸로 퀴즈 만들어줘)
+  plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGVgYGBmYGJiBNAOUxQhmgQATkGZmYAAA)
+  last-modified (1572519653098)
+}
 train (t-jsvq9zje419djo6wcifjxxfi6) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (첫번째) [v:Ordinal:First]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)
   last-modified (1572452424716)
+}
+train (t-jvrgsl3s4ihf59i4x6zy0mum5) {
+  utterance ([g:GetRandomVideo] 랜덤으로 찾아줘)
+  plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
+  last-modified (1572518496634)
 }
 train (t-jw3drb9oo416nu0nbr3uc97hq) {
   utterance ([g:GetVideo] 동화 재생)
@@ -27,4 +57,9 @@ train (t-jx5dyae26vakfdyzalirymizz) {
   utterance ([g:GetQuiz] 문제 학습할래)
   plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
   last-modified (1572517941299)
+}
+train (t-jyeajut92x55ojlil48cmh3z0) {
+  utterance ("[g:GetVideo] (겨울)[v:SearchTerm] 만화 보여줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)
+  last-modified (1572518661911)
 }

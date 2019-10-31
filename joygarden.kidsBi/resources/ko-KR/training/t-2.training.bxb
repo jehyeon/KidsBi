@@ -1,5 +1,30 @@
+train (t-29d8t5egzjw5x0q51znycvnn4) {
+  utterance ("[g:QuizCategory:prompt] (동물)[v:QuizCategory:Country] 퀴즈")
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
+  last-modified (1572519891045)
+}
+train (t-2dfsp4asxr3aljpokeuz1meac) {
+  utterance ("[g:SolveQuizAnswer:prompt] 이 퀴즈 (정답)[v:SolveQuizAnswer:false]이 뭐야")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572519470444)
+}
 train (t-2jflt14zd5pnfzltlg555aaku) {
   utterance ("[g:StartQuiz] (동물)[v:QuizCategory:Animal] 퀴즈 풀래")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
-  last-modified (1572457355193)
+  last-modified (1572520488237)
+}
+train (t-2lvsz8ubhx5hvydt7x77t7n03) {
+  utterance ("[g:SolveQuizAnswer:prompt] 이 퀴즈 (정답)[v:SolveQuizAnswer:false] 보여줘")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572519484860)
+}
+train (t-2w0jv7wg634fwtsqh8d0fxye0) {
+  utterance ("[g:SolveQuizAnswer:prompt] 문제 (그만)[v:SolveQuizAnswer:true] 멈춰")
+  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
+  last-modified (1572519522213)
+}
+train (t-2whqkvz1x9t23j34dwmh0pzqc) {
+  utterance ("[g:QuizCategory:prompt] (수학)[v:QuizCategory:Math] 테스트 할래")
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
+  last-modified (1572519829093)
 }
