@@ -40,6 +40,7 @@ module.exports.function = function updateProgress(quizProgress, answer, ordinal)
   if (quizProgress.quizInfos.length === quizProgress.index + 1) {
     // throw fail.checkedError('Done quiz', 'Done');
     quizProgress.done = true;
+    quizProgress.remainQuiz = quizProgress.result.filter(item => item == 'false').length;
     return quizProgress;
   }
   
