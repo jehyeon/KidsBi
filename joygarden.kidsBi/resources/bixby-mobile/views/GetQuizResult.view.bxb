@@ -13,9 +13,9 @@ result-view {
 				param (size) {
 					expression (size(quizInfos))
 				}
-        param (category) {
-          expression (action.category)
-        }
+				param (category) {
+					expression (action.category)
+				}
 			}
 		}
 	}
@@ -26,9 +26,9 @@ result-view {
 				navigation-mode {
 					if($handsFree) {
 						read-many-and-next {
-							page-size (5) 
+							page-size (5)
 							list-summary {
-							  if (size(quizInfos) == 1) {
+								if (size(quizInfos) == 1) {
 									template-macro (GetQuiz_Result_One)
 								} else {
 									template-macro (GetQuiz_Result_Multi){
@@ -39,13 +39,13 @@ result-view {
 											expression (action.category)
 										}
 									}
-								}								
+								}
 							}
 							page-content (page) {
-                underflow-statement {template-macro (List_Navigate_Underflow)}
-                overflow-statement { template-macro (List_Navigate_Overflow)}
-                next-page-question { template-macro (List_Navigate_question)}								
-							}						
+								underflow-statement {template-macro (List_Navigate_Underflow)}
+								overflow-statement { template-macro (List_Navigate_Overflow)}
+								next-page-question { template-macro (List_Navigate_question)}
+							}
 						}
 					}
 				}
