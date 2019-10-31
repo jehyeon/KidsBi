@@ -13,17 +13,5 @@ action (GetQuiz) {
       }
     }
   }
-  output (QuizInfo) {
-    throws {
-      error (NoQuizInfo) {
-        on-catch {
-          halt {
-            dialog {
-              template-macro (Getquiz_No_QuizInfos)
-            }
-          }
-        }
-      }
-    }
-  }
+  output (QuizInfo)
 }
