@@ -4,6 +4,7 @@ capsule-info {
   icon-asset (images/icon.png)
   description (키즈비를 통해 즐겁고 유익한 유아 교육을 체험해보세요.)
   website-url (https://github.com/jehyeon/KidsBi/tree/master/joygarden.kidsBi)
+  privacy-policy-url (https://github.com/jehyeon/KidsBi/blob/master/KidsBi_Personal_information.xls)
 
   dispatch-name (키즈비)
 
