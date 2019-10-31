@@ -49,7 +49,10 @@ confirmation-view {
 						object-position (Center)
 						object-fit (Contain)
           }
-
+        }
+      }
+      section {
+        content {
           // User selection
           for-each (action.quizProgress.quizInfos[action.quizProgress.index].options) {
             as (option) {
