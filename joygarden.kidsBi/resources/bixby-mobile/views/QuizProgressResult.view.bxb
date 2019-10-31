@@ -1,5 +1,5 @@
 result-view {
-	match: QuizProgress (quizPrgoress) {
+	match: QuizProgress (quizProgress) {
 	}
 	
 	message {
@@ -14,11 +14,10 @@ result-view {
 	
 	render {
 		layout {
-			for-each (quizPrgoress.quizInfos) {
-				as (quizInfo) {
-					section {
-						
-						content {
+			section {
+				content {
+					for-each (quizProgress.quizInfos) {
+						as (quizInfo) {
 							if (exists(quizInfo.answerResult)) {
 								// before
 								cell-card {
@@ -83,8 +82,15 @@ result-view {
 		}
 	}
 	conversation-drivers {
-		conversation-driver {
-			template-macro (GetQuiz_Incorrect_Again)
+		if (quizProgress.done == 'true' && exists(quizProgress.remainQuiz) && quizProgress.remainQuiz != 0) {
+			conversation-driver {
+				template-macro (GetQuiz_Incorrect_Again)
+			}
 		}
 	}
 }
+//if (!exsits(#{value(false) in quizProgress.result) && quizPrgoress.done == true ) {
+			
+			
+
+//quizProgress.done == true && !'false' in quizProgress.result
