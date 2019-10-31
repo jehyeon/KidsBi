@@ -1,0 +1,20 @@
+train (t-r0kh8lyaffpu9d052su0wjboe) {
+  utterance ([g:GetQuiz] 공부 할래)
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572511216050)
+}
+train (t-r9bktswiesfyul224lc949ael) {
+  utterance ([g:GetQuiz] 키즈비에는 어떤 퀴즈가 있어)
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572511101028)
+}
+train (t-rtehsv6basp272lpk5pm1e5bz) {
+  utterance ("[g:SelectVideoInfo:continue:VideoInfo] (헨젤과 그레텔)[v:FilterTerm]")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
+  last-modified (1572509568562)
+}
+train (t-rtju2rbwu0d6ycsawny840ped) {
+  utterance ("[g:SelectVideoInfo:continue:VideoInfo] (잠 자는 숲속의 공주)[v:FilterTerm]")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
+  last-modified (1572507454996)
+}

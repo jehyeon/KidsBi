@@ -1,3 +1,18 @@
+train (t-m35bqcwu4mf3iqn8iiya72idx) {
+  utterance ("[g:SelectVideoInfo:continue:VideoInfo] (라푼젤)[v:FilterTerm] 선택해줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
+  last-modified (1572506679254)
+}
+train (t-m7558ne0f2k3oywesdjwlrr84) {
+  utterance ("[g:SelectVideoInfo:continue:VideoInfo] (라푼젤)[v:FilterTerm]을 골라줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
+  last-modified (1572506629741)
+}
+train (t-m7waomo49z5ph19v2ekhcmt4e) {
+  utterance ([g:StartQuiz:continue:QuizInfo,r:InitQuizProgress]  이거 풀어볼래)
+  plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGVgYGBmYGJiBNAOUxQhmgQATkGZmYAAA)
+  last-modified (1572511996626)
+}
 train (t-m9qw0egig5uuwp15ka8cg9h5m) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (2번) [v:Ordinal:Second]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)

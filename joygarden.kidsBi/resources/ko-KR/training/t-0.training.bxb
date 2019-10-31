@@ -1,3 +1,8 @@
+train (t-07uvczhenpl4yim2u2kjclkc6) {
+  utterance ("[g:GetVideo] (인기 있는)[v:VideoCategory:Popular]으로 틀어줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
+  last-modified (1572498694461)
+}
 train (t-0hvbicnqto87xj7499qc7wpu6) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (라벤더)[v:UserAnswer]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)
@@ -7,4 +12,9 @@ train (t-0iybu7ou9mb2zmbtiun9rilsp) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (두번째) [v:Ordinal:Second]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUhgkMFT7F6Vk5iXmMLAxMDIwMTAzsDCwAtkMUB4zkMcI5sEAM5DNBiQZAA==)
   last-modified (1572452479650)
+}
+train (t-0szyy6peda3o2beqxbneke5d0) {
+  utterance ("[g:SelectVideoInfo:continue:VideoInfo] (크리스마스 전날 밤)[v:FilterTerm] 선택해줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
+  last-modified (1572506903596)
 }

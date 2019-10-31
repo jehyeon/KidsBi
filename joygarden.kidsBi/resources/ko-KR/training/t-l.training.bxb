@@ -1,3 +1,28 @@
+train (t-l0sjgt2ntx62a0off7neulieb) {
+  utterance ([g:GetVideo] 통화 보여줘)
+  plan (Y2BmkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYWBiYARiBiDJyMAAowE=)
+  last-modified (1572507665691)
+}
+train (t-l6m3bd03his4jsiu740adc4on) {
+  utterance ("[g:SelectVideoInfo:continue:VideoInfo] (백설공주)[v:FilterTerm] 선택할래")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
+  last-modified (1572507334294)
+}
+train (t-lasquqcfadrq8lh5dh5wk3vi5) {
+  utterance ("[g:GetVideo] (자동차)[v:VideoCategory:Car] 틀어줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
+  last-modified (1572509041460)
+}
+train (t-lknnqmitk37ib1mr1ajue70qu) {
+  utterance ("[g:SelectVideoInfo:continue:VideoInfo] (마이아사우라)[v:FilterTerm] 틀어줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
+  last-modified (1572508215107)
+}
+train (t-lskfoq524fhvi1mhxkd7bqgpn) {
+  utterance ("[g:StartQuiz] (과일)[v:QuizCategory:Fruit] 퀴즈 플레이")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1572514810182)
+}
 train (t-lxr61hsl8gld5lplt0aslc7bs) {
   utterance ([g:StartQuiz:continue:QuizProgress,r:ReTryQuiz] 틀린 거 다시 풀고 싶어)
   plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4GIvWoNSQokpitLIwMDIwMTADaQYoixHMAgEmIM3MwAAA)

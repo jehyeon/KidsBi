@@ -1,7 +1,32 @@
+train (t-4c5b9tajy1uxg0hjvvzh3ucwk) {
+  utterance ("[g:SelectVideoInfo:continue] (슈퍼 구조대)[v:FilterTerm] 재생")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
+  last-modified (1572508296818)
+}
+train (t-4gkvsg4nhpuyh1r81v958xkql) {
+  utterance ("[g:SelectVideoInfo:continue] (생일 파티)[v:FilterTerm] 틀어줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
+  last-modified (1572508261924)
+}
+train (t-4iylxrrux7txpmlh35qn8gpmx) {
+  utterance ("[g:SelectVideoInfo:continue:VideoInfo] (미녀와 야수)[v:FilterTerm]")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
+  last-modified (1572507367180)
+}
 train (t-4nolwhiqkcm1qbetj4i3byiwl) {
   utterance ("[g:StartQuiz] (꽃)[v:QuizCategory:Flower] 퀴즈 풀래")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
   last-modified (1572457335717)
+}
+train (t-4vpgsxxn6vkrg4qe6y0039gxa) {
+  utterance ([g:GetQuiz] 키즈비 학습 모드 시작해)
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572511157068)
+}
+train (t-4x3b1k6rsw932s0uns3s1ohkz) {
+  utterance ([g:GetQuiz] 키즈비에서 공부 모드 해보고 싶어)
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572511200465)
 }
 train (t-4xc9cmr9lhljgai4ov5tqaeb2) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (1번) [v:Ordinal:First]")

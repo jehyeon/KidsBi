@@ -1,5 +1,15 @@
+train (t-v3sn9xs9q57p81bz0mcel94at) {
+  utterance ("[g:CategoryInfo:prompt] (티라노)[v:FilterTerm] 골라줘")
+  plan (Y2BhkM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ1DGkA5OzUlNLkFRRMAMaQxpt8ycktSikNSiXAZmBkYGJiDJAKRBEAKYgBgoBgA=)
+  last-modified (1572507871281)
+}
 train (t-vpfd208hq8ihy2hgp82314wkv) {
   utterance ([g:GetCategory] 동화 카테고리 보여줘)
   plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ5DBkHZPLYGpYGAEQgYoBpIA)
   last-modified (1572429916990)
+}
+train (t-vukj8kb1ylr3aet9fgzwvv37f) {
+  utterance ([g:GetQuiz] 카드 공부할래)
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572511174308)
 }

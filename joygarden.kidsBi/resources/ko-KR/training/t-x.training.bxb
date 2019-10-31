@@ -3,13 +3,33 @@ train (t-x0sfgyqx46jo9lq6c3q7chlka) {
   plan (Y2Bm4C3LLNNLzi9K1QtJrShhUM7Kr0xPLEpJzdPLzkwpdsrU8y9IzQvLTEnN98yLzC8tKU1KZZDCUARVkJbPwMTACMQMQJKRgQFGAwA=)
   last-modified (1572458494235)
 }
+train (t-xagn9558146cj3jtu5pbe76lp) {
+  utterance ("[g:QuizCategory] (과일)[v:QuizCategory:Fruit] 문제 시작해봐")
+  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
+  last-modified (1572511037015)
+}
+train (t-xc7394ah9kqpe1u0sb0vwp9mx) {
+  utterance ("[g:GetVideo] (그림자)[v:VideoCategory:Shadow] 동화 재생해줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
+  last-modified (1572498789517)
+}
+train (t-xoziogcg14terve2zy6mxy12d) {
+  utterance ([g:GetQuiz] 다른 퀴즈 풀고 싶어)
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572512180859)
+}
 train (t-xrm0wpl6xvjxbr5nbdjlwyx7g) {
   utterance ("[g:StartQuiz] (꽃)[v:QuizCategory:Flower] 맞추기 할래")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
   last-modified (1572453247714)
 }
 train (t-xrze8rtyf04bq3f7eif21jc4j) {
-  utterance ("[g:VideoCategory:prompt] (공룡)[v:VideoCategory:Dinosaur]")
-  plan (Y2BikMvKr0xPLEpJzdPLzkwpdsrUC8tMSc13TixJTc8vqiQozwiEDAw8QMwExEA2AA==)
-  last-modified (1572462553143)
+  utterance ("[g:GetVideo] (공룡)[v:VideoCategory:Dinosaur]")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
+  last-modified (1572499330859)
+}
+train (t-xy2wspxmsic359pr5xt2o8aqu) {
+  utterance ("[g:GetVideo] (공룡)[v:VideoCategory:Dinosaur] 틀어줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
+  last-modified (1572498667350)
 }
