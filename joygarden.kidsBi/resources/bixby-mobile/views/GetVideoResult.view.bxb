@@ -37,7 +37,7 @@ result-view {
 				navigation-mode {
 					if ($handsFree) {
 						read-many-and-next {
-							page-size (5)
+							page-size (3)
 							list-summary {
 								if (exists(action.searchTerm)) {
 									template-macro (GetVideo_Result_SearchTerm) {
