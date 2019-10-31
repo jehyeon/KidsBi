@@ -132,3 +132,4 @@
 - 0.1.33: GetVideo url 수정
 - 0.1.34: Quiz category 추가
 - 0.1.35: 학습 데이터 추가
+- 0.1.36: No VideoInfo Validation 추가
