@@ -167,10 +167,18 @@ template-macro-def (List_Navigate_overflow_Question) {
 	}
 }
 
-template-macro-def (ShowQuizAnswer) {
+template-macro-def (ShowQuizAnswer_Button) {
 	content {
 		choose (Random) {
 			template ("정답 알려줘")
+		}
+	}
+}
+
+template-macro-def (ShowQuinzAnswer_MEssage) {
+	content {
+		choose (Random) {
+			template ("네, 정답 알려드릴게요. 다른 문제 정답도 확인해 보세요.")
 		}
 	}
 }
