@@ -33,6 +33,9 @@
 [g:StartQuiz] 다시 풀래 / 다른 퀴즈 풀고 싶어 // 퀴즈 그만하기(QuizResult view)의 Conversation driver
 
 2-2. Follow-up
+// Quiz category select
+[g:QuizCategory:prompt] (수학)[v:QuizCategoey:Math] 퀴즈 선택해  // variation은 [region]/vocab/QuizCategory.vocab.bxb에 추가
+
 // Answer select
 // 빅스비 기본 Ordinal selection이 적용 안됨
 [g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (첫번째)[v:Ordinal]  // variation은 [region]/vocab/Ordinal.vocab.bxb에 추가
