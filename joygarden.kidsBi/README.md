@@ -52,9 +52,11 @@
 3-1. Root
 [g:GetQuiz] 키즈비에는 어떤 퀴즈가 있어 / 문제 카드들 보여줘 / 학습 모드 시작
 [g:GetQuiz] (과일)[v:QuizCategory:Animal] 공부하고 싶어 / (수학)[v:QuizCategory:Math] 문제는 뭐가 있어
+
+3-2. Follow-up
+[g:QuizCategory:prompt] (인물)[v:QuizCategory:Person] 선택해 / (나라)[v:QuizCategory:Country] 문제 보여줘
 ```
 
-3. 
 ### Video Category
 사용가능한 Video Category 목록입니다.
 > Video 카테고리 수정 시,
