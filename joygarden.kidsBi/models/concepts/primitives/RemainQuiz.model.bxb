@@ -1,0 +1,3 @@
+integer (RemainQuiz) {
+  description (When quiz action is done, count of quiz that remained)
+}

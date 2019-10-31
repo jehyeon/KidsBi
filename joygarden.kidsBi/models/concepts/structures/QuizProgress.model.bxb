@@ -13,12 +13,17 @@ structure (QuizProgress) {
     lazy-source (EmptyResult)
   }
   property (index) {
-    type (viv.core.Integer)
+    type (Index)
     min (Required) max (One)
   }
 
   property (done) {
     type (viv.core.Boolean)
     min (Required) max (One)
+  }
+
+  property (remainQuiz) {
+    type (RemainQuiz)
+    min (Optional) max (One)
   }
 }

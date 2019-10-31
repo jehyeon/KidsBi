@@ -17,4 +17,9 @@ train (t-ozrixxmpe5f46oa7d0gdhr40q) {
   utterance ("[g:GetVideo] (크리스마스)[v:CategoryInfo] 틀어줘")
   plan (Y2BlkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJYMshjxMCmw5CwMjAxMDM5BmgLIYGUCACYwZQeIA)
   last-modified (1572509074834)
+  }
+train (t-oq48tzu6a6tctt8yi0ucwa1px) {
+  utterance ([g:StartQuiz:continue:QuizProgress,r:ReTryQuiz] 빨간 동그라미 다시 풀래)
+  plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4GIvWoNSQokpitLIwMDIwMTADaQYoixHMAgEmIM3MwAAA)
+  last-modified (1572511634180)
 }

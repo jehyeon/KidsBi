@@ -23,3 +23,8 @@ train (t-lskfoq524fhvi1mhxkd7bqgpn) {
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
   last-modified (1572514810182)
 }
+train (t-lxr61hsl8gld5lplt0aslc7bs) {
+  utterance ([g:StartQuiz:continue:QuizProgress,r:ReTryQuiz] 틀린 거 다시 풀고 싶어)
+  plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4GIvWoNSQokpitLIwMDIwMTADaQYoixHMAgEmIM3MwAAA)
+  last-modified (1572510296795)
+}

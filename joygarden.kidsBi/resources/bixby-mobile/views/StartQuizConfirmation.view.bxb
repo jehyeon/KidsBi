@@ -2,7 +2,7 @@ confirmation-view {
   match: SolveQuizAnswer {
     confirming: StartQuiz (action)
   }
-  mode (NegativeEmphasis)
+  mode (PositiveEmphasis)
   confirm-options {
     label{
 			template-macro (StartQuiz_Stop)
@@ -49,7 +49,10 @@ confirmation-view {
 						object-position (Center)
 						object-fit (Contain)
           }
-
+        }
+      }
+      section {
+        content {
           // User selection
           for-each (action.quizProgress.quizInfos[action.quizProgress.index].options) {
             as (option) {

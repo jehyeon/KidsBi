@@ -1,5 +1,5 @@
 dialog (ActionAborted) {
   match: StartQuiz
-  template-macro (ShowQuinzAnswer_MEssage)
+  template-macro (ShowQuinzAnswer_Message)
 }
 

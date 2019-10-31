@@ -175,7 +175,15 @@ template-macro-def (ShowQuizAnswer_Button) {
 	}
 }
 
-template-macro-def (ShowQuinzAnswer_MEssage) {
+template-macro-def (StartQuiz_PgressResut_Message_HandsFree) {
+	content {
+		choose (Random) {
+			template ("문제와 답을 모두 보여드릴게요. 직접 확인해보세요!")
+		}
+	}
+}
+
+template-macro-def (ShowQuinzAnswer_Message) {
 	content {
 		choose (Random) {
 			template ("정답을 확인해보세요. 다른 문제의 정답도 같이 알려드릴게요.")
