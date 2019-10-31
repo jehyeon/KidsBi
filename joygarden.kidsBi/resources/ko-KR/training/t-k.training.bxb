@@ -23,11 +23,6 @@ train (t-kqtwkhpopochd7wkrn2y4d3r5) {
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
   last-modified (1572499095012)
 }
-train (t-kr4jj1hlaln6y8s9rlys5gp3c) {
-  utterance ("[g:SolveQuizAnswer:prompt] 문제 (정답)[v:SolveQuizAnswer:true] 알려줘")
-  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
-  last-modified (1572459795240)
-}
 train (t-ks4np46c9xb9bnvpjgz14u3uf) {
   utterance ("[g:QuizCategory:prompt] (꽃)[v:QuizCategory:Flower]")
   last-modified (1572460685579)
