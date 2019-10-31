@@ -1,5 +1,7 @@
 var http = require('http');
 var config = require('config');
+var fail = require('fail');
+var console = require('console');
 function shuffle(arr) {
     var i,
         j,
@@ -28,6 +30,11 @@ module.exports.function = function getQuiz (category) {
     : '';
 
   const quizInfos = http.getUrl(url + parameter, options);
+  console.log(quizInfos.length);
+  console.log(quizInfos.length == 0);
+  if (quizinfos.length == 0) {
+    throw fail.checkedError('No quiz infos', 'NoQuizInfo');
+  }
   const result = quizInfos.map(quizInfo => {
     const updated = quizInfo;
     updated.options = quizInfo.options.split(',').map((option, index) => {

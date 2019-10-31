@@ -346,3 +346,9 @@ template-macro-def (ReTryQuiz_No_QuizInfos) {
 		template ("틀린 퀴즈가 없어요.")
 	}
 }
+
+template-macro-def (Getquiz_No_QuizInfos) {
+	content {
+		template ("퀴즈 정보가 없어요")
+	}
+}
