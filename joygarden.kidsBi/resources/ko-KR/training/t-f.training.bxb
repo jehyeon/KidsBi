@@ -1,17 +1,17 @@
 train (t-f5h04zrgq0hkdl7r8mib24x0t) {
   utterance ([g:GetQuiz] 어떤 퀴즈 있는지 전부 열어줘)
   plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
-  last-modified (1572511317559)
+  last-modified (1572514948132)
 }
 train (t-fa942qe40ocrf0l339ek067vp) {
   utterance ([g:OpenVideoInYoutube:continue:VideoInfo] 이거 유튜브에서 보고 싶어)
   plan (Y2Bm4C3LLNNLzi9K1QtJrShhUM7Kr0xPLEpJzdPLzkwpdsrU8y9IzQvLTEnN98yLzC8tKU1KZZDCUARVkJbPwMTACMQMQJKRgQFGAwA=)
   last-modified (1572458435585)
 }
-train (t-fbajifmq0brgjo7ue43u7y6jm) {
-  utterance ("[g:SolveQuizAnswer:prompt] 퀴즈 (정답)[v:SolveQuizAnswer:true] 알려줘")
+train (t-fgr1isuweqilzubm5jikdqchl) {
+  utterance ("[g:SolveQuizAnswer:prompt] 퀴즈 (정답 알려줘)[v:SolveQuizAnswer:false]")
   plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
-  last-modified (1572459778543)
+  last-modified (1572513251884)
 }
 train (t-fjpbn93fhsqkqow6cudrmm5zp) {
   utterance ([g:GetQuiz] 어떤 퀴즈가 있는지 다 보여줘)
@@ -19,9 +19,9 @@ train (t-fjpbn93fhsqkqow6cudrmm5zp) {
   last-modified (1572511308650)
 }
 train (t-fr6pswsz3imhna3g7s3b36kqo) {
-  utterance ("[g:QuizCategory] (과일)[v:QuizCategory:Fruit] 퀴즈 보여줘")
-  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
-  last-modified (1572510894653)
+  utterance ("[g:StartQuiz] (과일)[v:QuizCategory:Fruit] 퀴즈 보여줘")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1572514801261)
 }
 train (t-fvicboi2o9z07xl3hhz779gjj) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (네잎클로버)[v:UserAnswer]")

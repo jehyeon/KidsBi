@@ -4,9 +4,9 @@ train (t-i28mf5oj8ett6ny7714ns7anv) {
   last-modified (1572457340042)
 }
 train (t-i5t0by0oh5btwzyzvpuqrybak) {
-  utterance ("[g:QuizCategory] (수학)[v:QuizCategory:Fruit] 퀴즈 보여줘")
-  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
-  last-modified (1572510913199)
+  utterance ("[g:StartQuiz] (수학)[v:QuizCategory:Math] 퀴즈 보여줘")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1572514905964)
 }
 train (t-ijubm6eqpoatzecgqs6rda83r) {
   utterance ("[g:StartQuiz] (동물)[v:QuizCategory:Animal] 맞추기 할래")

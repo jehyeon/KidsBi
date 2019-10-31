@@ -19,7 +19,7 @@ train (t-lknnqmitk37ib1mr1ajue70qu) {
   last-modified (1572508215107)
 }
 train (t-lskfoq524fhvi1mhxkd7bqgpn) {
-  utterance ("[g:QuizCategory] (과일)[v:QuizCategory:Fruit] 퀴즈 플레이")
-  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
-  last-modified (1572511045064)
+  utterance ("[g:StartQuiz] (과일)[v:QuizCategory:Fruit] 퀴즈 플레이")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1572514810182)
 }

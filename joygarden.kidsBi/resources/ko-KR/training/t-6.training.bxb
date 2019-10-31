@@ -1,7 +1,7 @@
-train (t-69kwo1xfun0j418s8m5454u1n) {
-  utterance ("[g:SolveQuizAnswer:prompt] 퀴즈 (취소)[v:SolveQuizAnswer:true]")
+train (t-660nc6zbsibye9azcsm8jhi2c) {
+  utterance ("[g:SolveQuizAnswer:prompt] 퀴즈 (그만)[v:SolveQuizAnswer:true] 풀래")
   plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
-  last-modified (1572453932400)
+  last-modified (1572513241419)
 }
 train (t-6dhvqdmeo2pujiwj2btf2h3c4) {
   utterance ([g:StartQuiz:continue:QuizProgress,r:ReTryQuiz] 틀린 문제를  알려줘)
@@ -14,9 +14,9 @@ train (t-6dzt6dejxznpuajjjguzln1l3) {
   last-modified (1572453098857)
 }
 train (t-6y0w9cnzdfoymz93cw706szo6) {
-  utterance ("[g:QuizCategory] (나라)[v:QuizCategory:Fruit] 퀴즈 시작해줘")
-  plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
-  last-modified (1572510996984)
+  utterance ("[g:StartQuiz] (나라)[v:QuizCategory:Country] 퀴즈 시작해줘")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1572514731877)
 }
 train (t-6zy2n9ma5gz7n8qoeh3z608rl) {
   utterance ([g:StartQuiz] 퀴즈 할래)

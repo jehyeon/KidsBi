@@ -50,9 +50,7 @@
 [g:GetQuiz] 키즈비에는 어떤 퀴즈가 있어 / 문제 카드들 보여줘 / 학습 모드 시작
 [g:GetQuiz] (과일)[v:QuizCategory:Animal] 공부하고 싶어 / (수학)[v:QuizCategory:Math] 문제는 뭐가 있어
 
-3-2. Follow-up
-[g:GetQuiz] 키즈비에는 어떤 퀴즈가 있어 / 문제 카드들 보여줘 / 학습 모드 시작
-[g:GetQuiz] (과일)[v:QuizCategory:Animal] 공부하고 싶어 / (수학)[v:QuizCategory:Math] 문제는 뭐가 있어
+3-2. Follow-UpdateProgress
 [g:StartQuiz:continue:QuizInfo,r:InitQuizProgress]  이거 풀어볼래
 ```
 

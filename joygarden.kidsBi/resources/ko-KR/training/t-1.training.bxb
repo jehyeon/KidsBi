@@ -11,7 +11,7 @@ train (t-1hfaq9xlqxr2uqjwgusj1r0pj) {
 train (t-1nf87idqax283phqukkq7st94) {
   utterance ([g:GetQuiz] 문제 카드들 보여줘)
   plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
-  last-modified (1572511131061)
+  last-modified (1572514874909)
 }
 train (t-1toxuwlgzozoy9ornwoo1xryt) {
   utterance ("[g:VideoInfo:prompt] (여우와 신 포도)[v:FilterTerm] 열어줘")
@@ -19,9 +19,9 @@ train (t-1toxuwlgzozoy9ornwoo1xryt) {
   last-modified (1572505893263)
 }
 train (t-1ufghin05iqrtdg2qwtz2oy0k) {
-  utterance ([g:GetQuiz] 퀴즈 전부 보여줘)
-  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
-  last-modified (1572511322829)
+  utterance ([g:StartQuiz] 퀴즈 전부 보여줘)
+  plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
+  last-modified (1572514880261)
 }
 train (t-1vc1j4gtt8psqem5zg2zzhwfc) {
   utterance ("[g:SelectVideoInfo:continue:VideoInfo] (구급차)[v:FilterTerm] ")

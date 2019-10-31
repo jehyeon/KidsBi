@@ -28,11 +28,6 @@ train (t-uq0qa8og5p37v9te1omk319vd) {
   plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
   last-modified (1572511141120)
 }
-train (t-uq18kdjcb3rbqrh0mynfcd9s9) {
-  utterance ("[g:SolveQuizAnswer:prompt] 퀴즈 (그만)[v:SolveQuizAnswer:false] ")
-  plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
-  last-modified (1572459851220)
-}
 train (t-urr1ulq4yi01pz5hqpm520jx9) {
   utterance ("[g:CategoryInfo:prompt] (공주님)[v:FilterTerm] 나오는 동화는 뭐 있어")
   plan (Y2BhkM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ1DGkA5OzUlNLkFRRMAMaQxpt8ycktSikNSiXAZmBkYGJiDJAKRBEAKYgBgoBgA=)
