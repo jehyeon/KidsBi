@@ -8,6 +8,11 @@ train (t-4gkvsg4nhpuyh1r81v958xkql) {
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
   last-modified (1572508261924)
 }
+train (t-4hsfhsssp4aeepm1eu1fva82d) {
+  utterance ([g:OpenVideoInYoutube] 이거 Youtube에서 보자)
+  plan (Y2Bm4C3LLNNLzi9K1QtJrShhUM7Kr0xPLEpJzdPLzkwpdsrU8y9IzQvLTEnN98yLzC8tKU1KZZDCUARVkJbPwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572522987459)
+}
 train (t-4iylxrrux7txpmlh35qn8gpmx) {
   utterance ("[g:SelectVideoInfo:continue:VideoInfo] (미녀와 야수)[v:FilterTerm]")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)

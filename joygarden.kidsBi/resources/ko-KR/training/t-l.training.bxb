@@ -23,6 +23,11 @@ train (t-lexuk6m7krx2lwnsogqqnlu9v) {
   plan (Y2BhkM3Kr0xPLEpJzdPLzkwpdsrUc04sSU3PL6r0zEvLZ1DGkA5OzUlNLkFRRMAMaQxpt8ycktSikNSiXAZmBkYGJiDJAKRBEAKYgBgoBgA=)
   last-modified (1572520255125)
 }
+train (t-lij7m5hhpcnqeg1fcomnfnvf1) {
+  utterance ([g:OpenVideoInYoutube] 이거 Youtube에서 틀어줘)
+  plan (Y2Bm4C3LLNNLzi9K1QtJrShhUM7Kr0xPLEpJzdPLzkwpdsrU8y9IzQvLTEnN98yLzC8tKU1KZZDCUARVkJbPwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572522988334)
+}
 train (t-ljhdexkz9t21k5lb9sut6igyu) {
   utterance ([g:GetRandomVideo] 아무거나 틀어줘)
   plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)

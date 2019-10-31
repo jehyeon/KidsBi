@@ -28,3 +28,8 @@ train (t-uq0qa8og5p37v9te1omk319vd) {
   plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
   last-modified (1572511141120)
 }
+train (t-uv5b8fsfmcz0ofd1mprgf6kyn) {
+  utterance ([g:OpenVideoInYoutube] 이거 Youtube에서 볼래)
+  plan (Y2Bm4C3LLNNLzi9K1QtJrShhUM7Kr0xPLEpJzdPLzkwpdsrU8y9IzQvLTEnN98yLzC8tKU1KZZDCUARVkJbPwMTACMQMQJKRgQFGAwA=)
+  last-modified (1572522989066)
+}
