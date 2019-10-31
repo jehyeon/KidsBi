@@ -3,3 +3,8 @@ train (t-e184pfnv9x51x9z0mqf2vetrk) {
   plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
   last-modified (1572460812852)
 }
+train (t-ex12j0hlyh08ncx054fjcsq1o) {
+  utterance ([g:StartQuiz:continue:QuizProgress,r:ReTryQuiz] 오답 풀기)
+  plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4GIvWoNSQokpitLIwMDIwMTADaQYoixHMAgEmIM3MwAAA)
+  last-modified (1572511769777)
+}

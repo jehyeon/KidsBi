@@ -3,3 +3,8 @@ train (t-q4c5vvem8f9bupz29vzhwpctg) {
   plan (Y2BmkC7ISaxML8ovzUvRy85MKXbK1AvLTEnN98xLy2eQwpR0Ty0ByzMo4Zary06tLM8vSmFgYmAEYgYgycjAAKMB)
   last-modified (1572194015622)
 }
+train (t-qyhfc36drfqku4fnkib5trjld) {
+  utterance ([g:StartQuiz:continue:QuizProgress,r:ReTryQuiz] 틀린거 풀래)
+  plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4GIvWoNSQokpitLIwMDIwMTADaQYoixHMAgEmIM3MwAAA)
+  last-modified (1572511570265)
+}

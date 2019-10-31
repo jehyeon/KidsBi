@@ -8,3 +8,8 @@ train (t-oingukzzdczbaypv41ny6bj1l) {
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
   last-modified (1572455791094)
 }
+train (t-oq48tzu6a6tctt8yi0ucwa1px) {
+  utterance ([g:StartQuiz:continue:QuizProgress,r:ReTryQuiz] 빨간 동그라미 다시 풀래)
+  plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4GIvWoNSQokpitLIwMDIwMTADaQYoixHMAgEmIM3MwAAA)
+  last-modified (1572511634180)
+}
