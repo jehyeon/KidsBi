@@ -6,16 +6,8 @@ capsule-info {
   website-url (https://github.com/jehyeon/KidsBi/tree/master/joygarden.kidsBi)
   privacy-policy-url (https://github.com/jehyeon/KidsBi/blob/master/KidsBi_Personal_information.xls)
 
-  dispatch-name (키즈비)
-
-    dispatch-aliases {
-    alias (키즈V)
-    alias (키즈브이)
-    alias (키즈TV)
-    alias (키즈티브이)
-    alias (KIDS TV)
-  }
-
+  dispatch-name (키즈 비)
+  
   search-keywords {
     keyword (학습)
     keyword (동화)

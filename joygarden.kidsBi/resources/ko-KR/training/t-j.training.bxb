@@ -18,6 +18,11 @@ train (t-jehiot78ur3px05olvtbs6gpt) {
   plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)
   last-modified (1572519478341)
 }
+train (t-jjb2r6bwgko1cnbkw8kts9j6r) {
+  utterance ("[g:StartQuiz] (꽃)[v:joygarden.kidsBi.QuizCategory:Flower]과 관련된 문제 시작해줘")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1573031369903)
+}
 train (t-jknlx03xrd54gv47nfo8njios) {
   utterance ("[g:QuizCategory:prompt] (수학)[v:QuizCategory:Math] 퀴즈 선택")
   plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)

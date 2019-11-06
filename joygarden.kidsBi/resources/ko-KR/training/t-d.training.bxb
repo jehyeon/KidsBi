@@ -41,7 +41,7 @@ train (t-dkmqegj40h33zpzh604s0hcou) {
 train (t-dlaoea70845y6lbi1m8gmvkud) {
   utterance ("[g:GetVideo] (인기 있는)[v:VideoCategory:Popular] 만화 보여줄래")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
-  last-modified (1572520430973)
+  last-modified (1573031269791)
 }
 train (t-dlw9ao2jyz6stx29e8jj8px03) {
   utterance ([g:StartQuiz:continue:QuizInfo,r:InitQuizProgress]  이거 문제로 만들어줘)
@@ -67,4 +67,9 @@ train (t-dqbym08p8l98klg0q5hhrs3gl) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (아르헨티나)[v:UserAnswer]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)
   last-modified (1572519156556)
+}
+train (t-dvl3y9gpqi9vy3spdmj2jis1j) {
+  utterance ("[g:GetVideo] (공주)[v:VideoCategory:Princess]가 나오는 만화 보여줄래")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
+  last-modified (1573031210846)
 }

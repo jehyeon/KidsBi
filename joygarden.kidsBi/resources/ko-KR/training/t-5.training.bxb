@@ -3,6 +3,11 @@ train (t-5a97psevdgrlut6gl5bpxvh46) {
   plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)
   last-modified (1572453049857)
 }
+train (t-5akqyza9s1wpshc8pkiflp88v) {
+  utterance ([g:GetRandomVideo] 키즈비가 동화 추천해줘)
+  plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
+  last-modified (1573031332662)
+}
 train (t-5gz3a7hijr6lsnyf5ltbpumwd) {
   utterance ("[g:GetVideo] (공룡)[v:VideoCategory:Dinosaur] 만화 재생해")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)

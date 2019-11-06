@@ -1,35 +1,22 @@
 hints {
 	uncategorized {
-		hint ("키즈비에서 인기있는 전래 동화 보여줘") {
-			preferred-hint ("인기있는 전래 동화 보여줘")
+		hint ("키즈 비에서 인기 있는 동화 보여줘") {
+			preferred-hint ("인기 있는 동화 보여줘")
 		}
-		hint ("키즈비에서 숫자 놀이 할래") {
-			preferred-hint ("숫자 놀이 할래")
+		hint ("키즈 비에서 자동차가 나오는 동화 보여줘") {
+			preferred-hint ("자동차가 나오는 동화 보여줘")
 		}
-		hint ("키즈비에서 한글 단어 퀴즈 풀어볼래") {
-			preferred-hint ("한글 단어 퀴즈 풀어볼래")
-		}
-		hint ("키즈비에서 공주 동화 보고 싶어") {
-			preferred-hint ("공주 동화 보고 싶어")
-		}
-		hint ("키즈비에서 꽃 퀴즈 시작 할래") {
-			preferred-hint ("꽃 퀴즈 시작 할래")
-		}
-		hint ("키즈비에서 자동차가 나오는 만화 보여줘") {
-			preferred-hint ("자동차가 나오는 만화 보여줘")
-		}
-		hint ("키즈비에서 나라 퀴즈 시작해줘") {
-			preferred-hint ("나라 퀴즈 시작해줘")
-		}
-		hint ("키즈비에서 만화 재생") {
-			preferred-hint ("만화 재생")
-		}
-		hint ("키즈비에서 동물 퀴즈 보여줘") {
-			preferred-hint ("동물 퀴즈 보여줘")
-		}
-		hint ("키즈비에서 동화 추천해줘") {
+		hint ("키즈 비에서 동화 추천해줘") {
 			preferred-hint ("동화 추천해줘")
+		}		
+		hint ("키즈 비에서 퀴즈 목록을 보고 싶어") {
+			preferred-hint ("퀴즈 목록을 보고 싶어")
+		}
+		hint ("키즈 비에서 숫자 공부하고 싶어") {
+			preferred-hint ("숫자 공부하고 싶어")
+		}		
+		hint ("키즈 비에서 인물 퀴즈 시작해줘") {
+			preferred-hint ("인물 퀴즈 시작해줘")
 		}
 	}
-	
 }

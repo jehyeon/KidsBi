@@ -3,6 +3,11 @@ train (t-g95hi34jxujwmzx7u60mkoec7) {
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)
   last-modified (1572518659571)
 }
+train (t-g96l424zvjsl5sx51ih4munll) {
+  utterance ("[g:StartQuiz] (숫자)[v:QuizCategory:Math] 놀이 할래")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1573031092544)
+}
 train (t-gbhhsqnlkg94qsoyf1396u1du) {
   utterance ("[g:SolveQuizAnswer:prompt] 이 (정답)[v:SolveQuizAnswer:false] 알려줄래")
   plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)

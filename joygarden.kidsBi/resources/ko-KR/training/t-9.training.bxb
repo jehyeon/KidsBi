@@ -8,6 +8,11 @@ train (t-97emjqmpio7vwd3irgbuniunf) {
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)
   last-modified (1572452132307)
 }
+train (t-9awkesx9c30x6xiw9gdd0eyuv) {
+  utterance ("[g:GetQuiz] (숫자)[v:QuizCategory:Math] 공부 하고 싶어")
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRAQSgfAA=)
+  last-modified (1573031149822)
+}
 train (t-9dlyainqt055xyxszjywz3esf) {
   utterance ("[g:StartQuiz] (동물)[v:QuizCategory:Animal] 퀴즈 할래")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)

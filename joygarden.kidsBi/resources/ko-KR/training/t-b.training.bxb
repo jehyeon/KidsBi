@@ -1,3 +1,8 @@
+train (t-b2lkvkgtf0o9cm1i5iil5ayew) {
+  utterance ("[g:GetQuiz] (인물)[v:QuizCategory:Person] 공부하고 싶어")
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRAQSgfAA=)
+  last-modified (1573031145686)
+}
 train (t-b4s327sghdl3sqm46zjekvnkf) {
   utterance ("[g:SolveQuizAnswer:prompt] (정답)[v:SolveQuizAnswer:false] 보여줘")
   plan (Y2BiUMjKr0xPLEpJzdPLzkwpdsrUC87PKUsNLM2scswrLk8tIkIFIxAyMPAAMRMQA9kA)

@@ -28,6 +28,11 @@ train (t-tnofcy7tsnouorihj437mhx61) {
   plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4GIvWoNSQokpitLIwMDIwMTADaQYoixHMAgEmIM3MwAAA)
   last-modified (1572456885621)
 }
+train (t-toobkjjh8rxlkvmlpgi3w30z5) {
+  utterance ("[g:GetVideo] (인기 있는)[v:VideoCategory:Popular] 동화 보여줘")
+  plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDDbrJzYklqen5RJQMzAyMDE5BkANOMDBAAYgHFAA==)
+  last-modified (1573031269142)
+}
 train (t-tp5i89mruxn7q2ahy82u5ejia) {
   utterance ("[g:GetVideo] (싼타클로스는 진짜 있는가)[v:SearchTerm] 만화 보여줘")
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DEkHNPLQFLMyjilKrLTq0szy9KYZDGUBKcmliUnBGSWpTLwMzAyMAEJBnANCMDBIBYQDEA)
