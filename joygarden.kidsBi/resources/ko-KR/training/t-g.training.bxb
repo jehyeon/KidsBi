@@ -33,6 +33,11 @@ train (t-grv0lrhnk34zvhjtcjjgs5ozd) {
   plan (Y2BlkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGVgYGBmYGJiBNAOUxQhmgQATkGZmYAAA)
   last-modified (1572519655069)
 }
+train (t-gxnvfie572vw5wos5mak0jzgc) {
+  utterance ("[g:StartQuiz] (나라)[v:QuizCategory:Country]와 관련된 문제 풀래")
+  plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEERQ9ozL7MERYkkVhM889LyGSQwpNxT8VnrnFiSmp5fVMnAxsDIwMTAzMDCwApkMyDxGME8CGYAijKC5AE=)
+  last-modified (1573032497207)
+}
 train (t-gyozsu29qsemvlqpzssa6x9vi) {
   utterance ([g:StartQuiz] 다른 퀴즈 풀어볼래)
   plan (Y2BmkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mIGJgRGIGYAkIwMDjAYA)

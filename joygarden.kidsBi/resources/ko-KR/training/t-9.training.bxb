@@ -23,6 +23,11 @@ train (t-9mzj4h7951wp25kmmwhdijnyv) {
   plan (Y2BikM3Kr0xPLEpJzdPLzkwpdsrUCyzNrHJOLElNzy+qJCTNCIQMDDxAzATEQDYA)
   last-modified (1572460813510)
 }
+train (t-9vc6v4r6uxjxf4dklixixcojm) {
+  utterance ("[g:GetQuiz] (나라 국기)[v:joygarden.kidsBi.QuizCategory:Country] 공부할래")
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRAQSgfAA=)
+  last-modified (1573032557008)
+}
 train (t-9xasq5txpudy6ws2c29wutcdt) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (7개)[v:UserAnswer]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)

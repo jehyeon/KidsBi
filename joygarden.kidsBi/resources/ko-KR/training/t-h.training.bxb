@@ -3,6 +3,11 @@ train (t-h6demvkpug9fjzy5idc59rfw5) {
   plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
   last-modified (1572518495564)
 }
+train (t-h8gbsn3eylh6q9tkcwlj2rpbt) {
+  utterance ([g:GetRandomVideo] 키즈 비가 동화 추천해줘봐)
+  plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)
+  last-modified (1573032384336)
+}
 train (t-hg31k0cb5bu87fs1ec4d3vf0c) {
   utterance ([g:GetRandomVideo] 키즈 비가 추천해줘)
   plan (Y2BikMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ5DHkHNPLQlKzEvJzwUrYmAEQgYoBpIA)

@@ -43,6 +43,11 @@ train (t-1vc1j4gtt8psqem5zg2zzhwfc) {
   plan (Y2BhkMrKr0xPLEpJzdPLzkwpdsrUC8tMSc33zEvLZ1DAkAtOzUlNLkGokMZQ4ZaZU5JaFJJalIvXaGYGRgYmIMkApEEQApjAogwA)
   last-modified (1572509650785)
 }
+train (t-1w67rnaqljg9601yp06kiautt) {
+  utterance ([g:GetQuiz] 키즈 비에 무슨 퀴즈 있니)
+  plan (Y2BmkMzKr0xPLEpJzdPLzkwpdsrUCyzNrPLMS8tnkMCQck8tAckyyGLV5JxYkpqeX1TJwMTACMQMQJKRgQFGAwA=)
+  last-modified (1573032369999)
+}
 train (t-1wen3isjc322izu0lon6vzzq0) {
   utterance ("[g:StartQuiz:continue:QuizProgress,r:UpdateProgress] (사자)[v:UserAnswer]")
   plan (Y2BnkM7Kr0xPLEpJzdPLzkwpdsrUCyzNrApKLS7NKWGQwpAMLkksKgGpYJDFqjGgKD+9KLW4mEEeQzq0ICWxJBWugIB+HQL66zLzCkpLvFMry/OLUrD4IrQ4tcgxr7g8tYiBjYGRgYmBmYGFgRXIZoDymIE8RjAPBpiBbDYgyQAA)

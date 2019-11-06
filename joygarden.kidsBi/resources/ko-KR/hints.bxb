@@ -3,6 +3,9 @@ hints {
 		hint ("키즈 비에서 인기 있는 동화 보여줘") {
 			preferred-hint ("인기 있는 동화 보여줘")
 		}
+		hint ("키즈 비에서 라푼젤 동화 보여줘") {
+			preferred-hint ("라푼젤 동화 보여줘")
+		}		
 		hint ("키즈 비에서 자동차가 나오는 동화 보여줘") {
 			preferred-hint ("자동차가 나오는 동화 보여줘")
 		}
@@ -14,9 +17,18 @@ hints {
 		}
 		hint ("키즈 비에서 숫자 공부하고 싶어") {
 			preferred-hint ("숫자 공부하고 싶어")
+		}
+		hint ("키즈 비에서 나라 국기 공부할래") {
+			preferred-hint ("나라 국기 공부할래")
 		}		
 		hint ("키즈 비에서 인물 퀴즈 시작해줘") {
 			preferred-hint ("인물 퀴즈 시작해줘")
 		}
+		hint ("키즈 비에서 동물 맞추기 놀이 할래") {
+			preferred-hint ("동물 맞추기 놀이 할래")
+		}			
+		hint ("키즈 비에서 꽃과 관련된 문제 풀어볼래") {
+			preferred-hint ("꽃과 관련된 문제 풀어볼래")
+		}	
 	}
 }
