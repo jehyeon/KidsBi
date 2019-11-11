@@ -31,19 +31,31 @@ result-view {
           }
         }
       }
-    } else-if (size(videoInfos) == 1) {
-      layout-match (videoInfos) {
-        mode (Details)
-      }
+    // } else-if (size(videoInfos) == 1) {
+    //   layout-match (videoInfos) {
+    //     mode (Details)
+    //   }
     } else {
       nothing
     }
   }
-  conversation-drivers {
-		if (size(videoInfos) == 1){
-			conversation-driver {
-				template-macro (OpenVideo_Youtube)
+  // conversation-drivers {
+	// 	if (size(videoInfos) == 1){
+	// 		conversation-driver {
+	// 			template-macro (OpenVideo_Youtube)
+	// 		}
+	// 	}
+	// }
+	app-launch {
+		requires {
+			app-id (com.google.android.youtube)
+			app-min-version (1310593400) 
+			app-store-url (https://play.google.com/store/apps/details?id=com.google.android.youtube)
+		}
+		payload-uri {
+			if (size(videoInfos) == 1) {
+				template ("https://www.youtube.com/watch?v=#{value(videoInfos.videoId)}")
 			}
 		}
-	}
+	}  
 }
