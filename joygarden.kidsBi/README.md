@@ -136,3 +136,4 @@
 - 0.1.37: Item navigation 추가
 - 1.0.0: KidsBi release
 - 1.0.1: hint 및 dispatch-name 수정, ko-KR 학습 데이터 추가
+- 1.0.2: Video detail을 punch-out으로 수정

@@ -321,7 +321,10 @@ template-macro-def (GoToYoutube) {
 
 template-macro-def (OpenVideo_Youtube_Progress) {
 	content {
-		template ("더 노력하는  키즈비가 될게요. Youtube에서 시청 해주세요.")
+		choose (Random) {
+			// template ("더 노력하는  키즈비가 될게요. Youtube에서 시청 해주세요.")
+			template ("Youtube로 연결해 드릴게요!")
+		}
 	}
 }
 

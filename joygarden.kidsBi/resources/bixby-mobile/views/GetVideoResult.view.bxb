@@ -7,7 +7,8 @@ result-view {
 		if (size(videoInfos) == 0) {
 			template-macro (GetVideo_Result_Zero)
 		} else-if (size(videoInfos) == 1) {
-			template-macro (GetVideo_Result_One)
+			// template-macro (GetVideo_Result_One)
+			template-macro (OpenVideo_Youtube_Progress)
 		} else {
 			if (exists(action.searchTerm)) {
 				template-macro (GetVideo_Result_SearchTerm) {
@@ -76,18 +77,32 @@ result-view {
 					}
 				}
 			}
-		} else-if (size(videoInfos) == 1) {
-			layout-match (videoInfos) {
-				mode (Details)
-			}
+		// } 
+		// else-if (size(videoInfos) == 1) {
+		// 	layout-match (videoInfos) {
+		// 		mode (Details)
+		// 	}
 		} else {
 			nothing
 		}
 	}
-	conversation-drivers {
-		if (size(videoInfos) == 1){
-			conversation-driver {
-				template-macro (OpenVideo_Youtube)
+	// conversation-drivers {
+	// 	if (size(videoInfos) == 1){
+	// 		conversation-driver {
+	// 			template-macro (OpenVideo_Youtube)
+	// 		}
+	// 	}
+	// }
+
+	app-launch {
+		requires {
+			app-id (com.google.android.youtube)
+			app-min-version (1310593400) 
+			app-store-url (https://play.google.com/store/apps/details?id=com.google.android.youtube)
+		}
+		payload-uri {
+			if (size(videoInfos) == 1) {
+				template ("https://www.youtube.com/watch?v=#{value(videoInfos.videoId)}")
 			}
 		}
 	}
